@@ -1,0 +1,922 @@
+import org.junit.FixMethodOrder;
+import org.junit.Test;
+import org.junit.runners.MethodSorters;
+
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+public class RegressionTest4 {
+
+    public static boolean debug = false;
+
+    @Test
+    public void test2001() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest4.test2001");
+        org.apache.commons.math.stat.descriptive.moment.Mean mean0 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean1 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray6 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double7 = mean1.evaluate(doubleArray6);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean0, mean1);
+        mean0.increment((double) (byte) 1);
+        double[] doubleArray11 = mean0.getData();
+        long long12 = mean0.getN();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean13 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray18 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double19 = mean13.evaluate(doubleArray18);
+        double double20 = mean0.evaluate(doubleArray18);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean21 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean22 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray27 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double28 = mean22.evaluate(doubleArray27);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean21, mean22);
+        double[] doubleArray30 = null;
+        mean21.setData(doubleArray30);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean0, mean21);
+        mean21.clear();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double34 = mean21.evaluate();
+            org.junit.Assert.fail("Expected exception of type org.apache.commons.math.exception.NullArgumentException; message: input array");
+        } catch (org.apache.commons.math.exception.NullArgumentException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(doubleArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray6), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 0.25d + "'", double7 == 0.25d);
+        org.junit.Assert.assertNull(doubleArray11);
+        org.junit.Assert.assertTrue("'" + long12 + "' != '" + 1L + "'", long12 == 1L);
+        org.junit.Assert.assertNotNull(doubleArray18);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray18), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 0.25d + "'", double19 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 0.25d + "'", double20 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray27);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray27), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double28 + "' != '" + 0.25d + "'", double28 == 0.25d);
+    }
+
+    @Test
+    public void test2002() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest4.test2002");
+        org.apache.commons.math.stat.descriptive.moment.Mean mean0 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean1 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray6 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double7 = mean1.evaluate(doubleArray6);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean0, mean1);
+        mean0.increment((double) (byte) 1);
+        double[] doubleArray11 = mean0.getData();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean12 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean13 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray18 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double19 = mean13.evaluate(doubleArray18);
+        double double22 = mean12.evaluate(doubleArray18, (int) (short) 0, (int) (short) 1);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean23 = mean12.copy();
+        boolean boolean24 = mean0.equals((java.lang.Object) mean12);
+        mean12.increment((double) 10.0f);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean27 = new org.apache.commons.math.stat.descriptive.moment.Mean(mean12);
+        org.junit.Assert.assertNotNull(doubleArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray6), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 0.25d + "'", double7 == 0.25d);
+        org.junit.Assert.assertNull(doubleArray11);
+        org.junit.Assert.assertNotNull(doubleArray18);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray18), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 0.25d + "'", double19 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 1.0d + "'", double22 == 1.0d);
+        org.junit.Assert.assertNotNull(mean23);
+        org.junit.Assert.assertTrue("'" + boolean24 + "' != '" + false + "'", boolean24 == false);
+    }
+
+    @Test
+    public void test2003() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest4.test2003");
+        org.apache.commons.math.stat.descriptive.moment.Mean mean0 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean1 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray6 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double7 = mean1.evaluate(doubleArray6);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean0, mean1);
+        boolean boolean10 = mean1.equals((java.lang.Object) (short) 1);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean11 = mean1.copy();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean12 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray17 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double18 = mean12.evaluate(doubleArray17);
+        double[] doubleArray19 = new double[] {};
+        mean12.incrementAll(doubleArray19);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean21 = mean12.copy();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean22 = mean12.copy();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean23 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean24 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray29 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double30 = mean24.evaluate(doubleArray29);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean23, mean24);
+        mean23.increment((double) (byte) 1);
+        double[] doubleArray34 = mean23.getData();
+        long long35 = mean23.getN();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean36 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray41 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double42 = mean36.evaluate(doubleArray41);
+        double double43 = mean23.evaluate(doubleArray41);
+        mean22.incrementAll(doubleArray41);
+        mean1.incrementAll(doubleArray41);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean46 = new org.apache.commons.math.stat.descriptive.moment.Mean(mean1);
+        double double47 = mean46.getResult();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean48 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray53 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double54 = mean48.evaluate(doubleArray53);
+        double double55 = mean46.evaluate(doubleArray53);
+        long long56 = mean46.getN();
+        org.junit.Assert.assertNotNull(doubleArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray6), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 0.25d + "'", double7 == 0.25d);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNotNull(mean11);
+        org.junit.Assert.assertNotNull(doubleArray17);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray17), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 0.25d + "'", double18 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray19);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray19), "[]");
+        org.junit.Assert.assertNotNull(mean21);
+        org.junit.Assert.assertNotNull(mean22);
+        org.junit.Assert.assertNotNull(doubleArray29);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray29), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double30 + "' != '" + 0.25d + "'", double30 == 0.25d);
+        org.junit.Assert.assertNull(doubleArray34);
+        org.junit.Assert.assertTrue("'" + long35 + "' != '" + 1L + "'", long35 == 1L);
+        org.junit.Assert.assertNotNull(doubleArray41);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray41), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double42 + "' != '" + 0.25d + "'", double42 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double43 + "' != '" + 0.25d + "'", double43 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double47 + "' != '" + 0.25d + "'", double47 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray53);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray53), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double54 + "' != '" + 0.25d + "'", double54 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double55 + "' != '" + 0.25d + "'", double55 == 0.25d);
+        org.junit.Assert.assertTrue("'" + long56 + "' != '" + 4L + "'", long56 == 4L);
+    }
+
+    @Test
+    public void test2004() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest4.test2004");
+        org.apache.commons.math.stat.descriptive.moment.Mean mean0 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray5 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double6 = mean0.evaluate(doubleArray5);
+        double[] doubleArray7 = new double[] {};
+        mean0.incrementAll(doubleArray7);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean9 = mean0.copy();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean10 = mean0.copy();
+        mean0.increment((double) '4');
+        org.apache.commons.math.stat.descriptive.moment.Mean mean13 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean14 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray19 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double20 = mean14.evaluate(doubleArray19);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean13, mean14);
+        long long22 = mean13.getN();
+        double[] doubleArray23 = mean13.getData();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean24 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean25 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray30 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double31 = mean25.evaluate(doubleArray30);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean24, mean25);
+        double[] doubleArray33 = null;
+        mean24.setData(doubleArray33);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean35 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean36 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray41 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double42 = mean36.evaluate(doubleArray41);
+        double double45 = mean35.evaluate(doubleArray41, (int) (short) 0, (int) (short) 1);
+        mean24.setData(doubleArray41);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean13, mean24);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean48 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean49 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray54 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double55 = mean49.evaluate(doubleArray54);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean48, mean49);
+        double[] doubleArray57 = null;
+        mean48.setData(doubleArray57);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean59 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean60 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray65 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double66 = mean60.evaluate(doubleArray65);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean59, mean60);
+        double[] doubleArray68 = null;
+        mean59.setData(doubleArray68);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean70 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean71 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray76 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double77 = mean71.evaluate(doubleArray76);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean70, mean71);
+        double[] doubleArray79 = null;
+        mean70.setData(doubleArray79);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean81 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean82 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray87 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double88 = mean82.evaluate(doubleArray87);
+        double double91 = mean81.evaluate(doubleArray87, (int) (short) 0, (int) (short) 1);
+        mean70.setData(doubleArray87);
+        mean59.incrementAll(doubleArray87);
+        double double94 = mean48.evaluate(doubleArray87);
+        mean24.setData(doubleArray87);
+        mean0.incrementAll(doubleArray87);
+        double[] doubleArray97 = mean0.getData();
+        double double98 = mean0.getResult();
+        org.junit.Assert.assertNotNull(doubleArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray5), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + 0.25d + "'", double6 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray7);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray7), "[]");
+        org.junit.Assert.assertNotNull(mean9);
+        org.junit.Assert.assertNotNull(mean10);
+        org.junit.Assert.assertNotNull(doubleArray19);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray19), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 0.25d + "'", double20 == 0.25d);
+        org.junit.Assert.assertTrue("'" + long22 + "' != '" + 0L + "'", long22 == 0L);
+        org.junit.Assert.assertNull(doubleArray23);
+        org.junit.Assert.assertNotNull(doubleArray30);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray30), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double31 + "' != '" + 0.25d + "'", double31 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray41);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray41), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double42 + "' != '" + 0.25d + "'", double42 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double45 + "' != '" + 1.0d + "'", double45 == 1.0d);
+        org.junit.Assert.assertNotNull(doubleArray54);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray54), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double55 + "' != '" + 0.25d + "'", double55 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray65);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray65), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double66 + "' != '" + 0.25d + "'", double66 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray76);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray76), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double77 + "' != '" + 0.25d + "'", double77 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray87);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray87), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double88 + "' != '" + 0.25d + "'", double88 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double91 + "' != '" + 1.0d + "'", double91 == 1.0d);
+        org.junit.Assert.assertTrue("'" + double94 + "' != '" + 0.25d + "'", double94 == 0.25d);
+        org.junit.Assert.assertNull(doubleArray97);
+        org.junit.Assert.assertTrue("'" + double98 + "' != '" + 10.600000000000001d + "'", double98 == 10.600000000000001d);
+    }
+
+    @Test
+    public void test2005() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest4.test2005");
+        org.apache.commons.math.stat.descriptive.moment.Mean mean0 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray5 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double6 = mean0.evaluate(doubleArray5);
+        double[] doubleArray7 = new double[] {};
+        mean0.incrementAll(doubleArray7);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean9 = mean0.copy();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean10 = mean0.copy();
+        double[] doubleArray11 = mean0.getData();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean12 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray17 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double18 = mean12.evaluate(doubleArray17);
+        double[] doubleArray19 = new double[] {};
+        mean12.incrementAll(doubleArray19);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean21 = mean12.copy();
+        boolean boolean22 = mean0.equals((java.lang.Object) mean21);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean23 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean24 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray29 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double30 = mean24.evaluate(doubleArray29);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean23, mean24);
+        double[] doubleArray32 = null;
+        mean23.setData(doubleArray32);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean34 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean35 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray40 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double41 = mean35.evaluate(doubleArray40);
+        double double44 = mean34.evaluate(doubleArray40, (int) (short) 0, (int) (short) 1);
+        mean23.setData(doubleArray40);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean46 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean47 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray52 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double53 = mean47.evaluate(doubleArray52);
+        double double56 = mean46.evaluate(doubleArray52, (int) (short) 0, (int) (short) 1);
+        mean46.increment(100.0d);
+        double[] doubleArray62 = new double[] { 0L, (-1), (short) 1 };
+        mean46.setData(doubleArray62);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean23, mean46);
+        long long65 = mean46.getN();
+        double[] doubleArray66 = mean46.getData();
+        mean0.setData(doubleArray66);
+        mean0.increment((double) 0L);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean70 = new org.apache.commons.math.stat.descriptive.moment.Mean(mean0);
+        double double71 = mean70.evaluate();
+        double double72 = mean70.getResult();
+        long long73 = mean70.getN();
+        org.junit.Assert.assertNotNull(doubleArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray5), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + 0.25d + "'", double6 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray7);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray7), "[]");
+        org.junit.Assert.assertNotNull(mean9);
+        org.junit.Assert.assertNotNull(mean10);
+        org.junit.Assert.assertNull(doubleArray11);
+        org.junit.Assert.assertNotNull(doubleArray17);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray17), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 0.25d + "'", double18 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray19);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray19), "[]");
+        org.junit.Assert.assertNotNull(mean21);
+        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + true + "'", boolean22 == true);
+        org.junit.Assert.assertNotNull(doubleArray29);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray29), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double30 + "' != '" + 0.25d + "'", double30 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray40);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray40), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double41 + "' != '" + 0.25d + "'", double41 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double44 + "' != '" + 1.0d + "'", double44 == 1.0d);
+        org.junit.Assert.assertNotNull(doubleArray52);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray52), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double53 + "' != '" + 0.25d + "'", double53 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double56 + "' != '" + 1.0d + "'", double56 == 1.0d);
+        org.junit.Assert.assertNotNull(doubleArray62);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray62), "[0.0, -1.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + long65 + "' != '" + 0L + "'", long65 == 0L);
+        org.junit.Assert.assertNotNull(doubleArray66);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray66), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double71 + "' != '" + 0.25d + "'", double71 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double72 + "' != '" + 0.0d + "'", double72 == 0.0d);
+        org.junit.Assert.assertTrue("'" + long73 + "' != '" + 1L + "'", long73 == 1L);
+    }
+
+    @Test
+    public void test2006() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest4.test2006");
+        org.apache.commons.math.stat.descriptive.moment.Mean mean0 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean1 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray6 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double7 = mean1.evaluate(doubleArray6);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean0, mean1);
+        mean0.increment((double) (byte) 1);
+        double[] doubleArray11 = mean0.getData();
+        long long12 = mean0.getN();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean13 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray18 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double19 = mean13.evaluate(doubleArray18);
+        double double20 = mean0.evaluate(doubleArray18);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean21 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean22 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray27 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double28 = mean22.evaluate(doubleArray27);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean21, mean22);
+        double[] doubleArray30 = null;
+        mean21.setData(doubleArray30);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean0, mean21);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean33 = mean21.copy();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean34 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean35 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray40 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double41 = mean35.evaluate(doubleArray40);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean34, mean35);
+        boolean boolean44 = mean35.equals((java.lang.Object) (short) 1);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean45 = mean35.copy();
+        long long46 = mean35.getN();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean47 = mean35.copy();
+        mean35.increment(1.0d);
+        mean35.increment((double) (short) 0);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean52 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray57 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double58 = mean52.evaluate(doubleArray57);
+        double[] doubleArray59 = new double[] {};
+        mean52.incrementAll(doubleArray59);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean61 = mean52.copy();
+        mean52.clear();
+        boolean boolean63 = mean35.equals((java.lang.Object) mean52);
+        long long64 = mean52.getN();
+        long long65 = mean52.getN();
+        long long66 = mean52.getN();
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean33, mean52);
+        org.junit.Assert.assertNotNull(doubleArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray6), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 0.25d + "'", double7 == 0.25d);
+        org.junit.Assert.assertNull(doubleArray11);
+        org.junit.Assert.assertTrue("'" + long12 + "' != '" + 1L + "'", long12 == 1L);
+        org.junit.Assert.assertNotNull(doubleArray18);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray18), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 0.25d + "'", double19 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 0.25d + "'", double20 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray27);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray27), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double28 + "' != '" + 0.25d + "'", double28 == 0.25d);
+        org.junit.Assert.assertNotNull(mean33);
+        org.junit.Assert.assertNotNull(doubleArray40);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray40), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double41 + "' != '" + 0.25d + "'", double41 == 0.25d);
+        org.junit.Assert.assertTrue("'" + boolean44 + "' != '" + false + "'", boolean44 == false);
+        org.junit.Assert.assertNotNull(mean45);
+        org.junit.Assert.assertTrue("'" + long46 + "' != '" + 0L + "'", long46 == 0L);
+        org.junit.Assert.assertNotNull(mean47);
+        org.junit.Assert.assertNotNull(doubleArray57);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray57), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double58 + "' != '" + 0.25d + "'", double58 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray59);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray59), "[]");
+        org.junit.Assert.assertNotNull(mean61);
+        org.junit.Assert.assertTrue("'" + boolean63 + "' != '" + false + "'", boolean63 == false);
+        org.junit.Assert.assertTrue("'" + long64 + "' != '" + 0L + "'", long64 == 0L);
+        org.junit.Assert.assertTrue("'" + long65 + "' != '" + 0L + "'", long65 == 0L);
+        org.junit.Assert.assertTrue("'" + long66 + "' != '" + 0L + "'", long66 == 0L);
+    }
+
+    @Test
+    public void test2007() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest4.test2007");
+        org.apache.commons.math.stat.descriptive.moment.Mean mean0 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean1 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray6 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double7 = mean1.evaluate(doubleArray6);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean0, mean1);
+        long long9 = mean0.getN();
+        double[] doubleArray10 = mean0.getData();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean11 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean12 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray17 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double18 = mean12.evaluate(doubleArray17);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean11, mean12);
+        double[] doubleArray20 = null;
+        mean11.setData(doubleArray20);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean22 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean23 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray28 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double29 = mean23.evaluate(doubleArray28);
+        double double32 = mean22.evaluate(doubleArray28, (int) (short) 0, (int) (short) 1);
+        mean11.setData(doubleArray28);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean0, mean11);
+        double double35 = mean0.getResult();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean36 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray41 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double42 = mean36.evaluate(doubleArray41);
+        double[] doubleArray43 = new double[] {};
+        mean36.incrementAll(doubleArray43);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean45 = mean36.copy();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean46 = mean36.copy();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean47 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean48 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray53 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double54 = mean48.evaluate(doubleArray53);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean47, mean48);
+        mean47.increment((double) (byte) 1);
+        double[] doubleArray58 = mean47.getData();
+        long long59 = mean47.getN();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean60 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray65 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double66 = mean60.evaluate(doubleArray65);
+        double double67 = mean47.evaluate(doubleArray65);
+        mean46.incrementAll(doubleArray65);
+        mean0.incrementAll(doubleArray65);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean70 = mean0.copy();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean71 = new org.apache.commons.math.stat.descriptive.moment.Mean(mean70);
+        java.lang.Class<?> wildcardClass72 = mean71.getClass();
+        org.junit.Assert.assertNotNull(doubleArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray6), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 0.25d + "'", double7 == 0.25d);
+        org.junit.Assert.assertTrue("'" + long9 + "' != '" + 0L + "'", long9 == 0L);
+        org.junit.Assert.assertNull(doubleArray10);
+        org.junit.Assert.assertNotNull(doubleArray17);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray17), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 0.25d + "'", double18 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray28);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray28), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double29 + "' != '" + 0.25d + "'", double29 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double32 + "' != '" + 1.0d + "'", double32 == 1.0d);
+        org.junit.Assert.assertTrue(Double.isNaN(double35));
+        org.junit.Assert.assertNotNull(doubleArray41);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray41), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double42 + "' != '" + 0.25d + "'", double42 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray43);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray43), "[]");
+        org.junit.Assert.assertNotNull(mean45);
+        org.junit.Assert.assertNotNull(mean46);
+        org.junit.Assert.assertNotNull(doubleArray53);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray53), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double54 + "' != '" + 0.25d + "'", double54 == 0.25d);
+        org.junit.Assert.assertNull(doubleArray58);
+        org.junit.Assert.assertTrue("'" + long59 + "' != '" + 1L + "'", long59 == 1L);
+        org.junit.Assert.assertNotNull(doubleArray65);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray65), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double66 + "' != '" + 0.25d + "'", double66 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double67 + "' != '" + 0.25d + "'", double67 == 0.25d);
+        org.junit.Assert.assertNotNull(mean70);
+        org.junit.Assert.assertNotNull(wildcardClass72);
+    }
+
+    @Test
+    public void test2008() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest4.test2008");
+        org.apache.commons.math.stat.descriptive.moment.Mean mean0 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double double1 = mean0.getResult();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean2 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean3 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray8 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double9 = mean3.evaluate(doubleArray8);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean2, mean3);
+        boolean boolean12 = mean3.equals((java.lang.Object) (short) 1);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean13 = mean3.copy();
+        mean3.clear();
+        boolean boolean15 = mean0.equals((java.lang.Object) mean3);
+        long long16 = mean0.getN();
+        double double17 = mean0.getResult();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean18 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean19 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray24 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double25 = mean19.evaluate(doubleArray24);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean18, mean19);
+        boolean boolean28 = mean19.equals((java.lang.Object) (short) 1);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean29 = mean19.copy();
+        mean19.clear();
+        mean19.clear();
+        boolean boolean32 = mean0.equals((java.lang.Object) mean19);
+        mean0.increment((-1.0d));
+        org.junit.Assert.assertTrue(Double.isNaN(double1));
+        org.junit.Assert.assertNotNull(doubleArray8);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray8), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 0.25d + "'", double9 == 0.25d);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNotNull(mean13);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + true + "'", boolean15 == true);
+        org.junit.Assert.assertTrue("'" + long16 + "' != '" + 0L + "'", long16 == 0L);
+        org.junit.Assert.assertTrue(Double.isNaN(double17));
+        org.junit.Assert.assertNotNull(doubleArray24);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray24), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double25 + "' != '" + 0.25d + "'", double25 == 0.25d);
+        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + false + "'", boolean28 == false);
+        org.junit.Assert.assertNotNull(mean29);
+        org.junit.Assert.assertTrue("'" + boolean32 + "' != '" + true + "'", boolean32 == true);
+    }
+
+    @Test
+    public void test2009() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest4.test2009");
+        org.apache.commons.math.stat.descriptive.moment.Mean mean0 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean1 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray6 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double7 = mean1.evaluate(doubleArray6);
+        double double10 = mean0.evaluate(doubleArray6, (int) (short) 0, (int) (short) 1);
+        mean0.increment(100.0d);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean13 = new org.apache.commons.math.stat.descriptive.moment.Mean(mean0);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean14 = new org.apache.commons.math.stat.descriptive.moment.Mean(mean13);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean15 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean16 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray21 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double22 = mean16.evaluate(doubleArray21);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean15, mean16);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean24 = new org.apache.commons.math.stat.descriptive.moment.Mean(mean15);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean13, mean24);
+        long long26 = mean24.getN();
+        mean24.increment(50.5d);
+        long long29 = mean24.getN();
+        double double30 = mean24.getResult();
+        org.junit.Assert.assertNotNull(doubleArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray6), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 0.25d + "'", double7 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 1.0d + "'", double10 == 1.0d);
+        org.junit.Assert.assertNotNull(doubleArray21);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray21), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 0.25d + "'", double22 == 0.25d);
+        org.junit.Assert.assertTrue("'" + long26 + "' != '" + 1L + "'", long26 == 1L);
+        org.junit.Assert.assertTrue("'" + long29 + "' != '" + 2L + "'", long29 == 2L);
+        org.junit.Assert.assertTrue("'" + double30 + "' != '" + 75.25d + "'", double30 == 75.25d);
+    }
+
+    @Test
+    public void test2010() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest4.test2010");
+        org.apache.commons.math.stat.descriptive.moment.Mean mean0 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray5 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double6 = mean0.evaluate(doubleArray5);
+        double[] doubleArray7 = new double[] {};
+        mean0.incrementAll(doubleArray7);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean9 = mean0.copy();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean10 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean11 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray16 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double17 = mean11.evaluate(doubleArray16);
+        double double20 = mean10.evaluate(doubleArray16, (int) (short) 0, (int) (short) 1);
+        mean9.incrementAll(doubleArray16);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean22 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double double23 = mean22.getResult();
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean9, mean22);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double25 = mean22.evaluate();
+            org.junit.Assert.fail("Expected exception of type org.apache.commons.math.exception.NullArgumentException; message: input array");
+        } catch (org.apache.commons.math.exception.NullArgumentException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(doubleArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray5), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + 0.25d + "'", double6 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray7);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray7), "[]");
+        org.junit.Assert.assertNotNull(mean9);
+        org.junit.Assert.assertNotNull(doubleArray16);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray16), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 0.25d + "'", double17 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 1.0d + "'", double20 == 1.0d);
+        org.junit.Assert.assertTrue(Double.isNaN(double23));
+    }
+
+    @Test
+    public void test2011() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest4.test2011");
+        org.apache.commons.math.stat.descriptive.moment.Mean mean0 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean1 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray6 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double7 = mean1.evaluate(doubleArray6);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean0, mean1);
+        boolean boolean10 = mean1.equals((java.lang.Object) (short) 1);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean11 = mean1.copy();
+        long long12 = mean1.getN();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean13 = mean1.copy();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean14 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray19 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double20 = mean14.evaluate(doubleArray19);
+        double[] doubleArray21 = new double[] {};
+        mean14.incrementAll(doubleArray21);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean23 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray28 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double29 = mean23.evaluate(doubleArray28);
+        double[] doubleArray30 = new double[] {};
+        mean23.incrementAll(doubleArray30);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean32 = mean23.copy();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean33 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean34 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray39 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double40 = mean34.evaluate(doubleArray39);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean33, mean34);
+        double[] doubleArray42 = null;
+        mean33.setData(doubleArray42);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean44 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean45 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray50 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double51 = mean45.evaluate(doubleArray50);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean44, mean45);
+        double[] doubleArray53 = null;
+        mean44.setData(doubleArray53);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean55 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean56 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray61 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double62 = mean56.evaluate(doubleArray61);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean55, mean56);
+        double[] doubleArray64 = null;
+        mean55.setData(doubleArray64);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean66 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean67 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray72 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double73 = mean67.evaluate(doubleArray72);
+        double double76 = mean66.evaluate(doubleArray72, (int) (short) 0, (int) (short) 1);
+        mean55.setData(doubleArray72);
+        mean44.incrementAll(doubleArray72);
+        double double79 = mean33.evaluate(doubleArray72);
+        mean23.setData(doubleArray72);
+        mean14.incrementAll(doubleArray72);
+        mean13.incrementAll(doubleArray72);
+        double double83 = mean13.getResult();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean84 = mean13.copy();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean85 = mean84.copy();
+        long long86 = mean84.getN();
+        mean84.increment((double) '#');
+        double double89 = mean84.getResult();
+        org.junit.Assert.assertNotNull(doubleArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray6), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 0.25d + "'", double7 == 0.25d);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNotNull(mean11);
+        org.junit.Assert.assertTrue("'" + long12 + "' != '" + 0L + "'", long12 == 0L);
+        org.junit.Assert.assertNotNull(mean13);
+        org.junit.Assert.assertNotNull(doubleArray19);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray19), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 0.25d + "'", double20 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray21);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray21), "[]");
+        org.junit.Assert.assertNotNull(doubleArray28);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray28), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double29 + "' != '" + 0.25d + "'", double29 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray30);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray30), "[]");
+        org.junit.Assert.assertNotNull(mean32);
+        org.junit.Assert.assertNotNull(doubleArray39);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray39), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double40 + "' != '" + 0.25d + "'", double40 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray50);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray50), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double51 + "' != '" + 0.25d + "'", double51 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray61);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray61), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double62 + "' != '" + 0.25d + "'", double62 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray72);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray72), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double73 + "' != '" + 0.25d + "'", double73 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double76 + "' != '" + 1.0d + "'", double76 == 1.0d);
+        org.junit.Assert.assertTrue("'" + double79 + "' != '" + 0.25d + "'", double79 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double83 + "' != '" + 0.25d + "'", double83 == 0.25d);
+        org.junit.Assert.assertNotNull(mean84);
+        org.junit.Assert.assertNotNull(mean85);
+        org.junit.Assert.assertTrue("'" + long86 + "' != '" + 4L + "'", long86 == 4L);
+        org.junit.Assert.assertTrue("'" + double89 + "' != '" + 7.2d + "'", double89 == 7.2d);
+    }
+
+    @Test
+    public void test2012() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest4.test2012");
+        org.apache.commons.math.stat.descriptive.moment.Mean mean0 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean1 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray6 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double7 = mean1.evaluate(doubleArray6);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean0, mean1);
+        mean0.increment((double) (byte) 1);
+        double[] doubleArray11 = mean0.getData();
+        mean0.increment((double) (byte) 10);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean14 = mean0.copy();
+        double[] doubleArray15 = mean14.getData();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean16 = new org.apache.commons.math.stat.descriptive.moment.Mean(mean14);
+        org.junit.Assert.assertNotNull(doubleArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray6), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 0.25d + "'", double7 == 0.25d);
+        org.junit.Assert.assertNull(doubleArray11);
+        org.junit.Assert.assertNotNull(mean14);
+        org.junit.Assert.assertNull(doubleArray15);
+    }
+
+    @Test
+    public void test2013() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest4.test2013");
+        org.apache.commons.math.stat.descriptive.moment.Mean mean0 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray5 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double6 = mean0.evaluate(doubleArray5);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean7 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean8 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray13 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double14 = mean8.evaluate(doubleArray13);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean7, mean8);
+        double[] doubleArray16 = null;
+        mean7.setData(doubleArray16);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean18 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean19 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray24 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double25 = mean19.evaluate(doubleArray24);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean18, mean19);
+        double[] doubleArray27 = null;
+        mean18.setData(doubleArray27);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean29 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean30 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray35 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double36 = mean30.evaluate(doubleArray35);
+        double double39 = mean29.evaluate(doubleArray35, (int) (short) 0, (int) (short) 1);
+        mean18.setData(doubleArray35);
+        mean7.incrementAll(doubleArray35);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean42 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray47 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double48 = mean42.evaluate(doubleArray47);
+        double[] doubleArray49 = new double[] {};
+        mean42.incrementAll(doubleArray49);
+        mean7.setData(doubleArray49);
+        double double54 = mean0.evaluate(doubleArray49, (int) (short) 0, 0);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean55 = new org.apache.commons.math.stat.descriptive.moment.Mean(mean0);
+        double double56 = mean55.getResult();
+        java.lang.Class<?> wildcardClass57 = mean55.getClass();
+        org.junit.Assert.assertNotNull(doubleArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray5), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + 0.25d + "'", double6 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray13);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray13), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 0.25d + "'", double14 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray24);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray24), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double25 + "' != '" + 0.25d + "'", double25 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray35);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray35), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double36 + "' != '" + 0.25d + "'", double36 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double39 + "' != '" + 1.0d + "'", double39 == 1.0d);
+        org.junit.Assert.assertNotNull(doubleArray47);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray47), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double48 + "' != '" + 0.25d + "'", double48 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray49);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray49), "[]");
+        org.junit.Assert.assertTrue(Double.isNaN(double54));
+        org.junit.Assert.assertTrue(Double.isNaN(double56));
+        org.junit.Assert.assertNotNull(wildcardClass57);
+    }
+
+    @Test
+    public void test2014() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest4.test2014");
+        org.apache.commons.math.stat.descriptive.moment.Mean mean0 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean1 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray6 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double7 = mean1.evaluate(doubleArray6);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean0, mean1);
+        long long9 = mean0.getN();
+        double[] doubleArray10 = mean0.getData();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean11 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean12 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray17 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double18 = mean12.evaluate(doubleArray17);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean11, mean12);
+        double[] doubleArray20 = null;
+        mean11.setData(doubleArray20);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean22 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean23 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray28 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double29 = mean23.evaluate(doubleArray28);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean22, mean23);
+        double[] doubleArray31 = null;
+        mean22.setData(doubleArray31);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean33 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean34 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray39 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double40 = mean34.evaluate(doubleArray39);
+        double double43 = mean33.evaluate(doubleArray39, (int) (short) 0, (int) (short) 1);
+        mean22.setData(doubleArray39);
+        mean11.incrementAll(doubleArray39);
+        double double46 = mean0.evaluate(doubleArray39);
+        mean0.clear();
+        double double48 = mean0.getResult();
+        long long49 = mean0.getN();
+        org.junit.Assert.assertNotNull(doubleArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray6), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 0.25d + "'", double7 == 0.25d);
+        org.junit.Assert.assertTrue("'" + long9 + "' != '" + 0L + "'", long9 == 0L);
+        org.junit.Assert.assertNull(doubleArray10);
+        org.junit.Assert.assertNotNull(doubleArray17);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray17), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 0.25d + "'", double18 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray28);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray28), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double29 + "' != '" + 0.25d + "'", double29 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray39);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray39), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double40 + "' != '" + 0.25d + "'", double40 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double43 + "' != '" + 1.0d + "'", double43 == 1.0d);
+        org.junit.Assert.assertTrue("'" + double46 + "' != '" + 0.25d + "'", double46 == 0.25d);
+        org.junit.Assert.assertTrue(Double.isNaN(double48));
+        org.junit.Assert.assertTrue("'" + long49 + "' != '" + 0L + "'", long49 == 0L);
+    }
+
+    @Test
+    public void test2015() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest4.test2015");
+        org.apache.commons.math.stat.descriptive.moment.Mean mean0 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean1 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray6 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double7 = mean1.evaluate(doubleArray6);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean0, mean1);
+        double[] doubleArray9 = null;
+        mean0.setData(doubleArray9);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean11 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean12 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray17 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double18 = mean12.evaluate(doubleArray17);
+        double double21 = mean11.evaluate(doubleArray17, (int) (short) 0, (int) (short) 1);
+        mean0.setData(doubleArray17);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean23 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean24 = new org.apache.commons.math.stat.descriptive.moment.Mean();
+        double[] doubleArray29 = new double[] { (byte) 1, (-1), 0.0f, 1L };
+        double double30 = mean24.evaluate(doubleArray29);
+        double double33 = mean23.evaluate(doubleArray29, (int) (short) 0, (int) (short) 1);
+        mean23.increment(100.0d);
+        double[] doubleArray39 = new double[] { 0L, (-1), (short) 1 };
+        mean23.setData(doubleArray39);
+        org.apache.commons.math.stat.descriptive.moment.Mean.copy(mean0, mean23);
+        long long42 = mean23.getN();
+        mean23.increment((double) 0.0f);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean45 = new org.apache.commons.math.stat.descriptive.moment.Mean(mean23);
+        org.apache.commons.math.stat.descriptive.moment.Mean mean46 = mean45.copy();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean47 = mean46.copy();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean48 = mean47.copy();
+        mean47.clear();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean50 = mean47.copy();
+        org.apache.commons.math.stat.descriptive.moment.Mean mean51 = new org.apache.commons.math.stat.descriptive.moment.Mean(mean50);
+        org.junit.Assert.assertNotNull(doubleArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray6), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 0.25d + "'", double7 == 0.25d);
+        org.junit.Assert.assertNotNull(doubleArray17);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray17), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 0.25d + "'", double18 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 1.0d + "'", double21 == 1.0d);
+        org.junit.Assert.assertNotNull(doubleArray29);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray29), "[1.0, -1.0, 0.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + double30 + "' != '" + 0.25d + "'", double30 == 0.25d);
+        org.junit.Assert.assertTrue("'" + double33 + "' != '" + 1.0d + "'", double33 == 1.0d);
+        org.junit.Assert.assertNotNull(doubleArray39);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(doubleArray39), "[0.0, -1.0, 1.0]");
+        org.junit.Assert.assertTrue("'" + long42 + "' != '" + 0L + "'", long42 == 0L);
+        org.junit.Assert.assertNotNull(mean46);
+        org.junit.Assert.assertNotNull(mean47);
+        org.junit.Assert.assertNotNull(mean48);
+        org.junit.Assert.assertNotNull(mean50);
+    }
+}
+
