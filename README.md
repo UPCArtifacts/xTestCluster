@@ -84,7 +84,16 @@ The identifiers of the patch repositories are: DRR for Ye et al, API for Kechagi
 
 ### Test Execution
 
+The information related to the execution of each generated patch is store in folder [test_execution](/test_execution) and also divided in two subfolders (Randoop and evosuite). 
+For example, [this file](https://github.com/UPHF/xTestCluster/blob/main/test_execution/evosuite/result_test_exec_Math-70.json]) contains the execution of all Evosuite test cases executed on all the patches for bug Math-70. (We exclude the execution of duplicate (i.e., syntactically equivalent) patches)
+
 ### Clustering
+
+For each bug we present a JSON file that shows the cluster generated based on the test execution.
+The cluster generated using both Evosuite and Randoop, which are presented in the paper, have the identified *Both* and availables at [clustering/both](/clustering/both).
+Moreover, we also present the clusters generated only Evosuite test (here)(https://github.com/UPHF/xTestCluster/tree/main/clustering/evosuite) and only randoop [here](https://github.com/UPHF/xTestCluster/tree/main/clustering/randoop).
+
+
 
 
 ## The tool
