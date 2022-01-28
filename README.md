@@ -1,4 +1,6 @@
-# xTestCluster
+# xTestCluster 
+
+## Appendix of paper: Test-based Patch Clustering for Automated Program Repair.
 
 
 ## Data
@@ -6,7 +8,7 @@
 We use tree existing datasets of Defects4J patches.
 The patches are publicly available in the repositories of  those dataset, which we present below.
 
-### Dataset DDR:
+### Dataset DRR:
 
 
 Data from this experiment (i.e., Patches) collected, processed and curated by Ye et al. available at [DRR](https://github.com/KTH/drr)
@@ -72,7 +74,13 @@ If you use this dataset, please cite:
 ### Test Generation
 
 We generate test cases for each patch using Randoop and Evosuite.
-The tests are available in the 
+The tests are available in the [test_generation](test_generation) folder.
+The generated test cases are divided by test generation tool, and then by bug id. 
+For example, the folder [/generatedTestEvosuite/Chart_17](test_generation/generatedTestEvosuite/Chart_17) has the test created by Evosuite for patches of Chart17.
+Then, inside of them, there are one folder for each patch of the bug. That folder contains the test cases generated after applying the patch.
+For example, the folder [generatedTestEvosuite/Chart_17/test_from_DRR_patch1-Chart-17-Elixir-plausible/](https://github.com/UPHF/xTestCluster/tree/main/test_generation/generatedTestEvosuite/Chart_17/test_from_DRR_patch1-Chart-17-Elixir-plausible/org/jfree/data/time) contains the Evosuite test generated from the Elixir patch for Chart 17, available on the DRR repository.
+The identifiers of the patch repositories are: DRR for Ye et al, API for Kechagia et al.  NFL and PFL for Liu et al.
+
 
 ### Test Execution
 
