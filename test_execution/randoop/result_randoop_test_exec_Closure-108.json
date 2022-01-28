@@ -1,0 +1,183 @@
+{
+    "bugid": "Closure-108",
+    "results": [
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch4497_4497-Closure-108-SimFix.patch",
+            "project": "Closure",
+            "bugid": "108",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:23:57.959001",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch4497_4497-Closure-108-SimFix.patch",
+                    "test": "test_from_NFL_patch408_102-Closure-108-AVATAR",
+                    "failing": 0,
+                    "testrun": 0,
+                    "failings": [],
+                    "status": "ERROR",
+                    "test_executed": [],
+                    "failing_assertions": null,
+                    "failing_lines": null,
+                    "errorLog": "no test generated"
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch4497_4497-Closure-108-SimFix.patch",
+                    "test": "test_from_NFL_patch4497_4497-Closure-108-SimFix",
+                    "failing": 8,
+                    "testrun": 2333,
+                    "failings": [
+                        "test1(ErrorTest0)",
+                        "test2(ErrorTest0)",
+                        "test3(ErrorTest0)",
+                        "test4(ErrorTest0)",
+                        "test5(ErrorTest0)",
+                        "test6(ErrorTest0)",
+                        "test7(ErrorTest0)",
+                        "test8(ErrorTest0)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "ErrorTest0",
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "ErrorTest0.test1(ErrorTest0.java:23)"
+                        ],
+                        [
+                            "ErrorTest0.test2(ErrorTest0.java:67)"
+                        ],
+                        [
+                            "ErrorTest0.test3(ErrorTest0.java:96)"
+                        ],
+                        [
+                            "ErrorTest0.test4(ErrorTest0.java:129)"
+                        ],
+                        [
+                            "ErrorTest0.test5(ErrorTest0.java:141)"
+                        ],
+                        [
+                            "ErrorTest0.test6(ErrorTest0.java:151)"
+                        ],
+                        [
+                            "ErrorTest0.test7(ErrorTest0.java:164)"
+                        ],
+                        [
+                            "ErrorTest0.test8(ErrorTest0.java:173)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 95.94
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch408_102-Closure-108-AVATAR.patch",
+            "project": "Closure",
+            "bugid": "108",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:25:33.897629",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch408_102-Closure-108-AVATAR.patch",
+                    "test": "test_from_NFL_patch408_102-Closure-108-AVATAR",
+                    "failing": 0,
+                    "testrun": 0,
+                    "failings": [],
+                    "status": "ERROR",
+                    "test_executed": [],
+                    "failing_assertions": null,
+                    "failing_lines": null,
+                    "errorLog": "no test generated"
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch408_102-Closure-108-AVATAR.patch",
+                    "test": "test_from_NFL_patch4497_4497-Closure-108-SimFix",
+                    "failing": 8,
+                    "testrun": 2333,
+                    "failings": [
+                        "test1(ErrorTest0)",
+                        "test2(ErrorTest0)",
+                        "test3(ErrorTest0)",
+                        "test4(ErrorTest0)",
+                        "test5(ErrorTest0)",
+                        "test6(ErrorTest0)",
+                        "test7(ErrorTest0)",
+                        "test8(ErrorTest0)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "ErrorTest0",
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "ErrorTest0.test1(ErrorTest0.java:23)"
+                        ],
+                        [
+                            "ErrorTest0.test2(ErrorTest0.java:67)"
+                        ],
+                        [
+                            "ErrorTest0.test3(ErrorTest0.java:96)"
+                        ],
+                        [
+                            "ErrorTest0.test4(ErrorTest0.java:129)"
+                        ],
+                        [
+                            "ErrorTest0.test5(ErrorTest0.java:141)"
+                        ],
+                        [
+                            "ErrorTest0.test6(ErrorTest0.java:151)"
+                        ],
+                        [
+                            "ErrorTest0.test7(ErrorTest0.java:164)"
+                        ],
+                        [
+                            "ErrorTest0.test8(ErrorTest0.java:173)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 94.34
+        }
+    ],
+    "date": "2021-11-23T19:23:57.958106",
+    "duration": -0.0
+}

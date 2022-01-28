@@ -1,0 +1,1091 @@
+{
+    "bugid": "Lang-16",
+    "results": [
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-16-SimFix.patch",
+            "project": "Lang",
+            "bugid": "16",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:56:11.114600",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-16-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-16-SimFix",
+                    "failing": 0,
+                    "testrun": 193,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-16-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-16-Arja-plausible",
+                    "failing": 6,
+                    "testrun": 191,
+                    "failings": [
+                        "test170(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test169(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test167(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test166(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test163(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test164(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: org.apache.commons.lang3.2ath.numberutils is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: ;eyn7<${}j3~bd is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: ,5\\x7fm!e is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: :ycs^eklf is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: xk<!+g$xsf is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: invocationtargetexception occurred is not a valid number."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test170(NumberUtils_ESTest.java:1517)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test169(NumberUtils_ESTest.java:1503)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test167(NumberUtils_ESTest.java:1475)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test166(NumberUtils_ESTest.java:1461)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test163(NumberUtils_ESTest.java:1419)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test164(NumberUtils_ESTest.java:1433)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-16-SimFix.patch",
+                    "test": "test_from_DRR_patch2-Lang-16-Arja-plausible",
+                    "failing": 7,
+                    "testrun": 202,
+                    "failings": [
+                        "test183(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test182(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test178(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test179(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test010(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test174(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test175(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: org.apache.commons.lang3.2ath.numberutils is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: 0e) is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: nfd is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: x-,ll\\'usq~q&ye is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: )ei is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: f is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: illegalaccessexception occurred is not a valid number."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test183(NumberUtils_ESTest.java:1608)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test182(NumberUtils_ESTest.java:1594)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test178(NumberUtils_ESTest.java:1538)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test179(NumberUtils_ESTest.java:1552)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test010(NumberUtils_ESTest.java:97)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test174(NumberUtils_ESTest.java:1490)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test175(NumberUtils_ESTest.java:1504)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-16-SimFix.patch",
+                    "test": "test_from_NFL_patch102_82-Lang-16-ARJA",
+                    "failing": 6,
+                    "testrun": 198,
+                    "failings": [
+                        "test184(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test172(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test173(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test170(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test176(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test169(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: ;eyn7<${}j3~bd is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: :ycs^eklf is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: ,5\\x7fm!e is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: invocationtargetexception occurred is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: org.apache.commons.lang3.2ath.numberutils is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: {\\'f is not a valid number."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test184(NumberUtils_ESTest.java:1648)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test172(NumberUtils_ESTest.java:1496)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test173(NumberUtils_ESTest.java:1510)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test170(NumberUtils_ESTest.java:1468)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test176(NumberUtils_ESTest.java:1552)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test169(NumberUtils_ESTest.java:1454)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-16-SimFix.patch",
+                    "test": "test_from_NFL_patch2548_2548-Lang-16-SimFix",
+                    "failing": 0,
+                    "testrun": 197,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-16-SimFix.patch",
+                    "test": "test_from_NFL_patch3010_1624-Lang-16-kPAR",
+                    "failing": 1,
+                    "testrun": 201,
+                    "failings": [
+                        "test179(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: o3dw4n{]n{e is not a valid number."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test179(NumberUtils_ESTest.java:1531)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 31.45
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-16-Arja-plausible.patch",
+            "project": "Lang",
+            "bugid": "16",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:56:42.563416",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-16-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-16-SimFix",
+                    "failing": 4,
+                    "testrun": 193,
+                    "failings": [
+                        "test172(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test170(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test164(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test157(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"8W4L*rccF:g,qOM*i*E\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \":Cd.:Rmd\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"j3V0eOs>Kxz\"(=\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"f\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test172(NumberUtils_ESTest.java:1521)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test170(NumberUtils_ESTest.java:1493)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test164(NumberUtils_ESTest.java:1417)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test157(NumberUtils_ESTest.java:1367)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-16-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-16-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 191,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-16-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch2-Lang-16-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 202,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-16-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch102_82-Lang-16-ARJA",
+                    "failing": 0,
+                    "testrun": 198,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-16-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch2548_2548-Lang-16-SimFix",
+                    "failing": 3,
+                    "testrun": 197,
+                    "failings": [
+                        "test172(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test173(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test175(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"f\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \":Cd.:Rmd\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"8W4L*rccF:g,qOM*i*E\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test172(NumberUtils_ESTest.java:1475)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test173(NumberUtils_ESTest.java:1489)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test175(NumberUtils_ESTest.java:1517)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-16-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch3010_1624-Lang-16-kPAR",
+                    "failing": 4,
+                    "testrun": 201,
+                    "failings": [
+                        "test182(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test178(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test176(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test165(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"fM).u;^~?71e:>y\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"=.+QdU-5@j)MD\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"IllegalArgumentException occurred\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"F\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test182(NumberUtils_ESTest.java:1573)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test178(NumberUtils_ESTest.java:1517)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test176(NumberUtils_ESTest.java:1489)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test165(NumberUtils_ESTest.java:1399)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 31.54
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-16-Arja-plausible.patch",
+            "project": "Lang",
+            "bugid": "16",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:57:14.104367",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-16-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-16-SimFix",
+                    "failing": 4,
+                    "testrun": 193,
+                    "failings": [
+                        "test172(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test170(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test164(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test157(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"8W4L*rccF:g,qOM*i*E\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \":Cd.:Rmd\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"j3V0eOs>Kxz\"(=\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"f\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test172(NumberUtils_ESTest.java:1521)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test170(NumberUtils_ESTest.java:1493)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test164(NumberUtils_ESTest.java:1417)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test157(NumberUtils_ESTest.java:1367)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-16-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-16-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 191,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-16-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch2-Lang-16-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 202,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-16-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch102_82-Lang-16-ARJA",
+                    "failing": 0,
+                    "testrun": 198,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-16-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch2548_2548-Lang-16-SimFix",
+                    "failing": 3,
+                    "testrun": 197,
+                    "failings": [
+                        "test172(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test173(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test175(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"f\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \":Cd.:Rmd\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"8W4L*rccF:g,qOM*i*E\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test172(NumberUtils_ESTest.java:1475)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test173(NumberUtils_ESTest.java:1489)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test175(NumberUtils_ESTest.java:1517)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-16-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch3010_1624-Lang-16-kPAR",
+                    "failing": 4,
+                    "testrun": 201,
+                    "failings": [
+                        "test182(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test178(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test176(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test165(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"fM).u;^~?71e:>y\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"=.+QdU-5@j)MD\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"IllegalArgumentException occurred\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"F\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test182(NumberUtils_ESTest.java:1573)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test178(NumberUtils_ESTest.java:1517)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test176(NumberUtils_ESTest.java:1489)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test165(NumberUtils_ESTest.java:1399)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 31.75
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Lang/patch102_82-Lang-16-ARJA.patch",
+            "project": "Lang",
+            "bugid": "16",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:57:45.857389",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Lang/patch102_82-Lang-16-ARJA.patch",
+                    "test": "test_from_DRR_patch1-Lang-16-SimFix",
+                    "failing": 4,
+                    "testrun": 193,
+                    "failings": [
+                        "test172(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test170(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test164(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test157(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"8W4L*rccF:g,qOM*i*E\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \":Cd.:Rmd\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"j3V0eOs>Kxz\"(=\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"f\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test172(NumberUtils_ESTest.java:1521)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test170(NumberUtils_ESTest.java:1493)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test164(NumberUtils_ESTest.java:1417)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test157(NumberUtils_ESTest.java:1367)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Lang/patch102_82-Lang-16-ARJA.patch",
+                    "test": "test_from_DRR_patch1-Lang-16-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 191,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Lang/patch102_82-Lang-16-ARJA.patch",
+                    "test": "test_from_DRR_patch2-Lang-16-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 202,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Lang/patch102_82-Lang-16-ARJA.patch",
+                    "test": "test_from_NFL_patch102_82-Lang-16-ARJA",
+                    "failing": 0,
+                    "testrun": 198,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Lang/patch102_82-Lang-16-ARJA.patch",
+                    "test": "test_from_NFL_patch2548_2548-Lang-16-SimFix",
+                    "failing": 3,
+                    "testrun": 197,
+                    "failings": [
+                        "test172(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test173(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test175(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"f\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \":Cd.:Rmd\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"8W4L*rccF:g,qOM*i*E\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test172(NumberUtils_ESTest.java:1475)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test173(NumberUtils_ESTest.java:1489)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test175(NumberUtils_ESTest.java:1517)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Lang/patch102_82-Lang-16-ARJA.patch",
+                    "test": "test_from_NFL_patch3010_1624-Lang-16-kPAR",
+                    "failing": 4,
+                    "testrun": 201,
+                    "failings": [
+                        "test182(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test178(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test176(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test165(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"fM).u;^~?71e:>y\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"=.+QdU-5@j)MD\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"IllegalArgumentException occurred\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"F\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test182(NumberUtils_ESTest.java:1573)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test178(NumberUtils_ESTest.java:1517)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test176(NumberUtils_ESTest.java:1489)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test165(NumberUtils_ESTest.java:1399)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 31.34
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Lang/patch2548_2548-Lang-16-SimFix.patch",
+            "project": "Lang",
+            "bugid": "16",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:58:17.194044",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Lang/patch2548_2548-Lang-16-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-16-SimFix",
+                    "failing": 0,
+                    "testrun": 193,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Lang/patch2548_2548-Lang-16-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-16-Arja-plausible",
+                    "failing": 6,
+                    "testrun": 191,
+                    "failings": [
+                        "test170(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test169(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test167(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test166(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test163(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test164(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: org.apache.commons.lang3.2ath.numberutils is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: ;eyn7<${}j3~bd is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: ,5\\x7fm!e is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: :ycs^eklf is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: xk<!+g$xsf is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: invocationtargetexception occurred is not a valid number."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test170(NumberUtils_ESTest.java:1517)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test169(NumberUtils_ESTest.java:1503)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test167(NumberUtils_ESTest.java:1475)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test166(NumberUtils_ESTest.java:1461)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test163(NumberUtils_ESTest.java:1419)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test164(NumberUtils_ESTest.java:1433)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Lang/patch2548_2548-Lang-16-SimFix.patch",
+                    "test": "test_from_DRR_patch2-Lang-16-Arja-plausible",
+                    "failing": 7,
+                    "testrun": 202,
+                    "failings": [
+                        "test183(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test182(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test178(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test179(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test010(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test174(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test175(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: org.apache.commons.lang3.2ath.numberutils is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: 0e) is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: nfd is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: x-,ll\\'usq~q&ye is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: )ei is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: f is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: illegalaccessexception occurred is not a valid number."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test183(NumberUtils_ESTest.java:1608)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test182(NumberUtils_ESTest.java:1594)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test178(NumberUtils_ESTest.java:1538)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test179(NumberUtils_ESTest.java:1552)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test010(NumberUtils_ESTest.java:97)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test174(NumberUtils_ESTest.java:1490)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test175(NumberUtils_ESTest.java:1504)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Lang/patch2548_2548-Lang-16-SimFix.patch",
+                    "test": "test_from_NFL_patch102_82-Lang-16-ARJA",
+                    "failing": 6,
+                    "testrun": 198,
+                    "failings": [
+                        "test184(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test172(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test173(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test170(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test176(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test169(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: ;eyn7<${}j3~bd is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: :ycs^eklf is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: ,5\\x7fm!e is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: invocationtargetexception occurred is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: org.apache.commons.lang3.2ath.numberutils is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: {\\'f is not a valid number."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test184(NumberUtils_ESTest.java:1648)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test172(NumberUtils_ESTest.java:1496)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test173(NumberUtils_ESTest.java:1510)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test170(NumberUtils_ESTest.java:1468)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test176(NumberUtils_ESTest.java:1552)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test169(NumberUtils_ESTest.java:1454)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Lang/patch2548_2548-Lang-16-SimFix.patch",
+                    "test": "test_from_NFL_patch2548_2548-Lang-16-SimFix",
+                    "failing": 0,
+                    "testrun": 197,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Lang/patch2548_2548-Lang-16-SimFix.patch",
+                    "test": "test_from_NFL_patch3010_1624-Lang-16-kPAR",
+                    "failing": 1,
+                    "testrun": 201,
+                    "failings": [
+                        "test179(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:553): java.lang.NumberFormatException: o3dw4n{]n{e is not a valid number."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test179(NumberUtils_ESTest.java:1531)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 31.26
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch3010_1624-Lang-16-kPAR.patch",
+            "project": "Lang",
+            "bugid": "16",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:58:48.456079",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch3010_1624-Lang-16-kPAR.patch",
+                    "test": "test_from_DRR_patch1-Lang-16-SimFix",
+                    "failing": 1,
+                    "testrun": 193,
+                    "failings": [
+                        "test172(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"W4L*rccF:\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test172(NumberUtils_ESTest.java:1521)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch3010_1624-Lang-16-kPAR.patch",
+                    "test": "test_from_DRR_patch1-Lang-16-Arja-plausible",
+                    "failing": 5,
+                    "testrun": 191,
+                    "failings": [
+                        "test170(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test169(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test166(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test163(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test164(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:545): java.lang.NumberFormatException: org.apache.commons.lang3.2ath.NumberUtils is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:545): java.lang.NumberFormatException: ;Eyn7<${}J3~bD is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:545): java.lang.NumberFormatException: :Ycs^eKLF is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:545): java.lang.NumberFormatException: Xk<!+g$Xsf is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:545): java.lang.NumberFormatException: InvocationTargetException occurred is not a valid number."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test170(NumberUtils_ESTest.java:1517)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test169(NumberUtils_ESTest.java:1503)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test166(NumberUtils_ESTest.java:1461)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test163(NumberUtils_ESTest.java:1419)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test164(NumberUtils_ESTest.java:1433)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch3010_1624-Lang-16-kPAR.patch",
+                    "test": "test_from_DRR_patch2-Lang-16-Arja-plausible",
+                    "failing": 7,
+                    "testrun": 202,
+                    "failings": [
+                        "test183(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test182(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test178(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test179(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test010(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test174(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test175(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:545): java.lang.NumberFormatException: org.apache.commons.lang3.2ath.NumberUtils is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:545): java.lang.NumberFormatException: 0E) is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:545): java.lang.NumberFormatException: NFD is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in java.math.BigInteger.<init>(BigInteger.java:419): java.lang.NumberFormatException: Illegal embedded sign character",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:545): java.lang.NumberFormatException: )EI is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:545): java.lang.NumberFormatException: f is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:545): java.lang.NumberFormatException: IllegalAccessException occurred is not a valid number."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test183(NumberUtils_ESTest.java:1608)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test182(NumberUtils_ESTest.java:1594)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test178(NumberUtils_ESTest.java:1538)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test179(NumberUtils_ESTest.java:1552)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test010(NumberUtils_ESTest.java:97)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test174(NumberUtils_ESTest.java:1490)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test175(NumberUtils_ESTest.java:1504)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch3010_1624-Lang-16-kPAR.patch",
+                    "test": "test_from_NFL_patch102_82-Lang-16-ARJA",
+                    "failing": 5,
+                    "testrun": 198,
+                    "failings": [
+                        "test184(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test172(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test170(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test176(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test169(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:545): java.lang.NumberFormatException: ;Eyn7<${}J3~bD is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:545): java.lang.NumberFormatException: :Ycs^eKLF is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:545): java.lang.NumberFormatException: InvocationTargetException occurred is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:545): java.lang.NumberFormatException: org.apache.commons.lang3.2ath.NumberUtils is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:545): java.lang.NumberFormatException: {\\'f is not a valid number."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test184(NumberUtils_ESTest.java:1648)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test172(NumberUtils_ESTest.java:1496)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test170(NumberUtils_ESTest.java:1468)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test176(NumberUtils_ESTest.java:1552)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test169(NumberUtils_ESTest.java:1454)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch3010_1624-Lang-16-kPAR.patch",
+                    "test": "test_from_NFL_patch2548_2548-Lang-16-SimFix",
+                    "failing": 1,
+                    "testrun": 197,
+                    "failings": [
+                        "test175(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"W4L*rccF:\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test175(NumberUtils_ESTest.java:1517)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch3010_1624-Lang-16-kPAR.patch",
+                    "test": "test_from_NFL_patch3010_1624-Lang-16-kPAR",
+                    "failing": 0,
+                    "testrun": 201,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 31.56
+        }
+    ],
+    "date": "2021-11-22T22:56:11.113725",
+    "duration": -0.0
+}

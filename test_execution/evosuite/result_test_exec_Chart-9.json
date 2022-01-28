@@ -1,0 +1,2185 @@
+{
+    "bugid": "Chart-9",
+    "results": [
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Chart/patch1-Chart-9-Elixir.patch",
+            "project": "Chart",
+            "bugid": "9",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:49:44.107640",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Chart/patch1-Chart-9-Elixir.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Elixir",
+                    "failing": 0,
+                    "testrun": 123,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Chart/patch1-Chart-9-Elixir.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 107,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Chart/patch1-Chart-9-Elixir.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 111,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Chart/patch1-Chart-9-Elixir.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 118,
+                    "failings": [
+                        "test070(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test070(TimeSeries_ESTest.java:1053)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Chart/patch1-Chart-9-Elixir.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 129,
+                    "failings": [
+                        "test085(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected same:<org.jfree.data.time.TimeSeries@1570a540> was not:<org.jfree.data.time.TimeSeries@6dc39e35>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test085(TimeSeries_ESTest.java:1262)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Chart/patch1-Chart-9-Elixir.patch",
+                    "test": "test_from_PFL_patch1_1-Chart-9-Nopol",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Chart/patch1-Chart-9-Elixir.patch",
+                    "test": "test_from_DRR_patch3-Chart-9-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 125,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Chart/patch1-Chart-9-Elixir.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-9-Nopol",
+                    "failing": 3,
+                    "testrun": 114,
+                    "failings": [
+                        "test034(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test020(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test045(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test034(TimeSeries_ESTest.java:520)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test020(TimeSeries_ESTest.java:300)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test045(TimeSeries_ESTest.java:718)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Chart/patch1-Chart-9-Elixir.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-SequenceR",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Chart/patch1-Chart-9-Elixir.patch",
+                    "test": "test_from_NFL_patch497_311-Chart-9-TBar",
+                    "failing": 0,
+                    "testrun": 121,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Chart/patch1-Chart-9-Elixir.patch",
+                    "test": "test_from_PFL_patch79_65-Chart-9-Cardumen",
+                    "failing": 0,
+                    "testrun": 119,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 45.29
+        },
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch1-Chart-9-Jaid.patch",
+            "project": "Chart",
+            "bugid": "9",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:50:29.398891",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch1-Chart-9-Jaid.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Elixir",
+                    "failing": 0,
+                    "testrun": 123,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch1-Chart-9-Jaid.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 107,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch1-Chart-9-Jaid.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 111,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch1-Chart-9-Jaid.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 118,
+                    "failings": [
+                        "test070(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test070(TimeSeries_ESTest.java:1053)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch1-Chart-9-Jaid.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 129,
+                    "failings": [
+                        "test085(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected same:<org.jfree.data.time.TimeSeries@1570a540> was not:<org.jfree.data.time.TimeSeries@6dc39e35>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test085(TimeSeries_ESTest.java:1262)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch1-Chart-9-Jaid.patch",
+                    "test": "test_from_PFL_patch1_1-Chart-9-Nopol",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch1-Chart-9-Jaid.patch",
+                    "test": "test_from_DRR_patch3-Chart-9-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 125,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch1-Chart-9-Jaid.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-9-Nopol",
+                    "failing": 3,
+                    "testrun": 114,
+                    "failings": [
+                        "test034(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test020(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test045(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test034(TimeSeries_ESTest.java:520)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test020(TimeSeries_ESTest.java:300)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test045(TimeSeries_ESTest.java:718)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch1-Chart-9-Jaid.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-SequenceR",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch1-Chart-9-Jaid.patch",
+                    "test": "test_from_NFL_patch497_311-Chart-9-TBar",
+                    "failing": 0,
+                    "testrun": 121,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch1-Chart-9-Jaid.patch",
+                    "test": "test_from_PFL_patch79_65-Chart-9-Cardumen",
+                    "failing": 0,
+                    "testrun": 119,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 45.57
+        },
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch2-Chart-9-Jaid.patch",
+            "project": "Chart",
+            "bugid": "9",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:51:14.971064",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch2-Chart-9-Jaid.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Elixir",
+                    "failing": 0,
+                    "testrun": 123,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch2-Chart-9-Jaid.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 107,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch2-Chart-9-Jaid.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 111,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch2-Chart-9-Jaid.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 118,
+                    "failings": [
+                        "test070(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test070(TimeSeries_ESTest.java:1053)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch2-Chart-9-Jaid.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 129,
+                    "failings": [
+                        "test085(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected same:<org.jfree.data.time.TimeSeries@1570a540> was not:<org.jfree.data.time.TimeSeries@6dc39e35>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test085(TimeSeries_ESTest.java:1262)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch2-Chart-9-Jaid.patch",
+                    "test": "test_from_PFL_patch1_1-Chart-9-Nopol",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch2-Chart-9-Jaid.patch",
+                    "test": "test_from_DRR_patch3-Chart-9-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 125,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch2-Chart-9-Jaid.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-9-Nopol",
+                    "failing": 3,
+                    "testrun": 114,
+                    "failings": [
+                        "test034(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test020(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test045(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test034(TimeSeries_ESTest.java:520)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test020(TimeSeries_ESTest.java:300)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test045(TimeSeries_ESTest.java:718)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch2-Chart-9-Jaid.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-SequenceR",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch2-Chart-9-Jaid.patch",
+                    "test": "test_from_NFL_patch497_311-Chart-9-TBar",
+                    "failing": 0,
+                    "testrun": 121,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Chart/patch2-Chart-9-Jaid.patch",
+                    "test": "test_from_PFL_patch79_65-Chart-9-Cardumen",
+                    "failing": 0,
+                    "testrun": 119,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 46.45
+        },
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Chart/patch1-Chart-9-SequenceR.patch",
+            "project": "Chart",
+            "bugid": "9",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:52:01.421280",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Chart/patch1-Chart-9-SequenceR.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Elixir",
+                    "failing": 0,
+                    "testrun": 123,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Chart/patch1-Chart-9-SequenceR.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 107,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Chart/patch1-Chart-9-SequenceR.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 111,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Chart/patch1-Chart-9-SequenceR.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 118,
+                    "failings": [
+                        "test070(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test070(TimeSeries_ESTest.java:1053)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Chart/patch1-Chart-9-SequenceR.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 129,
+                    "failings": [
+                        "test085(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected same:<org.jfree.data.time.TimeSeries@1570a540> was not:<org.jfree.data.time.TimeSeries@6dc39e35>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test085(TimeSeries_ESTest.java:1262)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Chart/patch1-Chart-9-SequenceR.patch",
+                    "test": "test_from_PFL_patch1_1-Chart-9-Nopol",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Chart/patch1-Chart-9-SequenceR.patch",
+                    "test": "test_from_DRR_patch3-Chart-9-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 125,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Chart/patch1-Chart-9-SequenceR.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-9-Nopol",
+                    "failing": 3,
+                    "testrun": 114,
+                    "failings": [
+                        "test034(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test020(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test045(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test034(TimeSeries_ESTest.java:520)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test020(TimeSeries_ESTest.java:300)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test045(TimeSeries_ESTest.java:718)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Chart/patch1-Chart-9-SequenceR.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-SequenceR",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Chart/patch1-Chart-9-SequenceR.patch",
+                    "test": "test_from_NFL_patch497_311-Chart-9-TBar",
+                    "failing": 0,
+                    "testrun": 121,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Chart/patch1-Chart-9-SequenceR.patch",
+                    "test": "test_from_PFL_patch79_65-Chart-9-Cardumen",
+                    "failing": 0,
+                    "testrun": 119,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 45.64
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch2-Chart-9-Jaid-plausible.patch",
+            "project": "Chart",
+            "bugid": "9",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:52:47.062949",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch2-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Elixir",
+                    "failing": 0,
+                    "testrun": 123,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch2-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 107,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch2-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 111,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch2-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 118,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch2-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 129,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch2-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_PFL_patch1_1-Chart-9-Nopol",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch2-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch3-Chart-9-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 125,
+                    "failings": [
+                        "test002(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0> but was:<1>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test002(TimeSeries_ESTest.java:67)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch2-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-9-Nopol",
+                    "failing": 3,
+                    "testrun": 114,
+                    "failings": [
+                        "test034(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test020(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test045(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test034(TimeSeries_ESTest.java:520)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test020(TimeSeries_ESTest.java:300)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test045(TimeSeries_ESTest.java:718)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch2-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-SequenceR",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch2-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_NFL_patch497_311-Chart-9-TBar",
+                    "failing": 1,
+                    "testrun": 121,
+                    "failings": [
+                        "test003(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0> but was:<2>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test003(TimeSeries_ESTest.java:86)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch2-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_PFL_patch79_65-Chart-9-Cardumen",
+                    "failing": 0,
+                    "testrun": 119,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 45.48
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch3-Chart-9-Jaid-plausible.patch",
+            "project": "Chart",
+            "bugid": "9",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:53:32.539704",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch3-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Elixir",
+                    "failing": 0,
+                    "testrun": 123,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch3-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 107,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch3-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 111,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch3-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 118,
+                    "failings": [
+                        "test070(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test070(TimeSeries_ESTest.java:1053)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch3-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 129,
+                    "failings": [
+                        "test085(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected same:<org.jfree.data.time.TimeSeries@1570a540> was not:<org.jfree.data.time.TimeSeries@6dc39e35>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test085(TimeSeries_ESTest.java:1262)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch3-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_PFL_patch1_1-Chart-9-Nopol",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch3-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch3-Chart-9-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 125,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch3-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-9-Nopol",
+                    "failing": 3,
+                    "testrun": 114,
+                    "failings": [
+                        "test034(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test020(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test045(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test034(TimeSeries_ESTest.java:520)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test020(TimeSeries_ESTest.java:300)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test045(TimeSeries_ESTest.java:718)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch3-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-SequenceR",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch3-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_NFL_patch497_311-Chart-9-TBar",
+                    "failing": 0,
+                    "testrun": 121,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch3-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_PFL_patch79_65-Chart-9-Cardumen",
+                    "failing": 0,
+                    "testrun": 119,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 45.56
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch1-Chart-9-Jaid-plausible.patch",
+            "project": "Chart",
+            "bugid": "9",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:54:18.104376",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch1-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Elixir",
+                    "failing": 0,
+                    "testrun": 123,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch1-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 107,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch1-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 111,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch1-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 118,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch1-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 129,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch1-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_PFL_patch1_1-Chart-9-Nopol",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch1-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch3-Chart-9-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 125,
+                    "failings": [
+                        "test002(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0> but was:<1>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test002(TimeSeries_ESTest.java:67)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch1-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-9-Nopol",
+                    "failing": 3,
+                    "testrun": 114,
+                    "failings": [
+                        "test034(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test020(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test045(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test034(TimeSeries_ESTest.java:520)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test020(TimeSeries_ESTest.java:300)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test045(TimeSeries_ESTest.java:718)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch1-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-SequenceR",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch1-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_NFL_patch497_311-Chart-9-TBar",
+                    "failing": 1,
+                    "testrun": 121,
+                    "failings": [
+                        "test003(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0> but was:<2>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test003(TimeSeries_ESTest.java:86)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Chart/patch1-Chart-9-Jaid-plausible.patch",
+                    "test": "test_from_PFL_patch79_65-Chart-9-Cardumen",
+                    "failing": 0,
+                    "testrun": 119,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 46.12
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/TBar/Chart/patch497_311-Chart-9-TBar.patch",
+            "project": "Chart",
+            "bugid": "9",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:55:04.225515",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/TBar/Chart/patch497_311-Chart-9-TBar.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Elixir",
+                    "failing": 0,
+                    "testrun": 123,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/TBar/Chart/patch497_311-Chart-9-TBar.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 107,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/TBar/Chart/patch497_311-Chart-9-TBar.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 111,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/TBar/Chart/patch497_311-Chart-9-TBar.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 118,
+                    "failings": [
+                        "test070(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test070(TimeSeries_ESTest.java:1053)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/TBar/Chart/patch497_311-Chart-9-TBar.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 129,
+                    "failings": [
+                        "test085(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected same:<org.jfree.data.time.TimeSeries@1570a540> was not:<org.jfree.data.time.TimeSeries@6dc39e35>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test085(TimeSeries_ESTest.java:1262)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/TBar/Chart/patch497_311-Chart-9-TBar.patch",
+                    "test": "test_from_PFL_patch1_1-Chart-9-Nopol",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/TBar/Chart/patch497_311-Chart-9-TBar.patch",
+                    "test": "test_from_DRR_patch3-Chart-9-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 125,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/TBar/Chart/patch497_311-Chart-9-TBar.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-9-Nopol",
+                    "failing": 3,
+                    "testrun": 114,
+                    "failings": [
+                        "test034(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test020(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test045(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test034(TimeSeries_ESTest.java:520)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test020(TimeSeries_ESTest.java:300)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test045(TimeSeries_ESTest.java:718)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/TBar/Chart/patch497_311-Chart-9-TBar.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-SequenceR",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/TBar/Chart/patch497_311-Chart-9-TBar.patch",
+                    "test": "test_from_NFL_patch497_311-Chart-9-TBar",
+                    "failing": 0,
+                    "testrun": 121,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/TBar/Chart/patch497_311-Chart-9-TBar.patch",
+                    "test": "test_from_PFL_patch79_65-Chart-9-Cardumen",
+                    "failing": 0,
+                    "testrun": 119,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 45.7
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+            "project": "Chart",
+            "bugid": "9",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:55:49.927567",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Elixir",
+                    "failing": 1,
+                    "testrun": 123,
+                    "failings": [
+                        "test081(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test081(TimeSeries_ESTest.java:1221)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid",
+                    "failing": 1,
+                    "testrun": 107,
+                    "failings": [
+                        "test067(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test067(TimeSeries_ESTest.java:1027)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid",
+                    "failing": 1,
+                    "testrun": 111,
+                    "failings": [
+                        "test069(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test069(TimeSeries_ESTest.java:1051)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid-plausible",
+                    "failing": 2,
+                    "testrun": 118,
+                    "failings": [
+                        "test070(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test075(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test070(TimeSeries_ESTest.java:1053)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test075(TimeSeries_ESTest.java:1126)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid-plausible",
+                    "failing": 2,
+                    "testrun": 129,
+                    "failings": [
+                        "test090(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test085(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.AssertionError: expected same:<org.jfree.data.time.TimeSeries@1570a540> was not:<org.jfree.data.time.TimeSeries@6dc39e35>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test090(TimeSeries_ESTest.java:1344)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test085(TimeSeries_ESTest.java:1262)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_PFL_patch1_1-Chart-9-Nopol",
+                    "failing": 1,
+                    "testrun": 116,
+                    "failings": [
+                        "test082(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test082(TimeSeries_ESTest.java:1290)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_DRR_patch3-Chart-9-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 125,
+                    "failings": [
+                        "test087(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test087(TimeSeries_ESTest.java:1254)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-9-Nopol",
+                    "failing": 0,
+                    "testrun": 114,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-SequenceR",
+                    "failing": 1,
+                    "testrun": 116,
+                    "failings": [
+                        "test080(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test080(TimeSeries_ESTest.java:1188)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_NFL_patch497_311-Chart-9-TBar",
+                    "failing": 1,
+                    "testrun": 121,
+                    "failings": [
+                        "test085(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test085(TimeSeries_ESTest.java:1263)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_PFL_patch79_65-Chart-9-Cardumen",
+                    "failing": 1,
+                    "testrun": 119,
+                    "failings": [
+                        "test080(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test080(TimeSeries_ESTest.java:1192)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 45.75
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Chart/patch79_65-Chart-9-Cardumen.patch",
+            "project": "Chart",
+            "bugid": "9",
+            "dataset": "PFL",
+            "date": "2021-11-22T22:56:35.677881",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Chart/patch79_65-Chart-9-Cardumen.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Elixir",
+                    "failing": 0,
+                    "testrun": 123,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Chart/patch79_65-Chart-9-Cardumen.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 107,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Chart/patch79_65-Chart-9-Cardumen.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 111,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Chart/patch79_65-Chart-9-Cardumen.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 118,
+                    "failings": [
+                        "test070(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test070(TimeSeries_ESTest.java:1053)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Chart/patch79_65-Chart-9-Cardumen.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 129,
+                    "failings": [
+                        "test085(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected same:<org.jfree.data.time.TimeSeries@1570a540> was not:<org.jfree.data.time.TimeSeries@6dc39e35>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test085(TimeSeries_ESTest.java:1262)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Chart/patch79_65-Chart-9-Cardumen.patch",
+                    "test": "test_from_PFL_patch1_1-Chart-9-Nopol",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Chart/patch79_65-Chart-9-Cardumen.patch",
+                    "test": "test_from_DRR_patch3-Chart-9-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 125,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Chart/patch79_65-Chart-9-Cardumen.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-9-Nopol",
+                    "failing": 3,
+                    "testrun": 114,
+                    "failings": [
+                        "test034(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test020(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test045(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test034(TimeSeries_ESTest.java:520)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test020(TimeSeries_ESTest.java:300)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test045(TimeSeries_ESTest.java:718)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Chart/patch79_65-Chart-9-Cardumen.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-SequenceR",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Chart/patch79_65-Chart-9-Cardumen.patch",
+                    "test": "test_from_NFL_patch497_311-Chart-9-TBar",
+                    "failing": 0,
+                    "testrun": 121,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Chart/patch79_65-Chart-9-Cardumen.patch",
+                    "test": "test_from_PFL_patch79_65-Chart-9-Cardumen",
+                    "failing": 0,
+                    "testrun": 119,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 45.82
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+            "project": "Chart",
+            "bugid": "9",
+            "dataset": "PFL",
+            "date": "2021-11-22T22:57:21.503253",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Elixir",
+                    "failing": 0,
+                    "testrun": 123,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 107,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid",
+                    "failing": 0,
+                    "testrun": 111,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 118,
+                    "failings": [
+                        "test070(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test070(TimeSeries_ESTest.java:1053)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_DRR_patch2-Chart-9-Jaid-plausible",
+                    "failing": 3,
+                    "testrun": 129,
+                    "failings": [
+                        "test002(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test006(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test085(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<2> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected same:<org.jfree.data.time.TimeSeries@1570a540> was not:<org.jfree.data.time.TimeSeries@6dc39e35>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test002(TimeSeries_ESTest.java:79)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test006(TimeSeries_ESTest.java:133)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test085(TimeSeries_ESTest.java:1262)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_PFL_patch1_1-Chart-9-Nopol",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_DRR_patch3-Chart-9-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 125,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-9-Nopol",
+                    "failing": 3,
+                    "testrun": 114,
+                    "failings": [
+                        "test034(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test020(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test045(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Requires start <= end."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test034(TimeSeries_ESTest.java:520)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test020(TimeSeries_ESTest.java:300)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test045(TimeSeries_ESTest.java:718)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Chart-9-SequenceR",
+                    "failing": 0,
+                    "testrun": 116,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_NFL_patch497_311-Chart-9-TBar",
+                    "failing": 0,
+                    "testrun": 121,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Chart/patch1_1-Chart-9-Nopol.patch",
+                    "test": "test_from_PFL_patch79_65-Chart-9-Cardumen",
+                    "failing": 0,
+                    "testrun": 119,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 45.78
+        }
+    ],
+    "date": "2021-11-22T22:49:44.106422",
+    "duration": -0.0
+}

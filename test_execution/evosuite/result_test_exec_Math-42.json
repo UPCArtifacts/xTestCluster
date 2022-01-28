@@ -1,0 +1,203 @@
+{
+    "bugid": "Math-42",
+    "results": [
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-42-Nopol.patch",
+            "project": "Math",
+            "bugid": "42",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:17:42.518814",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-42-Nopol.patch",
+                    "test": "test_from_PFL_patch1_1-Math-42-Nopol",
+                    "failing": 0,
+                    "testrun": 72,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-42-Nopol.patch",
+                    "test": "test_from_NFL_patch1_1-Math-42-Nopol",
+                    "failing": 0,
+                    "testrun": 68,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-42-Nopol.patch",
+                    "test": "test_from_NFL_patch3449_1703-Math-42-kPAR",
+                    "failing": 0,
+                    "testrun": 71,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 38.69
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Math/patch3449_1703-Math-42-kPAR.patch",
+            "project": "Math",
+            "bugid": "42",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:18:21.211977",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Math/patch3449_1703-Math-42-kPAR.patch",
+                    "test": "test_from_PFL_patch1_1-Math-42-Nopol",
+                    "failing": 0,
+                    "testrun": 72,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Math/patch3449_1703-Math-42-kPAR.patch",
+                    "test": "test_from_NFL_patch1_1-Math-42-Nopol",
+                    "failing": 1,
+                    "testrun": 68,
+                    "failings": [
+                        "test64(org.apache.commons.math.optimization.linear.SimplexTableau_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<2.0207833909733353E9>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest.test64(SimplexTableau_ESTest.java:1798)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Math/patch3449_1703-Math-42-kPAR.patch",
+                    "test": "test_from_NFL_patch3449_1703-Math-42-kPAR",
+                    "failing": 0,
+                    "testrun": 71,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 39.55
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Math/patch1_1-Math-42-Nopol.patch",
+            "project": "Math",
+            "bugid": "42",
+            "dataset": "PFL",
+            "date": "2021-11-22T19:19:00.759666",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Math/patch1_1-Math-42-Nopol.patch",
+                    "test": "test_from_PFL_patch1_1-Math-42-Nopol",
+                    "failing": 0,
+                    "testrun": 72,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Math/patch1_1-Math-42-Nopol.patch",
+                    "test": "test_from_NFL_patch1_1-Math-42-Nopol",
+                    "failing": 2,
+                    "testrun": 68,
+                    "failings": [
+                        "test64(org.apache.commons.math.optimization.linear.SimplexTableau_ESTest)",
+                        "test57(org.apache.commons.math.optimization.linear.SimplexTableau_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<472.9733352093487>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<21.907261279742507>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest.test64(SimplexTableau_ESTest.java:1798)"
+                        ],
+                        [
+                            "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest.test57(SimplexTableau_ESTest.java:1703)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Math/patch1_1-Math-42-Nopol.patch",
+                    "test": "test_from_NFL_patch3449_1703-Math-42-kPAR",
+                    "failing": 2,
+                    "testrun": 71,
+                    "failings": [
+                        "test68(org.apache.commons.math.optimization.linear.SimplexTableau_ESTest)",
+                        "test60(org.apache.commons.math.optimization.linear.SimplexTableau_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<21.907261279742507>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<-745.263>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest.test68(SimplexTableau_ESTest.java:962)"
+                        ],
+                        [
+                            "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest.test60(SimplexTableau_ESTest.java:861)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 40.05
+        }
+    ],
+    "date": "2021-11-22T19:17:42.518015",
+    "duration": -0.0
+}

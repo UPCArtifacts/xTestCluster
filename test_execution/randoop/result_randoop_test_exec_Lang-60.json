@@ -1,0 +1,699 @@
+{
+    "bugid": "Lang-60",
+    "results": [
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-60-SimFix.patch",
+            "project": "Lang",
+            "bugid": "60",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:55:23.286414",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-60-SimFix.patch",
+                    "test": "test_from_NFL_patch1290_1290-Lang-60-SimFix",
+                    "failing": 0,
+                    "testrun": 2674,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-60-SimFix.patch",
+                    "test": "test_from_NFL_patch3262_1865-Lang-60-TBar",
+                    "failing": 8,
+                    "testrun": 2672,
+                    "failings": [
+                        "test0947(RegressionTest1)",
+                        "test1589(RegressionTest3)",
+                        "test2620(RegressionTest5)",
+                        "test2234(RegressionTest4)",
+                        "test2327(RegressionTest4)",
+                        "test2343(RegressionTest4)",
+                        "test2423(RegressionTest4)",
+                        "test1100(RegressionTest2)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest1.test0947(RegressionTest1.java:19789)"
+                        ],
+                        [
+                            "RegressionTest3.test1589(RegressionTest3.java:4072)"
+                        ],
+                        [
+                            "RegressionTest5.test2620(RegressionTest5.java:5365)"
+                        ],
+                        [
+                            "RegressionTest4.test2234(RegressionTest4.java:10624)"
+                        ],
+                        [
+                            "RegressionTest4.test2327(RegressionTest4.java:15345)"
+                        ],
+                        [
+                            "RegressionTest4.test2343(RegressionTest4.java:15943)"
+                        ],
+                        [
+                            "RegressionTest4.test2423(RegressionTest4.java:19718)"
+                        ],
+                        [
+                            "RegressionTest2.test1100(RegressionTest2.java:4977)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-60-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-60-SimFix",
+                    "failing": 0,
+                    "testrun": 2688,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-60-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-60-Arja-plausible",
+                    "failing": 8,
+                    "testrun": 2699,
+                    "failings": [
+                        "test0937(RegressionTest1)",
+                        "test1574(RegressionTest3)",
+                        "test2587(RegressionTest5)",
+                        "test2207(RegressionTest4)",
+                        "test2299(RegressionTest4)",
+                        "test2315(RegressionTest4)",
+                        "test2394(RegressionTest4)",
+                        "test1089(RegressionTest2)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest1.test0937(RegressionTest1.java:19307)"
+                        ],
+                        [
+                            "RegressionTest3.test1574(RegressionTest3.java:3357)"
+                        ],
+                        [
+                            "RegressionTest5.test2587(RegressionTest5.java:3828)"
+                        ],
+                        [
+                            "RegressionTest4.test2207(RegressionTest4.java:9357)"
+                        ],
+                        [
+                            "RegressionTest4.test2299(RegressionTest4.java:13984)"
+                        ],
+                        [
+                            "RegressionTest4.test2315(RegressionTest4.java:14582)"
+                        ],
+                        [
+                            "RegressionTest4.test2394(RegressionTest4.java:18296)"
+                        ],
+                        [
+                            "RegressionTest2.test1089(RegressionTest2.java:4428)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 37.41
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-60-Arja-plausible.patch",
+            "project": "Lang",
+            "bugid": "60",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:56:00.694189",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-60-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch1290_1290-Lang-60-SimFix",
+                    "failing": 8,
+                    "testrun": 2674,
+                    "failings": [
+                        "test0945(RegressionTest1)",
+                        "test1585(RegressionTest3)",
+                        "test2615(RegressionTest5)",
+                        "test2229(RegressionTest4)",
+                        "test2322(RegressionTest4)",
+                        "test2338(RegressionTest4)",
+                        "test2418(RegressionTest4)",
+                        "test1098(RegressionTest2)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest1.test0945(RegressionTest1.java:19652)"
+                        ],
+                        [
+                            "RegressionTest3.test1585(RegressionTest3.java:3946)"
+                        ],
+                        [
+                            "RegressionTest5.test2615(RegressionTest5.java:5173)"
+                        ],
+                        [
+                            "RegressionTest4.test2229(RegressionTest4.java:10417)"
+                        ],
+                        [
+                            "RegressionTest4.test2322(RegressionTest4.java:15138)"
+                        ],
+                        [
+                            "RegressionTest4.test2338(RegressionTest4.java:15736)"
+                        ],
+                        [
+                            "RegressionTest4.test2418(RegressionTest4.java:19511)"
+                        ],
+                        [
+                            "RegressionTest2.test1098(RegressionTest2.java:4912)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-60-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch3262_1865-Lang-60-TBar",
+                    "failing": 0,
+                    "testrun": 2672,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-60-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-60-SimFix",
+                    "failing": 8,
+                    "testrun": 2688,
+                    "failings": [
+                        "test0941(RegressionTest1)",
+                        "test1578(RegressionTest3)",
+                        "test2602(RegressionTest5)",
+                        "test2218(RegressionTest4)",
+                        "test2310(RegressionTest4)",
+                        "test2326(RegressionTest4)",
+                        "test2406(RegressionTest4)",
+                        "test1093(RegressionTest2)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest1.test0941(RegressionTest1.java:19532)"
+                        ],
+                        [
+                            "RegressionTest3.test1578(RegressionTest3.java:3533)"
+                        ],
+                        [
+                            "RegressionTest5.test2602(RegressionTest5.java:4520)"
+                        ],
+                        [
+                            "RegressionTest4.test2218(RegressionTest4.java:9842)"
+                        ],
+                        [
+                            "RegressionTest4.test2310(RegressionTest4.java:14469)"
+                        ],
+                        [
+                            "RegressionTest4.test2326(RegressionTest4.java:15067)"
+                        ],
+                        [
+                            "RegressionTest4.test2406(RegressionTest4.java:18842)"
+                        ],
+                        [
+                            "RegressionTest2.test1093(RegressionTest2.java:4654)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-60-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-60-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 2699,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 36.88
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1290_1290-Lang-60-SimFix.patch",
+            "project": "Lang",
+            "bugid": "60",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:56:37.572241",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1290_1290-Lang-60-SimFix.patch",
+                    "test": "test_from_NFL_patch1290_1290-Lang-60-SimFix",
+                    "failing": 0,
+                    "testrun": 2674,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1290_1290-Lang-60-SimFix.patch",
+                    "test": "test_from_NFL_patch3262_1865-Lang-60-TBar",
+                    "failing": 8,
+                    "testrun": 2672,
+                    "failings": [
+                        "test0947(RegressionTest1)",
+                        "test1589(RegressionTest3)",
+                        "test2620(RegressionTest5)",
+                        "test2234(RegressionTest4)",
+                        "test2327(RegressionTest4)",
+                        "test2343(RegressionTest4)",
+                        "test2423(RegressionTest4)",
+                        "test1100(RegressionTest2)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest1.test0947(RegressionTest1.java:19789)"
+                        ],
+                        [
+                            "RegressionTest3.test1589(RegressionTest3.java:4072)"
+                        ],
+                        [
+                            "RegressionTest5.test2620(RegressionTest5.java:5365)"
+                        ],
+                        [
+                            "RegressionTest4.test2234(RegressionTest4.java:10624)"
+                        ],
+                        [
+                            "RegressionTest4.test2327(RegressionTest4.java:15345)"
+                        ],
+                        [
+                            "RegressionTest4.test2343(RegressionTest4.java:15943)"
+                        ],
+                        [
+                            "RegressionTest4.test2423(RegressionTest4.java:19718)"
+                        ],
+                        [
+                            "RegressionTest2.test1100(RegressionTest2.java:4977)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1290_1290-Lang-60-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-60-SimFix",
+                    "failing": 0,
+                    "testrun": 2688,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1290_1290-Lang-60-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-60-Arja-plausible",
+                    "failing": 8,
+                    "testrun": 2699,
+                    "failings": [
+                        "test0937(RegressionTest1)",
+                        "test1574(RegressionTest3)",
+                        "test2587(RegressionTest5)",
+                        "test2207(RegressionTest4)",
+                        "test2299(RegressionTest4)",
+                        "test2315(RegressionTest4)",
+                        "test2394(RegressionTest4)",
+                        "test1089(RegressionTest2)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'",
+                        "java.lang.AssertionError: '-1' != '5'"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest1.test0937(RegressionTest1.java:19307)"
+                        ],
+                        [
+                            "RegressionTest3.test1574(RegressionTest3.java:3357)"
+                        ],
+                        [
+                            "RegressionTest5.test2587(RegressionTest5.java:3828)"
+                        ],
+                        [
+                            "RegressionTest4.test2207(RegressionTest4.java:9357)"
+                        ],
+                        [
+                            "RegressionTest4.test2299(RegressionTest4.java:13984)"
+                        ],
+                        [
+                            "RegressionTest4.test2315(RegressionTest4.java:14582)"
+                        ],
+                        [
+                            "RegressionTest4.test2394(RegressionTest4.java:18296)"
+                        ],
+                        [
+                            "RegressionTest2.test1089(RegressionTest2.java:4428)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 36.95
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch3262_1865-Lang-60-TBar.patch",
+            "project": "Lang",
+            "bugid": "60",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:57:14.522593",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch3262_1865-Lang-60-TBar.patch",
+                    "test": "test_from_NFL_patch1290_1290-Lang-60-SimFix",
+                    "failing": 8,
+                    "testrun": 2674,
+                    "failings": [
+                        "test0945(RegressionTest1)",
+                        "test1585(RegressionTest3)",
+                        "test2615(RegressionTest5)",
+                        "test2229(RegressionTest4)",
+                        "test2322(RegressionTest4)",
+                        "test2338(RegressionTest4)",
+                        "test2418(RegressionTest4)",
+                        "test1098(RegressionTest2)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest1.test0945(RegressionTest1.java:19652)"
+                        ],
+                        [
+                            "RegressionTest3.test1585(RegressionTest3.java:3946)"
+                        ],
+                        [
+                            "RegressionTest5.test2615(RegressionTest5.java:5173)"
+                        ],
+                        [
+                            "RegressionTest4.test2229(RegressionTest4.java:10417)"
+                        ],
+                        [
+                            "RegressionTest4.test2322(RegressionTest4.java:15138)"
+                        ],
+                        [
+                            "RegressionTest4.test2338(RegressionTest4.java:15736)"
+                        ],
+                        [
+                            "RegressionTest4.test2418(RegressionTest4.java:19511)"
+                        ],
+                        [
+                            "RegressionTest2.test1098(RegressionTest2.java:4912)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch3262_1865-Lang-60-TBar.patch",
+                    "test": "test_from_NFL_patch3262_1865-Lang-60-TBar",
+                    "failing": 0,
+                    "testrun": 2672,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch3262_1865-Lang-60-TBar.patch",
+                    "test": "test_from_DRR_patch1-Lang-60-SimFix",
+                    "failing": 8,
+                    "testrun": 2688,
+                    "failings": [
+                        "test0941(RegressionTest1)",
+                        "test1578(RegressionTest3)",
+                        "test2602(RegressionTest5)",
+                        "test2218(RegressionTest4)",
+                        "test2310(RegressionTest4)",
+                        "test2326(RegressionTest4)",
+                        "test2406(RegressionTest4)",
+                        "test1093(RegressionTest2)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'",
+                        "java.lang.AssertionError: '5' != '-1'"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest1.test0941(RegressionTest1.java:19532)"
+                        ],
+                        [
+                            "RegressionTest3.test1578(RegressionTest3.java:3533)"
+                        ],
+                        [
+                            "RegressionTest5.test2602(RegressionTest5.java:4520)"
+                        ],
+                        [
+                            "RegressionTest4.test2218(RegressionTest4.java:9842)"
+                        ],
+                        [
+                            "RegressionTest4.test2310(RegressionTest4.java:14469)"
+                        ],
+                        [
+                            "RegressionTest4.test2326(RegressionTest4.java:15067)"
+                        ],
+                        [
+                            "RegressionTest4.test2406(RegressionTest4.java:18842)"
+                        ],
+                        [
+                            "RegressionTest2.test1093(RegressionTest2.java:4654)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch3262_1865-Lang-60-TBar.patch",
+                    "test": "test_from_DRR_patch1-Lang-60-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 2699,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 37.7
+        }
+    ],
+    "date": "2021-11-22T22:55:23.285270",
+    "duration": -0.0
+}

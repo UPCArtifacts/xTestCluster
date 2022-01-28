@@ -1,0 +1,1444 @@
+{
+    "bugid": "Closure-18",
+    "results": [
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Closure/patch1-Closure-18-Jaid.patch",
+            "project": "Closure",
+            "bugid": "18",
+            "dataset": "patchesDRR",
+            "date": "2021-11-23T19:45:41.377973",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Closure/patch1-Closure-18-Jaid.patch",
+                    "test": "test_from_DRR_patch4-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 119,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test059(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "Nov 23, 2021 6:46:57 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:46:58 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:46:58 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:46:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[32]> but was:<2021/11/23 10:[46]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test059(Compiler_ESTest.java:5384)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Closure/patch1-Closure-18-Jaid.patch",
+                    "test": "test_from_DRR_patch1-Closure-18-Jaid",
+                    "failing": 1,
+                    "testrun": 106,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "test090(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:47:01.036 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:47:01.144 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[1]6> but was:<2021/11/23 10:[4]6>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test090(Compiler_ESTest.java:1234)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Closure/patch1-Closure-18-Jaid.patch",
+                    "test": "test_from_DRR_patch1-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 100,
+                    "failings": [
+                        "Error",
+                        "test84(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:47:04.487 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[20]> but was:<2021/11/23 10:[46]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test84(Compiler_ESTest.java:1135)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Closure/patch1-Closure-18-Jaid.patch",
+                    "test": "test_from_DRR_patch5-Closure-18-SequenceR",
+                    "failing": 0,
+                    "testrun": 108,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Closure/patch1-Closure-18-Jaid.patch",
+                    "test": "test_from_PFL_patch1-Closure-18-AVATAR",
+                    "failing": 0,
+                    "testrun": 105,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:47:10.326 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.Compiler$5",
+                        "Nov 23, 2021 6:47:10 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "19:47:10.543 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:47:10.633 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:47:10.657 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:47:10.668 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "Nov 23, 2021 6:47:10 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "19:47:10.964 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Closure/patch1-Closure-18-Jaid.patch",
+                    "test": "test_from_PFL_patch39_35-Closure-18-TBar",
+                    "failing": 1,
+                    "testrun": 118,
+                    "failings": [
+                        "test099(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:4[2]> but was:<2021/11/23 10:4[6]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test099(Compiler_ESTest.java:1327)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Closure/patch1-Closure-18-Jaid.patch",
+                    "test": "test_from_DRR_patch3-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 104,
+                    "failings": [
+                        "test087(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[28]> but was:<2021/11/23 10:[46]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test087(Compiler_ESTest.java:1138)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 96.1
+        },
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+            "project": "Closure",
+            "bugid": "18",
+            "dataset": "patchesDRR",
+            "date": "2021-11-23T19:47:17.479086",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch4-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 119,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test059(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "Nov 23, 2021 6:48:33 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:48:34 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:48:34 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:48:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[32]> but was:<2021/11/23 10:[48]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test059(Compiler_ESTest.java:5384)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch1-Closure-18-Jaid",
+                    "failing": 1,
+                    "testrun": 106,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "test090(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:48:37.293 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:48:37.400 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[16]> but was:<2021/11/23 10:[48]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test090(Compiler_ESTest.java:1234)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch1-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 100,
+                    "failings": [
+                        "Error",
+                        "test84(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:48:40.689 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[20]> but was:<2021/11/23 10:[48]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test84(Compiler_ESTest.java:1135)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch5-Closure-18-SequenceR",
+                    "failing": 0,
+                    "testrun": 108,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_PFL_patch1-Closure-18-AVATAR",
+                    "failing": 0,
+                    "testrun": 105,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:48:46.397 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.Compiler$5",
+                        "Nov 23, 2021 6:48:46 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "19:48:46.603 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:48:46.688 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:48:46.711 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:48:46.720 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "Nov 23, 2021 6:48:46 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "19:48:46.987 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_PFL_patch39_35-Closure-18-TBar",
+                    "failing": 1,
+                    "testrun": 118,
+                    "failings": [
+                        "test099(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:4[2]> but was:<2021/11/23 10:4[8]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test099(Compiler_ESTest.java:1327)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch3-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 104,
+                    "failings": [
+                        "test087(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[2]8> but was:<2021/11/23 10:[4]8>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test087(Compiler_ESTest.java:1138)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 95.99
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch5-Closure-18-SequenceR.patch",
+            "project": "Closure",
+            "bugid": "18",
+            "dataset": "patchesDRR",
+            "date": "2021-11-23T19:48:53.467873",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch5-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch4-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 119,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test059(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "Nov 23, 2021 6:50:09 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:50:10 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:50:10 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:50:10 PM com.google.javascript.jscomp.parsing.ParserRunner parse",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[32]> but was:<2021/11/23 10:[50]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test059(Compiler_ESTest.java:5384)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch5-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch1-Closure-18-Jaid",
+                    "failing": 1,
+                    "testrun": 106,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "test090(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:50:13.545 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:50:13.662 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[16]> but was:<2021/11/23 10:[50]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test090(Compiler_ESTest.java:1234)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch5-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch1-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 100,
+                    "failings": [
+                        "Error",
+                        "test84(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:50:16.952 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[2]0> but was:<2021/11/23 10:[5]0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test84(Compiler_ESTest.java:1135)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch5-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch5-Closure-18-SequenceR",
+                    "failing": 0,
+                    "testrun": 108,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch5-Closure-18-SequenceR.patch",
+                    "test": "test_from_PFL_patch1-Closure-18-AVATAR",
+                    "failing": 0,
+                    "testrun": 105,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:50:22.819 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.Compiler$5",
+                        "Nov 23, 2021 6:50:22 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "19:50:23.024 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:50:23.107 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:50:23.130 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:50:23.140 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "Nov 23, 2021 6:50:23 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "19:50:23.416 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch5-Closure-18-SequenceR.patch",
+                    "test": "test_from_PFL_patch39_35-Closure-18-TBar",
+                    "failing": 1,
+                    "testrun": 118,
+                    "failings": [
+                        "test099(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[42]> but was:<2021/11/23 10:[50]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test099(Compiler_ESTest.java:1327)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch5-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch3-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 104,
+                    "failings": [
+                        "test087(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[28]> but was:<2021/11/23 10:[50]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test087(Compiler_ESTest.java:1138)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 96.51
+        },
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+            "project": "Closure",
+            "bugid": "18",
+            "dataset": "patchesDRR",
+            "date": "2021-11-23T19:47:17.479086",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch4-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 119,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test059(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "Nov 23, 2021 6:48:33 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:48:34 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:48:34 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:48:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[32]> but was:<2021/11/23 10:[48]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test059(Compiler_ESTest.java:5384)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch1-Closure-18-Jaid",
+                    "failing": 1,
+                    "testrun": 106,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "test090(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:48:37.293 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:48:37.400 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[16]> but was:<2021/11/23 10:[48]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test090(Compiler_ESTest.java:1234)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch1-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 100,
+                    "failings": [
+                        "Error",
+                        "test84(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:48:40.689 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[20]> but was:<2021/11/23 10:[48]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test84(Compiler_ESTest.java:1135)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch5-Closure-18-SequenceR",
+                    "failing": 0,
+                    "testrun": 108,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_PFL_patch1-Closure-18-AVATAR",
+                    "failing": 0,
+                    "testrun": 105,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:48:46.397 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.Compiler$5",
+                        "Nov 23, 2021 6:48:46 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "19:48:46.603 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:48:46.688 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:48:46.711 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:48:46.720 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "Nov 23, 2021 6:48:46 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "19:48:46.987 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_PFL_patch39_35-Closure-18-TBar",
+                    "failing": 1,
+                    "testrun": 118,
+                    "failings": [
+                        "test099(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:4[2]> but was:<2021/11/23 10:4[8]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test099(Compiler_ESTest.java:1327)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch3-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 104,
+                    "failings": [
+                        "test087(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[2]8> but was:<2021/11/23 10:[4]8>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test087(Compiler_ESTest.java:1138)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 95.99,
+            "comment": "already_analyzed"
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch3-Closure-18-SequenceR.patch",
+            "project": "Closure",
+            "bugid": "18",
+            "dataset": "patchesDRR",
+            "date": "2021-11-23T19:50:29.976417",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch3-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch4-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 119,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test059(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "Nov 23, 2021 6:51:45 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:51:46 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:51:46 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:51:46 PM com.google.javascript.jscomp.parsing.ParserRunner parse",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[32]> but was:<2021/11/23 10:[51]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test059(Compiler_ESTest.java:5384)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch3-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch1-Closure-18-Jaid",
+                    "failing": 1,
+                    "testrun": 106,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "test090(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:51:49.504 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:51:49.609 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[16]> but was:<2021/11/23 10:[51]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test090(Compiler_ESTest.java:1234)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch3-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch1-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 100,
+                    "failings": [
+                        "Error",
+                        "test84(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:51:52.922 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[20]> but was:<2021/11/23 10:[51]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test84(Compiler_ESTest.java:1135)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch3-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch5-Closure-18-SequenceR",
+                    "failing": 0,
+                    "testrun": 108,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch3-Closure-18-SequenceR.patch",
+                    "test": "test_from_PFL_patch1-Closure-18-AVATAR",
+                    "failing": 0,
+                    "testrun": 105,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:51:58.640 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.Compiler$5",
+                        "Nov 23, 2021 6:51:58 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "19:51:58.853 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:51:58.943 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:51:58.967 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:51:58.978 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "Nov 23, 2021 6:51:59 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "19:51:59.259 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch3-Closure-18-SequenceR.patch",
+                    "test": "test_from_PFL_patch39_35-Closure-18-TBar",
+                    "failing": 1,
+                    "testrun": 118,
+                    "failings": [
+                        "test099(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[42]> but was:<2021/11/23 10:[51]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test099(Compiler_ESTest.java:1327)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch3-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch3-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 104,
+                    "failings": [
+                        "test087(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[28]> but was:<2021/11/23 10:[51]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test087(Compiler_ESTest.java:1138)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 95.81
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch4-Closure-18-SequenceR.patch",
+            "project": "Closure",
+            "bugid": "18",
+            "dataset": "patchesDRR",
+            "date": "2021-11-23T19:52:05.787369",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch4-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch4-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 119,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test059(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "Nov 23, 2021 6:53:23 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:53:24 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:53:24 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:53:24 PM com.google.javascript.jscomp.parsing.ParserRunner parse",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[32]> but was:<2021/11/23 10:[53]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test059(Compiler_ESTest.java:5384)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch4-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch1-Closure-18-Jaid",
+                    "failing": 1,
+                    "testrun": 106,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "test090(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:53:26.966 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:53:27.075 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[16]> but was:<2021/11/23 10:[53]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test090(Compiler_ESTest.java:1234)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch4-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch1-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 100,
+                    "failings": [
+                        "Error",
+                        "test84(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:53:30.416 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[20]> but was:<2021/11/23 10:[53]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test84(Compiler_ESTest.java:1135)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch4-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch5-Closure-18-SequenceR",
+                    "failing": 0,
+                    "testrun": 108,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch4-Closure-18-SequenceR.patch",
+                    "test": "test_from_PFL_patch1-Closure-18-AVATAR",
+                    "failing": 0,
+                    "testrun": 105,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:53:36.173 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.Compiler$5",
+                        "Nov 23, 2021 6:53:36 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "19:53:36.384 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:53:36.470 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:53:36.494 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:53:36.504 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "Nov 23, 2021 6:53:36 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "19:53:36.785 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch4-Closure-18-SequenceR.patch",
+                    "test": "test_from_PFL_patch39_35-Closure-18-TBar",
+                    "failing": 1,
+                    "testrun": 118,
+                    "failings": [
+                        "test099(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[42]> but was:<2021/11/23 10:[53]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test099(Compiler_ESTest.java:1327)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/SequenceR/Closure/patch4-Closure-18-SequenceR.patch",
+                    "test": "test_from_DRR_patch3-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 104,
+                    "failings": [
+                        "test087(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[28]> but was:<2021/11/23 10:[53]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test087(Compiler_ESTest.java:1138)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 97.52
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/AVATAR/Closure/patch1-Closure-18-AVATAR.patch",
+            "project": "Closure",
+            "bugid": "18",
+            "dataset": "PFL",
+            "date": "2021-11-23T19:53:43.305795",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/AVATAR/Closure/patch1-Closure-18-AVATAR.patch",
+                    "test": "test_from_DRR_patch4-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 119,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test059(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "Nov 23, 2021 6:55:00 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:55:01 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:55:01 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:55:01 PM com.google.javascript.jscomp.parsing.ParserRunner parse",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[32]> but was:<2021/11/23 10:[54]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test059(Compiler_ESTest.java:5384)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/AVATAR/Closure/patch1-Closure-18-AVATAR.patch",
+                    "test": "test_from_DRR_patch1-Closure-18-Jaid",
+                    "failing": 1,
+                    "testrun": 106,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "test090(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:55:04.402 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:55:04.532 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[16]> but was:<2021/11/23 10:[54]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test090(Compiler_ESTest.java:1234)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/AVATAR/Closure/patch1-Closure-18-AVATAR.patch",
+                    "test": "test_from_DRR_patch1-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 100,
+                    "failings": [
+                        "Error",
+                        "test84(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:55:07.780 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[20]> but was:<2021/11/23 10:[54]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test84(Compiler_ESTest.java:1135)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/AVATAR/Closure/patch1-Closure-18-AVATAR.patch",
+                    "test": "test_from_DRR_patch5-Closure-18-SequenceR",
+                    "failing": 0,
+                    "testrun": 108,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/AVATAR/Closure/patch1-Closure-18-AVATAR.patch",
+                    "test": "test_from_PFL_patch1-Closure-18-AVATAR",
+                    "failing": 0,
+                    "testrun": 105,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:55:13.543 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.Compiler$5",
+                        "Nov 23, 2021 6:55:13 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "19:55:13.774 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:55:13.859 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:55:13.882 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:55:13.891 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "Nov 23, 2021 6:55:13 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "19:55:14.153 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/AVATAR/Closure/patch1-Closure-18-AVATAR.patch",
+                    "test": "test_from_PFL_patch39_35-Closure-18-TBar",
+                    "failing": 1,
+                    "testrun": 118,
+                    "failings": [
+                        "test099(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[42]> but was:<2021/11/23 10:[54]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test099(Compiler_ESTest.java:1327)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/AVATAR/Closure/patch1-Closure-18-AVATAR.patch",
+                    "test": "test_from_DRR_patch3-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 104,
+                    "failings": [
+                        "test087(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[28]> but was:<2021/11/23 10:[54]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test087(Compiler_ESTest.java:1138)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 97.4
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Kali-A/Closure/patch1_1-Closure-18-Kali-A.patch",
+            "project": "Closure",
+            "bugid": "18",
+            "dataset": "PFL",
+            "date": "2021-11-23T19:55:20.711480",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch39_35-Closure-18-TBar.patch",
+            "project": "Closure",
+            "bugid": "18",
+            "dataset": "PFL",
+            "date": "2021-11-23T19:56:31.126304",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch39_35-Closure-18-TBar.patch",
+                    "test": "test_from_DRR_patch4-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 119,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test059(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "Nov 23, 2021 6:57:48 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:57:49 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:57:49 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "Nov 23, 2021 6:57:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[32]> but was:<2021/11/23 10:[57]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test059(Compiler_ESTest.java:5384)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch39_35-Closure-18-TBar.patch",
+                    "test": "test_from_DRR_patch1-Closure-18-Jaid",
+                    "failing": 1,
+                    "testrun": 106,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "test090(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:57:52.597 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:57:52.728 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[16]> but was:<2021/11/23 10:[57]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test090(Compiler_ESTest.java:1234)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch39_35-Closure-18-TBar.patch",
+                    "test": "test_from_DRR_patch1-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 100,
+                    "failings": [
+                        "Error",
+                        "test84(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:57:56.067 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[20]> but was:<2021/11/23 10:[57]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test84(Compiler_ESTest.java:1135)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch39_35-Closure-18-TBar.patch",
+                    "test": "test_from_DRR_patch5-Closure-18-SequenceR",
+                    "failing": 0,
+                    "testrun": 108,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch39_35-Closure-18-TBar.patch",
+                    "test": "test_from_PFL_patch1-Closure-18-AVATAR",
+                    "failing": 0,
+                    "testrun": 105,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:58:02.499 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.Compiler$5",
+                        "Nov 23, 2021 6:58:02 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "19:58:02.766 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:58:02.856 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:58:02.880 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:58:02.890 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "Nov 23, 2021 6:58:02 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "19:58:03.192 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch39_35-Closure-18-TBar.patch",
+                    "test": "test_from_PFL_patch39_35-Closure-18-TBar",
+                    "failing": 1,
+                    "testrun": 118,
+                    "failings": [
+                        "test099(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[42]> but was:<2021/11/23 10:[57]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test099(Compiler_ESTest.java:1327)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch39_35-Closure-18-TBar.patch",
+                    "test": "test_from_DRR_patch3-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 104,
+                    "failings": [
+                        "test087(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<2021/11/23 10:[28]> but was:<2021/11/23 10:[57]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test087(Compiler_ESTest.java:1138)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 98.62
+        }
+    ],
+    "date": "2021-11-23T19:45:41.376842",
+    "duration": -0.0
+}

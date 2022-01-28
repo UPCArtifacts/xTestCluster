@@ -1,0 +1,75 @@
+{
+    "bugid": "Closure-45",
+    "results": [
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch56_31-Closure-45-ARJA.patch",
+            "project": "Closure",
+            "bugid": "45",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:22:04.956553",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch1_1-Closure-45-Kali-A.patch",
+            "project": "Closure",
+            "bugid": "45",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:23:30.703293",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jKali/Closure/patch5_5-Closure-45-jKali.patch",
+            "project": "Closure",
+            "bugid": "45",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:24:56.003483",
+            "project_checked": "ok",
+            "compiledProjectModified": "no",
+            "patchApplied": "no",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch281_95-Closure-45-AVATAR.patch",
+            "project": "Closure",
+            "bugid": "45",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:25:02.836009",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch281_95-Closure-45-AVATAR.patch",
+                    "test": "test_from_NFL_patch281_95-Closure-45-AVATAR",
+                    "failing": 0,
+                    "testrun": 10,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.RemoveUnusedVars_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:26:32.608 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.mozilla.rhino.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 89.87
+        }
+    ],
+    "date": "2021-11-23T19:22:04.955756",
+    "duration": -0.0
+}

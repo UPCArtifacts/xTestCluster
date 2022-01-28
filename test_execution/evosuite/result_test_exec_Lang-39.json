@@ -1,0 +1,1540 @@
+{
+    "bugid": "Lang-39",
+    "results": [
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-39-SimFix.patch",
+            "project": "Lang",
+            "bugid": "39",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T23:08:06.382442",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-39-SimFix.patch",
+                    "test": "test_from_PFL_patch7_4-Lang-39-TBar",
+                    "failing": 0,
+                    "testrun": 522,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-39-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Nopol2015-plausible",
+                    "failing": 0,
+                    "testrun": 537,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-39-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-ACS-plausible",
+                    "failing": 2,
+                    "testrun": 531,
+                    "failings": [
+                        "test108(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test300(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: TimeToLive of -1 is less than 0: Fl$A[eP3f<lM<?m"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test108(StringUtils_ESTest.java:866)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test300(StringUtils_ESTest.java:2369)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-39-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Elixir-plausible",
+                    "failing": 0,
+                    "testrun": 535,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-39-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 533,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-39-SimFix.patch",
+                    "test": "test_from_NFL_patch525_180-Lang-39-AVATAR",
+                    "failing": 2,
+                    "testrun": 546,
+                    "failings": [
+                        "test120(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test315(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: TimeToLive of -1 is less than 0: a1F=a[9doL/mDT"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test120(StringUtils_ESTest.java:658)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test315(StringUtils_ESTest.java:1795)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-39-SimFix.patch",
+                    "test": "test_from_NFL_patch1350_1039-Lang-39-TBar",
+                    "failing": 0,
+                    "testrun": 519,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-39-SimFix.patch",
+                    "test": "test_from_NFL_patch2275_2275-Lang-39-SimFix",
+                    "failing": 0,
+                    "testrun": 518,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 29.89
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-39-Arja-plausible.patch",
+            "project": "Lang",
+            "bugid": "39",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T23:08:36.268185",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-39-Arja-plausible.patch",
+                    "test": "test_from_PFL_patch7_4-Lang-39-TBar",
+                    "failing": 0,
+                    "testrun": 522,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-39-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Nopol2015-plausible",
+                    "failing": 0,
+                    "testrun": 537,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-39-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-ACS-plausible",
+                    "failing": 2,
+                    "testrun": 531,
+                    "failings": [
+                        "test108(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test300(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: TimeToLive of -1 is less than 0: Fl$A[eP3f<lM<?m"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test108(StringUtils_ESTest.java:866)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test300(StringUtils_ESTest.java:2369)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-39-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Elixir-plausible",
+                    "failing": 0,
+                    "testrun": 535,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-39-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 533,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-39-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch525_180-Lang-39-AVATAR",
+                    "failing": 2,
+                    "testrun": 546,
+                    "failings": [
+                        "test120(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test315(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: TimeToLive of -1 is less than 0: a1F=a[9doL/mDT"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test120(StringUtils_ESTest.java:658)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test315(StringUtils_ESTest.java:1795)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-39-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch1350_1039-Lang-39-TBar",
+                    "failing": 0,
+                    "testrun": 519,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-39-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch2275_2275-Lang-39-SimFix",
+                    "failing": 0,
+                    "testrun": 518,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 30.82
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-39-Elixir-plausible.patch",
+            "project": "Lang",
+            "bugid": "39",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T23:09:07.087170",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-39-Elixir-plausible.patch",
+                    "test": "test_from_PFL_patch7_4-Lang-39-TBar",
+                    "failing": 0,
+                    "testrun": 522,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-39-Elixir-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Nopol2015-plausible",
+                    "failing": 0,
+                    "testrun": 537,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-39-Elixir-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-ACS-plausible",
+                    "failing": 2,
+                    "testrun": 531,
+                    "failings": [
+                        "test108(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test300(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: TimeToLive of -1 is less than 0: Fl$A[eP3f<lM<?m"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test108(StringUtils_ESTest.java:866)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test300(StringUtils_ESTest.java:2369)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-39-Elixir-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Elixir-plausible",
+                    "failing": 0,
+                    "testrun": 535,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-39-Elixir-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 533,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-39-Elixir-plausible.patch",
+                    "test": "test_from_NFL_patch525_180-Lang-39-AVATAR",
+                    "failing": 2,
+                    "testrun": 546,
+                    "failings": [
+                        "test120(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test315(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: TimeToLive of -1 is less than 0: a1F=a[9doL/mDT"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test120(StringUtils_ESTest.java:658)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test315(StringUtils_ESTest.java:1795)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-39-Elixir-plausible.patch",
+                    "test": "test_from_NFL_patch1350_1039-Lang-39-TBar",
+                    "failing": 0,
+                    "testrun": 519,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-39-Elixir-plausible.patch",
+                    "test": "test_from_NFL_patch2275_2275-Lang-39-SimFix",
+                    "failing": 0,
+                    "testrun": 518,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 30.56
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Nopol2015/Lang/patch1-Lang-39-Nopol2015-plausible.patch",
+            "project": "Lang",
+            "bugid": "39",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T23:09:37.652391",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Nopol2015/Lang/patch1-Lang-39-Nopol2015-plausible.patch",
+                    "test": "test_from_PFL_patch7_4-Lang-39-TBar",
+                    "failing": 2,
+                    "testrun": 522,
+                    "failings": [
+                        "test282(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test283(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test282(StringUtils_ESTest.java:2308)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test283(StringUtils_ESTest.java:2326)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Nopol2015/Lang/patch1-Lang-39-Nopol2015-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Nopol2015-plausible",
+                    "failing": 0,
+                    "testrun": 537,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Nopol2015/Lang/patch1-Lang-39-Nopol2015-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-ACS-plausible",
+                    "failing": 2,
+                    "testrun": 531,
+                    "failings": [
+                        "test108(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test300(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test108(StringUtils_ESTest.java:866)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test300(StringUtils_ESTest.java:2369)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Nopol2015/Lang/patch1-Lang-39-Nopol2015-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Elixir-plausible",
+                    "failing": 3,
+                    "testrun": 535,
+                    "failings": [
+                        "test305(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test306(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test307(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test305(StringUtils_ESTest.java:1777)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test306(StringUtils_ESTest.java:1795)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test307(StringUtils_ESTest.java:1813)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Nopol2015/Lang/patch1-Lang-39-Nopol2015-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Arja-plausible",
+                    "failing": 3,
+                    "testrun": 533,
+                    "failings": [
+                        "test295(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test296(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test297(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test295(StringUtils_ESTest.java:1762)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test296(StringUtils_ESTest.java:1780)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test297(StringUtils_ESTest.java:1798)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Nopol2015/Lang/patch1-Lang-39-Nopol2015-plausible.patch",
+                    "test": "test_from_NFL_patch525_180-Lang-39-AVATAR",
+                    "failing": 1,
+                    "testrun": 546,
+                    "failings": [
+                        "test120(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test120(StringUtils_ESTest.java:658)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Nopol2015/Lang/patch1-Lang-39-Nopol2015-plausible.patch",
+                    "test": "test_from_NFL_patch1350_1039-Lang-39-TBar",
+                    "failing": 3,
+                    "testrun": 519,
+                    "failings": [
+                        "test296(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test297(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test298(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test296(StringUtils_ESTest.java:2361)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test297(StringUtils_ESTest.java:2379)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test298(StringUtils_ESTest.java:2397)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Nopol2015/Lang/patch1-Lang-39-Nopol2015-plausible.patch",
+                    "test": "test_from_NFL_patch2275_2275-Lang-39-SimFix",
+                    "failing": 0,
+                    "testrun": 518,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 30.86
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/ACS/Lang/patch1-Lang-39-ACS-plausible.patch",
+            "project": "Lang",
+            "bugid": "39",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T23:10:08.517290",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/ACS/Lang/patch1-Lang-39-ACS-plausible.patch",
+                    "test": "test_from_PFL_patch7_4-Lang-39-TBar",
+                    "failing": 3,
+                    "testrun": 522,
+                    "failings": [
+                        "test285(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test282(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test283(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<[p{InCombiningDiacriticalMarks}+]> but was:<[cbc]>",
+                        "java.lang.AssertionError: Expecting exception: IllegalStateException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test285(StringUtils_ESTest.java:2367)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test282(StringUtils_ESTest.java:2309)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test283(StringUtils_ESTest.java:2326)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/ACS/Lang/patch1-Lang-39-ACS-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Nopol2015-plausible",
+                    "failing": 1,
+                    "testrun": 537,
+                    "failings": [
+                        "test310(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test310(StringUtils_ESTest.java:1810)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/ACS/Lang/patch1-Lang-39-ACS-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-ACS-plausible",
+                    "failing": 0,
+                    "testrun": 531,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/ACS/Lang/patch1-Lang-39-ACS-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Elixir-plausible",
+                    "failing": 4,
+                    "testrun": 535,
+                    "failings": [
+                        "test305(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test306(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test307(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test308(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: IllegalStateException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test305(StringUtils_ESTest.java:1777)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test306(StringUtils_ESTest.java:1795)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test307(StringUtils_ESTest.java:1814)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test308(StringUtils_ESTest.java:1829)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/ACS/Lang/patch1-Lang-39-ACS-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Arja-plausible",
+                    "failing": 3,
+                    "testrun": 533,
+                    "failings": [
+                        "test295(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test296(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test297(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: IllegalStateException",
+                        "java.lang.AssertionError: Expecting exception: IllegalStateException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test295(StringUtils_ESTest.java:1762)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test296(StringUtils_ESTest.java:1781)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test297(StringUtils_ESTest.java:1799)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/ACS/Lang/patch1-Lang-39-ACS-plausible.patch",
+                    "test": "test_from_NFL_patch525_180-Lang-39-AVATAR",
+                    "failing": 0,
+                    "testrun": 546,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/ACS/Lang/patch1-Lang-39-ACS-plausible.patch",
+                    "test": "test_from_NFL_patch1350_1039-Lang-39-TBar",
+                    "failing": 3,
+                    "testrun": 519,
+                    "failings": [
+                        "test296(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test297(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test298(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: IllegalStateException",
+                        "java.lang.NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: IllegalStateException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test296(StringUtils_ESTest.java:2362)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test297(StringUtils_ESTest.java:2379)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test298(StringUtils_ESTest.java:2398)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/ACS/Lang/patch1-Lang-39-ACS-plausible.patch",
+                    "test": "test_from_NFL_patch2275_2275-Lang-39-SimFix",
+                    "failing": 1,
+                    "testrun": 518,
+                    "failings": [
+                        "test297(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test297(StringUtils_ESTest.java:2263)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 30.66
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch2275_2275-Lang-39-SimFix.patch",
+            "project": "Lang",
+            "bugid": "39",
+            "dataset": "NFL",
+            "date": "2021-11-22T23:10:39.173795",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch2275_2275-Lang-39-SimFix.patch",
+                    "test": "test_from_PFL_patch7_4-Lang-39-TBar",
+                    "failing": 0,
+                    "testrun": 522,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch2275_2275-Lang-39-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Nopol2015-plausible",
+                    "failing": 0,
+                    "testrun": 537,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch2275_2275-Lang-39-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-ACS-plausible",
+                    "failing": 2,
+                    "testrun": 531,
+                    "failings": [
+                        "test108(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test300(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: TimeToLive of -1 is less than 0: Fl$A[eP3f<lM<?m"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test108(StringUtils_ESTest.java:866)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test300(StringUtils_ESTest.java:2369)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch2275_2275-Lang-39-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Elixir-plausible",
+                    "failing": 0,
+                    "testrun": 535,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch2275_2275-Lang-39-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 533,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch2275_2275-Lang-39-SimFix.patch",
+                    "test": "test_from_NFL_patch525_180-Lang-39-AVATAR",
+                    "failing": 2,
+                    "testrun": 546,
+                    "failings": [
+                        "test120(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test315(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: TimeToLive of -1 is less than 0: a1F=a[9doL/mDT"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test120(StringUtils_ESTest.java:658)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test315(StringUtils_ESTest.java:1795)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch2275_2275-Lang-39-SimFix.patch",
+                    "test": "test_from_NFL_patch1350_1039-Lang-39-TBar",
+                    "failing": 0,
+                    "testrun": 519,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch2275_2275-Lang-39-SimFix.patch",
+                    "test": "test_from_NFL_patch2275_2275-Lang-39-SimFix",
+                    "failing": 0,
+                    "testrun": 518,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 30.92
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Lang/patch2239_1901-Lang-39-jGenProg.patch",
+            "project": "Lang",
+            "bugid": "39",
+            "dataset": "NFL",
+            "date": "2021-11-22T23:11:10.098423",
+            "project_checked": "ok",
+            "compiledProjectModified": "no",
+            "patchApplied": "no",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch525_180-Lang-39-AVATAR.patch",
+            "project": "Lang",
+            "bugid": "39",
+            "dataset": "NFL",
+            "date": "2021-11-22T23:11:16.225524",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch525_180-Lang-39-AVATAR.patch",
+                    "test": "test_from_PFL_patch7_4-Lang-39-TBar",
+                    "failing": 3,
+                    "testrun": 522,
+                    "failings": [
+                        "test285(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test282(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test283(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test285(StringUtils_ESTest.java:2365)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test282(StringUtils_ESTest.java:2308)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test283(StringUtils_ESTest.java:2326)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch525_180-Lang-39-AVATAR.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Nopol2015-plausible",
+                    "failing": 1,
+                    "testrun": 537,
+                    "failings": [
+                        "test310(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test310(StringUtils_ESTest.java:1810)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch525_180-Lang-39-AVATAR.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-ACS-plausible",
+                    "failing": 1,
+                    "testrun": 531,
+                    "failings": [
+                        "test300(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test300(StringUtils_ESTest.java:2369)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch525_180-Lang-39-AVATAR.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Elixir-plausible",
+                    "failing": 4,
+                    "testrun": 535,
+                    "failings": [
+                        "test305(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test306(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test307(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test308(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test305(StringUtils_ESTest.java:1777)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test306(StringUtils_ESTest.java:1795)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test307(StringUtils_ESTest.java:1813)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test308(StringUtils_ESTest.java:1829)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch525_180-Lang-39-AVATAR.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Arja-plausible",
+                    "failing": 3,
+                    "testrun": 533,
+                    "failings": [
+                        "test295(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test296(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test297(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test295(StringUtils_ESTest.java:1762)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test296(StringUtils_ESTest.java:1780)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test297(StringUtils_ESTest.java:1798)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch525_180-Lang-39-AVATAR.patch",
+                    "test": "test_from_NFL_patch525_180-Lang-39-AVATAR",
+                    "failing": 0,
+                    "testrun": 546,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch525_180-Lang-39-AVATAR.patch",
+                    "test": "test_from_NFL_patch1350_1039-Lang-39-TBar",
+                    "failing": 3,
+                    "testrun": 519,
+                    "failings": [
+                        "test296(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test297(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test298(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test296(StringUtils_ESTest.java:2361)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test297(StringUtils_ESTest.java:2379)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test298(StringUtils_ESTest.java:2397)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch525_180-Lang-39-AVATAR.patch",
+                    "test": "test_from_NFL_patch2275_2275-Lang-39-SimFix",
+                    "failing": 1,
+                    "testrun": 518,
+                    "failings": [
+                        "test297(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test297(StringUtils_ESTest.java:2263)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 30.62
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1350_1039-Lang-39-TBar.patch",
+            "project": "Lang",
+            "bugid": "39",
+            "dataset": "NFL",
+            "date": "2021-11-22T23:11:46.847879",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1350_1039-Lang-39-TBar.patch",
+                    "test": "test_from_PFL_patch7_4-Lang-39-TBar",
+                    "failing": 0,
+                    "testrun": 522,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1350_1039-Lang-39-TBar.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Nopol2015-plausible",
+                    "failing": 0,
+                    "testrun": 537,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1350_1039-Lang-39-TBar.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-ACS-plausible",
+                    "failing": 2,
+                    "testrun": 531,
+                    "failings": [
+                        "test108(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test300(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: TimeToLive of -1 is less than 0: Fl$A[eP3f<lM<?m"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test108(StringUtils_ESTest.java:866)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test300(StringUtils_ESTest.java:2369)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1350_1039-Lang-39-TBar.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Elixir-plausible",
+                    "failing": 0,
+                    "testrun": 535,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1350_1039-Lang-39-TBar.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 533,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1350_1039-Lang-39-TBar.patch",
+                    "test": "test_from_NFL_patch525_180-Lang-39-AVATAR",
+                    "failing": 2,
+                    "testrun": 546,
+                    "failings": [
+                        "test120(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test315(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: TimeToLive of -1 is less than 0: a1F=a[9doL/mDT"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test120(StringUtils_ESTest.java:658)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test315(StringUtils_ESTest.java:1795)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1350_1039-Lang-39-TBar.patch",
+                    "test": "test_from_NFL_patch1350_1039-Lang-39-TBar",
+                    "failing": 0,
+                    "testrun": 519,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1350_1039-Lang-39-TBar.patch",
+                    "test": "test_from_NFL_patch2275_2275-Lang-39-SimFix",
+                    "failing": 0,
+                    "testrun": 518,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 33.32
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/TBar/Lang/patch7_4-Lang-39-TBar.patch",
+            "project": "Lang",
+            "bugid": "39",
+            "dataset": "PFL",
+            "date": "2021-11-22T23:12:20.171779",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/TBar/Lang/patch7_4-Lang-39-TBar.patch",
+                    "test": "test_from_PFL_patch7_4-Lang-39-TBar",
+                    "failing": 0,
+                    "testrun": 522,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/TBar/Lang/patch7_4-Lang-39-TBar.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Nopol2015-plausible",
+                    "failing": 0,
+                    "testrun": 537,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/TBar/Lang/patch7_4-Lang-39-TBar.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-ACS-plausible",
+                    "failing": 2,
+                    "testrun": 531,
+                    "failings": [
+                        "test108(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test300(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: TimeToLive of -1 is less than 0: Fl$A[eP3f<lM<?m"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test108(StringUtils_ESTest.java:866)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test300(StringUtils_ESTest.java:2369)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/TBar/Lang/patch7_4-Lang-39-TBar.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Elixir-plausible",
+                    "failing": 0,
+                    "testrun": 535,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/TBar/Lang/patch7_4-Lang-39-TBar.patch",
+                    "test": "test_from_DRR_patch1-Lang-39-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 533,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/TBar/Lang/patch7_4-Lang-39-TBar.patch",
+                    "test": "test_from_NFL_patch525_180-Lang-39-AVATAR",
+                    "failing": 2,
+                    "testrun": 546,
+                    "failings": [
+                        "test120(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test315(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: TimeToLive of -1 is less than 0: a1F=a[9doL/mDT"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test120(StringUtils_ESTest.java:658)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test315(StringUtils_ESTest.java:1795)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/TBar/Lang/patch7_4-Lang-39-TBar.patch",
+                    "test": "test_from_NFL_patch1350_1039-Lang-39-TBar",
+                    "failing": 0,
+                    "testrun": 519,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/TBar/Lang/patch7_4-Lang-39-TBar.patch",
+                    "test": "test_from_NFL_patch2275_2275-Lang-39-SimFix",
+                    "failing": 0,
+                    "testrun": 518,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 30.68
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Lang/patch3_3-Lang-39-Cardumen.patch",
+            "project": "Lang",
+            "bugid": "39",
+            "dataset": "PFL",
+            "date": "2021-11-22T23:12:50.851690",
+            "project_checked": "ok",
+            "compiledProjectModified": "no",
+            "patchApplied": "no",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        }
+    ],
+    "date": "2021-11-22T23:08:06.381101",
+    "duration": -0.0
+}

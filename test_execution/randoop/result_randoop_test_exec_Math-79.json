@@ -1,0 +1,251 @@
+{
+    "bugid": "Math-79",
+    "results": [
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Math/patch1-Math-79-SimFix.patch",
+            "project": "Math",
+            "bugid": "79",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T20:59:46.847036",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/ssFix/Math/patch1-Math-79-ssFix-plausible.patch",
+            "project": "Math",
+            "bugid": "79",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T20:59:55.669138",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/ssFix/Math/patch1-Math-79-ssFix-plausible.patch",
+                    "test": "test_from_DRR_patch1-Math-79-ssFix-plausible",
+                    "failing": -1,
+                    "testrun": -1,
+                    "failings": -1,
+                    "status": "ERROR",
+                    "test_executed": [],
+                    "failing_assertions": null,
+                    "failing_lines": null
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/ssFix/Math/patch1-Math-79-ssFix-plausible.patch",
+                    "test": "test_from_NFL_patch1320_1320-Math-79-SimFix",
+                    "failing": 7,
+                    "testrun": 278,
+                    "failings": [
+                        "test109(RegressionTest0)",
+                        "test112(RegressionTest0)",
+                        "test136(RegressionTest0)",
+                        "test252(RegressionTest0)",
+                        "test268(RegressionTest0)",
+                        "test269(RegressionTest0)",
+                        "test276(RegressionTest0)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: '46340.950001051984' != '2.183414310119577E9'",
+                        "java.lang.AssertionError: '46340.950001051984' != '2.183414310119577E9'",
+                        "java.lang.AssertionError: '46340.950001051984' != '1.8947962250000033E9'",
+                        "java.lang.AssertionError: '46340.950001051984' != '2.183414310119577E9'",
+                        "java.lang.AssertionError: '46340.950001051984' != '1.8947962250000033E9'",
+                        "java.lang.AssertionError: '46340.950001051984' != '2.183414310119577E9'",
+                        "java.lang.AssertionError: '46340.950001051984' != '2.183414310119577E9'"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest0.test109(RegressionTest0.java:1121)"
+                        ],
+                        [
+                            "RegressionTest0.test112(RegressionTest0.java:1207)"
+                        ],
+                        [
+                            "RegressionTest0.test136(RegressionTest0.java:1504)"
+                        ],
+                        [
+                            "RegressionTest0.test252(RegressionTest0.java:3081)"
+                        ],
+                        [
+                            "RegressionTest0.test268(RegressionTest0.java:3299)"
+                        ],
+                        [
+                            "RegressionTest0.test269(RegressionTest0.java:3356)"
+                        ],
+                        [
+                            "RegressionTest0.test276(RegressionTest0.java:3455)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/ssFix/Math/patch1-Math-79-ssFix-plausible.patch",
+                    "test": "test_from_NFL_patch357_100-Math-79-FixMiner",
+                    "failing": 7,
+                    "testrun": 278,
+                    "failings": [
+                        "test109(RegressionTest0)",
+                        "test112(RegressionTest0)",
+                        "test136(RegressionTest0)",
+                        "test252(RegressionTest0)",
+                        "test268(RegressionTest0)",
+                        "test269(RegressionTest0)",
+                        "test276(RegressionTest0)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: '46340.950001051984' != '2.183414310119577E9'",
+                        "java.lang.AssertionError: '46340.950001051984' != '2.183414310119577E9'",
+                        "java.lang.AssertionError: '46340.950001051984' != '1.8947962250000033E9'",
+                        "java.lang.AssertionError: '46340.950001051984' != '2.183414310119577E9'",
+                        "java.lang.AssertionError: '46340.950001051984' != '1.8947962250000033E9'",
+                        "java.lang.AssertionError: '46340.950001051984' != '2.183414310119577E9'",
+                        "java.lang.AssertionError: '46340.950001051984' != '2.183414310119577E9'"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest0.test109(RegressionTest0.java:1121)"
+                        ],
+                        [
+                            "RegressionTest0.test112(RegressionTest0.java:1207)"
+                        ],
+                        [
+                            "RegressionTest0.test136(RegressionTest0.java:1504)"
+                        ],
+                        [
+                            "RegressionTest0.test252(RegressionTest0.java:3081)"
+                        ],
+                        [
+                            "RegressionTest0.test268(RegressionTest0.java:3299)"
+                        ],
+                        [
+                            "RegressionTest0.test269(RegressionTest0.java:3356)"
+                        ],
+                        [
+                            "RegressionTest0.test276(RegressionTest0.java:3455)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 5125.2
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Math/patch1320_1320-Math-79-SimFix.patch",
+            "project": "Math",
+            "bugid": "79",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:25:20.873669",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Math/patch1320_1320-Math-79-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Math-79-ssFix-plausible",
+                    "failing": -1,
+                    "testrun": -1,
+                    "failings": -1,
+                    "status": "ERROR",
+                    "test_executed": [],
+                    "failing_assertions": null,
+                    "failing_lines": null
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Math/patch1320_1320-Math-79-SimFix.patch",
+                    "test": "test_from_NFL_patch1320_1320-Math-79-SimFix",
+                    "failing": 0,
+                    "testrun": 278,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Math/patch1320_1320-Math-79-SimFix.patch",
+                    "test": "test_from_NFL_patch357_100-Math-79-FixMiner",
+                    "failing": 0,
+                    "testrun": 278,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 5144.83
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/FixMiner/Math/patch357_100-Math-79-FixMiner.patch",
+            "project": "Math",
+            "bugid": "79",
+            "dataset": "NFL",
+            "date": "2021-11-22T23:51:05.703472",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/FixMiner/Math/patch357_100-Math-79-FixMiner.patch",
+                    "test": "test_from_DRR_patch1-Math-79-ssFix-plausible",
+                    "failing": -1,
+                    "testrun": -1,
+                    "failings": -1,
+                    "status": "ERROR",
+                    "test_executed": [],
+                    "failing_assertions": null,
+                    "failing_lines": null
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/FixMiner/Math/patch357_100-Math-79-FixMiner.patch",
+                    "test": "test_from_NFL_patch1320_1320-Math-79-SimFix",
+                    "failing": 0,
+                    "testrun": 278,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/FixMiner/Math/patch357_100-Math-79-FixMiner.patch",
+                    "test": "test_from_NFL_patch357_100-Math-79-FixMiner",
+                    "failing": 0,
+                    "testrun": 278,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 5117.2
+        }
+    ],
+    "date": "2021-11-22T20:59:46.846399",
+    "duration": -0.0
+}

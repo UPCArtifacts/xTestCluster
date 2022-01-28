@@ -1,0 +1,2053 @@
+{
+    "bugid": "Closure-22",
+    "results": [
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/jGenProg/Closure/patch64_46-Closure-22-jGenProg.patch",
+            "project": "Closure",
+            "bugid": "22",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:38:21.576171",
+            "project_checked": "ok",
+            "compiledProjectModified": "no",
+            "patchApplied": "no",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/jKali/Closure/patch14_14-Closure-22-jKali.patch",
+            "project": "Closure",
+            "bugid": "22",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:38:26.697666",
+            "project_checked": "ok",
+            "compiledProjectModified": "no",
+            "patchApplied": "no",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch15_7-Closure-22-RSRepair-A.patch",
+            "project": "Closure",
+            "bugid": "22",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:38:31.741006",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch15_7-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch15_7-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:39:46.892 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:39:46.899 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch15_7-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch15_7-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_PFL_patch1279_454-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch15_7-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch2_2-Closure-22-ARJA",
+                    "failing": 1,
+                    "testrun": 17,
+                    "failings": [
+                        "Error",
+                        "test07(com.google.javascript.jscomp.CheckSideEffects_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:39:54.017 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "java.lang.AssertionError: Exception was not thrown in com.google.javascript.jscomp.NodeUtil but in com.google.javascript.jscomp.CheckSideEffects.visit(CheckSideEffects.java:103): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.CheckSideEffects_ESTest.test07(CheckSideEffects_ESTest.java:151)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch15_7-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch5_5-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:39:56.506 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch15_7-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch4_4-Closure-22-Kali-A",
+                    "failing": 0,
+                    "testrun": 13,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch15_7-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch15_7-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch77_31-Closure-22-AVATAR",
+                    "failing": 0,
+                    "testrun": 12,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch15_7-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch24_7-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch15_7-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch1709_1709-Closure-22-SimFix",
+                    "failing": 0,
+                    "testrun": 14,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch15_7-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_PFL_patch1682_739-Closure-22-kPAR",
+                    "failing": 0,
+                    "testrun": 16,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 98.72
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch2_2-Closure-22-ARJA.patch",
+            "project": "Closure",
+            "bugid": "22",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:40:10.458565",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch2_2-Closure-22-ARJA.patch",
+                    "test": "test_from_NFL_patch15_7-Closure-22-RSRepair-A",
+                    "failing": 1,
+                    "testrun": 18,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "test13(com.google.javascript.jscomp.CheckSideEffects_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:41:25.824 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:41:25.830 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "java.lang.AssertionError: Exception was not thrown in com.google.javascript.jscomp.CheckSideEffects but in com.google.javascript.jscomp.NodeUtil.isExpressionResultUsed(NodeUtil.java:3124): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.CheckSideEffects_ESTest.test13(CheckSideEffects_ESTest.java:229)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch2_2-Closure-22-ARJA.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-RSRepair-A",
+                    "failing": 1,
+                    "testrun": 18,
+                    "failings": [
+                        "test12(com.google.javascript.jscomp.CheckSideEffects_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in com.google.javascript.jscomp.CheckSideEffects but in com.google.javascript.jscomp.NodeUtil.isExpressionResultUsed(NodeUtil.java:3124): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.CheckSideEffects_ESTest.test12(CheckSideEffects_ESTest.java:218)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch2_2-Closure-22-ARJA.patch",
+                    "test": "test_from_PFL_patch1279_454-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch2_2-Closure-22-ARJA.patch",
+                    "test": "test_from_NFL_patch2_2-Closure-22-ARJA",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:41:32.988 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch2_2-Closure-22-ARJA.patch",
+                    "test": "test_from_NFL_patch5_5-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:41:35.506 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch2_2-Closure-22-ARJA.patch",
+                    "test": "test_from_NFL_patch4_4-Closure-22-Kali-A",
+                    "failing": 0,
+                    "testrun": 13,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch2_2-Closure-22-ARJA.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch2_2-Closure-22-ARJA.patch",
+                    "test": "test_from_NFL_patch77_31-Closure-22-AVATAR",
+                    "failing": 0,
+                    "testrun": 12,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch2_2-Closure-22-ARJA.patch",
+                    "test": "test_from_NFL_patch24_7-Closure-22-GenProg-A",
+                    "failing": 1,
+                    "testrun": 17,
+                    "failings": [
+                        "test13(com.google.javascript.jscomp.CheckSideEffects_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in com.google.javascript.jscomp.CheckSideEffects but in com.google.javascript.jscomp.NodeUtil.isExpressionResultUsed(NodeUtil.java:3113): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.CheckSideEffects_ESTest.test13(CheckSideEffects_ESTest.java:234)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch2_2-Closure-22-ARJA.patch",
+                    "test": "test_from_NFL_patch1709_1709-Closure-22-SimFix",
+                    "failing": 0,
+                    "testrun": 14,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch2_2-Closure-22-ARJA.patch",
+                    "test": "test_from_PFL_patch1682_739-Closure-22-kPAR",
+                    "failing": 0,
+                    "testrun": 16,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 99.17
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jMutRepair/Closure/patch17_9-Closure-22-jMutRepair.patch",
+            "project": "Closure",
+            "bugid": "22",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:41:49.630742",
+            "project_checked": "ok",
+            "compiledProjectModified": "no",
+            "patchApplied": "no",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch1709_1709-Closure-22-SimFix.patch",
+            "project": "Closure",
+            "bugid": "22",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:41:55.684370",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch1709_1709-Closure-22-SimFix.patch",
+                    "test": "test_from_NFL_patch15_7-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:43:10.379 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:43:10.386 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch1709_1709-Closure-22-SimFix.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch1709_1709-Closure-22-SimFix.patch",
+                    "test": "test_from_PFL_patch1279_454-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch1709_1709-Closure-22-SimFix.patch",
+                    "test": "test_from_NFL_patch2_2-Closure-22-ARJA",
+                    "failing": 1,
+                    "testrun": 17,
+                    "failings": [
+                        "Error",
+                        "test07(com.google.javascript.jscomp.CheckSideEffects_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:43:17.374 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "java.lang.AssertionError: Exception was not thrown in com.google.javascript.jscomp.NodeUtil but in com.google.javascript.jscomp.CheckSideEffects.visit(CheckSideEffects.java:103): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.CheckSideEffects_ESTest.test07(CheckSideEffects_ESTest.java:151)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch1709_1709-Closure-22-SimFix.patch",
+                    "test": "test_from_NFL_patch5_5-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:43:19.818 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch1709_1709-Closure-22-SimFix.patch",
+                    "test": "test_from_NFL_patch4_4-Closure-22-Kali-A",
+                    "failing": 0,
+                    "testrun": 13,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch1709_1709-Closure-22-SimFix.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch1709_1709-Closure-22-SimFix.patch",
+                    "test": "test_from_NFL_patch77_31-Closure-22-AVATAR",
+                    "failing": 0,
+                    "testrun": 12,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch1709_1709-Closure-22-SimFix.patch",
+                    "test": "test_from_NFL_patch24_7-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch1709_1709-Closure-22-SimFix.patch",
+                    "test": "test_from_NFL_patch1709_1709-Closure-22-SimFix",
+                    "failing": 0,
+                    "testrun": 14,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch1709_1709-Closure-22-SimFix.patch",
+                    "test": "test_from_PFL_patch1682_739-Closure-22-kPAR",
+                    "failing": 0,
+                    "testrun": 16,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 98.13
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch24_7-Closure-22-GenProg-A.patch",
+            "project": "Closure",
+            "bugid": "22",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:43:33.815454",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch24_7-Closure-22-GenProg-A.patch",
+                    "test": "test_from_NFL_patch15_7-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:44:49.103 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:44:49.110 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch24_7-Closure-22-GenProg-A.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch24_7-Closure-22-GenProg-A.patch",
+                    "test": "test_from_PFL_patch1279_454-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch24_7-Closure-22-GenProg-A.patch",
+                    "test": "test_from_NFL_patch2_2-Closure-22-ARJA",
+                    "failing": 1,
+                    "testrun": 17,
+                    "failings": [
+                        "Error",
+                        "test07(com.google.javascript.jscomp.CheckSideEffects_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:44:56.054 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "java.lang.AssertionError: Exception was not thrown in com.google.javascript.jscomp.NodeUtil but in com.google.javascript.jscomp.CheckSideEffects.visit(CheckSideEffects.java:103): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.CheckSideEffects_ESTest.test07(CheckSideEffects_ESTest.java:151)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch24_7-Closure-22-GenProg-A.patch",
+                    "test": "test_from_NFL_patch5_5-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:44:58.571 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch24_7-Closure-22-GenProg-A.patch",
+                    "test": "test_from_NFL_patch4_4-Closure-22-Kali-A",
+                    "failing": 0,
+                    "testrun": 13,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch24_7-Closure-22-GenProg-A.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch24_7-Closure-22-GenProg-A.patch",
+                    "test": "test_from_NFL_patch77_31-Closure-22-AVATAR",
+                    "failing": 0,
+                    "testrun": 12,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch24_7-Closure-22-GenProg-A.patch",
+                    "test": "test_from_NFL_patch24_7-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch24_7-Closure-22-GenProg-A.patch",
+                    "test": "test_from_NFL_patch1709_1709-Closure-22-SimFix",
+                    "failing": 0,
+                    "testrun": 14,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch24_7-Closure-22-GenProg-A.patch",
+                    "test": "test_from_PFL_patch1682_739-Closure-22-kPAR",
+                    "failing": 0,
+                    "testrun": 16,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 98.73
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch4_4-Closure-22-Kali-A.patch",
+            "project": "Closure",
+            "bugid": "22",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:45:12.546479",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch4_4-Closure-22-Kali-A.patch",
+                    "test": "test_from_NFL_patch15_7-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:46:27.645 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:46:27.651 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch4_4-Closure-22-Kali-A.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch4_4-Closure-22-Kali-A.patch",
+                    "test": "test_from_PFL_patch1279_454-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch4_4-Closure-22-Kali-A.patch",
+                    "test": "test_from_NFL_patch2_2-Closure-22-ARJA",
+                    "failing": 1,
+                    "testrun": 17,
+                    "failings": [
+                        "Error",
+                        "test07(com.google.javascript.jscomp.CheckSideEffects_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:46:34.671 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "java.lang.AssertionError: Exception was not thrown in com.google.javascript.jscomp.NodeUtil but in com.google.javascript.jscomp.CheckSideEffects.visit(CheckSideEffects.java:103): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.CheckSideEffects_ESTest.test07(CheckSideEffects_ESTest.java:151)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch4_4-Closure-22-Kali-A.patch",
+                    "test": "test_from_NFL_patch5_5-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:46:37.185 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch4_4-Closure-22-Kali-A.patch",
+                    "test": "test_from_NFL_patch4_4-Closure-22-Kali-A",
+                    "failing": 0,
+                    "testrun": 13,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch4_4-Closure-22-Kali-A.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch4_4-Closure-22-Kali-A.patch",
+                    "test": "test_from_NFL_patch77_31-Closure-22-AVATAR",
+                    "failing": 0,
+                    "testrun": 12,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch4_4-Closure-22-Kali-A.patch",
+                    "test": "test_from_NFL_patch24_7-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch4_4-Closure-22-Kali-A.patch",
+                    "test": "test_from_NFL_patch1709_1709-Closure-22-SimFix",
+                    "failing": 0,
+                    "testrun": 14,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch4_4-Closure-22-Kali-A.patch",
+                    "test": "test_from_PFL_patch1682_739-Closure-22-kPAR",
+                    "failing": 0,
+                    "testrun": 16,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 98.92
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch77_31-Closure-22-AVATAR.patch",
+            "project": "Closure",
+            "bugid": "22",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:46:51.465508",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch77_31-Closure-22-AVATAR.patch",
+                    "test": "test_from_NFL_patch15_7-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:48:06.144 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:48:06.150 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch77_31-Closure-22-AVATAR.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch77_31-Closure-22-AVATAR.patch",
+                    "test": "test_from_PFL_patch1279_454-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch77_31-Closure-22-AVATAR.patch",
+                    "test": "test_from_NFL_patch2_2-Closure-22-ARJA",
+                    "failing": 1,
+                    "testrun": 17,
+                    "failings": [
+                        "Error",
+                        "test07(com.google.javascript.jscomp.CheckSideEffects_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:48:13.180 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "java.lang.AssertionError: Exception was not thrown in com.google.javascript.jscomp.NodeUtil but in com.google.javascript.jscomp.CheckSideEffects.visit(CheckSideEffects.java:103): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.CheckSideEffects_ESTest.test07(CheckSideEffects_ESTest.java:151)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch77_31-Closure-22-AVATAR.patch",
+                    "test": "test_from_NFL_patch5_5-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:48:15.625 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch77_31-Closure-22-AVATAR.patch",
+                    "test": "test_from_NFL_patch4_4-Closure-22-Kali-A",
+                    "failing": 0,
+                    "testrun": 13,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch77_31-Closure-22-AVATAR.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch77_31-Closure-22-AVATAR.patch",
+                    "test": "test_from_NFL_patch77_31-Closure-22-AVATAR",
+                    "failing": 0,
+                    "testrun": 12,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch77_31-Closure-22-AVATAR.patch",
+                    "test": "test_from_NFL_patch24_7-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch77_31-Closure-22-AVATAR.patch",
+                    "test": "test_from_NFL_patch1709_1709-Closure-22-SimFix",
+                    "failing": 0,
+                    "testrun": 14,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch77_31-Closure-22-AVATAR.patch",
+                    "test": "test_from_PFL_patch1682_739-Closure-22-kPAR",
+                    "failing": 0,
+                    "testrun": 16,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 98.44
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch5_5-Closure-22-TBar.patch",
+            "project": "Closure",
+            "bugid": "22",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:48:29.910659",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch5_5-Closure-22-TBar.patch",
+                    "test": "test_from_NFL_patch15_7-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:49:45.311 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:49:45.320 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch5_5-Closure-22-TBar.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch5_5-Closure-22-TBar.patch",
+                    "test": "test_from_PFL_patch1279_454-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch5_5-Closure-22-TBar.patch",
+                    "test": "test_from_NFL_patch2_2-Closure-22-ARJA",
+                    "failing": 1,
+                    "testrun": 17,
+                    "failings": [
+                        "Error",
+                        "test07(com.google.javascript.jscomp.CheckSideEffects_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:49:52.344 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "java.lang.AssertionError: Exception was not thrown in com.google.javascript.jscomp.NodeUtil but in com.google.javascript.jscomp.CheckSideEffects.visit(CheckSideEffects.java:103): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.CheckSideEffects_ESTest.test07(CheckSideEffects_ESTest.java:151)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch5_5-Closure-22-TBar.patch",
+                    "test": "test_from_NFL_patch5_5-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:49:54.819 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch5_5-Closure-22-TBar.patch",
+                    "test": "test_from_NFL_patch4_4-Closure-22-Kali-A",
+                    "failing": 0,
+                    "testrun": 13,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch5_5-Closure-22-TBar.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch5_5-Closure-22-TBar.patch",
+                    "test": "test_from_NFL_patch77_31-Closure-22-AVATAR",
+                    "failing": 0,
+                    "testrun": 12,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch5_5-Closure-22-TBar.patch",
+                    "test": "test_from_NFL_patch24_7-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch5_5-Closure-22-TBar.patch",
+                    "test": "test_from_NFL_patch1709_1709-Closure-22-SimFix",
+                    "failing": 0,
+                    "testrun": 14,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch5_5-Closure-22-TBar.patch",
+                    "test": "test_from_PFL_patch1682_739-Closure-22-kPAR",
+                    "failing": 0,
+                    "testrun": 16,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 99.1
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Closure/patch4_1-Closure-22-ARJA.patch",
+            "project": "Closure",
+            "bugid": "22",
+            "dataset": "PFL",
+            "date": "2021-11-23T19:50:09.010167",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/jMutRepair/Closure/patch55_43-Closure-22-jMutRepair.patch",
+            "project": "Closure",
+            "bugid": "22",
+            "dataset": "PFL",
+            "date": "2021-11-23T19:51:19.018058",
+            "project_checked": "ok",
+            "compiledProjectModified": "no",
+            "patchApplied": "no",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Closure/patch1_1-Closure-22-GenProg-A.patch",
+            "project": "Closure",
+            "bugid": "22",
+            "dataset": "PFL",
+            "date": "2021-11-23T19:51:24.814797",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Closure/patch1_1-Closure-22-GenProg-A.patch",
+                    "test": "test_from_NFL_patch15_7-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:52:39.748 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:52:39.755 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Closure/patch1_1-Closure-22-GenProg-A.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Closure/patch1_1-Closure-22-GenProg-A.patch",
+                    "test": "test_from_PFL_patch1279_454-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Closure/patch1_1-Closure-22-GenProg-A.patch",
+                    "test": "test_from_NFL_patch2_2-Closure-22-ARJA",
+                    "failing": 1,
+                    "testrun": 17,
+                    "failings": [
+                        "Error",
+                        "test07(com.google.javascript.jscomp.CheckSideEffects_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:52:46.748 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "java.lang.AssertionError: Exception was not thrown in com.google.javascript.jscomp.NodeUtil but in com.google.javascript.jscomp.CheckSideEffects.visit(CheckSideEffects.java:103): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.CheckSideEffects_ESTest.test07(CheckSideEffects_ESTest.java:151)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Closure/patch1_1-Closure-22-GenProg-A.patch",
+                    "test": "test_from_NFL_patch5_5-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:52:49.182 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Closure/patch1_1-Closure-22-GenProg-A.patch",
+                    "test": "test_from_NFL_patch4_4-Closure-22-Kali-A",
+                    "failing": 0,
+                    "testrun": 13,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Closure/patch1_1-Closure-22-GenProg-A.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Closure/patch1_1-Closure-22-GenProg-A.patch",
+                    "test": "test_from_NFL_patch77_31-Closure-22-AVATAR",
+                    "failing": 0,
+                    "testrun": 12,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Closure/patch1_1-Closure-22-GenProg-A.patch",
+                    "test": "test_from_NFL_patch24_7-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Closure/patch1_1-Closure-22-GenProg-A.patch",
+                    "test": "test_from_NFL_patch1709_1709-Closure-22-SimFix",
+                    "failing": 0,
+                    "testrun": 14,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Closure/patch1_1-Closure-22-GenProg-A.patch",
+                    "test": "test_from_PFL_patch1682_739-Closure-22-kPAR",
+                    "failing": 0,
+                    "testrun": 16,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 99.0
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/jGenProg/Closure/patch15_12-Closure-22-jGenProg.patch",
+            "project": "Closure",
+            "bugid": "22",
+            "dataset": "PFL",
+            "date": "2021-11-23T19:53:03.812559",
+            "project_checked": "ok",
+            "compiledProjectModified": "no",
+            "patchApplied": "no",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/RSRepair-A/Closure/patch1_1-Closure-22-RSRepair-A.patch",
+            "project": "Closure",
+            "bugid": "22",
+            "dataset": "PFL",
+            "date": "2021-11-23T19:53:09.359253",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/RSRepair-A/Closure/patch1_1-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch15_7-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:54:24.192 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:54:24.198 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/RSRepair-A/Closure/patch1_1-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/RSRepair-A/Closure/patch1_1-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_PFL_patch1279_454-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/RSRepair-A/Closure/patch1_1-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch2_2-Closure-22-ARJA",
+                    "failing": 1,
+                    "testrun": 17,
+                    "failings": [
+                        "Error",
+                        "test07(com.google.javascript.jscomp.CheckSideEffects_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:54:31.156 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "java.lang.AssertionError: Exception was not thrown in com.google.javascript.jscomp.NodeUtil but in com.google.javascript.jscomp.CheckSideEffects.visit(CheckSideEffects.java:103): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.CheckSideEffects_ESTest.test07(CheckSideEffects_ESTest.java:151)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/RSRepair-A/Closure/patch1_1-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch5_5-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:54:33.733 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/RSRepair-A/Closure/patch1_1-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch4_4-Closure-22-Kali-A",
+                    "failing": 0,
+                    "testrun": 13,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/RSRepair-A/Closure/patch1_1-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/RSRepair-A/Closure/patch1_1-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch77_31-Closure-22-AVATAR",
+                    "failing": 0,
+                    "testrun": 12,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/RSRepair-A/Closure/patch1_1-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch24_7-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/RSRepair-A/Closure/patch1_1-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch1709_1709-Closure-22-SimFix",
+                    "failing": 0,
+                    "testrun": 14,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/RSRepair-A/Closure/patch1_1-Closure-22-RSRepair-A.patch",
+                    "test": "test_from_PFL_patch1682_739-Closure-22-kPAR",
+                    "failing": 0,
+                    "testrun": 16,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 98.27
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch1682_739-Closure-22-kPAR.patch",
+            "project": "Closure",
+            "bugid": "22",
+            "dataset": "PFL",
+            "date": "2021-11-23T19:54:47.630580",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch1682_739-Closure-22-kPAR.patch",
+                    "test": "test_from_NFL_patch15_7-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:56:03.193 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:56:03.199 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch1682_739-Closure-22-kPAR.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch1682_739-Closure-22-kPAR.patch",
+                    "test": "test_from_PFL_patch1279_454-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch1682_739-Closure-22-kPAR.patch",
+                    "test": "test_from_NFL_patch2_2-Closure-22-ARJA",
+                    "failing": 1,
+                    "testrun": 17,
+                    "failings": [
+                        "Error",
+                        "test07(com.google.javascript.jscomp.CheckSideEffects_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:56:10.039 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "java.lang.AssertionError: Exception was not thrown in com.google.javascript.jscomp.NodeUtil but in com.google.javascript.jscomp.CheckSideEffects.visit(CheckSideEffects.java:103): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.CheckSideEffects_ESTest.test07(CheckSideEffects_ESTest.java:151)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch1682_739-Closure-22-kPAR.patch",
+                    "test": "test_from_NFL_patch5_5-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:56:12.588 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch1682_739-Closure-22-kPAR.patch",
+                    "test": "test_from_NFL_patch4_4-Closure-22-Kali-A",
+                    "failing": 0,
+                    "testrun": 13,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch1682_739-Closure-22-kPAR.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch1682_739-Closure-22-kPAR.patch",
+                    "test": "test_from_NFL_patch77_31-Closure-22-AVATAR",
+                    "failing": 0,
+                    "testrun": 12,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch1682_739-Closure-22-kPAR.patch",
+                    "test": "test_from_NFL_patch24_7-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch1682_739-Closure-22-kPAR.patch",
+                    "test": "test_from_NFL_patch1709_1709-Closure-22-SimFix",
+                    "failing": 0,
+                    "testrun": 14,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch1682_739-Closure-22-kPAR.patch",
+                    "test": "test_from_PFL_patch1682_739-Closure-22-kPAR",
+                    "failing": 0,
+                    "testrun": 16,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 98.94
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch1279_454-Closure-22-TBar.patch",
+            "project": "Closure",
+            "bugid": "22",
+            "dataset": "PFL",
+            "date": "2021-11-23T19:56:26.566939",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch1279_454-Closure-22-TBar.patch",
+                    "test": "test_from_NFL_patch15_7-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:57:42.297 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:57:42.304 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch1279_454-Closure-22-TBar.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch1279_454-Closure-22-TBar.patch",
+                    "test": "test_from_PFL_patch1279_454-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch1279_454-Closure-22-TBar.patch",
+                    "test": "test_from_NFL_patch2_2-Closure-22-ARJA",
+                    "failing": 1,
+                    "testrun": 17,
+                    "failings": [
+                        "Error",
+                        "test07(com.google.javascript.jscomp.CheckSideEffects_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:57:49.313 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "java.lang.AssertionError: Exception was not thrown in com.google.javascript.jscomp.NodeUtil but in com.google.javascript.jscomp.CheckSideEffects.visit(CheckSideEffects.java:103): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.CheckSideEffects_ESTest.test07(CheckSideEffects_ESTest.java:151)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch1279_454-Closure-22-TBar.patch",
+                    "test": "test_from_NFL_patch5_5-Closure-22-TBar",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:57:51.859 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch1279_454-Closure-22-TBar.patch",
+                    "test": "test_from_NFL_patch4_4-Closure-22-Kali-A",
+                    "failing": 0,
+                    "testrun": 13,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch1279_454-Closure-22-TBar.patch",
+                    "test": "test_from_PFL_patch1_1-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch1279_454-Closure-22-TBar.patch",
+                    "test": "test_from_NFL_patch77_31-Closure-22-AVATAR",
+                    "failing": 0,
+                    "testrun": 12,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch1279_454-Closure-22-TBar.patch",
+                    "test": "test_from_NFL_patch24_7-Closure-22-GenProg-A",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch1279_454-Closure-22-TBar.patch",
+                    "test": "test_from_NFL_patch1709_1709-Closure-22-SimFix",
+                    "failing": 0,
+                    "testrun": 14,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch1279_454-Closure-22-TBar.patch",
+                    "test": "test_from_PFL_patch1682_739-Closure-22-kPAR",
+                    "failing": 0,
+                    "testrun": 16,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 100.09
+        }
+    ],
+    "date": "2021-11-23T19:38:21.575613",
+    "duration": -0.0
+}

@@ -1,0 +1,169 @@
+{
+    "bugid": "Chart-18",
+    "results": [
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Chart/patch1_1-Chart-18-DynaMoth.patch",
+            "project": "Chart",
+            "bugid": "18",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:26:27.819173",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Chart/patch38_38-Chart-18-SimFix.patch",
+            "project": "Chart",
+            "bugid": "18",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:26:59.396762",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Chart/patch1594_1413-Chart-18-GenProg-A.patch",
+            "project": "Chart",
+            "bugid": "18",
+            "dataset": "PFL",
+            "date": "2021-11-22T22:27:31.113106",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Chart/patch1594_1413-Chart-18-GenProg-A.patch",
+                    "test": "test_from_PFL_patch1594_1413-Chart-18-GenProg-A",
+                    "failing": 20,
+                    "testrun": 3048,
+                    "failings": [
+                        "test01(ErrorTest0)",
+                        "test02(ErrorTest0)",
+                        "test03(ErrorTest0)",
+                        "test04(ErrorTest0)",
+                        "test05(ErrorTest0)",
+                        "test06(ErrorTest0)",
+                        "test07(ErrorTest0)",
+                        "test08(ErrorTest0)",
+                        "test09(ErrorTest0)",
+                        "test10(ErrorTest0)",
+                        "test11(ErrorTest0)",
+                        "test12(ErrorTest0)",
+                        "test13(ErrorTest0)",
+                        "test14(ErrorTest0)",
+                        "test15(ErrorTest0)",
+                        "test16(ErrorTest0)",
+                        "test17(ErrorTest0)",
+                        "test18(ErrorTest0)",
+                        "test19(ErrorTest0)",
+                        "test20(ErrorTest0)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "ErrorTest0",
+                        "RegressionTest1",
+                        "RegressionTest6",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on defaultKeyedValues0 and obj1",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on defaultKeyedValues0 and obj1",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on obj1 and obj25",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on defaultKeyedValues0 and obj1",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on obj1 and obj34",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on defaultKeyedValues12 and obj13",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on defaultKeyedValues0 and obj1",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on defaultKeyedValues19 and obj20",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on defaultKeyedValues8 and obj9",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on obj1 and obj34",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on defaultKeyedValues12 and obj13",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on defaultKeyedValues0 and obj1",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on obj1 and obj34",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on obj1 and obj27",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on obj1 and obj27",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on defaultKeyedValues12 and obj13",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on obj13 and obj28",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on defaultKeyedValues0 and obj1",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on obj7 and defaultKeyedValues27",
+                        "java.lang.AssertionError: Contract failed: equals-hashcode on obj13 and obj30"
+                    ],
+                    "failing_lines": [
+                        [
+                            "ErrorTest0.test01(ErrorTest0.java:29)"
+                        ],
+                        [
+                            "ErrorTest0.test02(ErrorTest0.java:51)"
+                        ],
+                        [
+                            "ErrorTest0.test03(ErrorTest0.java:74)"
+                        ],
+                        [
+                            "ErrorTest0.test04(ErrorTest0.java:109)"
+                        ],
+                        [
+                            "ErrorTest0.test05(ErrorTest0.java:137)"
+                        ],
+                        [
+                            "ErrorTest0.test06(ErrorTest0.java:163)"
+                        ],
+                        [
+                            "ErrorTest0.test07(ErrorTest0.java:190)"
+                        ],
+                        [
+                            "ErrorTest0.test08(ErrorTest0.java:236)"
+                        ],
+                        [
+                            "ErrorTest0.test09(ErrorTest0.java:277)"
+                        ],
+                        [
+                            "ErrorTest0.test10(ErrorTest0.java:305)"
+                        ],
+                        [
+                            "ErrorTest0.test11(ErrorTest0.java:329)"
+                        ],
+                        [
+                            "ErrorTest0.test12(ErrorTest0.java:364)"
+                        ],
+                        [
+                            "ErrorTest0.test13(ErrorTest0.java:392)"
+                        ],
+                        [
+                            "ErrorTest0.test14(ErrorTest0.java:416)"
+                        ],
+                        [
+                            "ErrorTest0.test15(ErrorTest0.java:440)"
+                        ],
+                        [
+                            "ErrorTest0.test16(ErrorTest0.java:464)"
+                        ],
+                        [
+                            "ErrorTest0.test17(ErrorTest0.java:500)"
+                        ],
+                        [
+                            "ErrorTest0.test18(ErrorTest0.java:535)"
+                        ],
+                        [
+                            "ErrorTest0.test19(ErrorTest0.java:564)"
+                        ],
+                        [
+                            "ErrorTest0.test20(ErrorTest0.java:591)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 37.54
+        }
+    ],
+    "date": "2021-11-22T22:26:27.818603",
+    "duration": -0.0
+}

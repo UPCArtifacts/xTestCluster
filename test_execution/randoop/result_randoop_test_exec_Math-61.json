@@ -1,0 +1,127 @@
+{
+    "bugid": "Math-61",
+    "results": [
+        {
+            "patch": "Patches/patchesDRR/Dcorrect/ACS/Math/patch1-Math-61-ACS.patch",
+            "project": "Math",
+            "bugid": "61",
+            "dataset": "patchesDRR",
+            "date": "2021-12-08T15:04:18.472169",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "Patches/patchesDRR/Dcorrect/ACS/Math/patch1-Math-61-ACS.patch",
+                    "test": "test_from_NFL_patch1_1-Math-61-ACS",
+                    "failing": 3,
+                    "testrun": 735,
+                    "failings": [
+                        "test081(RegressionTest0)",
+                        "test178(RegressionTest0)",
+                        "test705(RegressionTest1)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest0",
+                        "RegressionTest1"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: '1' != '0'",
+                        "java.lang.AssertionError: '1' != '0'",
+                        "org.junit.ComparisonFailure: expected:<[[2]]> but was:<[[0]]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest0.test081(RegressionTest0.java:1217)"
+                        ],
+                        [
+                            "RegressionTest0.test178(RegressionTest0.java:2675)"
+                        ],
+                        [
+                            "RegressionTest1.test705(RegressionTest1.java:2860)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "Patches/patchesDRR/Dcorrect/ACS/Math/patch1-Math-61-ACS.patch",
+                    "test": "test_from_DRR_patch1-Math-61-ACS",
+                    "failing": 0,
+                    "testrun": 916,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest0",
+                        "RegressionTest1"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 80.43
+        },
+        {
+            "patch": "Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Math/patch1_1-Math-61-ACS.patch",
+            "project": "Math",
+            "bugid": "61",
+            "dataset": "NFL",
+            "date": "2021-12-08T15:05:38.898591",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Math/patch1_1-Math-61-ACS.patch",
+                    "test": "test_from_NFL_patch1_1-Math-61-ACS",
+                    "failing": 1,
+                    "testrun": 735,
+                    "failings": [
+                        "test705(RegressionTest1)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest0",
+                        "RegressionTest1"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<[[1]]> but was:<[[0]]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest1.test705(RegressionTest1.java:2860)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Math/patch1_1-Math-61-ACS.patch",
+                    "test": "test_from_DRR_patch1-Math-61-ACS",
+                    "failing": 1,
+                    "testrun": 916,
+                    "failings": [
+                        "test399(RegressionTest0)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest0",
+                        "RegressionTest1"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<[0, [1], 0, 0, 0, 0, 0, 0, ...> but was:<[0, [0], 0, 0, 0, 0, 0, 0, ...>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest0.test399(RegressionTest0.java:5969)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 86.53
+        }
+    ],
+    "date": "2021-12-08T15:04:18.471506",
+    "duration": -0.0
+}

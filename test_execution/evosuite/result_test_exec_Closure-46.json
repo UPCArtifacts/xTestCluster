@@ -1,0 +1,378 @@
+{
+    "bugid": "Closure-46",
+    "results": [
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/AVATAR/Closure/patch11_4-Closure-46-AVATAR.patch",
+            "project": "Closure",
+            "bugid": "46",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:27:05.700297",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/AVATAR/Closure/patch11_4-Closure-46-AVATAR.patch",
+                    "test": "test_from_NFL_patch3_3-Closure-46-Kali-A",
+                    "failing": 0,
+                    "testrun": 38,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/AVATAR/Closure/patch11_4-Closure-46-AVATAR.patch",
+                    "test": "test_from_NFL_patch21_21-Closure-46-SimFix",
+                    "failing": 1,
+                    "testrun": 39,
+                    "failings": [
+                        "test33(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test33(RecordType_ESTest.java:537)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/AVATAR/Closure/patch11_4-Closure-46-AVATAR.patch",
+                    "test": "test_from_NFL_patch223_30-Closure-46-kPAR",
+                    "failing": 2,
+                    "testrun": 37,
+                    "failings": [
+                        "test31(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test32(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test31(RecordType_ESTest.java:507)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test32(RecordType_ESTest.java:526)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/AVATAR/Closure/patch11_4-Closure-46-AVATAR.patch",
+                    "test": "test_from_NFL_patch11_4-Closure-46-AVATAR",
+                    "failing": 0,
+                    "testrun": 33,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 93.45
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch1110_1110-Closure-46-ARJA.patch",
+            "project": "Closure",
+            "bugid": "46",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:28:39.156445",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch21_21-Closure-46-SimFix.patch",
+            "project": "Closure",
+            "bugid": "46",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:30:02.726927",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch21_21-Closure-46-SimFix.patch",
+                    "test": "test_from_NFL_patch3_3-Closure-46-Kali-A",
+                    "failing": 1,
+                    "testrun": 38,
+                    "failings": [
+                        "test13(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in com.google.javascript.rhino.jstype.JSType but in com.google.javascript.rhino.jstype.RecordType.getLeastSupertype(RecordType.java:143): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test13(RecordType_ESTest.java:255)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch21_21-Closure-46-SimFix.patch",
+                    "test": "test_from_NFL_patch21_21-Closure-46-SimFix",
+                    "failing": 0,
+                    "testrun": 39,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch21_21-Closure-46-SimFix.patch",
+                    "test": "test_from_NFL_patch223_30-Closure-46-kPAR",
+                    "failing": 2,
+                    "testrun": 37,
+                    "failings": [
+                        "test31(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test32(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test31(RecordType_ESTest.java:507)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test32(RecordType_ESTest.java:526)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch21_21-Closure-46-SimFix.patch",
+                    "test": "test_from_NFL_patch11_4-Closure-46-AVATAR",
+                    "failing": 0,
+                    "testrun": 33,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 94.8
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch3_3-Closure-46-Kali-A.patch",
+            "project": "Closure",
+            "bugid": "46",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:31:37.526699",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch3_3-Closure-46-Kali-A.patch",
+                    "test": "test_from_NFL_patch3_3-Closure-46-Kali-A",
+                    "failing": 0,
+                    "testrun": 38,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch3_3-Closure-46-Kali-A.patch",
+                    "test": "test_from_NFL_patch21_21-Closure-46-SimFix",
+                    "failing": 1,
+                    "testrun": 39,
+                    "failings": [
+                        "test33(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test33(RecordType_ESTest.java:537)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch3_3-Closure-46-Kali-A.patch",
+                    "test": "test_from_NFL_patch223_30-Closure-46-kPAR",
+                    "failing": 2,
+                    "testrun": 37,
+                    "failings": [
+                        "test31(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test32(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test31(RecordType_ESTest.java:507)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test32(RecordType_ESTest.java:526)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch3_3-Closure-46-Kali-A.patch",
+                    "test": "test_from_NFL_patch11_4-Closure-46-AVATAR",
+                    "failing": 0,
+                    "testrun": 33,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 93.46
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jKali/Closure/patch5_5-Closure-46-jKali.patch",
+            "project": "Closure",
+            "bugid": "46",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:33:10.992676",
+            "project_checked": "ok",
+            "compiledProjectModified": "no",
+            "patchApplied": "no",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Closure/patch223_30-Closure-46-kPAR.patch",
+            "project": "Closure",
+            "bugid": "46",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:33:16.753165",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Closure/patch223_30-Closure-46-kPAR.patch",
+                    "test": "test_from_NFL_patch3_3-Closure-46-Kali-A",
+                    "failing": 1,
+                    "testrun": 38,
+                    "failings": [
+                        "test13(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in com.google.javascript.rhino.jstype.JSType but in com.google.javascript.rhino.jstype.RecordType.getLeastSupertype(RecordType.java:142): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test13(RecordType_ESTest.java:255)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Closure/patch223_30-Closure-46-kPAR.patch",
+                    "test": "test_from_NFL_patch21_21-Closure-46-SimFix",
+                    "failing": 1,
+                    "testrun": 39,
+                    "failings": [
+                        "test33(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test33(RecordType_ESTest.java:537)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Closure/patch223_30-Closure-46-kPAR.patch",
+                    "test": "test_from_NFL_patch223_30-Closure-46-kPAR",
+                    "failing": 0,
+                    "testrun": 37,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Closure/patch223_30-Closure-46-kPAR.patch",
+                    "test": "test_from_NFL_patch11_4-Closure-46-AVATAR",
+                    "failing": 0,
+                    "testrun": 33,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 93.86
+        }
+    ],
+    "date": "2021-11-23T19:27:05.698348",
+    "duration": -0.0
+}

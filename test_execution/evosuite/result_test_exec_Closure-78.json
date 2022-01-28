@@ -1,0 +1,241 @@
+{
+    "bugid": "Closure-78",
+    "results": [
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch7_4-Closure-78-ARJA.patch",
+            "project": "Closure",
+            "bugid": "78",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:30:58.878062",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch23_10-Closure-78-GenProg-A.patch",
+            "project": "Closure",
+            "bugid": "78",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:32:06.403331",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch25_25-Closure-78-Kali-A.patch",
+            "project": "Closure",
+            "bugid": "78",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:33:15.349280",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Closure/patch53_25-Closure-78-RSRepair-A.patch",
+            "project": "Closure",
+            "bugid": "78",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:34:25.258091",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ARJA/Closure/patch19_6-Closure-78-ARJA.patch",
+            "project": "Closure",
+            "bugid": "78",
+            "dataset": "PFL",
+            "date": "2021-11-23T19:35:35.039201",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ARJA/Closure/patch19_6-Closure-78-ARJA.patch",
+                    "test": "test_from_PFL_patch232_122-Closure-78-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 41,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.PeepholeFoldConstants_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ARJA/Closure/patch19_6-Closure-78-ARJA.patch",
+                    "test": "test_from_PFL_patch19_6-Closure-78-ARJA",
+                    "failing": 0,
+                    "testrun": 56,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.PeepholeFoldConstants_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:36:51.443 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.mozilla.rhino.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ARJA/Closure/patch19_6-Closure-78-ARJA.patch",
+                    "test": "test_from_PFL_patch21_15-Closure-78-GenProg-A",
+                    "failing": 0,
+                    "testrun": 64,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.PeepholeFoldConstants_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:36:54.742 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.mozilla.rhino.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 80.13
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/GenProg-A/Closure/patch21_15-Closure-78-GenProg-A.patch",
+            "project": "Closure",
+            "bugid": "78",
+            "dataset": "PFL",
+            "date": "2021-11-23T19:36:55.171065",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/GenProg-A/Closure/patch21_15-Closure-78-GenProg-A.patch",
+                    "test": "test_from_PFL_patch232_122-Closure-78-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 41,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.PeepholeFoldConstants_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/GenProg-A/Closure/patch21_15-Closure-78-GenProg-A.patch",
+                    "test": "test_from_PFL_patch19_6-Closure-78-ARJA",
+                    "failing": 0,
+                    "testrun": 56,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.PeepholeFoldConstants_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:38:11.349 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.mozilla.rhino.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/GenProg-A/Closure/patch21_15-Closure-78-GenProg-A.patch",
+                    "test": "test_from_PFL_patch21_15-Closure-78-GenProg-A",
+                    "failing": 0,
+                    "testrun": 64,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.PeepholeFoldConstants_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:38:14.464 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.mozilla.rhino.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 79.73
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/RSRepair-A/Closure/patch232_122-Closure-78-RSRepair-A.patch",
+            "project": "Closure",
+            "bugid": "78",
+            "dataset": "PFL",
+            "date": "2021-11-23T19:38:14.905820",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/RSRepair-A/Closure/patch232_122-Closure-78-RSRepair-A.patch",
+                    "test": "test_from_PFL_patch232_122-Closure-78-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 41,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.PeepholeFoldConstants_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/RSRepair-A/Closure/patch232_122-Closure-78-RSRepair-A.patch",
+                    "test": "test_from_PFL_patch19_6-Closure-78-ARJA",
+                    "failing": 0,
+                    "testrun": 56,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.PeepholeFoldConstants_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:39:32.347 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.mozilla.rhino.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/RSRepair-A/Closure/patch232_122-Closure-78-RSRepair-A.patch",
+                    "test": "test_from_PFL_patch21_15-Closure-78-GenProg-A",
+                    "failing": 0,
+                    "testrun": 64,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.PeepholeFoldConstants_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:39:35.602 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.mozilla.rhino.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 81.15
+        }
+    ],
+    "date": "2021-11-23T19:30:58.877153",
+    "duration": -0.0
+}

@@ -1,0 +1,1203 @@
+{
+    "bugid": "Math-41",
+    "results": [
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Math/patch1-Math-41-SimFix.patch",
+            "project": "Math",
+            "bugid": "41",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T19:27:09.102103",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Math/patch1-Math-41-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Math-41-ssFix",
+                    "failing": 0,
+                    "testrun": 2368,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Math/patch1-Math-41-SimFix.patch",
+                    "test": "test_from_NFL_patch1_1-Math-41-Nopol",
+                    "failing": 35,
+                    "testrun": 2015,
+                    "failings": [
+                        "test0530(RegressionTest1)",
+                        "test0596(RegressionTest1)",
+                        "test0681(RegressionTest1)",
+                        "test0791(RegressionTest1)",
+                        "test0880(RegressionTest1)",
+                        "test1558(RegressionTest3)",
+                        "test1671(RegressionTest3)",
+                        "test1676(RegressionTest3)",
+                        "test1697(RegressionTest3)",
+                        "test1739(RegressionTest3)",
+                        "test1775(RegressionTest3)",
+                        "test1838(RegressionTest3)",
+                        "test1847(RegressionTest3)",
+                        "test1905(RegressionTest3)",
+                        "test1029(RegressionTest2)",
+                        "test1040(RegressionTest2)",
+                        "test1165(RegressionTest2)",
+                        "test1257(RegressionTest2)",
+                        "test1294(RegressionTest2)",
+                        "test1327(RegressionTest2)",
+                        "test1331(RegressionTest2)",
+                        "test1403(RegressionTest2)",
+                        "test1442(RegressionTest2)",
+                        "test0101(RegressionTest0)",
+                        "test0108(RegressionTest0)",
+                        "test0126(RegressionTest0)",
+                        "test0162(RegressionTest0)",
+                        "test0166(RegressionTest0)",
+                        "test0200(RegressionTest0)",
+                        "test0214(RegressionTest0)",
+                        "test0221(RegressionTest0)",
+                        "test0322(RegressionTest0)",
+                        "test0368(RegressionTest0)",
+                        "test0392(RegressionTest0)",
+                        "test0407(RegressionTest0)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest1.test0530(RegressionTest1.java:2165)"
+                        ],
+                        [
+                            "RegressionTest1.test0596(RegressionTest1.java:6140)"
+                        ],
+                        [
+                            "RegressionTest1.test0681(RegressionTest1.java:11801)"
+                        ],
+                        [
+                            "RegressionTest1.test0791(RegressionTest1.java:19441)"
+                        ],
+                        [
+                            "RegressionTest1.test0880(RegressionTest1.java:26164)"
+                        ],
+                        [
+                            "RegressionTest3.test1558(RegressionTest3.java:4025)"
+                        ],
+                        [
+                            "RegressionTest3.test1671(RegressionTest3.java:11970)"
+                        ],
+                        [
+                            "RegressionTest3.test1676(RegressionTest3.java:12389)"
+                        ],
+                        [
+                            "RegressionTest3.test1697(RegressionTest3.java:13939)"
+                        ],
+                        [
+                            "RegressionTest3.test1739(RegressionTest3.java:16812)"
+                        ],
+                        [
+                            "RegressionTest3.test1775(RegressionTest3.java:19381)"
+                        ],
+                        [
+                            "RegressionTest3.test1838(RegressionTest3.java:23724)"
+                        ],
+                        [
+                            "RegressionTest3.test1847(RegressionTest3.java:24417)"
+                        ],
+                        [
+                            "RegressionTest3.test1905(RegressionTest3.java:28029)"
+                        ],
+                        [
+                            "RegressionTest2.test1029(RegressionTest2.java:1987)"
+                        ],
+                        [
+                            "RegressionTest2.test1040(RegressionTest2.java:2772)"
+                        ],
+                        [
+                            "RegressionTest2.test1165(RegressionTest2.java:10990)"
+                        ],
+                        [
+                            "RegressionTest2.test1257(RegressionTest2.java:17469)"
+                        ],
+                        [
+                            "RegressionTest2.test1294(RegressionTest2.java:20101)"
+                        ],
+                        [
+                            "RegressionTest2.test1327(RegressionTest2.java:22236)"
+                        ],
+                        [
+                            "RegressionTest2.test1331(RegressionTest2.java:22518)"
+                        ],
+                        [
+                            "RegressionTest2.test1403(RegressionTest2.java:27651)"
+                        ],
+                        [
+                            "RegressionTest2.test1442(RegressionTest2.java:30095)"
+                        ],
+                        [
+                            "RegressionTest0.test0101(RegressionTest0.java:5352)"
+                        ],
+                        [
+                            "RegressionTest0.test0108(RegressionTest0.java:5718)"
+                        ],
+                        [
+                            "RegressionTest0.test0126(RegressionTest0.java:6917)"
+                        ],
+                        [
+                            "RegressionTest0.test0162(RegressionTest0.java:9117)"
+                        ],
+                        [
+                            "RegressionTest0.test0166(RegressionTest0.java:9428)"
+                        ],
+                        [
+                            "RegressionTest0.test0200(RegressionTest0.java:11484)"
+                        ],
+                        [
+                            "RegressionTest0.test0214(RegressionTest0.java:12501)"
+                        ],
+                        [
+                            "RegressionTest0.test0221(RegressionTest0.java:12979)"
+                        ],
+                        [
+                            "RegressionTest0.test0322(RegressionTest0.java:19393)"
+                        ],
+                        [
+                            "RegressionTest0.test0368(RegressionTest0.java:22367)"
+                        ],
+                        [
+                            "RegressionTest0.test0392(RegressionTest0.java:23999)"
+                        ],
+                        [
+                            "RegressionTest0.test0407(RegressionTest0.java:24840)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Math/patch1-Math-41-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Math-41-SimFix",
+                    "failing": 0,
+                    "testrun": 2299,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Math/patch1-Math-41-SimFix.patch",
+                    "test": "test_from_NFL_patch797_797-Math-41-SimFix",
+                    "failing": 0,
+                    "testrun": 2360,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 57.08
+        },
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/ssFix/Math/patch1-Math-41-ssFix.patch",
+            "project": "Math",
+            "bugid": "41",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T19:28:06.182858",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/ssFix/Math/patch1-Math-41-ssFix.patch",
+                    "test": "test_from_DRR_patch1-Math-41-ssFix",
+                    "failing": 0,
+                    "testrun": 2368,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/ssFix/Math/patch1-Math-41-ssFix.patch",
+                    "test": "test_from_NFL_patch1_1-Math-41-Nopol",
+                    "failing": 35,
+                    "testrun": 2015,
+                    "failings": [
+                        "test0530(RegressionTest1)",
+                        "test0596(RegressionTest1)",
+                        "test0681(RegressionTest1)",
+                        "test0791(RegressionTest1)",
+                        "test0880(RegressionTest1)",
+                        "test1558(RegressionTest3)",
+                        "test1671(RegressionTest3)",
+                        "test1676(RegressionTest3)",
+                        "test1697(RegressionTest3)",
+                        "test1739(RegressionTest3)",
+                        "test1775(RegressionTest3)",
+                        "test1838(RegressionTest3)",
+                        "test1847(RegressionTest3)",
+                        "test1905(RegressionTest3)",
+                        "test1029(RegressionTest2)",
+                        "test1040(RegressionTest2)",
+                        "test1165(RegressionTest2)",
+                        "test1257(RegressionTest2)",
+                        "test1294(RegressionTest2)",
+                        "test1327(RegressionTest2)",
+                        "test1331(RegressionTest2)",
+                        "test1403(RegressionTest2)",
+                        "test1442(RegressionTest2)",
+                        "test0101(RegressionTest0)",
+                        "test0108(RegressionTest0)",
+                        "test0126(RegressionTest0)",
+                        "test0162(RegressionTest0)",
+                        "test0166(RegressionTest0)",
+                        "test0200(RegressionTest0)",
+                        "test0214(RegressionTest0)",
+                        "test0221(RegressionTest0)",
+                        "test0322(RegressionTest0)",
+                        "test0368(RegressionTest0)",
+                        "test0392(RegressionTest0)",
+                        "test0407(RegressionTest0)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest1.test0530(RegressionTest1.java:2165)"
+                        ],
+                        [
+                            "RegressionTest1.test0596(RegressionTest1.java:6140)"
+                        ],
+                        [
+                            "RegressionTest1.test0681(RegressionTest1.java:11801)"
+                        ],
+                        [
+                            "RegressionTest1.test0791(RegressionTest1.java:19441)"
+                        ],
+                        [
+                            "RegressionTest1.test0880(RegressionTest1.java:26164)"
+                        ],
+                        [
+                            "RegressionTest3.test1558(RegressionTest3.java:4025)"
+                        ],
+                        [
+                            "RegressionTest3.test1671(RegressionTest3.java:11970)"
+                        ],
+                        [
+                            "RegressionTest3.test1676(RegressionTest3.java:12389)"
+                        ],
+                        [
+                            "RegressionTest3.test1697(RegressionTest3.java:13939)"
+                        ],
+                        [
+                            "RegressionTest3.test1739(RegressionTest3.java:16812)"
+                        ],
+                        [
+                            "RegressionTest3.test1775(RegressionTest3.java:19381)"
+                        ],
+                        [
+                            "RegressionTest3.test1838(RegressionTest3.java:23724)"
+                        ],
+                        [
+                            "RegressionTest3.test1847(RegressionTest3.java:24417)"
+                        ],
+                        [
+                            "RegressionTest3.test1905(RegressionTest3.java:28029)"
+                        ],
+                        [
+                            "RegressionTest2.test1029(RegressionTest2.java:1987)"
+                        ],
+                        [
+                            "RegressionTest2.test1040(RegressionTest2.java:2772)"
+                        ],
+                        [
+                            "RegressionTest2.test1165(RegressionTest2.java:10990)"
+                        ],
+                        [
+                            "RegressionTest2.test1257(RegressionTest2.java:17469)"
+                        ],
+                        [
+                            "RegressionTest2.test1294(RegressionTest2.java:20101)"
+                        ],
+                        [
+                            "RegressionTest2.test1327(RegressionTest2.java:22236)"
+                        ],
+                        [
+                            "RegressionTest2.test1331(RegressionTest2.java:22518)"
+                        ],
+                        [
+                            "RegressionTest2.test1403(RegressionTest2.java:27651)"
+                        ],
+                        [
+                            "RegressionTest2.test1442(RegressionTest2.java:30095)"
+                        ],
+                        [
+                            "RegressionTest0.test0101(RegressionTest0.java:5352)"
+                        ],
+                        [
+                            "RegressionTest0.test0108(RegressionTest0.java:5718)"
+                        ],
+                        [
+                            "RegressionTest0.test0126(RegressionTest0.java:6917)"
+                        ],
+                        [
+                            "RegressionTest0.test0162(RegressionTest0.java:9117)"
+                        ],
+                        [
+                            "RegressionTest0.test0166(RegressionTest0.java:9428)"
+                        ],
+                        [
+                            "RegressionTest0.test0200(RegressionTest0.java:11484)"
+                        ],
+                        [
+                            "RegressionTest0.test0214(RegressionTest0.java:12501)"
+                        ],
+                        [
+                            "RegressionTest0.test0221(RegressionTest0.java:12979)"
+                        ],
+                        [
+                            "RegressionTest0.test0322(RegressionTest0.java:19393)"
+                        ],
+                        [
+                            "RegressionTest0.test0368(RegressionTest0.java:22367)"
+                        ],
+                        [
+                            "RegressionTest0.test0392(RegressionTest0.java:23999)"
+                        ],
+                        [
+                            "RegressionTest0.test0407(RegressionTest0.java:24840)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/ssFix/Math/patch1-Math-41-ssFix.patch",
+                    "test": "test_from_DRR_patch1-Math-41-SimFix",
+                    "failing": 0,
+                    "testrun": 2299,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/ssFix/Math/patch1-Math-41-ssFix.patch",
+                    "test": "test_from_NFL_patch797_797-Math-41-SimFix",
+                    "failing": 0,
+                    "testrun": 2360,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 55.17
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Math/patch797_797-Math-41-SimFix.patch",
+            "project": "Math",
+            "bugid": "41",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:29:01.356523",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Math/patch797_797-Math-41-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Math-41-ssFix",
+                    "failing": 0,
+                    "testrun": 2368,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Math/patch797_797-Math-41-SimFix.patch",
+                    "test": "test_from_NFL_patch1_1-Math-41-Nopol",
+                    "failing": 35,
+                    "testrun": 2015,
+                    "failings": [
+                        "test0530(RegressionTest1)",
+                        "test0596(RegressionTest1)",
+                        "test0681(RegressionTest1)",
+                        "test0791(RegressionTest1)",
+                        "test0880(RegressionTest1)",
+                        "test1558(RegressionTest3)",
+                        "test1671(RegressionTest3)",
+                        "test1676(RegressionTest3)",
+                        "test1697(RegressionTest3)",
+                        "test1739(RegressionTest3)",
+                        "test1775(RegressionTest3)",
+                        "test1838(RegressionTest3)",
+                        "test1847(RegressionTest3)",
+                        "test1905(RegressionTest3)",
+                        "test1029(RegressionTest2)",
+                        "test1040(RegressionTest2)",
+                        "test1165(RegressionTest2)",
+                        "test1257(RegressionTest2)",
+                        "test1294(RegressionTest2)",
+                        "test1327(RegressionTest2)",
+                        "test1331(RegressionTest2)",
+                        "test1403(RegressionTest2)",
+                        "test1442(RegressionTest2)",
+                        "test0101(RegressionTest0)",
+                        "test0108(RegressionTest0)",
+                        "test0126(RegressionTest0)",
+                        "test0162(RegressionTest0)",
+                        "test0166(RegressionTest0)",
+                        "test0200(RegressionTest0)",
+                        "test0214(RegressionTest0)",
+                        "test0221(RegressionTest0)",
+                        "test0322(RegressionTest0)",
+                        "test0368(RegressionTest0)",
+                        "test0392(RegressionTest0)",
+                        "test0407(RegressionTest0)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest1.test0530(RegressionTest1.java:2165)"
+                        ],
+                        [
+                            "RegressionTest1.test0596(RegressionTest1.java:6140)"
+                        ],
+                        [
+                            "RegressionTest1.test0681(RegressionTest1.java:11801)"
+                        ],
+                        [
+                            "RegressionTest1.test0791(RegressionTest1.java:19441)"
+                        ],
+                        [
+                            "RegressionTest1.test0880(RegressionTest1.java:26164)"
+                        ],
+                        [
+                            "RegressionTest3.test1558(RegressionTest3.java:4025)"
+                        ],
+                        [
+                            "RegressionTest3.test1671(RegressionTest3.java:11970)"
+                        ],
+                        [
+                            "RegressionTest3.test1676(RegressionTest3.java:12389)"
+                        ],
+                        [
+                            "RegressionTest3.test1697(RegressionTest3.java:13939)"
+                        ],
+                        [
+                            "RegressionTest3.test1739(RegressionTest3.java:16812)"
+                        ],
+                        [
+                            "RegressionTest3.test1775(RegressionTest3.java:19381)"
+                        ],
+                        [
+                            "RegressionTest3.test1838(RegressionTest3.java:23724)"
+                        ],
+                        [
+                            "RegressionTest3.test1847(RegressionTest3.java:24417)"
+                        ],
+                        [
+                            "RegressionTest3.test1905(RegressionTest3.java:28029)"
+                        ],
+                        [
+                            "RegressionTest2.test1029(RegressionTest2.java:1987)"
+                        ],
+                        [
+                            "RegressionTest2.test1040(RegressionTest2.java:2772)"
+                        ],
+                        [
+                            "RegressionTest2.test1165(RegressionTest2.java:10990)"
+                        ],
+                        [
+                            "RegressionTest2.test1257(RegressionTest2.java:17469)"
+                        ],
+                        [
+                            "RegressionTest2.test1294(RegressionTest2.java:20101)"
+                        ],
+                        [
+                            "RegressionTest2.test1327(RegressionTest2.java:22236)"
+                        ],
+                        [
+                            "RegressionTest2.test1331(RegressionTest2.java:22518)"
+                        ],
+                        [
+                            "RegressionTest2.test1403(RegressionTest2.java:27651)"
+                        ],
+                        [
+                            "RegressionTest2.test1442(RegressionTest2.java:30095)"
+                        ],
+                        [
+                            "RegressionTest0.test0101(RegressionTest0.java:5352)"
+                        ],
+                        [
+                            "RegressionTest0.test0108(RegressionTest0.java:5718)"
+                        ],
+                        [
+                            "RegressionTest0.test0126(RegressionTest0.java:6917)"
+                        ],
+                        [
+                            "RegressionTest0.test0162(RegressionTest0.java:9117)"
+                        ],
+                        [
+                            "RegressionTest0.test0166(RegressionTest0.java:9428)"
+                        ],
+                        [
+                            "RegressionTest0.test0200(RegressionTest0.java:11484)"
+                        ],
+                        [
+                            "RegressionTest0.test0214(RegressionTest0.java:12501)"
+                        ],
+                        [
+                            "RegressionTest0.test0221(RegressionTest0.java:12979)"
+                        ],
+                        [
+                            "RegressionTest0.test0322(RegressionTest0.java:19393)"
+                        ],
+                        [
+                            "RegressionTest0.test0368(RegressionTest0.java:22367)"
+                        ],
+                        [
+                            "RegressionTest0.test0392(RegressionTest0.java:23999)"
+                        ],
+                        [
+                            "RegressionTest0.test0407(RegressionTest0.java:24840)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Math/patch797_797-Math-41-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Math-41-SimFix",
+                    "failing": 0,
+                    "testrun": 2299,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Math/patch797_797-Math-41-SimFix.patch",
+                    "test": "test_from_NFL_patch797_797-Math-41-SimFix",
+                    "failing": 0,
+                    "testrun": 2360,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 56.36
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-41-DynaMoth.patch",
+            "project": "Math",
+            "bugid": "41",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:29:57.721341",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-41-DynaMoth.patch",
+                    "test": "test_from_DRR_patch1-Math-41-ssFix",
+                    "failing": 4,
+                    "testrun": 2368,
+                    "failings": [
+                        "test1851(RegressionTest3)",
+                        "test1389(RegressionTest2)",
+                        "test1407(RegressionTest2)",
+                        "test0011(RegressionTest0)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expected exception of type org.apache.commons.math.exception.DimensionMismatchException; message: 2 != 1",
+                        "java.lang.NullPointerException",
+                        "java.lang.AssertionError: Expected exception of type org.apache.commons.math.exception.NullArgumentException; message: input array",
+                        "java.lang.AssertionError: Expected exception of type org.apache.commons.math.exception.DimensionMismatchException; message: 2 != 1"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest3.test1851(RegressionTest3.java:19901)"
+                        ],
+                        [
+                            "RegressionTest2.test1389(RegressionTest2.java:22312)"
+                        ],
+                        [
+                            "RegressionTest2.test1407(RegressionTest2.java:23241)"
+                        ],
+                        [
+                            "RegressionTest0.test0011(RegressionTest0.java:275)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-41-DynaMoth.patch",
+                    "test": "test_from_NFL_patch1_1-Math-41-Nopol",
+                    "failing": 35,
+                    "testrun": 2015,
+                    "failings": [
+                        "test0530(RegressionTest1)",
+                        "test0596(RegressionTest1)",
+                        "test0681(RegressionTest1)",
+                        "test0791(RegressionTest1)",
+                        "test0880(RegressionTest1)",
+                        "test1558(RegressionTest3)",
+                        "test1671(RegressionTest3)",
+                        "test1676(RegressionTest3)",
+                        "test1697(RegressionTest3)",
+                        "test1739(RegressionTest3)",
+                        "test1775(RegressionTest3)",
+                        "test1838(RegressionTest3)",
+                        "test1847(RegressionTest3)",
+                        "test1905(RegressionTest3)",
+                        "test1029(RegressionTest2)",
+                        "test1040(RegressionTest2)",
+                        "test1165(RegressionTest2)",
+                        "test1257(RegressionTest2)",
+                        "test1294(RegressionTest2)",
+                        "test1327(RegressionTest2)",
+                        "test1331(RegressionTest2)",
+                        "test1403(RegressionTest2)",
+                        "test1442(RegressionTest2)",
+                        "test0101(RegressionTest0)",
+                        "test0108(RegressionTest0)",
+                        "test0126(RegressionTest0)",
+                        "test0162(RegressionTest0)",
+                        "test0166(RegressionTest0)",
+                        "test0200(RegressionTest0)",
+                        "test0214(RegressionTest0)",
+                        "test0221(RegressionTest0)",
+                        "test0322(RegressionTest0)",
+                        "test0368(RegressionTest0)",
+                        "test0392(RegressionTest0)",
+                        "test0407(RegressionTest0)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest1.test0530(RegressionTest1.java:2165)"
+                        ],
+                        [
+                            "RegressionTest1.test0596(RegressionTest1.java:6140)"
+                        ],
+                        [
+                            "RegressionTest1.test0681(RegressionTest1.java:11801)"
+                        ],
+                        [
+                            "RegressionTest1.test0791(RegressionTest1.java:19441)"
+                        ],
+                        [
+                            "RegressionTest1.test0880(RegressionTest1.java:26164)"
+                        ],
+                        [
+                            "RegressionTest3.test1558(RegressionTest3.java:4025)"
+                        ],
+                        [
+                            "RegressionTest3.test1671(RegressionTest3.java:11970)"
+                        ],
+                        [
+                            "RegressionTest3.test1676(RegressionTest3.java:12389)"
+                        ],
+                        [
+                            "RegressionTest3.test1697(RegressionTest3.java:13939)"
+                        ],
+                        [
+                            "RegressionTest3.test1739(RegressionTest3.java:16812)"
+                        ],
+                        [
+                            "RegressionTest3.test1775(RegressionTest3.java:19381)"
+                        ],
+                        [
+                            "RegressionTest3.test1838(RegressionTest3.java:23724)"
+                        ],
+                        [
+                            "RegressionTest3.test1847(RegressionTest3.java:24417)"
+                        ],
+                        [
+                            "RegressionTest3.test1905(RegressionTest3.java:28029)"
+                        ],
+                        [
+                            "RegressionTest2.test1029(RegressionTest2.java:1987)"
+                        ],
+                        [
+                            "RegressionTest2.test1040(RegressionTest2.java:2772)"
+                        ],
+                        [
+                            "RegressionTest2.test1165(RegressionTest2.java:10990)"
+                        ],
+                        [
+                            "RegressionTest2.test1257(RegressionTest2.java:17469)"
+                        ],
+                        [
+                            "RegressionTest2.test1294(RegressionTest2.java:20101)"
+                        ],
+                        [
+                            "RegressionTest2.test1327(RegressionTest2.java:22236)"
+                        ],
+                        [
+                            "RegressionTest2.test1331(RegressionTest2.java:22518)"
+                        ],
+                        [
+                            "RegressionTest2.test1403(RegressionTest2.java:27651)"
+                        ],
+                        [
+                            "RegressionTest2.test1442(RegressionTest2.java:30095)"
+                        ],
+                        [
+                            "RegressionTest0.test0101(RegressionTest0.java:5352)"
+                        ],
+                        [
+                            "RegressionTest0.test0108(RegressionTest0.java:5718)"
+                        ],
+                        [
+                            "RegressionTest0.test0126(RegressionTest0.java:6917)"
+                        ],
+                        [
+                            "RegressionTest0.test0162(RegressionTest0.java:9117)"
+                        ],
+                        [
+                            "RegressionTest0.test0166(RegressionTest0.java:9428)"
+                        ],
+                        [
+                            "RegressionTest0.test0200(RegressionTest0.java:11484)"
+                        ],
+                        [
+                            "RegressionTest0.test0214(RegressionTest0.java:12501)"
+                        ],
+                        [
+                            "RegressionTest0.test0221(RegressionTest0.java:12979)"
+                        ],
+                        [
+                            "RegressionTest0.test0322(RegressionTest0.java:19393)"
+                        ],
+                        [
+                            "RegressionTest0.test0368(RegressionTest0.java:22367)"
+                        ],
+                        [
+                            "RegressionTest0.test0392(RegressionTest0.java:23999)"
+                        ],
+                        [
+                            "RegressionTest0.test0407(RegressionTest0.java:24840)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-41-DynaMoth.patch",
+                    "test": "test_from_DRR_patch1-Math-41-SimFix",
+                    "failing": 4,
+                    "testrun": 2299,
+                    "failings": [
+                        "test1898(RegressionTest3)",
+                        "test1423(RegressionTest2)",
+                        "test1441(RegressionTest2)",
+                        "test0011(RegressionTest0)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expected exception of type org.apache.commons.math.exception.DimensionMismatchException; message: 2 != 1",
+                        "java.lang.NullPointerException",
+                        "java.lang.AssertionError: Expected exception of type org.apache.commons.math.exception.NullArgumentException; message: input array",
+                        "java.lang.AssertionError: Expected exception of type org.apache.commons.math.exception.DimensionMismatchException; message: 2 != 1"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest3.test1898(RegressionTest3.java:22441)"
+                        ],
+                        [
+                            "RegressionTest2.test1423(RegressionTest2.java:24106)"
+                        ],
+                        [
+                            "RegressionTest2.test1441(RegressionTest2.java:25035)"
+                        ],
+                        [
+                            "RegressionTest0.test0011(RegressionTest0.java:275)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-41-DynaMoth.patch",
+                    "test": "test_from_NFL_patch797_797-Math-41-SimFix",
+                    "failing": 4,
+                    "testrun": 2360,
+                    "failings": [
+                        "test1857(RegressionTest3)",
+                        "test1393(RegressionTest2)",
+                        "test1411(RegressionTest2)",
+                        "test0011(RegressionTest0)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expected exception of type org.apache.commons.math.exception.DimensionMismatchException; message: 2 != 1",
+                        "java.lang.NullPointerException",
+                        "java.lang.AssertionError: Expected exception of type org.apache.commons.math.exception.NullArgumentException; message: input array",
+                        "java.lang.AssertionError: Expected exception of type org.apache.commons.math.exception.DimensionMismatchException; message: 2 != 1"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest3.test1857(RegressionTest3.java:20132)"
+                        ],
+                        [
+                            "RegressionTest2.test1393(RegressionTest2.java:22530)"
+                        ],
+                        [
+                            "RegressionTest2.test1411(RegressionTest2.java:23459)"
+                        ],
+                        [
+                            "RegressionTest0.test0011(RegressionTest0.java:275)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 56.53
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-41-Nopol.patch",
+            "project": "Math",
+            "bugid": "41",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:30:54.256370",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-41-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Math-41-ssFix",
+                    "failing": 0,
+                    "testrun": 2368,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-41-Nopol.patch",
+                    "test": "test_from_NFL_patch1_1-Math-41-Nopol",
+                    "failing": 0,
+                    "testrun": 2015,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-41-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Math-41-SimFix",
+                    "failing": 0,
+                    "testrun": 2299,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-41-Nopol.patch",
+                    "test": "test_from_NFL_patch797_797-Math-41-SimFix",
+                    "failing": 0,
+                    "testrun": 2360,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 57.06
+        }
+    ],
+    "date": "2021-11-22T19:27:09.101588",
+    "duration": -0.0
+}

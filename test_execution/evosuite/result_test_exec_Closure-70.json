@@ -1,0 +1,79 @@
+{
+    "bugid": "Closure-70",
+    "results": [
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Closure/patch1-Closure-70-Jaid.patch",
+            "project": "Closure",
+            "bugid": "70",
+            "dataset": "patchesDRR",
+            "date": "2021-11-23T19:19:39.856610",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Closure/patch1-Closure-70-Jaid.patch",
+                    "test": "test_from_PFL_patch71_24-Closure-70-TBar",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.TypedScopeCreator_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:20:43.183 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.mozilla.rhino.VMBridge_custom",
+                        "19:20:43.223 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.mozilla.rhino.VMBridge_custom",
+                        "19:20:43.251 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.mozilla.rhino.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 63.53
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/TBar/Closure/patch71_24-Closure-70-TBar.patch",
+            "project": "Closure",
+            "bugid": "70",
+            "dataset": "PFL",
+            "date": "2021-11-23T19:20:43.391805",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/TBar/Closure/patch71_24-Closure-70-TBar.patch",
+                    "test": "test_from_PFL_patch71_24-Closure-70-TBar",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.TypedScopeCreator_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:21:47.936 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.mozilla.rhino.VMBridge_custom",
+                        "19:21:47.977 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.mozilla.rhino.VMBridge_custom",
+                        "19:21:48.005 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.mozilla.rhino.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 64.75
+        }
+    ],
+    "date": "2021-11-23T19:19:39.855609",
+    "duration": -0.0
+}

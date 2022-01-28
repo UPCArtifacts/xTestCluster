@@ -1,0 +1,110 @@
+{
+    "bugid": "Lang-21",
+    "results": [
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/ssFix/Lang/patch1-Lang-21-ssFix.patch",
+            "project": "Lang",
+            "bugid": "21",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:46:57.796420",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/ssFix/Lang/patch1-Lang-21-ssFix.patch",
+                    "test": "test_from_NFL_patch154_93-Lang-21-kPAR",
+                    "failing": 2,
+                    "testrun": 171,
+                    "failings": [
+                        "test002(org.apache.commons.lang3.time.DateUtils_ESTest)",
+                        "test123(org.apache.commons.lang3.time.DateUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.time.DateUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.time.DateUtils_ESTest.test002(DateUtils_ESTest.java:86)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.time.DateUtils_ESTest.test123(DateUtils_ESTest.java:2255)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/ssFix/Lang/patch1-Lang-21-ssFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-21-ssFix",
+                    "failing": 0,
+                    "testrun": 156,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.time.DateUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 23.83
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch154_93-Lang-21-kPAR.patch",
+            "project": "Lang",
+            "bugid": "21",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:47:21.632195",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch154_93-Lang-21-kPAR.patch",
+                    "test": "test_from_NFL_patch154_93-Lang-21-kPAR",
+                    "failing": 0,
+                    "testrun": 171,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.time.DateUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch154_93-Lang-21-kPAR.patch",
+                    "test": "test_from_DRR_patch1-Lang-21-ssFix",
+                    "failing": 1,
+                    "testrun": 156,
+                    "failings": [
+                        "test110(org.apache.commons.lang3.time.DateUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.time.DateUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.time.DateUtils_ESTest.test110(DateUtils_ESTest.java:1351)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 24.57
+        }
+    ],
+    "date": "2021-11-22T22:46:57.795586",
+    "duration": -0.0
+}

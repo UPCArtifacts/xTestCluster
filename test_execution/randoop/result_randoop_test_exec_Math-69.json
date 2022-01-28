@@ -1,0 +1,73 @@
+{
+    "bugid": "Math-69",
+    "results": [
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Math/patch63_63-Math-69-SimFix.patch",
+            "project": "Math",
+            "bugid": "69",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:27:03.070084",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-69-Nopol.patch",
+            "project": "Math",
+            "bugid": "69",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:27:25.379824",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-69-Nopol.patch",
+                    "test": "test_from_NFL_patch1_1-Math-69-Nopol",
+                    "failing": 4,
+                    "testrun": 1391,
+                    "failings": [
+                        "test1(ErrorTest0)",
+                        "test2(ErrorTest0)",
+                        "test3(ErrorTest0)",
+                        "test4(ErrorTest0)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "ErrorTest0",
+                        "RegressionTest1",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "ErrorTest0.test1(ErrorTest0.java:16)"
+                        ],
+                        [
+                            "ErrorTest0.test2(ErrorTest0.java:32)"
+                        ],
+                        [
+                            "ErrorTest0.test3(ErrorTest0.java:70)"
+                        ],
+                        [
+                            "ErrorTest0.test4(ErrorTest0.java:127)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 29.11
+        }
+    ],
+    "date": "2021-11-22T19:27:03.069353",
+    "duration": -0.0
+}

@@ -1,0 +1,198 @@
+{
+    "bugid": "Closure-19",
+    "results": [
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch4878_4878-Closure-19-SimFix.patch",
+            "project": "Closure",
+            "bugid": "19",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:25:01.355627",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch4878_4878-Closure-19-SimFix.patch",
+                    "test": "test_from_NFL_patch4878_4878-Closure-19-SimFix",
+                    "failing": 0,
+                    "testrun": 4,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.type.ClosureReverseAbstractInterpreter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch4878_4878-Closure-19-SimFix.patch",
+                    "test": "test_from_NFL_patch8_4-Closure-19-FixMiner",
+                    "failing": 1,
+                    "testrun": 64,
+                    "failings": [
+                        "test39(com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: 0"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest.test39(ChainableReverseAbstractInterpreter_ESTest.java:548)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch4878_4878-Closure-19-SimFix.patch",
+                    "test": "test_from_PFL_patch6_6-Closure-19-SimFix",
+                    "failing": 0,
+                    "testrun": 68,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 78.31
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/FixMiner/Closure/patch8_4-Closure-19-FixMiner.patch",
+            "project": "Closure",
+            "bugid": "19",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:26:19.665915",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/FixMiner/Closure/patch8_4-Closure-19-FixMiner.patch",
+                    "test": "test_from_NFL_patch4878_4878-Closure-19-SimFix",
+                    "failing": 0,
+                    "testrun": 4,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.type.ClosureReverseAbstractInterpreter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/FixMiner/Closure/patch8_4-Closure-19-FixMiner.patch",
+                    "test": "test_from_NFL_patch8_4-Closure-19-FixMiner",
+                    "failing": 0,
+                    "testrun": 64,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/FixMiner/Closure/patch8_4-Closure-19-FixMiner.patch",
+                    "test": "test_from_PFL_patch6_6-Closure-19-SimFix",
+                    "failing": 2,
+                    "testrun": 68,
+                    "failings": [
+                        "test17(com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest)",
+                        "test39(com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: IllegalStateException",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest.test17(ChainableReverseAbstractInterpreter_ESTest.java:271)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest.test39(ChainableReverseAbstractInterpreter_ESTest.java:557)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 78.66
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/SimFix/Closure/patch6_6-Closure-19-SimFix.patch",
+            "project": "Closure",
+            "bugid": "19",
+            "dataset": "PFL",
+            "date": "2021-11-23T19:27:38.326865",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/SimFix/Closure/patch6_6-Closure-19-SimFix.patch",
+                    "test": "test_from_NFL_patch4878_4878-Closure-19-SimFix",
+                    "failing": 0,
+                    "testrun": 4,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.type.ClosureReverseAbstractInterpreter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/SimFix/Closure/patch6_6-Closure-19-SimFix.patch",
+                    "test": "test_from_NFL_patch8_4-Closure-19-FixMiner",
+                    "failing": 1,
+                    "testrun": 64,
+                    "failings": [
+                        "test39(com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: 0"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest.test39(ChainableReverseAbstractInterpreter_ESTest.java:548)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/SimFix/Closure/patch6_6-Closure-19-SimFix.patch",
+                    "test": "test_from_PFL_patch6_6-Closure-19-SimFix",
+                    "failing": 0,
+                    "testrun": 68,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 78.12
+        }
+    ],
+    "date": "2021-11-23T19:25:01.355051",
+    "duration": -0.0
+}

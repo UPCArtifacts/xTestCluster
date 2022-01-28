@@ -1,0 +1,170 @@
+{
+    "bugid": "Math-105",
+    "results": [
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-105-DynaMoth.patch",
+            "project": "Math",
+            "bugid": "105",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:13:08.332956",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-105-DynaMoth.patch",
+                    "test": "test_from_NFL_patch1_1-Math-105-DynaMoth",
+                    "failing": 0,
+                    "testrun": 51,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.regression.SimpleRegression_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-105-DynaMoth.patch",
+                    "test": "test_from_NFL_patch1_1-Math-105-Nopol",
+                    "failing": 7,
+                    "testrun": 53,
+                    "failings": [
+                        "test26(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test15(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test13(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test11(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test05(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test47(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test08(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.regression.SimpleRegression_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<546917.5693218402> but was:<410188.17699138017>",
+                        "java.lang.AssertionError: expected:<11.003896144533178> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.7790415682689698> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<0.11414497982915262> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<-1.82336800758206669E18> but was:<-8672695.473058725>",
+                        "java.lang.AssertionError: expected:<-173.3296148621124> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1093835.1386436804> but was:<820376.3539827603>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test26(SimpleRegression_ESTest.java:350)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test15(SimpleRegression_ESTest.java:220)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test13(SimpleRegression_ESTest.java:190)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test11(SimpleRegression_ESTest.java:162)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test05(SimpleRegression_ESTest.java:90)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test47(SimpleRegression_ESTest.java:600)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test08(SimpleRegression_ESTest.java:124)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 16.54
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-105-Nopol.patch",
+            "project": "Math",
+            "bugid": "105",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:13:24.872818",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-105-Nopol.patch",
+                    "test": "test_from_NFL_patch1_1-Math-105-DynaMoth",
+                    "failing": 8,
+                    "testrun": 51,
+                    "failings": [
+                        "test30(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test16(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test14(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test12(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test18(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test05(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test44(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test43(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.regression.SimpleRegression_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<NaN>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<NaN>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<NaN>",
+                        "java.lang.AssertionError: expected:<0.31307218596877295> but was:<NaN>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<NaN>",
+                        "java.lang.AssertionError: expected:<1095920.6704052293> but was:<822157.4028039222>",
+                        "java.lang.AssertionError: expected:<-3.3881317890172014E-21> but was:<NaN>",
+                        "java.lang.AssertionError: expected:<-1.0000000000000002> but was:<NaN>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test30(SimpleRegression_ESTest.java:444)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test16(SimpleRegression_ESTest.java:260)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test14(SimpleRegression_ESTest.java:230)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test12(SimpleRegression_ESTest.java:203)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test18(SimpleRegression_ESTest.java:287)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test05(SimpleRegression_ESTest.java:111)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test44(SimpleRegression_ESTest.java:615)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test43(SimpleRegression_ESTest.java:604)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-105-Nopol.patch",
+                    "test": "test_from_NFL_patch1_1-Math-105-Nopol",
+                    "failing": 0,
+                    "testrun": 53,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.regression.SimpleRegression_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 16.67
+        }
+    ],
+    "date": "2021-11-22T19:13:08.332052",
+    "duration": -0.0
+}

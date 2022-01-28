@@ -1,0 +1,387 @@
+{
+    "bugid": "Lang-60",
+    "results": [
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-60-SimFix.patch",
+            "project": "Lang",
+            "bugid": "60",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:53:41.145524",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-60-SimFix.patch",
+                    "test": "test_from_NFL_patch1290_1290-Lang-60-SimFix",
+                    "failing": 0,
+                    "testrun": 314,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.text.StrBuilder_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-60-SimFix.patch",
+                    "test": "test_from_NFL_patch3262_1865-Lang-60-TBar",
+                    "failing": 0,
+                    "testrun": 342,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.text.StrBuilder_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-60-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-60-SimFix",
+                    "failing": 0,
+                    "testrun": 312,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.text.StrBuilder_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-60-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-60-Arja-plausible",
+                    "failing": 6,
+                    "testrun": 321,
+                    "failings": [
+                        "test070(org.apache.commons.lang.text.StrBuilder_ESTest)",
+                        "test076(org.apache.commons.lang.text.StrBuilder_ESTest)",
+                        "test072(org.apache.commons.lang.text.StrBuilder_ESTest)",
+                        "test074(org.apache.commons.lang.text.StrBuilder_ESTest)",
+                        "test073(org.apache.commons.lang.text.StrBuilder_ESTest)",
+                        "test066(org.apache.commons.lang.text.StrBuilder_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.text.StrBuilder_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0> but was:<32>",
+                        "java.lang.AssertionError: expected:<0> but was:<32>",
+                        "java.lang.AssertionError: expected:<0> but was:<32>",
+                        "java.lang.AssertionError: expected:<0> but was:<32>",
+                        "java.lang.AssertionError: expected:<0> but was:<32>",
+                        "java.lang.AssertionError: expected:<0> but was:<32>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test070(StrBuilder_ESTest.java:2394)"
+                        ],
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test076(StrBuilder_ESTest.java:2672)"
+                        ],
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test072(StrBuilder_ESTest.java:2497)"
+                        ],
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test074(StrBuilder_ESTest.java:2576)"
+                        ],
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test073(StrBuilder_ESTest.java:2535)"
+                        ],
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test066(StrBuilder_ESTest.java:2234)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 25.03
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-60-Arja-plausible.patch",
+            "project": "Lang",
+            "bugid": "60",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:54:06.178414",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-60-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch1290_1290-Lang-60-SimFix",
+                    "failing": 2,
+                    "testrun": 314,
+                    "failings": [
+                        "test010(org.apache.commons.lang.text.StrBuilder_ESTest)",
+                        "test153(org.apache.commons.lang.text.StrBuilder_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.text.StrBuilder_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<45> but was:<13>",
+                        "java.lang.AssertionError: expected:<45> but was:<13>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test010(StrBuilder_ESTest.java:400)"
+                        ],
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test153(StrBuilder_ESTest.java:5111)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-60-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch3262_1865-Lang-60-TBar",
+                    "failing": 0,
+                    "testrun": 342,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.text.StrBuilder_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-60-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-60-SimFix",
+                    "failing": 0,
+                    "testrun": 312,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.text.StrBuilder_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-60-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-60-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 321,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.text.StrBuilder_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 25.56
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1290_1290-Lang-60-SimFix.patch",
+            "project": "Lang",
+            "bugid": "60",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:54:31.740080",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1290_1290-Lang-60-SimFix.patch",
+                    "test": "test_from_NFL_patch1290_1290-Lang-60-SimFix",
+                    "failing": 0,
+                    "testrun": 314,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.text.StrBuilder_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1290_1290-Lang-60-SimFix.patch",
+                    "test": "test_from_NFL_patch3262_1865-Lang-60-TBar",
+                    "failing": 0,
+                    "testrun": 342,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.text.StrBuilder_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1290_1290-Lang-60-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-60-SimFix",
+                    "failing": 0,
+                    "testrun": 312,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.text.StrBuilder_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1290_1290-Lang-60-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Lang-60-Arja-plausible",
+                    "failing": 6,
+                    "testrun": 321,
+                    "failings": [
+                        "test070(org.apache.commons.lang.text.StrBuilder_ESTest)",
+                        "test076(org.apache.commons.lang.text.StrBuilder_ESTest)",
+                        "test072(org.apache.commons.lang.text.StrBuilder_ESTest)",
+                        "test074(org.apache.commons.lang.text.StrBuilder_ESTest)",
+                        "test073(org.apache.commons.lang.text.StrBuilder_ESTest)",
+                        "test066(org.apache.commons.lang.text.StrBuilder_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.text.StrBuilder_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0> but was:<32>",
+                        "java.lang.AssertionError: expected:<0> but was:<32>",
+                        "java.lang.AssertionError: expected:<0> but was:<32>",
+                        "java.lang.AssertionError: expected:<0> but was:<32>",
+                        "java.lang.AssertionError: expected:<0> but was:<32>",
+                        "java.lang.AssertionError: expected:<0> but was:<32>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test070(StrBuilder_ESTest.java:2394)"
+                        ],
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test076(StrBuilder_ESTest.java:2672)"
+                        ],
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test072(StrBuilder_ESTest.java:2497)"
+                        ],
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test074(StrBuilder_ESTest.java:2576)"
+                        ],
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test073(StrBuilder_ESTest.java:2535)"
+                        ],
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test066(StrBuilder_ESTest.java:2234)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 25.87
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch3262_1865-Lang-60-TBar.patch",
+            "project": "Lang",
+            "bugid": "60",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:54:57.613233",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch3262_1865-Lang-60-TBar.patch",
+                    "test": "test_from_NFL_patch1290_1290-Lang-60-SimFix",
+                    "failing": 0,
+                    "testrun": 314,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.text.StrBuilder_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch3262_1865-Lang-60-TBar.patch",
+                    "test": "test_from_NFL_patch3262_1865-Lang-60-TBar",
+                    "failing": 0,
+                    "testrun": 342,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.text.StrBuilder_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch3262_1865-Lang-60-TBar.patch",
+                    "test": "test_from_DRR_patch1-Lang-60-SimFix",
+                    "failing": 0,
+                    "testrun": 312,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.text.StrBuilder_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch3262_1865-Lang-60-TBar.patch",
+                    "test": "test_from_DRR_patch1-Lang-60-Arja-plausible",
+                    "failing": 6,
+                    "testrun": 321,
+                    "failings": [
+                        "test070(org.apache.commons.lang.text.StrBuilder_ESTest)",
+                        "test076(org.apache.commons.lang.text.StrBuilder_ESTest)",
+                        "test072(org.apache.commons.lang.text.StrBuilder_ESTest)",
+                        "test074(org.apache.commons.lang.text.StrBuilder_ESTest)",
+                        "test073(org.apache.commons.lang.text.StrBuilder_ESTest)",
+                        "test066(org.apache.commons.lang.text.StrBuilder_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.text.StrBuilder_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0> but was:<32>",
+                        "java.lang.AssertionError: expected:<0> but was:<32>",
+                        "java.lang.AssertionError: expected:<0> but was:<32>",
+                        "java.lang.AssertionError: expected:<0> but was:<32>",
+                        "java.lang.AssertionError: expected:<0> but was:<32>",
+                        "java.lang.AssertionError: expected:<0> but was:<32>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test070(StrBuilder_ESTest.java:2394)"
+                        ],
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test076(StrBuilder_ESTest.java:2672)"
+                        ],
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test072(StrBuilder_ESTest.java:2497)"
+                        ],
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test074(StrBuilder_ESTest.java:2576)"
+                        ],
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test073(StrBuilder_ESTest.java:2535)"
+                        ],
+                        [
+                            "org.apache.commons.lang.text.StrBuilder_ESTest.test066(StrBuilder_ESTest.java:2234)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 25.67
+        }
+    ],
+    "date": "2021-11-22T22:53:41.144728",
+    "duration": -0.0
+}

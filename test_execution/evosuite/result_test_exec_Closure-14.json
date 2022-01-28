@@ -1,0 +1,80 @@
+{
+    "bugid": "Closure-14",
+    "results": [
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Closure/patch1-Closure-14-SimFix.patch",
+            "project": "Closure",
+            "bugid": "14",
+            "dataset": "patchesDRR",
+            "date": "2021-11-23T19:21:35.018005",
+            "project_checked": "ok",
+            "compiledProjectModified": "no",
+            "patchApplied": "no",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Closure/patch2251_2251-Closure-14-SimFix.patch",
+            "project": "Closure",
+            "bugid": "14",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:21:40.914722",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Closure/patch2251_2251-Closure-14-SimFix.patch",
+                    "test": "test_from_NFL_patch2251_2251-Closure-14-SimFix",
+                    "failing": 0,
+                    "testrun": 59,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.ControlFlowAnalysis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:23:15.437 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:23:15.622 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:23:15.658 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Closure/patch2251_2251-Closure-14-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Closure-14-SimFix",
+                    "failing": 0,
+                    "testrun": 61,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.ControlFlowAnalysis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "19:23:19.637 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:23:19.643 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:23:19.650 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:23:19.727 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "19:23:19.765 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 99.06
+        }
+    ],
+    "date": "2021-11-23T19:21:35.017003",
+    "duration": -0.0
+}

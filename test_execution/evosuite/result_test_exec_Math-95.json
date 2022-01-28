@@ -1,0 +1,2744 @@
+{
+    "bugid": "Math-95",
+    "results": [
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch179_153-Math-95-ARJA.patch",
+            "project": "Math",
+            "bugid": "95",
+            "dataset": "NFL",
+            "date": "2021-11-23T00:19:33.956574",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch179_153-Math-95-ARJA.patch",
+                    "test": "test_from_NFL_patch179_153-Math-95-ARJA",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch179_153-Math-95-ARJA.patch",
+                    "test": "test_from_NFL_patch167_36-Math-95-RSRepair-A",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:73)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch179_153-Math-95-ARJA.patch",
+                    "test": "test_from_PFL_patch25_18-Math-95-ARJA",
+                    "failing": 2,
+                    "testrun": 19,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.5> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:117)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:80)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch179_153-Math-95-ARJA.patch",
+                    "test": "test_from_PFL_patch1_1-Math-95-Cardumen",
+                    "failing": 1,
+                    "testrun": 21,
+                    "failings": [
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1.0999208236036878E7> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch179_153-Math-95-ARJA.patch",
+                    "test": "test_from_NFL_patch56_20-Math-95-TBar",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.08346355789588344> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:55)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch179_153-Math-95-ARJA.patch",
+                    "test": "test_from_NFL_patch817_386-Math-95-GenProg-A",
+                    "failing": 2,
+                    "testrun": 52,
+                    "failings": [
+                        "test05(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.UnivariateRealSolverUtils_ESTest",
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-1905.1841510628992> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<2464.30011543> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test05(FDistributionImpl_ESTest.java:90)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch179_153-Math-95-ARJA.patch",
+                    "test": "test_from_NFL_patch27_27-Math-95-Kali-A",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch179_153-Math-95-ARJA.patch",
+                    "test": "test_from_PFL_patch1122_956-Math-95-GenProg-A",
+                    "failing": 1,
+                    "testrun": 21,
+                    "failings": [
+                        "test16(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-1.0> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test16(FDistributionImpl_ESTest.java:204)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch179_153-Math-95-ARJA.patch",
+                    "test": "test_from_PFL_patch59_19-Math-95-FixMiner",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch179_153-Math-95-ARJA.patch",
+                    "test": "test_from_NFL_patch72_42-Math-95-jGenProg",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch179_153-Math-95-ARJA.patch",
+                    "test": "test_from_NFL_patch53_25-Math-95-AVATAR",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.31
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Math/patch817_386-Math-95-GenProg-A.patch",
+            "project": "Math",
+            "bugid": "95",
+            "dataset": "NFL",
+            "date": "2021-11-23T00:20:09.266977",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Math/patch817_386-Math-95-GenProg-A.patch",
+                    "test": "test_from_NFL_patch179_153-Math-95-ARJA",
+                    "failing": 2,
+                    "testrun": 19,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.0> but was:<2.3064501250667258>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:111)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:71)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Math/patch817_386-Math-95-GenProg-A.patch",
+                    "test": "test_from_NFL_patch167_36-Math-95-RSRepair-A",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1.0> but was:<958.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:73)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Math/patch817_386-Math-95-GenProg-A.patch",
+                    "test": "test_from_PFL_patch25_18-Math-95-ARJA",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.5> but was:<843.17670740419>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:80)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Math/patch817_386-Math-95-GenProg-A.patch",
+                    "test": "test_from_PFL_patch1_1-Math-95-Cardumen",
+                    "failing": 1,
+                    "testrun": 21,
+                    "failings": [
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1.0999208236036878E7> but was:<3316.00546298915>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Math/patch817_386-Math-95-GenProg-A.patch",
+                    "test": "test_from_NFL_patch56_20-Math-95-TBar",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.08346355789588344> but was:<0.18212818184135482>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:55)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Math/patch817_386-Math-95-GenProg-A.patch",
+                    "test": "test_from_NFL_patch817_386-Math-95-GenProg-A",
+                    "failing": 0,
+                    "testrun": 52,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.UnivariateRealSolverUtils_ESTest",
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Math/patch817_386-Math-95-GenProg-A.patch",
+                    "test": "test_from_NFL_patch27_27-Math-95-Kali-A",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<1107.7378483>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:56)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Math/patch817_386-Math-95-GenProg-A.patch",
+                    "test": "test_from_PFL_patch1122_956-Math-95-GenProg-A",
+                    "failing": 4,
+                    "testrun": 21,
+                    "failings": [
+                        "test19(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test16(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.0> but was:<-234.661246369>",
+                        "java.lang.AssertionError: expected:<-1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.6563011788482572>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test19(FDistributionImpl_ESTest.java:231)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:55)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test16(FDistributionImpl_ESTest.java:204)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Math/patch817_386-Math-95-GenProg-A.patch",
+                    "test": "test_from_PFL_patch59_19-Math-95-FixMiner",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Math/patch817_386-Math-95-GenProg-A.patch",
+                    "test": "test_from_NFL_patch72_42-Math-95-jGenProg",
+                    "failing": 2,
+                    "testrun": 18,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.0> but was:<4.7421875>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:115)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:70)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Math/patch817_386-Math-95-GenProg-A.patch",
+                    "test": "test_from_NFL_patch53_25-Math-95-AVATAR",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.29
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch72_42-Math-95-jGenProg.patch",
+            "project": "Math",
+            "bugid": "95",
+            "dataset": "NFL",
+            "date": "2021-11-23T00:20:44.560563",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch72_42-Math-95-jGenProg.patch",
+                    "test": "test_from_NFL_patch179_153-Math-95-ARJA",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch72_42-Math-95-jGenProg.patch",
+                    "test": "test_from_NFL_patch167_36-Math-95-RSRepair-A",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:73)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch72_42-Math-95-jGenProg.patch",
+                    "test": "test_from_PFL_patch25_18-Math-95-ARJA",
+                    "failing": 2,
+                    "testrun": 19,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.5> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:117)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:80)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch72_42-Math-95-jGenProg.patch",
+                    "test": "test_from_PFL_patch1_1-Math-95-Cardumen",
+                    "failing": 1,
+                    "testrun": 21,
+                    "failings": [
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1.0999208236036878E7> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch72_42-Math-95-jGenProg.patch",
+                    "test": "test_from_NFL_patch56_20-Math-95-TBar",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.08346355789588344> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:55)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch72_42-Math-95-jGenProg.patch",
+                    "test": "test_from_NFL_patch817_386-Math-95-GenProg-A",
+                    "failing": 2,
+                    "testrun": 52,
+                    "failings": [
+                        "test05(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.UnivariateRealSolverUtils_ESTest",
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-1905.1841510628992> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<2464.30011543> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test05(FDistributionImpl_ESTest.java:90)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch72_42-Math-95-jGenProg.patch",
+                    "test": "test_from_NFL_patch27_27-Math-95-Kali-A",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch72_42-Math-95-jGenProg.patch",
+                    "test": "test_from_PFL_patch1122_956-Math-95-GenProg-A",
+                    "failing": 1,
+                    "testrun": 21,
+                    "failings": [
+                        "test16(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-1.0> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test16(FDistributionImpl_ESTest.java:204)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch72_42-Math-95-jGenProg.patch",
+                    "test": "test_from_PFL_patch59_19-Math-95-FixMiner",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch72_42-Math-95-jGenProg.patch",
+                    "test": "test_from_NFL_patch72_42-Math-95-jGenProg",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch72_42-Math-95-jGenProg.patch",
+                    "test": "test_from_NFL_patch53_25-Math-95-AVATAR",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.1
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Cardumen/Math/patch33_32-Math-95-Cardumen.patch",
+            "project": "Math",
+            "bugid": "95",
+            "dataset": "NFL",
+            "date": "2021-11-23T00:21:19.658809",
+            "project_checked": "ok",
+            "compiledProjectModified": "no",
+            "patchApplied": "no",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch27_27-Math-95-Kali-A.patch",
+            "project": "Math",
+            "bugid": "95",
+            "dataset": "NFL",
+            "date": "2021-11-23T00:21:25.288950",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch27_27-Math-95-Kali-A.patch",
+                    "test": "test_from_NFL_patch179_153-Math-95-ARJA",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch27_27-Math-95-Kali-A.patch",
+                    "test": "test_from_NFL_patch167_36-Math-95-RSRepair-A",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:73)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch27_27-Math-95-Kali-A.patch",
+                    "test": "test_from_PFL_patch25_18-Math-95-ARJA",
+                    "failing": 2,
+                    "testrun": 19,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.5> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:117)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:80)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch27_27-Math-95-Kali-A.patch",
+                    "test": "test_from_PFL_patch1_1-Math-95-Cardumen",
+                    "failing": 1,
+                    "testrun": 21,
+                    "failings": [
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1.0999208236036878E7> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch27_27-Math-95-Kali-A.patch",
+                    "test": "test_from_NFL_patch56_20-Math-95-TBar",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.08346355789588344> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:55)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch27_27-Math-95-Kali-A.patch",
+                    "test": "test_from_NFL_patch817_386-Math-95-GenProg-A",
+                    "failing": 2,
+                    "testrun": 52,
+                    "failings": [
+                        "test05(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.UnivariateRealSolverUtils_ESTest",
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-1905.1841510628992> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<2464.30011543> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test05(FDistributionImpl_ESTest.java:90)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch27_27-Math-95-Kali-A.patch",
+                    "test": "test_from_NFL_patch27_27-Math-95-Kali-A",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch27_27-Math-95-Kali-A.patch",
+                    "test": "test_from_PFL_patch1122_956-Math-95-GenProg-A",
+                    "failing": 1,
+                    "testrun": 21,
+                    "failings": [
+                        "test16(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-1.0> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test16(FDistributionImpl_ESTest.java:204)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch27_27-Math-95-Kali-A.patch",
+                    "test": "test_from_PFL_patch59_19-Math-95-FixMiner",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch27_27-Math-95-Kali-A.patch",
+                    "test": "test_from_NFL_patch72_42-Math-95-jGenProg",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch27_27-Math-95-Kali-A.patch",
+                    "test": "test_from_NFL_patch53_25-Math-95-AVATAR",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.04
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch53_25-Math-95-AVATAR.patch",
+            "project": "Math",
+            "bugid": "95",
+            "dataset": "NFL",
+            "date": "2021-11-23T00:22:00.325412",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch53_25-Math-95-AVATAR.patch",
+                    "test": "test_from_NFL_patch179_153-Math-95-ARJA",
+                    "failing": 2,
+                    "testrun": 19,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.0> but was:<2.3064501250667258>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:111)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:71)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch53_25-Math-95-AVATAR.patch",
+                    "test": "test_from_NFL_patch167_36-Math-95-RSRepair-A",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1.0> but was:<958.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:73)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch53_25-Math-95-AVATAR.patch",
+                    "test": "test_from_PFL_patch25_18-Math-95-ARJA",
+                    "failing": 2,
+                    "testrun": 19,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.5> but was:<843.17670740419>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:117)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:80)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch53_25-Math-95-AVATAR.patch",
+                    "test": "test_from_PFL_patch1_1-Math-95-Cardumen",
+                    "failing": 3,
+                    "testrun": 21,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test05(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<398.7042904680161>",
+                        "java.lang.AssertionError: expected:<-9.836479776748805E-5> but was:<0.5>",
+                        "java.lang.AssertionError: expected:<1.0999208236036878E7> but was:<1742.29851389>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:73)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test05(FDistributionImpl_ESTest.java:90)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch53_25-Math-95-AVATAR.patch",
+                    "test": "test_from_NFL_patch56_20-Math-95-TBar",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.08346355789588344> but was:<0.18212818184135482>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:55)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch53_25-Math-95-AVATAR.patch",
+                    "test": "test_from_NFL_patch817_386-Math-95-GenProg-A",
+                    "failing": 3,
+                    "testrun": 52,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test05(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.UnivariateRealSolverUtils_ESTest",
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<4257.240989763434>",
+                        "java.lang.AssertionError: expected:<-1905.1841510628992> but was:<1.0E-6>",
+                        "java.lang.AssertionError: expected:<2464.30011543> but was:<1.0E-14>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:72)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test05(FDistributionImpl_ESTest.java:90)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch53_25-Math-95-AVATAR.patch",
+                    "test": "test_from_NFL_patch27_27-Math-95-Kali-A",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<1107.7378483>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:56)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch53_25-Math-95-AVATAR.patch",
+                    "test": "test_from_PFL_patch1122_956-Math-95-GenProg-A",
+                    "failing": 3,
+                    "testrun": 21,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test16(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<1742.29851389>",
+                        "java.lang.AssertionError: expected:<-1.0> but was:<1742.29851389>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.6563011788482572>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:55)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test16(FDistributionImpl_ESTest.java:204)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch53_25-Math-95-AVATAR.patch",
+                    "test": "test_from_PFL_patch59_19-Math-95-FixMiner",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<6.161996320917981E-306> but was:<1107.73784831611>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:56)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch53_25-Math-95-AVATAR.patch",
+                    "test": "test_from_NFL_patch72_42-Math-95-jGenProg",
+                    "failing": 2,
+                    "testrun": 18,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1115.4>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:115)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:70)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch53_25-Math-95-AVATAR.patch",
+                    "test": "test_from_NFL_patch53_25-Math-95-AVATAR",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.31
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch167_36-Math-95-RSRepair-A.patch",
+            "project": "Math",
+            "bugid": "95",
+            "dataset": "NFL",
+            "date": "2021-11-23T00:22:35.641452",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch167_36-Math-95-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch179_153-Math-95-ARJA",
+                    "failing": 2,
+                    "testrun": 19,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:111)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:71)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch167_36-Math-95-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch167_36-Math-95-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch167_36-Math-95-RSRepair-A.patch",
+                    "test": "test_from_PFL_patch25_18-Math-95-ARJA",
+                    "failing": 2,
+                    "testrun": 19,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.5> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:117)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:80)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch167_36-Math-95-RSRepair-A.patch",
+                    "test": "test_from_PFL_patch1_1-Math-95-Cardumen",
+                    "failing": 3,
+                    "testrun": 21,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test05(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<-9.836479776748805E-5> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<1.0999208236036878E7> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:73)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test05(FDistributionImpl_ESTest.java:90)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch167_36-Math-95-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch56_20-Math-95-TBar",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.08346355789588344> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:55)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch167_36-Math-95-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch817_386-Math-95-GenProg-A",
+                    "failing": 3,
+                    "testrun": 52,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test05(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.UnivariateRealSolverUtils_ESTest",
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<-1905.1841510628992> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<2464.30011543> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:72)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test05(FDistributionImpl_ESTest.java:90)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch167_36-Math-95-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch27_27-Math-95-Kali-A",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:56)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch167_36-Math-95-RSRepair-A.patch",
+                    "test": "test_from_PFL_patch1122_956-Math-95-GenProg-A",
+                    "failing": 4,
+                    "testrun": 21,
+                    "failings": [
+                        "test19(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test16(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<-1.0> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test19(FDistributionImpl_ESTest.java:231)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:55)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test16(FDistributionImpl_ESTest.java:204)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch167_36-Math-95-RSRepair-A.patch",
+                    "test": "test_from_PFL_patch59_19-Math-95-FixMiner",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<6.161996320917981E-306> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:56)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch167_36-Math-95-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch72_42-Math-95-jGenProg",
+                    "failing": 1,
+                    "testrun": 18,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:70)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch167_36-Math-95-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch53_25-Math-95-AVATAR",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1.0E-8> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:71)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 35.7
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch56_20-Math-95-TBar.patch",
+            "project": "Math",
+            "bugid": "95",
+            "dataset": "NFL",
+            "date": "2021-11-23T00:23:11.338396",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch56_20-Math-95-TBar.patch",
+                    "test": "test_from_NFL_patch179_153-Math-95-ARJA",
+                    "failing": 2,
+                    "testrun": 19,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.5355803638921718>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:111)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:71)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch56_20-Math-95-TBar.patch",
+                    "test": "test_from_NFL_patch167_36-Math-95-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch56_20-Math-95-TBar.patch",
+                    "test": "test_from_PFL_patch25_18-Math-95-ARJA",
+                    "failing": 2,
+                    "testrun": 19,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.5> but was:<0.997633630952582>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:117)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:80)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch56_20-Math-95-TBar.patch",
+                    "test": "test_from_PFL_patch1_1-Math-95-Cardumen",
+                    "failing": 3,
+                    "testrun": 21,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test05(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.9950087881573116>",
+                        "java.lang.AssertionError: expected:<-9.836479776748805E-5> but was:<0.2>",
+                        "java.lang.AssertionError: expected:<1.0999208236036878E7> but was:<0.9988534072671198>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:73)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test05(FDistributionImpl_ESTest.java:90)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch56_20-Math-95-TBar.patch",
+                    "test": "test_from_NFL_patch56_20-Math-95-TBar",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch56_20-Math-95-TBar.patch",
+                    "test": "test_from_NFL_patch817_386-Math-95-GenProg-A",
+                    "failing": 3,
+                    "testrun": 52,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test05(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.UnivariateRealSolverUtils_ESTest",
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.9995304327684659>",
+                        "java.lang.AssertionError: expected:<-1905.1841510628992> but was:<4.99999750000125E-7>",
+                        "java.lang.AssertionError: expected:<2464.30011543> but was:<4.999999999999975E-15>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:72)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test05(FDistributionImpl_ESTest.java:90)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch56_20-Math-95-TBar.patch",
+                    "test": "test_from_NFL_patch27_27-Math-95-Kali-A",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.9981977725612731>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:56)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch56_20-Math-95-TBar.patch",
+                    "test": "test_from_PFL_patch1122_956-Math-95-GenProg-A",
+                    "failing": 4,
+                    "testrun": 21,
+                    "failings": [
+                        "test19(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test16(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.9988534072671198>",
+                        "java.lang.AssertionError: expected:<-1.0> but was:<0.9988534072671198>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.24707333041685514>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test19(FDistributionImpl_ESTest.java:231)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:55)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test16(FDistributionImpl_ESTest.java:204)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch56_20-Math-95-TBar.patch",
+                    "test": "test_from_PFL_patch59_19-Math-95-FixMiner",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<6.161996320917981E-306> but was:<0.9981977725612993>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:56)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch56_20-Math-95-TBar.patch",
+                    "test": "test_from_NFL_patch72_42-Math-95-jGenProg",
+                    "failing": 2,
+                    "testrun": 18,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.9982101306604618>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:115)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:70)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch56_20-Math-95-TBar.patch",
+                    "test": "test_from_NFL_patch53_25-Math-95-AVATAR",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.34
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Math/patch25_18-Math-95-ARJA.patch",
+            "project": "Math",
+            "bugid": "95",
+            "dataset": "PFL",
+            "date": "2021-11-23T00:23:46.675992",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Math/patch25_18-Math-95-ARJA.patch",
+                    "test": "test_from_NFL_patch179_153-Math-95-ARJA",
+                    "failing": 2,
+                    "testrun": 19,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.5>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:111)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:71)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Math/patch25_18-Math-95-ARJA.patch",
+                    "test": "test_from_NFL_patch167_36-Math-95-RSRepair-A",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.5>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:73)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Math/patch25_18-Math-95-ARJA.patch",
+                    "test": "test_from_PFL_patch25_18-Math-95-ARJA",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Math/patch25_18-Math-95-ARJA.patch",
+                    "test": "test_from_PFL_patch1_1-Math-95-Cardumen",
+                    "failing": 3,
+                    "testrun": 21,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test05(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.5>",
+                        "java.lang.AssertionError: expected:<-9.836479776748805E-5> but was:<0.5>",
+                        "java.lang.AssertionError: expected:<1.0999208236036878E7> but was:<0.5>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:73)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test05(FDistributionImpl_ESTest.java:90)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Math/patch25_18-Math-95-ARJA.patch",
+                    "test": "test_from_NFL_patch56_20-Math-95-TBar",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.08346355789588344> but was:<0.5>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:55)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Math/patch25_18-Math-95-ARJA.patch",
+                    "test": "test_from_NFL_patch817_386-Math-95-GenProg-A",
+                    "failing": 3,
+                    "testrun": 52,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test05(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.UnivariateRealSolverUtils_ESTest",
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.5>",
+                        "java.lang.AssertionError: expected:<-1905.1841510628992> but was:<0.5>",
+                        "java.lang.AssertionError: expected:<2464.30011543> but was:<0.5>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:72)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test05(FDistributionImpl_ESTest.java:90)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Math/patch25_18-Math-95-ARJA.patch",
+                    "test": "test_from_NFL_patch27_27-Math-95-Kali-A",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.5>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:56)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Math/patch25_18-Math-95-ARJA.patch",
+                    "test": "test_from_PFL_patch1122_956-Math-95-GenProg-A",
+                    "failing": 4,
+                    "testrun": 21,
+                    "failings": [
+                        "test19(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test16(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.5>",
+                        "java.lang.AssertionError: expected:<-1.0> but was:<0.5>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.5>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test19(FDistributionImpl_ESTest.java:231)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:55)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test16(FDistributionImpl_ESTest.java:204)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Math/patch25_18-Math-95-ARJA.patch",
+                    "test": "test_from_PFL_patch59_19-Math-95-FixMiner",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<6.161996320917981E-306> but was:<0.5>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:56)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Math/patch25_18-Math-95-ARJA.patch",
+                    "test": "test_from_NFL_patch72_42-Math-95-jGenProg",
+                    "failing": 2,
+                    "testrun": 18,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.5>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:115)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:70)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Math/patch25_18-Math-95-ARJA.patch",
+                    "test": "test_from_NFL_patch53_25-Math-95-AVATAR",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1.0E-8> but was:<0.5>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:71)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 35.25
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Math/patch1122_956-Math-95-GenProg-A.patch",
+            "project": "Math",
+            "bugid": "95",
+            "dataset": "PFL",
+            "date": "2021-11-23T00:24:21.922709",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Math/patch1122_956-Math-95-GenProg-A.patch",
+                    "test": "test_from_NFL_patch179_153-Math-95-ARJA",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Math/patch1122_956-Math-95-GenProg-A.patch",
+                    "test": "test_from_NFL_patch167_36-Math-95-RSRepair-A",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:73)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Math/patch1122_956-Math-95-GenProg-A.patch",
+                    "test": "test_from_PFL_patch25_18-Math-95-ARJA",
+                    "failing": 2,
+                    "testrun": 19,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.5> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:117)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:80)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Math/patch1122_956-Math-95-GenProg-A.patch",
+                    "test": "test_from_PFL_patch1_1-Math-95-Cardumen",
+                    "failing": 2,
+                    "testrun": 21,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<-1.0>",
+                        "java.lang.AssertionError: expected:<1.0999208236036878E7> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:73)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Math/patch1122_956-Math-95-GenProg-A.patch",
+                    "test": "test_from_NFL_patch56_20-Math-95-TBar",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.08346355789588344> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:55)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Math/patch1122_956-Math-95-GenProg-A.patch",
+                    "test": "test_from_NFL_patch817_386-Math-95-GenProg-A",
+                    "failing": 3,
+                    "testrun": 52,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test05(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.UnivariateRealSolverUtils_ESTest",
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<-1.0>",
+                        "java.lang.AssertionError: expected:<-1905.1841510628992> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<2464.30011543> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:72)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test05(FDistributionImpl_ESTest.java:90)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Math/patch1122_956-Math-95-GenProg-A.patch",
+                    "test": "test_from_NFL_patch27_27-Math-95-Kali-A",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Math/patch1122_956-Math-95-GenProg-A.patch",
+                    "test": "test_from_PFL_patch1122_956-Math-95-GenProg-A",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Math/patch1122_956-Math-95-GenProg-A.patch",
+                    "test": "test_from_PFL_patch59_19-Math-95-FixMiner",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Math/patch1122_956-Math-95-GenProg-A.patch",
+                    "test": "test_from_NFL_patch72_42-Math-95-jGenProg",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/GenProg-A/Math/patch1122_956-Math-95-GenProg-A.patch",
+                    "test": "test_from_NFL_patch53_25-Math-95-AVATAR",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.06
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/jGenProg/Math/patch21_8-Math-95-jGenProg.patch",
+            "project": "Math",
+            "bugid": "95",
+            "dataset": "PFL",
+            "date": "2021-11-23T00:24:56.985469",
+            "project_checked": "ok",
+            "compiledProjectModified": "no",
+            "patchApplied": "no",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Math/patch1_1-Math-95-Cardumen.patch",
+            "project": "Math",
+            "bugid": "95",
+            "dataset": "PFL",
+            "date": "2021-11-23T00:25:02.405340",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Math/patch1_1-Math-95-Cardumen.patch",
+                    "test": "test_from_NFL_patch179_153-Math-95-ARJA",
+                    "failing": 2,
+                    "testrun": 19,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.0> but was:<7.626162304487041>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:111)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:71)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Math/patch1_1-Math-95-Cardumen.patch",
+                    "test": "test_from_NFL_patch167_36-Math-95-RSRepair-A",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1.0> but was:<918722.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:73)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Math/patch1_1-Math-95-Cardumen.patch",
+                    "test": "test_from_PFL_patch25_18-Math-95-ARJA",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.5> but was:<711790.1366163752>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:80)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Math/patch1_1-Math-95-Cardumen.patch",
+                    "test": "test_from_PFL_patch1_1-Math-95-Cardumen",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Math/patch1_1-Math-95-Cardumen.patch",
+                    "test": "test_from_NFL_patch56_20-Math-95-TBar",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.08346355789588344> but was:<0.21529885646219243>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:55)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Math/patch1_1-Math-95-Cardumen.patch",
+                    "test": "test_from_NFL_patch817_386-Math-95-GenProg-A",
+                    "failing": 2,
+                    "testrun": 52,
+                    "failings": [
+                        "test05(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.UnivariateRealSolverUtils_ESTest",
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-1905.1841510628992> but was:<3627821.4653101973>",
+                        "java.lang.AssertionError: expected:<2464.30011543> but was:<6075239.359023741>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test05(FDistributionImpl_ESTest.java:90)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Math/patch1_1-Math-95-Cardumen.patch",
+                    "test": "test_from_NFL_patch27_27-Math-95-Kali-A",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<1228190.8784046138>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:56)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Math/patch1_1-Math-95-Cardumen.patch",
+                    "test": "test_from_PFL_patch1122_956-Math-95-GenProg-A",
+                    "failing": 4,
+                    "testrun": 21,
+                    "failings": [
+                        "test19(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test16(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.0> but was:<54831.23930108351>",
+                        "java.lang.AssertionError: expected:<-1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0870324162058693>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test19(FDistributionImpl_ESTest.java:231)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:55)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test16(FDistributionImpl_ESTest.java:204)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Math/patch1_1-Math-95-Cardumen.patch",
+                    "test": "test_from_PFL_patch59_19-Math-95-FixMiner",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Math/patch1_1-Math-95-Cardumen.patch",
+                    "test": "test_from_NFL_patch72_42-Math-95-jGenProg",
+                    "failing": 2,
+                    "testrun": 18,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.0> but was:<27.23052978515625>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:115)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:70)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Cardumen/Math/patch1_1-Math-95-Cardumen.patch",
+                    "test": "test_from_NFL_patch53_25-Math-95-AVATAR",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.25
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Math/patch59_19-Math-95-FixMiner.patch",
+            "project": "Math",
+            "bugid": "95",
+            "dataset": "PFL",
+            "date": "2021-11-23T00:25:37.653681",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Math/patch59_19-Math-95-FixMiner.patch",
+                    "test": "test_from_NFL_patch179_153-Math-95-ARJA",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Math/patch59_19-Math-95-FixMiner.patch",
+                    "test": "test_from_NFL_patch167_36-Math-95-RSRepair-A",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1.0> but was:<5.329051891124748E-306>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test03(FDistributionImpl_ESTest.java:73)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Math/patch59_19-Math-95-FixMiner.patch",
+                    "test": "test_from_PFL_patch25_18-Math-95-ARJA",
+                    "failing": 2,
+                    "testrun": 19,
+                    "failings": [
+                        "test08(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<0.5> but was:<4.690326124368097E-306>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test08(FDistributionImpl_ESTest.java:117)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:80)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Math/patch59_19-Math-95-FixMiner.patch",
+                    "test": "test_from_PFL_patch1_1-Math-95-Cardumen",
+                    "failing": 1,
+                    "testrun": 21,
+                    "failings": [
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1.0999208236036878E7> but was:<9.691857192431465E-306>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Math/patch59_19-Math-95-FixMiner.patch",
+                    "test": "test_from_NFL_patch56_20-Math-95-TBar",
+                    "failing": 1,
+                    "testrun": 19,
+                    "failings": [
+                        "test02(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.08346355789588344> but was:<1.01312164078161E-309>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test02(FDistributionImpl_ESTest.java:55)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Math/patch59_19-Math-95-FixMiner.patch",
+                    "test": "test_from_NFL_patch817_386-Math-95-GenProg-A",
+                    "failing": 2,
+                    "testrun": 52,
+                    "failings": [
+                        "test05(org.apache.commons.math.distribution.FDistributionImpl_ESTest)",
+                        "test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.UnivariateRealSolverUtils_ESTest",
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-1905.1841510628992> but was:<5.562684647E-315>",
+                        "java.lang.AssertionError: expected:<2464.30011543> but was:<5.4E-323>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test05(FDistributionImpl_ESTest.java:90)"
+                        ],
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test04(FDistributionImpl_ESTest.java:81)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Math/patch59_19-Math-95-FixMiner.patch",
+                    "test": "test_from_NFL_patch27_27-Math-95-Kali-A",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Math/patch59_19-Math-95-FixMiner.patch",
+                    "test": "test_from_PFL_patch1122_956-Math-95-GenProg-A",
+                    "failing": 1,
+                    "testrun": 21,
+                    "failings": [
+                        "test16(org.apache.commons.math.distribution.FDistributionImpl_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-1.0> but was:<9.691857192431465E-306>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.distribution.FDistributionImpl_ESTest.test16(FDistributionImpl_ESTest.java:204)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Math/patch59_19-Math-95-FixMiner.patch",
+                    "test": "test_from_PFL_patch59_19-Math-95-FixMiner",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Math/patch59_19-Math-95-FixMiner.patch",
+                    "test": "test_from_NFL_patch72_42-Math-95-jGenProg",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Math/patch59_19-Math-95-FixMiner.patch",
+                    "test": "test_from_NFL_patch53_25-Math-95-AVATAR",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.distribution.FDistributionImpl_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.37
+        }
+    ],
+    "date": "2021-11-23T00:19:33.955646",
+    "duration": -0.0
+}

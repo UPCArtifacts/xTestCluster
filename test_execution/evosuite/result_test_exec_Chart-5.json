@@ -1,0 +1,3611 @@
+{
+    "bugid": "Chart-5",
+    "results": [
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/Arja/Chart/patch1-Chart-5-Arja.patch",
+            "project": "Chart",
+            "bugid": "5",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:50:19.595448",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Chart/patch1-Chart-5-Arja.patch",
+                    "test": "test_from_NFL_patch440_130-Chart-5-RSRepair-A",
+                    "failing": 1,
+                    "testrun": 98,
+                    "failings": [
+                        "test91(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.util.Collections$UnmodifiableCollection but in java.util.Collections$UnmodifiableList.add(Collections.java:1314): java.lang.UnsupportedOperationException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test91(XYSeries_ESTest.java:1307)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Chart/patch1-Chart-5-Arja.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Arja",
+                    "failing": 0,
+                    "testrun": 0,
+                    "failings": [],
+                    "status": "ERROR",
+                    "test_executed": [],
+                    "failing_assertions": null,
+                    "failing_lines": null,
+                    "errorLog": "no test generated"
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Chart/patch1-Chart-5-Arja.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-AVATAR",
+                    "failing": 11,
+                    "testrun": 101,
+                    "failings": [
+                        "test010(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test079(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test001(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test065(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test053(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test051(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test029(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test030(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test015(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test014(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test022(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.ArrayIndexOutOfBoundsException: -1",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected same:<[0.0, 0.0]> was not:<[0.0, 23.0]>",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected:<0.0> but was:<172.452352834432>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<9999.0>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<151.0> but was:<-2045.0>",
+                        "java.lang.AssertionError: expected:<-21.123> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test010(XYSeries_ESTest.java:186)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test079(XYSeries_ESTest.java:1172)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test001(XYSeries_ESTest.java:59)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test065(XYSeries_ESTest.java:992)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test053(XYSeries_ESTest.java:818)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test051(XYSeries_ESTest.java:783)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test029(XYSeries_ESTest.java:401)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test030(XYSeries_ESTest.java:411)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test015(XYSeries_ESTest.java:245)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test014(XYSeries_ESTest.java:236)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test022(XYSeries_ESTest.java:331)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Chart/patch1-Chart-5-Arja.patch",
+                    "test": "test_from_NFL_patch86_70-Chart-5-ARJA",
+                    "failing": 0,
+                    "testrun": 91,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Chart/patch1-Chart-5-Arja.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-DeepRepair",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Chart/patch1-Chart-5-Arja.patch",
+                    "test": "test_from_NFL_patch3_3-Chart-5-jKali",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Chart/patch1-Chart-5-Arja.patch",
+                    "test": "test_from_NFL_patch100_32-Chart-5-kPAR",
+                    "failing": 0,
+                    "testrun": 97,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Chart/patch1-Chart-5-Arja.patch",
+                    "test": "test_from_NFL_patch2_2-Chart-5-Kali-A",
+                    "failing": 0,
+                    "testrun": 93,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Chart/patch1-Chart-5-Arja.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-Nopol",
+                    "failing": 0,
+                    "testrun": 106,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Chart/patch1-Chart-5-Arja.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-JGenProg2015-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Chart/patch1-Chart-5-Arja.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-DynaMoth",
+                    "failing": 0,
+                    "testrun": 102,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Chart/patch1-Chart-5-Arja.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Nopol2015",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 44.39
+        },
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Chart/patch1-Chart-5-Nopol2015.patch",
+            "project": "Chart",
+            "bugid": "5",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:51:03.988448",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Chart/patch1-Chart-5-Nopol2015.patch",
+                    "test": "test_from_NFL_patch440_130-Chart-5-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Chart/patch1-Chart-5-Nopol2015.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Arja",
+                    "failing": 0,
+                    "testrun": 0,
+                    "failings": [],
+                    "status": "ERROR",
+                    "test_executed": [],
+                    "failing_assertions": null,
+                    "failing_lines": null,
+                    "errorLog": "no test generated"
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Chart/patch1-Chart-5-Nopol2015.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-AVATAR",
+                    "failing": 11,
+                    "testrun": 101,
+                    "failings": [
+                        "test010(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test079(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test001(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test065(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test053(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test051(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test029(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test030(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test015(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test014(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test022(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.ArrayIndexOutOfBoundsException: -1",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected same:<[0.0, 0.0]> was not:<[0.0, 23.0]>",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected:<0.0> but was:<172.452352834432>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<9999.0>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<151.0> but was:<-2045.0>",
+                        "java.lang.AssertionError: expected:<-21.123> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test010(XYSeries_ESTest.java:186)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test079(XYSeries_ESTest.java:1172)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test001(XYSeries_ESTest.java:59)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test065(XYSeries_ESTest.java:992)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test053(XYSeries_ESTest.java:818)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test051(XYSeries_ESTest.java:783)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test029(XYSeries_ESTest.java:401)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test030(XYSeries_ESTest.java:411)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test015(XYSeries_ESTest.java:245)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test014(XYSeries_ESTest.java:236)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test022(XYSeries_ESTest.java:331)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Chart/patch1-Chart-5-Nopol2015.patch",
+                    "test": "test_from_NFL_patch86_70-Chart-5-ARJA",
+                    "failing": 0,
+                    "testrun": 91,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Chart/patch1-Chart-5-Nopol2015.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-DeepRepair",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Chart/patch1-Chart-5-Nopol2015.patch",
+                    "test": "test_from_NFL_patch3_3-Chart-5-jKali",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Chart/patch1-Chart-5-Nopol2015.patch",
+                    "test": "test_from_NFL_patch100_32-Chart-5-kPAR",
+                    "failing": 1,
+                    "testrun": 97,
+                    "failings": [
+                        "test17(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test17(XYSeries_ESTest.java:263)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Chart/patch1-Chart-5-Nopol2015.patch",
+                    "test": "test_from_NFL_patch2_2-Chart-5-Kali-A",
+                    "failing": 0,
+                    "testrun": 93,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Chart/patch1-Chart-5-Nopol2015.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-Nopol",
+                    "failing": 0,
+                    "testrun": 106,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Chart/patch1-Chart-5-Nopol2015.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-JGenProg2015-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Chart/patch1-Chart-5-Nopol2015.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-DynaMoth",
+                    "failing": 0,
+                    "testrun": 102,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Chart/patch1-Chart-5-Nopol2015.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Nopol2015",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 45.64
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/DeepRepair/Chart/patch1-Chart-5-DeepRepair.patch",
+            "project": "Chart",
+            "bugid": "5",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:51:49.633266",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/DeepRepair/Chart/patch1-Chart-5-DeepRepair.patch",
+                    "test": "test_from_NFL_patch440_130-Chart-5-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/DeepRepair/Chart/patch1-Chart-5-DeepRepair.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Arja",
+                    "failing": 0,
+                    "testrun": 0,
+                    "failings": [],
+                    "status": "ERROR",
+                    "test_executed": [],
+                    "failing_assertions": null,
+                    "failing_lines": null,
+                    "errorLog": "no test generated"
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/DeepRepair/Chart/patch1-Chart-5-DeepRepair.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-AVATAR",
+                    "failing": 11,
+                    "testrun": 101,
+                    "failings": [
+                        "test010(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test079(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test001(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test065(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test053(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test051(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test029(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test030(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test015(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test014(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test022(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.ArrayIndexOutOfBoundsException: -1",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected same:<[0.0, 0.0]> was not:<[0.0, 23.0]>",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected:<0.0> but was:<172.452352834432>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<9999.0>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<151.0> but was:<-2045.0>",
+                        "java.lang.AssertionError: expected:<-21.123> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test010(XYSeries_ESTest.java:186)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test079(XYSeries_ESTest.java:1172)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test001(XYSeries_ESTest.java:59)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test065(XYSeries_ESTest.java:992)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test053(XYSeries_ESTest.java:818)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test051(XYSeries_ESTest.java:783)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test029(XYSeries_ESTest.java:401)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test030(XYSeries_ESTest.java:411)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test015(XYSeries_ESTest.java:245)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test014(XYSeries_ESTest.java:236)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test022(XYSeries_ESTest.java:331)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/DeepRepair/Chart/patch1-Chart-5-DeepRepair.patch",
+                    "test": "test_from_NFL_patch86_70-Chart-5-ARJA",
+                    "failing": 0,
+                    "testrun": 91,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/DeepRepair/Chart/patch1-Chart-5-DeepRepair.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-DeepRepair",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/DeepRepair/Chart/patch1-Chart-5-DeepRepair.patch",
+                    "test": "test_from_NFL_patch3_3-Chart-5-jKali",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/DeepRepair/Chart/patch1-Chart-5-DeepRepair.patch",
+                    "test": "test_from_NFL_patch100_32-Chart-5-kPAR",
+                    "failing": 0,
+                    "testrun": 97,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/DeepRepair/Chart/patch1-Chart-5-DeepRepair.patch",
+                    "test": "test_from_NFL_patch2_2-Chart-5-Kali-A",
+                    "failing": 0,
+                    "testrun": 93,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/DeepRepair/Chart/patch1-Chart-5-DeepRepair.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-Nopol",
+                    "failing": 0,
+                    "testrun": 106,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/DeepRepair/Chart/patch1-Chart-5-DeepRepair.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-JGenProg2015-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/DeepRepair/Chart/patch1-Chart-5-DeepRepair.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-DynaMoth",
+                    "failing": 0,
+                    "testrun": 102,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/DeepRepair/Chart/patch1-Chart-5-DeepRepair.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Nopol2015",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 44.86
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/JGenProg2015/Chart/patch1-Chart-5-JGenProg2015-plausible.patch",
+            "project": "Chart",
+            "bugid": "5",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:52:34.490422",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/JGenProg2015/Chart/patch1-Chart-5-JGenProg2015-plausible.patch",
+                    "test": "test_from_NFL_patch440_130-Chart-5-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/JGenProg2015/Chart/patch1-Chart-5-JGenProg2015-plausible.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Arja",
+                    "failing": 0,
+                    "testrun": 0,
+                    "failings": [],
+                    "status": "ERROR",
+                    "test_executed": [],
+                    "failing_assertions": null,
+                    "failing_lines": null,
+                    "errorLog": "no test generated"
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/JGenProg2015/Chart/patch1-Chart-5-JGenProg2015-plausible.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-AVATAR",
+                    "failing": 11,
+                    "testrun": 101,
+                    "failings": [
+                        "test010(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test079(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test001(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test065(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test053(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test051(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test029(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test030(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test015(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test014(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test022(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.ArrayIndexOutOfBoundsException: -1",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected same:<[0.0, 0.0]> was not:<[0.0, 23.0]>",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected:<0.0> but was:<172.452352834432>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<9999.0>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<151.0> but was:<-2045.0>",
+                        "java.lang.AssertionError: expected:<-21.123> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test010(XYSeries_ESTest.java:186)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test079(XYSeries_ESTest.java:1172)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test001(XYSeries_ESTest.java:59)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test065(XYSeries_ESTest.java:992)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test053(XYSeries_ESTest.java:818)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test051(XYSeries_ESTest.java:783)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test029(XYSeries_ESTest.java:401)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test030(XYSeries_ESTest.java:411)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test015(XYSeries_ESTest.java:245)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test014(XYSeries_ESTest.java:236)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test022(XYSeries_ESTest.java:331)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/JGenProg2015/Chart/patch1-Chart-5-JGenProg2015-plausible.patch",
+                    "test": "test_from_NFL_patch86_70-Chart-5-ARJA",
+                    "failing": 0,
+                    "testrun": 91,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/JGenProg2015/Chart/patch1-Chart-5-JGenProg2015-plausible.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-DeepRepair",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/JGenProg2015/Chart/patch1-Chart-5-JGenProg2015-plausible.patch",
+                    "test": "test_from_NFL_patch3_3-Chart-5-jKali",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/JGenProg2015/Chart/patch1-Chart-5-JGenProg2015-plausible.patch",
+                    "test": "test_from_NFL_patch100_32-Chart-5-kPAR",
+                    "failing": 0,
+                    "testrun": 97,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/JGenProg2015/Chart/patch1-Chart-5-JGenProg2015-plausible.patch",
+                    "test": "test_from_NFL_patch2_2-Chart-5-Kali-A",
+                    "failing": 0,
+                    "testrun": 93,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/JGenProg2015/Chart/patch1-Chart-5-JGenProg2015-plausible.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-Nopol",
+                    "failing": 0,
+                    "testrun": 106,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/JGenProg2015/Chart/patch1-Chart-5-JGenProg2015-plausible.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-JGenProg2015-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/JGenProg2015/Chart/patch1-Chart-5-JGenProg2015-plausible.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-DynaMoth",
+                    "failing": 0,
+                    "testrun": 102,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/JGenProg2015/Chart/patch1-Chart-5-JGenProg2015-plausible.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Nopol2015",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 45.88
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch86_70-Chart-5-ARJA.patch",
+            "project": "Chart",
+            "bugid": "5",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:53:20.374800",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch86_70-Chart-5-ARJA.patch",
+                    "test": "test_from_NFL_patch440_130-Chart-5-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch86_70-Chart-5-ARJA.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Arja",
+                    "failing": 0,
+                    "testrun": 0,
+                    "failings": [],
+                    "status": "ERROR",
+                    "test_executed": [],
+                    "failing_assertions": null,
+                    "failing_lines": null,
+                    "errorLog": "no test generated"
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch86_70-Chart-5-ARJA.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-AVATAR",
+                    "failing": 11,
+                    "testrun": 101,
+                    "failings": [
+                        "test010(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test079(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test001(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test065(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test053(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test051(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test029(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test030(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test015(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test014(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test022(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.ArrayIndexOutOfBoundsException: -1",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected same:<[0.0, 0.0]> was not:<[0.0, 23.0]>",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected:<0.0> but was:<172.452352834432>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<9999.0>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<151.0> but was:<-2045.0>",
+                        "java.lang.AssertionError: expected:<-21.123> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test010(XYSeries_ESTest.java:186)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test079(XYSeries_ESTest.java:1172)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test001(XYSeries_ESTest.java:59)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test065(XYSeries_ESTest.java:992)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test053(XYSeries_ESTest.java:818)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test051(XYSeries_ESTest.java:783)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test029(XYSeries_ESTest.java:401)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test030(XYSeries_ESTest.java:411)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test015(XYSeries_ESTest.java:245)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test014(XYSeries_ESTest.java:236)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test022(XYSeries_ESTest.java:331)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch86_70-Chart-5-ARJA.patch",
+                    "test": "test_from_NFL_patch86_70-Chart-5-ARJA",
+                    "failing": 0,
+                    "testrun": 91,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch86_70-Chart-5-ARJA.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-DeepRepair",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch86_70-Chart-5-ARJA.patch",
+                    "test": "test_from_NFL_patch3_3-Chart-5-jKali",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch86_70-Chart-5-ARJA.patch",
+                    "test": "test_from_NFL_patch100_32-Chart-5-kPAR",
+                    "failing": 0,
+                    "testrun": 97,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch86_70-Chart-5-ARJA.patch",
+                    "test": "test_from_NFL_patch2_2-Chart-5-Kali-A",
+                    "failing": 0,
+                    "testrun": 93,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch86_70-Chart-5-ARJA.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-Nopol",
+                    "failing": 0,
+                    "testrun": 106,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch86_70-Chart-5-ARJA.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-JGenProg2015-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch86_70-Chart-5-ARJA.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-DynaMoth",
+                    "failing": 0,
+                    "testrun": 102,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch86_70-Chart-5-ARJA.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Nopol2015",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 45.04
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Chart/patch1_1-Chart-5-DynaMoth.patch",
+            "project": "Chart",
+            "bugid": "5",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:54:05.417151",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Chart/patch1_1-Chart-5-DynaMoth.patch",
+                    "test": "test_from_NFL_patch440_130-Chart-5-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Chart/patch1_1-Chart-5-DynaMoth.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Arja",
+                    "failing": 0,
+                    "testrun": 0,
+                    "failings": [],
+                    "status": "ERROR",
+                    "test_executed": [],
+                    "failing_assertions": null,
+                    "failing_lines": null,
+                    "errorLog": "no test generated"
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Chart/patch1_1-Chart-5-DynaMoth.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-AVATAR",
+                    "failing": 11,
+                    "testrun": 101,
+                    "failings": [
+                        "test010(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test079(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test001(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test065(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test053(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test051(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test029(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test030(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test015(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test014(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test022(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.ArrayIndexOutOfBoundsException: -1",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected same:<[0.0, 0.0]> was not:<[0.0, 23.0]>",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected:<0.0> but was:<172.452352834432>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<9999.0>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<151.0> but was:<-2045.0>",
+                        "java.lang.AssertionError: expected:<-21.123> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test010(XYSeries_ESTest.java:186)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test079(XYSeries_ESTest.java:1172)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test001(XYSeries_ESTest.java:59)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test065(XYSeries_ESTest.java:992)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test053(XYSeries_ESTest.java:818)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test051(XYSeries_ESTest.java:783)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test029(XYSeries_ESTest.java:401)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test030(XYSeries_ESTest.java:411)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test015(XYSeries_ESTest.java:245)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test014(XYSeries_ESTest.java:236)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test022(XYSeries_ESTest.java:331)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Chart/patch1_1-Chart-5-DynaMoth.patch",
+                    "test": "test_from_NFL_patch86_70-Chart-5-ARJA",
+                    "failing": 0,
+                    "testrun": 91,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Chart/patch1_1-Chart-5-DynaMoth.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-DeepRepair",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Chart/patch1_1-Chart-5-DynaMoth.patch",
+                    "test": "test_from_NFL_patch3_3-Chart-5-jKali",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Chart/patch1_1-Chart-5-DynaMoth.patch",
+                    "test": "test_from_NFL_patch100_32-Chart-5-kPAR",
+                    "failing": 0,
+                    "testrun": 97,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Chart/patch1_1-Chart-5-DynaMoth.patch",
+                    "test": "test_from_NFL_patch2_2-Chart-5-Kali-A",
+                    "failing": 0,
+                    "testrun": 93,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Chart/patch1_1-Chart-5-DynaMoth.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-Nopol",
+                    "failing": 0,
+                    "testrun": 106,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Chart/patch1_1-Chart-5-DynaMoth.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-JGenProg2015-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Chart/patch1_1-Chart-5-DynaMoth.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-DynaMoth",
+                    "failing": 0,
+                    "testrun": 102,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Chart/patch1_1-Chart-5-DynaMoth.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Nopol2015",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 45.57
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Chart/patch37_27-Chart-5-jGenProg.patch",
+            "project": "Chart",
+            "bugid": "5",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:54:50.990370",
+            "project_checked": "ok",
+            "compiledProjectModified": "no",
+            "patchApplied": "no",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Chart/patch2_2-Chart-5-Kali-A.patch",
+            "project": "Chart",
+            "bugid": "5",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:55:02.648630",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Chart/patch2_2-Chart-5-Kali-A.patch",
+                    "test": "test_from_NFL_patch440_130-Chart-5-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Chart/patch2_2-Chart-5-Kali-A.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Arja",
+                    "failing": 0,
+                    "testrun": 0,
+                    "failings": [],
+                    "status": "ERROR",
+                    "test_executed": [],
+                    "failing_assertions": null,
+                    "failing_lines": null,
+                    "errorLog": "no test generated"
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Chart/patch2_2-Chart-5-Kali-A.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-AVATAR",
+                    "failing": 11,
+                    "testrun": 101,
+                    "failings": [
+                        "test010(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test079(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test001(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test065(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test053(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test051(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test029(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test030(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test015(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test014(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test022(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.ArrayIndexOutOfBoundsException: -1",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected same:<[0.0, 0.0]> was not:<[0.0, 23.0]>",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected:<0.0> but was:<172.452352834432>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<9999.0>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<151.0> but was:<-2045.0>",
+                        "java.lang.AssertionError: expected:<-21.123> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test010(XYSeries_ESTest.java:186)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test079(XYSeries_ESTest.java:1172)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test001(XYSeries_ESTest.java:59)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test065(XYSeries_ESTest.java:992)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test053(XYSeries_ESTest.java:818)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test051(XYSeries_ESTest.java:783)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test029(XYSeries_ESTest.java:401)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test030(XYSeries_ESTest.java:411)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test015(XYSeries_ESTest.java:245)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test014(XYSeries_ESTest.java:236)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test022(XYSeries_ESTest.java:331)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Chart/patch2_2-Chart-5-Kali-A.patch",
+                    "test": "test_from_NFL_patch86_70-Chart-5-ARJA",
+                    "failing": 0,
+                    "testrun": 91,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Chart/patch2_2-Chart-5-Kali-A.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-DeepRepair",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Chart/patch2_2-Chart-5-Kali-A.patch",
+                    "test": "test_from_NFL_patch3_3-Chart-5-jKali",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Chart/patch2_2-Chart-5-Kali-A.patch",
+                    "test": "test_from_NFL_patch100_32-Chart-5-kPAR",
+                    "failing": 0,
+                    "testrun": 97,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Chart/patch2_2-Chart-5-Kali-A.patch",
+                    "test": "test_from_NFL_patch2_2-Chart-5-Kali-A",
+                    "failing": 0,
+                    "testrun": 93,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Chart/patch2_2-Chart-5-Kali-A.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-Nopol",
+                    "failing": 0,
+                    "testrun": 106,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Chart/patch2_2-Chart-5-Kali-A.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-JGenProg2015-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Chart/patch2_2-Chart-5-Kali-A.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-DynaMoth",
+                    "failing": 0,
+                    "testrun": 102,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Chart/patch2_2-Chart-5-Kali-A.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Nopol2015",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 44.91
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jKali/Chart/patch3_3-Chart-5-jKali.patch",
+            "project": "Chart",
+            "bugid": "5",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:55:47.563537",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jKali/Chart/patch3_3-Chart-5-jKali.patch",
+                    "test": "test_from_NFL_patch440_130-Chart-5-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jKali/Chart/patch3_3-Chart-5-jKali.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Arja",
+                    "failing": 0,
+                    "testrun": 0,
+                    "failings": [],
+                    "status": "ERROR",
+                    "test_executed": [],
+                    "failing_assertions": null,
+                    "failing_lines": null,
+                    "errorLog": "no test generated"
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jKali/Chart/patch3_3-Chart-5-jKali.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-AVATAR",
+                    "failing": 11,
+                    "testrun": 101,
+                    "failings": [
+                        "test010(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test079(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test001(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test065(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test053(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test051(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test029(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test030(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test015(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test014(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test022(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.ArrayIndexOutOfBoundsException: -1",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected same:<[0.0, 0.0]> was not:<[0.0, 23.0]>",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected:<0.0> but was:<172.452352834432>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<9999.0>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<151.0> but was:<-2045.0>",
+                        "java.lang.AssertionError: expected:<-21.123> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test010(XYSeries_ESTest.java:186)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test079(XYSeries_ESTest.java:1172)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test001(XYSeries_ESTest.java:59)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test065(XYSeries_ESTest.java:992)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test053(XYSeries_ESTest.java:818)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test051(XYSeries_ESTest.java:783)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test029(XYSeries_ESTest.java:401)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test030(XYSeries_ESTest.java:411)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test015(XYSeries_ESTest.java:245)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test014(XYSeries_ESTest.java:236)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test022(XYSeries_ESTest.java:331)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jKali/Chart/patch3_3-Chart-5-jKali.patch",
+                    "test": "test_from_NFL_patch86_70-Chart-5-ARJA",
+                    "failing": 0,
+                    "testrun": 91,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jKali/Chart/patch3_3-Chart-5-jKali.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-DeepRepair",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jKali/Chart/patch3_3-Chart-5-jKali.patch",
+                    "test": "test_from_NFL_patch3_3-Chart-5-jKali",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jKali/Chart/patch3_3-Chart-5-jKali.patch",
+                    "test": "test_from_NFL_patch100_32-Chart-5-kPAR",
+                    "failing": 0,
+                    "testrun": 97,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jKali/Chart/patch3_3-Chart-5-jKali.patch",
+                    "test": "test_from_NFL_patch2_2-Chart-5-Kali-A",
+                    "failing": 0,
+                    "testrun": 93,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jKali/Chart/patch3_3-Chart-5-jKali.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-Nopol",
+                    "failing": 0,
+                    "testrun": 106,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jKali/Chart/patch3_3-Chart-5-jKali.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-JGenProg2015-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jKali/Chart/patch3_3-Chart-5-jKali.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-DynaMoth",
+                    "failing": 0,
+                    "testrun": 102,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jKali/Chart/patch3_3-Chart-5-jKali.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Nopol2015",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 45.4
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-5-Nopol.patch",
+            "project": "Chart",
+            "bugid": "5",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:56:32.962323",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-5-Nopol.patch",
+                    "test": "test_from_NFL_patch440_130-Chart-5-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-5-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Arja",
+                    "failing": 0,
+                    "testrun": 0,
+                    "failings": [],
+                    "status": "ERROR",
+                    "test_executed": [],
+                    "failing_assertions": null,
+                    "failing_lines": null,
+                    "errorLog": "no test generated"
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-5-Nopol.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-AVATAR",
+                    "failing": 11,
+                    "testrun": 101,
+                    "failings": [
+                        "test010(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test079(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test001(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test065(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test053(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test051(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test029(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test030(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test015(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test014(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test022(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.ArrayIndexOutOfBoundsException: -1",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected same:<[0.0, 0.0]> was not:<[0.0, 23.0]>",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected:<0.0> but was:<172.452352834432>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<9999.0>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<151.0> but was:<-2045.0>",
+                        "java.lang.AssertionError: expected:<-21.123> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test010(XYSeries_ESTest.java:186)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test079(XYSeries_ESTest.java:1172)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test001(XYSeries_ESTest.java:59)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test065(XYSeries_ESTest.java:992)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test053(XYSeries_ESTest.java:818)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test051(XYSeries_ESTest.java:783)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test029(XYSeries_ESTest.java:401)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test030(XYSeries_ESTest.java:411)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test015(XYSeries_ESTest.java:245)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test014(XYSeries_ESTest.java:236)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test022(XYSeries_ESTest.java:331)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-5-Nopol.patch",
+                    "test": "test_from_NFL_patch86_70-Chart-5-ARJA",
+                    "failing": 0,
+                    "testrun": 91,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-5-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-DeepRepair",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-5-Nopol.patch",
+                    "test": "test_from_NFL_patch3_3-Chart-5-jKali",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-5-Nopol.patch",
+                    "test": "test_from_NFL_patch100_32-Chart-5-kPAR",
+                    "failing": 0,
+                    "testrun": 97,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-5-Nopol.patch",
+                    "test": "test_from_NFL_patch2_2-Chart-5-Kali-A",
+                    "failing": 0,
+                    "testrun": 93,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-5-Nopol.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-Nopol",
+                    "failing": 0,
+                    "testrun": 106,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-5-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-JGenProg2015-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-5-Nopol.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-DynaMoth",
+                    "failing": 0,
+                    "testrun": 102,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Chart/patch1_1-Chart-5-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Nopol2015",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 45.33
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1_1-Chart-5-AVATAR.patch",
+            "project": "Chart",
+            "bugid": "5",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:57:18.292126",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1_1-Chart-5-AVATAR.patch",
+                    "test": "test_from_NFL_patch440_130-Chart-5-RSRepair-A",
+                    "failing": 5,
+                    "testrun": 98,
+                    "failings": [
+                        "test29(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test91(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test01(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test08(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test07(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: Exception was not thrown in java.util.Collections$UnmodifiableCollection but in java.util.Collections$UnmodifiableList.add(Collections.java:1314): java.lang.UnsupportedOperationException",
+                        "java.lang.IndexOutOfBoundsException: Index: -2, Size: 2",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 2",
+                        "java.lang.IndexOutOfBoundsException: Index: -2, Size: 3"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test29(XYSeries_ESTest.java:412)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test91(XYSeries_ESTest.java:1307)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test01(XYSeries_ESTest.java:60)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test08(XYSeries_ESTest.java:167)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test07(XYSeries_ESTest.java:155)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1_1-Chart-5-AVATAR.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Arja",
+                    "failing": 0,
+                    "testrun": 0,
+                    "failings": [],
+                    "status": "ERROR",
+                    "test_executed": [],
+                    "failing_assertions": null,
+                    "failing_lines": null,
+                    "errorLog": "no test generated"
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1_1-Chart-5-AVATAR.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-AVATAR",
+                    "failing": 0,
+                    "testrun": 101,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1_1-Chart-5-AVATAR.patch",
+                    "test": "test_from_NFL_patch86_70-Chart-5-ARJA",
+                    "failing": 5,
+                    "testrun": 91,
+                    "failings": [
+                        "test29(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test16(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test58(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test01(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test06(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 2",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 2",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 1",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 2"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test29(XYSeries_ESTest.java:384)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test16(XYSeries_ESTest.java:241)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test58(XYSeries_ESTest.java:824)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test01(XYSeries_ESTest.java:50)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test06(XYSeries_ESTest.java:123)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1_1-Chart-5-AVATAR.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-DeepRepair",
+                    "failing": 5,
+                    "testrun": 98,
+                    "failings": [
+                        "test39(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test22(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test11(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test03(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test02(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.jfree.data.general.SeriesException: X-value already exists.",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: expected:<23.0> but was:<157.28887285>",
+                        "org.jfree.data.general.SeriesException: X-value already exists.",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 1"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test39(XYSeries_ESTest.java:604)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test22(XYSeries_ESTest.java:315)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test11(XYSeries_ESTest.java:188)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test03(XYSeries_ESTest.java:83)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test02(XYSeries_ESTest.java:74)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1_1-Chart-5-AVATAR.patch",
+                    "test": "test_from_NFL_patch3_3-Chart-5-jKali",
+                    "failing": 1,
+                    "testrun": 87,
+                    "failings": [
+                        "test02(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.IndexOutOfBoundsException: Index: -2, Size: 2"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test02(XYSeries_ESTest.java:76)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1_1-Chart-5-AVATAR.patch",
+                    "test": "test_from_NFL_patch100_32-Chart-5-kPAR",
+                    "failing": 9,
+                    "testrun": 97,
+                    "failings": [
+                        "test49(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test31(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test21(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test15(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test14(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test12(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test03(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test02(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test00(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: expected:<NaN> but was:<225.18026949612678>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<23.0>",
+                        "java.lang.AssertionError: expected:<23.0> but was:<-560.3>",
+                        "java.lang.ArrayIndexOutOfBoundsException: -2",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 1",
+                        "org.jfree.data.general.SeriesException: No observation for x = 59",
+                        "java.lang.IndexOutOfBoundsException: Index: -2, Size: 2"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test49(XYSeries_ESTest.java:721)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test31(XYSeries_ESTest.java:414)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test21(XYSeries_ESTest.java:308)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test15(XYSeries_ESTest.java:234)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test14(XYSeries_ESTest.java:224)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test12(XYSeries_ESTest.java:196)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test03(XYSeries_ESTest.java:80)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test02(XYSeries_ESTest.java:69)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test00(XYSeries_ESTest.java:37)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1_1-Chart-5-AVATAR.patch",
+                    "test": "test_from_NFL_patch2_2-Chart-5-Kali-A",
+                    "failing": 2,
+                    "testrun": 93,
+                    "failings": [
+                        "test25(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test02(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.IndexOutOfBoundsException: Index: -2, Size: 2"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test25(XYSeries_ESTest.java:354)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test02(XYSeries_ESTest.java:79)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1_1-Chart-5-AVATAR.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-Nopol",
+                    "failing": 9,
+                    "testrun": 106,
+                    "failings": [
+                        "test095(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test000(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test001(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test084(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test057(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test024(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test033(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test017(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test015(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.IndexOutOfBoundsException: Index: -2, Size: 2",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 1",
+                        "java.lang.IndexOutOfBoundsException: Index: -2, Size: 3",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 1",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: expected:<2687.0> but was:<2013.955>",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 2",
+                        "java.lang.AssertionError: expected:<0.0> but was:<-1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test095(XYSeries_ESTest.java:1392)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test000(XYSeries_ESTest.java:52)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test001(XYSeries_ESTest.java:70)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test084(XYSeries_ESTest.java:1234)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test057(XYSeries_ESTest.java:876)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test024(XYSeries_ESTest.java:362)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test033(XYSeries_ESTest.java:452)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test017(XYSeries_ESTest.java:279)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test015(XYSeries_ESTest.java:255)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1_1-Chart-5-AVATAR.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-JGenProg2015-plausible",
+                    "failing": 14,
+                    "testrun": 100,
+                    "failings": [
+                        "test74(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test78(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test62(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test48(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test46(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test30(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test21(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test29(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test16(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test14(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test85(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test03(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test00(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test08(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.jfree.data.general.SeriesException: X-value already exists.",
+                        "org.jfree.data.general.SeriesException: No observation for x = 0",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 1",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "org.jfree.data.general.SeriesException: X-value already exists.",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: expected:<2687.0> but was:<2013.955>",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: expected:<-691.9601103997> but was:<1352.038744>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<23.0>",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 1",
+                        "java.lang.IndexOutOfBoundsException: Index: -2, Size: 2",
+                        "java.lang.IndexOutOfBoundsException: Index: -3, Size: 4",
+                        "org.jfree.data.general.SeriesException: X-value already exists."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test74(XYSeries_ESTest.java:1066)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test78(XYSeries_ESTest.java:1121)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test62(XYSeries_ESTest.java:914)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test48(XYSeries_ESTest.java:715)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test46(XYSeries_ESTest.java:674)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test30(XYSeries_ESTest.java:402)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test21(XYSeries_ESTest.java:302)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test29(XYSeries_ESTest.java:392)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test16(XYSeries_ESTest.java:243)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test14(XYSeries_ESTest.java:215)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test85(XYSeries_ESTest.java:1202)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test03(XYSeries_ESTest.java:74)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test00(XYSeries_ESTest.java:42)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test08(XYSeries_ESTest.java:142)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1_1-Chart-5-AVATAR.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-DynaMoth",
+                    "failing": 4,
+                    "testrun": 102,
+                    "failings": [
+                        "test003(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test084(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test085(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test030(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.IndexOutOfBoundsException: Index: -2, Size: 2",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: expected:<1> but was:<2>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test003(XYSeries_ESTest.java:78)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test084(XYSeries_ESTest.java:1184)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test085(XYSeries_ESTest.java:1203)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test030(XYSeries_ESTest.java:402)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1_1-Chart-5-AVATAR.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Nopol2015",
+                    "failing": 11,
+                    "testrun": 100,
+                    "failings": [
+                        "test51(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test57(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test34(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test33(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test26(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test25(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test21(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test19(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test18(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test03(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test08(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 1",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: expected:<2396.39723411> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<23.0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<2> but was:<1>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<2> but was:<3>",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 1"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test51(XYSeries_ESTest.java:734)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test57(XYSeries_ESTest.java:824)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test34(XYSeries_ESTest.java:444)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test33(XYSeries_ESTest.java:435)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test26(XYSeries_ESTest.java:361)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test25(XYSeries_ESTest.java:346)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test21(XYSeries_ESTest.java:304)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test19(XYSeries_ESTest.java:277)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test18(XYSeries_ESTest.java:266)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test03(XYSeries_ESTest.java:74)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test08(XYSeries_ESTest.java:143)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 45.23
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Chart/patch440_130-Chart-5-RSRepair-A.patch",
+            "project": "Chart",
+            "bugid": "5",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:58:03.521167",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Chart/patch440_130-Chart-5-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch440_130-Chart-5-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Chart/patch440_130-Chart-5-RSRepair-A.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Arja",
+                    "failing": 0,
+                    "testrun": 0,
+                    "failings": [],
+                    "status": "ERROR",
+                    "test_executed": [],
+                    "failing_assertions": null,
+                    "failing_lines": null,
+                    "errorLog": "no test generated"
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Chart/patch440_130-Chart-5-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-AVATAR",
+                    "failing": 11,
+                    "testrun": 101,
+                    "failings": [
+                        "test010(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test079(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test001(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test065(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test053(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test051(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test029(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test030(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test015(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test014(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test022(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.ArrayIndexOutOfBoundsException: -1",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected same:<[0.0, 0.0]> was not:<[0.0, 23.0]>",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected:<0.0> but was:<172.452352834432>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<9999.0>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<151.0> but was:<-2045.0>",
+                        "java.lang.AssertionError: expected:<-21.123> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test010(XYSeries_ESTest.java:186)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test079(XYSeries_ESTest.java:1172)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test001(XYSeries_ESTest.java:59)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test065(XYSeries_ESTest.java:992)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test053(XYSeries_ESTest.java:818)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test051(XYSeries_ESTest.java:783)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test029(XYSeries_ESTest.java:401)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test030(XYSeries_ESTest.java:411)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test015(XYSeries_ESTest.java:245)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test014(XYSeries_ESTest.java:236)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test022(XYSeries_ESTest.java:331)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Chart/patch440_130-Chart-5-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch86_70-Chart-5-ARJA",
+                    "failing": 0,
+                    "testrun": 91,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Chart/patch440_130-Chart-5-RSRepair-A.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-DeepRepair",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Chart/patch440_130-Chart-5-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch3_3-Chart-5-jKali",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Chart/patch440_130-Chart-5-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch100_32-Chart-5-kPAR",
+                    "failing": 0,
+                    "testrun": 97,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Chart/patch440_130-Chart-5-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch2_2-Chart-5-Kali-A",
+                    "failing": 0,
+                    "testrun": 93,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Chart/patch440_130-Chart-5-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-Nopol",
+                    "failing": 0,
+                    "testrun": 106,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Chart/patch440_130-Chart-5-RSRepair-A.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-JGenProg2015-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Chart/patch440_130-Chart-5-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-DynaMoth",
+                    "failing": 0,
+                    "testrun": 102,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Chart/patch440_130-Chart-5-RSRepair-A.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Nopol2015",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 44.98
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Chart/patch100_32-Chart-5-kPAR.patch",
+            "project": "Chart",
+            "bugid": "5",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:58:48.505373",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Chart/patch100_32-Chart-5-kPAR.patch",
+                    "test": "test_from_NFL_patch440_130-Chart-5-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Chart/patch100_32-Chart-5-kPAR.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Arja",
+                    "failing": 0,
+                    "testrun": 0,
+                    "failings": [],
+                    "status": "ERROR",
+                    "test_executed": [],
+                    "failing_assertions": null,
+                    "failing_lines": null,
+                    "errorLog": "no test generated"
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Chart/patch100_32-Chart-5-kPAR.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-AVATAR",
+                    "failing": 11,
+                    "testrun": 101,
+                    "failings": [
+                        "test010(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test079(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test001(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test065(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test053(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test051(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test029(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test030(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test015(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test014(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test022(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.ArrayIndexOutOfBoundsException: -1",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected same:<[0.0, 0.0]> was not:<[0.0, 23.0]>",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected:<0.0> but was:<172.452352834432>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<9999.0>",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<151.0> but was:<-2045.0>",
+                        "java.lang.AssertionError: expected:<-21.123> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test010(XYSeries_ESTest.java:186)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test079(XYSeries_ESTest.java:1172)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test001(XYSeries_ESTest.java:59)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test065(XYSeries_ESTest.java:992)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test053(XYSeries_ESTest.java:818)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test051(XYSeries_ESTest.java:783)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test029(XYSeries_ESTest.java:401)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test030(XYSeries_ESTest.java:411)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test015(XYSeries_ESTest.java:245)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test014(XYSeries_ESTest.java:236)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test022(XYSeries_ESTest.java:331)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Chart/patch100_32-Chart-5-kPAR.patch",
+                    "test": "test_from_NFL_patch86_70-Chart-5-ARJA",
+                    "failing": 0,
+                    "testrun": 91,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Chart/patch100_32-Chart-5-kPAR.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-DeepRepair",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Chart/patch100_32-Chart-5-kPAR.patch",
+                    "test": "test_from_NFL_patch3_3-Chart-5-jKali",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Chart/patch100_32-Chart-5-kPAR.patch",
+                    "test": "test_from_NFL_patch100_32-Chart-5-kPAR",
+                    "failing": 0,
+                    "testrun": 97,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Chart/patch100_32-Chart-5-kPAR.patch",
+                    "test": "test_from_NFL_patch2_2-Chart-5-Kali-A",
+                    "failing": 0,
+                    "testrun": 93,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Chart/patch100_32-Chart-5-kPAR.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-Nopol",
+                    "failing": 0,
+                    "testrun": 106,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Chart/patch100_32-Chart-5-kPAR.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-JGenProg2015-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Chart/patch100_32-Chart-5-kPAR.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-DynaMoth",
+                    "failing": 0,
+                    "testrun": 102,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Chart/patch100_32-Chart-5-kPAR.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Nopol2015",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 44.92
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch52_1-Chart-5-TBar.patch",
+            "project": "Chart",
+            "bugid": "5",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:59:33.423689",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch52_1-Chart-5-TBar.patch",
+                    "test": "test_from_NFL_patch440_130-Chart-5-RSRepair-A",
+                    "failing": 5,
+                    "testrun": 98,
+                    "failings": [
+                        "test29(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test91(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test14(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test08(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test07(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: Exception was not thrown in java.util.Collections$UnmodifiableCollection but in java.util.Collections$UnmodifiableList.add(Collections.java:1314): java.lang.UnsupportedOperationException",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 2",
+                        "java.lang.IndexOutOfBoundsException: Index: -2, Size: 3"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test29(XYSeries_ESTest.java:412)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test91(XYSeries_ESTest.java:1307)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test14(XYSeries_ESTest.java:244)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test08(XYSeries_ESTest.java:167)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test07(XYSeries_ESTest.java:155)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch52_1-Chart-5-TBar.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Arja",
+                    "failing": 0,
+                    "testrun": 0,
+                    "failings": [],
+                    "status": "ERROR",
+                    "test_executed": [],
+                    "failing_assertions": null,
+                    "failing_lines": null,
+                    "errorLog": "no test generated"
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch52_1-Chart-5-TBar.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-AVATAR",
+                    "failing": 14,
+                    "testrun": 101,
+                    "failings": [
+                        "test002(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test011(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test079(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test065(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test055(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test053(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test051(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test028(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test029(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test030(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test015(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test016(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test014(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test022(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.jfree.data.general.SeriesException: No observation for x = 23",
+                        "java.lang.ArrayIndexOutOfBoundsException: -2",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 1",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: Expecting exception: IndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.AssertionError: expected:<-3497.72512495> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1> but was:<-3>",
+                        "java.lang.AssertionError: expected:<151.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<-21.123> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test002(XYSeries_ESTest.java:75)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test011(XYSeries_ESTest.java:198)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test079(XYSeries_ESTest.java:1172)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test065(XYSeries_ESTest.java:986)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test055(XYSeries_ESTest.java:854)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test053(XYSeries_ESTest.java:818)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test051(XYSeries_ESTest.java:783)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test028(XYSeries_ESTest.java:390)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test029(XYSeries_ESTest.java:399)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test030(XYSeries_ESTest.java:410)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test015(XYSeries_ESTest.java:245)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test016(XYSeries_ESTest.java:262)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test014(XYSeries_ESTest.java:236)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test022(XYSeries_ESTest.java:331)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch52_1-Chart-5-TBar.patch",
+                    "test": "test_from_NFL_patch86_70-Chart-5-ARJA",
+                    "failing": 6,
+                    "testrun": 91,
+                    "failings": [
+                        "test29(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test16(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test58(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test49(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test01(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test06(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 2",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 2",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 1",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 1",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 2"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test29(XYSeries_ESTest.java:384)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test16(XYSeries_ESTest.java:241)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test58(XYSeries_ESTest.java:824)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test49(XYSeries_ESTest.java:697)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test01(XYSeries_ESTest.java:50)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test06(XYSeries_ESTest.java:123)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch52_1-Chart-5-TBar.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-DeepRepair",
+                    "failing": 5,
+                    "testrun": 98,
+                    "failings": [
+                        "test22(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test21(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test11(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test03(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test02(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: expected:<23.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<2> but was:<3>",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 1"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test22(XYSeries_ESTest.java:315)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test21(XYSeries_ESTest.java:306)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test11(XYSeries_ESTest.java:188)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test03(XYSeries_ESTest.java:85)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test02(XYSeries_ESTest.java:74)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch52_1-Chart-5-TBar.patch",
+                    "test": "test_from_NFL_patch3_3-Chart-5-jKali",
+                    "failing": 2,
+                    "testrun": 87,
+                    "failings": [
+                        "test70(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test02(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.IndexOutOfBoundsException: Index: -2, Size: 2"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test70(XYSeries_ESTest.java:999)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test02(XYSeries_ESTest.java:76)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch52_1-Chart-5-TBar.patch",
+                    "test": "test_from_NFL_patch100_32-Chart-5-kPAR",
+                    "failing": 8,
+                    "testrun": 97,
+                    "failings": [
+                        "test49(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test31(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test21(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test14(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test12(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test82(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test03(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test02(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: expected:<NaN> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<23.0> but was:<0.0>",
+                        "java.lang.ArrayIndexOutOfBoundsException: -2",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 1",
+                        "org.jfree.data.general.SeriesException: No observation for x = 59",
+                        "org.jfree.data.general.SeriesException: No observation for x = 59"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test49(XYSeries_ESTest.java:721)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test31(XYSeries_ESTest.java:414)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test21(XYSeries_ESTest.java:308)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test14(XYSeries_ESTest.java:224)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test12(XYSeries_ESTest.java:196)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test82(XYSeries_ESTest.java:1156)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test03(XYSeries_ESTest.java:81)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test02(XYSeries_ESTest.java:69)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch52_1-Chart-5-TBar.patch",
+                    "test": "test_from_NFL_patch2_2-Chart-5-Kali-A",
+                    "failing": 2,
+                    "testrun": 93,
+                    "failings": [
+                        "test25(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test02(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.IndexOutOfBoundsException: Index: -2, Size: 2"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test25(XYSeries_ESTest.java:354)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test02(XYSeries_ESTest.java:79)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch52_1-Chart-5-TBar.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-Nopol",
+                    "failing": 9,
+                    "testrun": 106,
+                    "failings": [
+                        "test095(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test000(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test001(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test084(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test057(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test024(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test033(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test032(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test017(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.IndexOutOfBoundsException: Index: -2, Size: 2",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 1",
+                        "java.lang.IndexOutOfBoundsException: Index: -2, Size: 3",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 1",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: expected:<2687.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 2"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test095(XYSeries_ESTest.java:1392)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test000(XYSeries_ESTest.java:52)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test001(XYSeries_ESTest.java:70)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test084(XYSeries_ESTest.java:1234)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test057(XYSeries_ESTest.java:876)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test024(XYSeries_ESTest.java:362)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test033(XYSeries_ESTest.java:452)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test032(XYSeries_ESTest.java:443)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test017(XYSeries_ESTest.java:279)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch52_1-Chart-5-TBar.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-JGenProg2015-plausible",
+                    "failing": 10,
+                    "testrun": 100,
+                    "failings": [
+                        "test62(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test48(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test43(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test30(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test22(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test21(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test29(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test16(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test03(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test00(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 1",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: Exception was not thrown in java.util.Collections but in org.jfree.data.xy.XYSeries.getItemCount(XYSeries.java:186): java.lang.NullPointerException",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: expected:<-Infinity> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<2687.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: expected:<-691.9601103997> but was:<0.0>",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 2",
+                        "java.lang.IndexOutOfBoundsException: Index: -1, Size: 2"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test62(XYSeries_ESTest.java:914)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test48(XYSeries_ESTest.java:715)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test43(XYSeries_ESTest.java:623)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test30(XYSeries_ESTest.java:402)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test22(XYSeries_ESTest.java:312)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test21(XYSeries_ESTest.java:302)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test29(XYSeries_ESTest.java:392)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test16(XYSeries_ESTest.java:243)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test03(XYSeries_ESTest.java:74)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test00(XYSeries_ESTest.java:40)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch52_1-Chart-5-TBar.patch",
+                    "test": "test_from_NFL_patch1_1-Chart-5-DynaMoth",
+                    "failing": 3,
+                    "testrun": 102,
+                    "failings": [
+                        "test003(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test084(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test030(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.IndexOutOfBoundsException: Index: -2, Size: 2",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: expected:<1> but was:<2>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test003(XYSeries_ESTest.java:78)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test084(XYSeries_ESTest.java:1184)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test030(XYSeries_ESTest.java:402)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch52_1-Chart-5-TBar.patch",
+                    "test": "test_from_DRR_patch1-Chart-5-Nopol2015",
+                    "failing": 4,
+                    "testrun": 100,
+                    "failings": [
+                        "test34(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test33(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test26(org.jfree.data.xy.XYSeries_ESTest)",
+                        "test03(org.jfree.data.xy.XYSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.xy.XYSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: expected:<2396.39723411> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<2> but was:<3>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test34(XYSeries_ESTest.java:444)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test33(XYSeries_ESTest.java:435)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test26(XYSeries_ESTest.java:361)"
+                        ],
+                        [
+                            "org.jfree.data.xy.XYSeries_ESTest.test03(XYSeries_ESTest.java:74)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 44.74
+        }
+    ],
+    "date": "2021-11-22T22:50:19.594610",
+    "duration": -0.0
+}

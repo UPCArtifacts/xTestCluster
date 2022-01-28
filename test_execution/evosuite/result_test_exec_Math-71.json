@@ -1,0 +1,227 @@
+{
+    "bugid": "Math-71",
+    "results": [
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Math/patch1-Math-71-SimFix.patch",
+            "project": "Math",
+            "bugid": "71",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T19:31:29.043834",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Math/patch1-Math-71-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Math-71-Arja-plausible",
+                    "failing": 1,
+                    "testrun": 18,
+                    "failings": [
+                        "test10(org.apache.commons.math.ode.events.CombinedEventsManager_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.ode.events.CombinedEventsManager_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.ode.events.CombinedEventsManager_ESTest.test10(CombinedEventsManager_ESTest.java:173)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Math/patch1-Math-71-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Math-71-SimFix",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator_ESTest",
+                        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Math/patch1-Math-71-SimFix.patch",
+                    "test": "test_from_NFL_patch899_899-Math-71-SimFix",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator_ESTest",
+                        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 29.7
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Arja/Math/patch1-Math-71-Arja-plausible.patch",
+            "project": "Math",
+            "bugid": "71",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T19:31:58.746760",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Math/patch1-Math-71-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Math-71-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 18,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.ode.events.CombinedEventsManager_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Math/patch1-Math-71-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Math-71-SimFix",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator_ESTest",
+                        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Math/patch1-Math-71-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch899_899-Math-71-SimFix",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator_ESTest",
+                        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 30.12
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Math/patch899_899-Math-71-SimFix.patch",
+            "project": "Math",
+            "bugid": "71",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:32:28.863265",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Math/patch899_899-Math-71-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Math-71-Arja-plausible",
+                    "failing": 1,
+                    "testrun": 18,
+                    "failings": [
+                        "test10(org.apache.commons.math.ode.events.CombinedEventsManager_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.ode.events.CombinedEventsManager_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.ode.events.CombinedEventsManager_ESTest.test10(CombinedEventsManager_ESTest.java:173)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Math/patch899_899-Math-71-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Math-71-SimFix",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator_ESTest",
+                        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Math/patch899_899-Math-71-SimFix.patch",
+                    "test": "test_from_NFL_patch899_899-Math-71-SimFix",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator_ESTest",
+                        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 29.56
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-71-DynaMoth.patch",
+            "project": "Math",
+            "bugid": "71",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:32:58.420770",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jKali/Math/patch331_302-Math-71-jKali.patch",
+            "project": "Math",
+            "bugid": "71",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:33:21.101959",
+            "project_checked": "ok",
+            "compiledProjectModified": "no",
+            "patchApplied": "no",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/SimFix/Math/patch91_91-Math-71-SimFix.patch",
+            "project": "Math",
+            "bugid": "71",
+            "dataset": "PFL",
+            "date": "2021-11-22T19:33:26.929520",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        }
+    ],
+    "date": "2021-11-22T19:31:29.042751",
+    "duration": -0.0
+}

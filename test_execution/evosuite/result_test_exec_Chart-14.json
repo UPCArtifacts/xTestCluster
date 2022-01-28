@@ -1,0 +1,776 @@
+{
+    "bugid": "Chart-14",
+    "results": [
+        {
+            "patch": "/Patches/patchesAPI/Dcorrect/TBar/Chart/patch1-Chart-14-TBar.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "patchesAPI",
+            "date": "2021-11-22T22:53:29.537790",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesAPI/Doverfitting/SimFix/Chart/patch1-Chart-14-SimFix-plausible.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "patchesAPI",
+            "date": "2021-11-22T22:54:00.898125",
+            "project_checked": "ok",
+            "compiledProjectModified": "no",
+            "patchApplied": "no",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/ACS/Chart/patch1-Chart-14-ACS.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:54:14.469225",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/ACS/Chart/patch1-Chart-14-ACS.patch",
+                    "test": "test_from_NFL_patch116_32-Chart-14-ACS",
+                    "failing": 0,
+                    "testrun": 378,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/ACS/Chart/patch1-Chart-14-ACS.patch",
+                    "test": "test_from_PFL_patch20_8-Chart-14-ACS",
+                    "failing": 0,
+                    "testrun": 359,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/ACS/Chart/patch1-Chart-14-ACS.patch",
+                    "test": "test_from_NFL_patch972_738-Chart-14-ARJA",
+                    "failing": 11,
+                    "testrun": 360,
+                    "failings": [
+                        "test028(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test077(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test078(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test072(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test133(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test137(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test021(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test142(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test028(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test088(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test081(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test028(XYPlot_ESTest.java:4929)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test077(XYPlot_ESTest.java:11961)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test078(XYPlot_ESTest.java:12096)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test072(XYPlot_ESTest.java:11192)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test133(XYPlot_ESTest.java:20401)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test137(CategoryPlot_ESTest.java:1358)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test021(CategoryPlot_ESTest.java:296)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test142(CategoryPlot_ESTest.java:1405)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test028(CategoryPlot_ESTest.java:377)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test088(CategoryPlot_ESTest.java:949)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test081(CategoryPlot_ESTest.java:859)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/ACS/Chart/patch1-Chart-14-ACS.patch",
+                    "test": "test_from_DRR_patch1-Chart-14-ACS",
+                    "failing": 0,
+                    "testrun": 381,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 56.36
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Chart/patch116_32-Chart-14-ACS.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:55:10.832571",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Chart/patch116_32-Chart-14-ACS.patch",
+                    "test": "test_from_NFL_patch116_32-Chart-14-ACS",
+                    "failing": 0,
+                    "testrun": 378,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Chart/patch116_32-Chart-14-ACS.patch",
+                    "test": "test_from_PFL_patch20_8-Chart-14-ACS",
+                    "failing": 0,
+                    "testrun": 359,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Chart/patch116_32-Chart-14-ACS.patch",
+                    "test": "test_from_NFL_patch972_738-Chart-14-ARJA",
+                    "failing": 11,
+                    "testrun": 360,
+                    "failings": [
+                        "test028(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test077(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test078(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test072(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test133(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test137(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test021(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test142(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test028(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test088(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test081(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test028(XYPlot_ESTest.java:4929)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test077(XYPlot_ESTest.java:11961)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test078(XYPlot_ESTest.java:12096)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test072(XYPlot_ESTest.java:11192)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test133(XYPlot_ESTest.java:20401)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test137(CategoryPlot_ESTest.java:1358)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test021(CategoryPlot_ESTest.java:296)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test142(CategoryPlot_ESTest.java:1405)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test028(CategoryPlot_ESTest.java:377)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test088(CategoryPlot_ESTest.java:949)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test081(CategoryPlot_ESTest.java:859)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Chart/patch116_32-Chart-14-ACS.patch",
+                    "test": "test_from_DRR_patch1-Chart-14-ACS",
+                    "failing": 0,
+                    "testrun": 381,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 55.91
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch972_738-Chart-14-ARJA.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:56:06.745813",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch972_738-Chart-14-ARJA.patch",
+                    "test": "test_from_NFL_patch116_32-Chart-14-ACS",
+                    "failing": 7,
+                    "testrun": 378,
+                    "failings": [
+                        "test042(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test041(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test101(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test062(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test175(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test062(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test090(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test042(XYPlot_ESTest.java:5253)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test041(XYPlot_ESTest.java:5170)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test101(XYPlot_ESTest.java:13132)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test062(XYPlot_ESTest.java:8369)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test175(CategoryPlot_ESTest.java:22107)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test062(CategoryPlot_ESTest.java:7680)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test090(CategoryPlot_ESTest.java:10738)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch972_738-Chart-14-ARJA.patch",
+                    "test": "test_from_PFL_patch20_8-Chart-14-ACS",
+                    "failing": 10,
+                    "testrun": 359,
+                    "failings": [
+                        "test031(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test033(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test030(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test087(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test083(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test035(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test156(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test060(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test077(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test076(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test031(XYPlot_ESTest.java:3909)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test033(XYPlot_ESTest.java:4278)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test030(XYPlot_ESTest.java:3826)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test087(XYPlot_ESTest.java:11806)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test083(XYPlot_ESTest.java:11054)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test035(CategoryPlot_ESTest.java:4820)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test156(CategoryPlot_ESTest.java:20217)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test060(CategoryPlot_ESTest.java:7753)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test077(CategoryPlot_ESTest.java:9696)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test076(CategoryPlot_ESTest.java:9624)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch972_738-Chart-14-ARJA.patch",
+                    "test": "test_from_NFL_patch972_738-Chart-14-ARJA",
+                    "failing": 0,
+                    "testrun": 360,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch972_738-Chart-14-ARJA.patch",
+                    "test": "test_from_DRR_patch1-Chart-14-ACS",
+                    "failing": 5,
+                    "testrun": 381,
+                    "failings": [
+                        "test053(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test185(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test068(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test101(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test093(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test053(XYPlot_ESTest.java:6366)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test185(CategoryPlot_ESTest.java:1769)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test068(CategoryPlot_ESTest.java:802)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test101(CategoryPlot_ESTest.java:1071)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test093(CategoryPlot_ESTest.java:995)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 55.89
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/FixMiner/Chart/patch1102_358-Chart-14-FixMiner.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:57:02.632941",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/FixMiner/Chart/patch1940_564-Chart-14-FixMiner.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:57:34.962510",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/FixMiner/Chart/patch1574_511-Chart-14-FixMiner.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:58:06.919307",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/FixMiner/Chart/patch538_171-Chart-14-FixMiner.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:58:39.270124",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1181_109-Chart-14-AVATAR.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:59:11.143577",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1534_138-Chart-14-AVATAR.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:59:43.386713",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1573_139-Chart-14-AVATAR.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "NFL",
+            "date": "2021-11-22T23:00:15.480738",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch560_34-Chart-14-AVATAR.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "NFL",
+            "date": "2021-11-22T23:00:48.050756",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch2034_473-Chart-14-TBar.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "NFL",
+            "date": "2021-11-22T23:01:20.153660",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch2669_616-Chart-14-TBar.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "NFL",
+            "date": "2021-11-22T23:01:52.204802",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch974_207-Chart-14-TBar.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "NFL",
+            "date": "2021-11-22T23:02:24.398014",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/kPAR/Chart/patch6_4-Chart-14-kPAR.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "PFL",
+            "date": "2021-11-22T23:02:56.773930",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ACS/Chart/patch20_8-Chart-14-ACS.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "PFL",
+            "date": "2021-11-22T23:03:29.012927",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ACS/Chart/patch20_8-Chart-14-ACS.patch",
+                    "test": "test_from_NFL_patch116_32-Chart-14-ACS",
+                    "failing": 0,
+                    "testrun": 378,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ACS/Chart/patch20_8-Chart-14-ACS.patch",
+                    "test": "test_from_PFL_patch20_8-Chart-14-ACS",
+                    "failing": 0,
+                    "testrun": 359,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ACS/Chart/patch20_8-Chart-14-ACS.patch",
+                    "test": "test_from_NFL_patch972_738-Chart-14-ARJA",
+                    "failing": 11,
+                    "testrun": 360,
+                    "failings": [
+                        "test028(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test077(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test078(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test072(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test133(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test137(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test021(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test142(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test028(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test088(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test081(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test028(XYPlot_ESTest.java:4929)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test077(XYPlot_ESTest.java:11961)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test078(XYPlot_ESTest.java:12096)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test072(XYPlot_ESTest.java:11192)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test133(XYPlot_ESTest.java:20401)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test137(CategoryPlot_ESTest.java:1358)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test021(CategoryPlot_ESTest.java:296)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test142(CategoryPlot_ESTest.java:1405)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test028(CategoryPlot_ESTest.java:377)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test088(CategoryPlot_ESTest.java:949)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test081(CategoryPlot_ESTest.java:859)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ACS/Chart/patch20_8-Chart-14-ACS.patch",
+                    "test": "test_from_DRR_patch1-Chart-14-ACS",
+                    "failing": 0,
+                    "testrun": 381,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 55.64
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/AVATAR/Chart/patch78_2-Chart-14-AVATAR.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "PFL",
+            "date": "2021-11-22T23:04:24.653777",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Chart/patch76_2-Chart-14-TBar.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "PFL",
+            "date": "2021-11-22T23:04:55.978709",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        }
+    ],
+    "date": "2021-11-22T22:53:29.536659",
+    "duration": -0.0
+}

@@ -1,0 +1,502 @@
+{
+    "bugid": "Math-41",
+    "results": [
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Math/patch1-Math-41-SimFix.patch",
+            "project": "Math",
+            "bugid": "41",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T19:23:48.242349",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Math/patch1-Math-41-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Math-41-ssFix",
+                    "failing": 0,
+                    "testrun": 73,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Math/patch1-Math-41-SimFix.patch",
+                    "test": "test_from_NFL_patch1_1-Math-41-Nopol",
+                    "failing": 2,
+                    "testrun": 43,
+                    "failings": [
+                        "test33(org.apache.commons.math.stat.descriptive.moment.Mean_ESTest)",
+                        "test01(org.apache.commons.math.stat.descriptive.moment.Mean_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<NaN> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<NaN> but was:<212.84>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest.test33(Mean_ESTest.java:440)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest.test01(Mean_ESTest.java:39)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Math/patch1-Math-41-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Math-41-SimFix",
+                    "failing": 0,
+                    "testrun": 73,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Math/patch1-Math-41-SimFix.patch",
+                    "test": "test_from_NFL_patch797_797-Math-41-SimFix",
+                    "failing": 0,
+                    "testrun": 73,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 39.92
+        },
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/ssFix/Math/patch1-Math-41-ssFix.patch",
+            "project": "Math",
+            "bugid": "41",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T19:24:28.164415",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/ssFix/Math/patch1-Math-41-ssFix.patch",
+                    "test": "test_from_DRR_patch1-Math-41-ssFix",
+                    "failing": 0,
+                    "testrun": 73,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/ssFix/Math/patch1-Math-41-ssFix.patch",
+                    "test": "test_from_NFL_patch1_1-Math-41-Nopol",
+                    "failing": 2,
+                    "testrun": 43,
+                    "failings": [
+                        "test33(org.apache.commons.math.stat.descriptive.moment.Mean_ESTest)",
+                        "test01(org.apache.commons.math.stat.descriptive.moment.Mean_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<NaN> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<NaN> but was:<212.84>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest.test33(Mean_ESTest.java:440)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest.test01(Mean_ESTest.java:39)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/ssFix/Math/patch1-Math-41-ssFix.patch",
+                    "test": "test_from_DRR_patch1-Math-41-SimFix",
+                    "failing": 0,
+                    "testrun": 73,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/ssFix/Math/patch1-Math-41-ssFix.patch",
+                    "test": "test_from_NFL_patch797_797-Math-41-SimFix",
+                    "failing": 0,
+                    "testrun": 73,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 40.22
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Math/patch797_797-Math-41-SimFix.patch",
+            "project": "Math",
+            "bugid": "41",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:25:08.390389",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Math/patch797_797-Math-41-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Math-41-ssFix",
+                    "failing": 0,
+                    "testrun": 73,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Math/patch797_797-Math-41-SimFix.patch",
+                    "test": "test_from_NFL_patch1_1-Math-41-Nopol",
+                    "failing": 2,
+                    "testrun": 43,
+                    "failings": [
+                        "test33(org.apache.commons.math.stat.descriptive.moment.Mean_ESTest)",
+                        "test01(org.apache.commons.math.stat.descriptive.moment.Mean_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<NaN> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<NaN> but was:<212.84>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest.test33(Mean_ESTest.java:440)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest.test01(Mean_ESTest.java:39)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Math/patch797_797-Math-41-SimFix.patch",
+                    "test": "test_from_DRR_patch1-Math-41-SimFix",
+                    "failing": 0,
+                    "testrun": 73,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Math/patch797_797-Math-41-SimFix.patch",
+                    "test": "test_from_NFL_patch797_797-Math-41-SimFix",
+                    "failing": 0,
+                    "testrun": 73,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 40.41
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-41-DynaMoth.patch",
+            "project": "Math",
+            "bugid": "41",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:25:48.799765",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-41-DynaMoth.patch",
+                    "test": "test_from_DRR_patch1-Math-41-ssFix",
+                    "failing": 5,
+                    "testrun": 73,
+                    "failings": [
+                        "test23(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test22(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test21(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test20(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test24(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic but in org.apache.commons.math.stat.descriptive.moment.Variance.evaluate(Variance.java:318): java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.ArrayIndexOutOfBoundsException: 0",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic but in org.apache.commons.math.stat.descriptive.moment.Variance.evaluate(Variance.java:318): java.lang.ArrayIndexOutOfBoundsException: 0"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test23(Variance_ESTest.java:284)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test22(Variance_ESTest.java:260)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test21(Variance_ESTest.java:244)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test20(Variance_ESTest.java:227)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test24(Variance_ESTest.java:301)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-41-DynaMoth.patch",
+                    "test": "test_from_NFL_patch1_1-Math-41-Nopol",
+                    "failing": 2,
+                    "testrun": 43,
+                    "failings": [
+                        "test33(org.apache.commons.math.stat.descriptive.moment.Mean_ESTest)",
+                        "test01(org.apache.commons.math.stat.descriptive.moment.Mean_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<NaN> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<NaN> but was:<212.84>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest.test33(Mean_ESTest.java:440)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest.test01(Mean_ESTest.java:39)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-41-DynaMoth.patch",
+                    "test": "test_from_DRR_patch1-Math-41-SimFix",
+                    "failing": 5,
+                    "testrun": 73,
+                    "failings": [
+                        "test23(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test22(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test21(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test20(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test24(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic but in org.apache.commons.math.stat.descriptive.moment.Variance.evaluate(Variance.java:318): java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.ArrayIndexOutOfBoundsException: 0",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic but in org.apache.commons.math.stat.descriptive.moment.Variance.evaluate(Variance.java:318): java.lang.ArrayIndexOutOfBoundsException: 0"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test23(Variance_ESTest.java:284)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test22(Variance_ESTest.java:260)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test21(Variance_ESTest.java:244)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test20(Variance_ESTest.java:227)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test24(Variance_ESTest.java:301)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-41-DynaMoth.patch",
+                    "test": "test_from_NFL_patch797_797-Math-41-SimFix",
+                    "failing": 5,
+                    "testrun": 73,
+                    "failings": [
+                        "test23(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test22(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test21(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test20(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test24(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic but in org.apache.commons.math.stat.descriptive.moment.Variance.evaluate(Variance.java:318): java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.ArrayIndexOutOfBoundsException: 0",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic but in org.apache.commons.math.stat.descriptive.moment.Variance.evaluate(Variance.java:318): java.lang.ArrayIndexOutOfBoundsException: 0"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test23(Variance_ESTest.java:283)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test22(Variance_ESTest.java:259)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test21(Variance_ESTest.java:243)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test20(Variance_ESTest.java:226)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test24(Variance_ESTest.java:300)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 40.36
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-41-Nopol.patch",
+            "project": "Math",
+            "bugid": "41",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:26:29.160002",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-41-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Math-41-ssFix",
+                    "failing": 1,
+                    "testrun": 73,
+                    "failings": [
+                        "test09(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1467.282263199803> but was:<NaN>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test09(Variance_ESTest.java:109)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-41-Nopol.patch",
+                    "test": "test_from_NFL_patch1_1-Math-41-Nopol",
+                    "failing": 0,
+                    "testrun": 43,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-41-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Math-41-SimFix",
+                    "failing": 1,
+                    "testrun": 73,
+                    "failings": [
+                        "test09(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1467.282263199803> but was:<NaN>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test09(Variance_ESTest.java:109)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-41-Nopol.patch",
+                    "test": "test_from_NFL_patch797_797-Math-41-SimFix",
+                    "failing": 1,
+                    "testrun": 73,
+                    "failings": [
+                        "test09(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1467.282263199803> but was:<NaN>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test09(Variance_ESTest.java:108)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 39.94
+        }
+    ],
+    "date": "2021-11-22T19:23:48.241816",
+    "duration": -0.0
+}

@@ -1,0 +1,71 @@
+{
+    "bugid": "Math-15",
+    "results": [
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Math/patch524_360-Math-15-kPAR.patch",
+            "project": "Math",
+            "bugid": "15",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:12:58.607035",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Math/patch524_360-Math-15-kPAR.patch",
+                    "test": "test_from_NFL_patch1163_932-Math-15-TBar",
+                    "failing": 1,
+                    "testrun": 330,
+                    "failings": [
+                        "test257(org.apache.commons.math3.util.FastMath_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.util.FastMath_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<NaN>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math3.util.FastMath_ESTest.test257(FastMath_ESTest.java:1319)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 58.47
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch1163_932-Math-15-TBar.patch",
+            "project": "Math",
+            "bugid": "15",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:13:57.072628",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch1163_932-Math-15-TBar.patch",
+                    "test": "test_from_NFL_patch1163_932-Math-15-TBar",
+                    "failing": 0,
+                    "testrun": 330,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.util.FastMath_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 58.53
+        }
+    ],
+    "date": "2021-11-22T19:12:58.604609",
+    "duration": -0.0
+}

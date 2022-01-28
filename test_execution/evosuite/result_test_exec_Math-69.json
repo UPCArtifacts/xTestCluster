@@ -1,0 +1,47 @@
+{
+    "bugid": "Math-69",
+    "results": [
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Math/patch63_63-Math-69-SimFix.patch",
+            "project": "Math",
+            "bugid": "69",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:26:15.105717",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-69-Nopol.patch",
+            "project": "Math",
+            "bugid": "69",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:26:37.312845",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-69-Nopol.patch",
+                    "test": "test_from_NFL_patch1_1-Math-69-Nopol",
+                    "failing": 0,
+                    "testrun": 39,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.correlation.PearsonsCorrelation_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 25.75
+        }
+    ],
+    "date": "2021-11-22T19:26:15.104927",
+    "duration": -0.0
+}

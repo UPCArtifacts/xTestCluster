@@ -1,0 +1,76 @@
+{
+    "bugid": "Math-78",
+    "results": [
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-78-Nopol.patch",
+            "project": "Math",
+            "bugid": "78",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:25:41.818739",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-78-Nopol.patch",
+                    "test": "test_from_NFL_patch525_329-Math-78-AVATAR",
+                    "failing": 2,
+                    "testrun": 36,
+                    "failings": [
+                        "test06(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest)",
+                        "test27(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<78> but was:<81>",
+                        "19:26:06.685 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.MessagesResources"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest.test06(BrentSolver_ESTest.java:125)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest.test27(BrentSolver_ESTest.java:408)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 24.9
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch525_329-Math-78-AVATAR.patch",
+            "project": "Math",
+            "bugid": "78",
+            "dataset": "NFL",
+            "date": "2021-11-22T19:26:06.721037",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch525_329-Math-78-AVATAR.patch",
+                    "test": "test_from_NFL_patch525_329-Math-78-AVATAR",
+                    "failing": 0,
+                    "testrun": 36,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 24.75
+        }
+    ],
+    "date": "2021-11-22T19:25:41.817851",
+    "duration": -0.0
+}

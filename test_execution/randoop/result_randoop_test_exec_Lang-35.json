@@ -1,0 +1,306 @@
+{
+    "bugid": "Lang-35",
+    "results": [
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/Arja/Lang/patch1-Lang-35-Arja.patch",
+            "project": "Lang",
+            "bugid": "35",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:52:57.793390",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Lang/patch1-Lang-35-Arja.patch",
+                    "test": "test_from_DRR_patch1-Lang-35-ACS",
+                    "failing": 2,
+                    "testrun": 2672,
+                    "failings": [
+                        "test0189(RegressionTest0)",
+                        "test0272(RegressionTest0)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expected exception of type java.lang.IllegalArgumentException; message: null",
+                        "java.lang.AssertionError: Expected exception of type java.lang.IllegalArgumentException; message: null"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest0.test0189(RegressionTest0.java:4806)"
+                        ],
+                        [
+                            "RegressionTest0.test0272(RegressionTest0.java:7282)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Lang/patch1-Lang-35-Arja.patch",
+                    "test": "test_from_DRR_patch1-Lang-35-Arja",
+                    "failing": 0,
+                    "testrun": 2756,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Lang/patch1-Lang-35-Arja.patch",
+                    "test": "test_from_NFL_patch4_4-Lang-35-ACS",
+                    "failing": 2,
+                    "testrun": 2669,
+                    "failings": [
+                        "test0189(RegressionTest0)",
+                        "test0272(RegressionTest0)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expected exception of type java.lang.IllegalArgumentException; message: null",
+                        "java.lang.AssertionError: Expected exception of type java.lang.IllegalArgumentException; message: null"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest0.test0189(RegressionTest0.java:4806)"
+                        ],
+                        [
+                            "RegressionTest0.test0272(RegressionTest0.java:7282)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 36.67
+        },
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/ACS/Lang/patch1-Lang-35-ACS.patch",
+            "project": "Lang",
+            "bugid": "35",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T22:53:34.463432",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/ACS/Lang/patch1-Lang-35-ACS.patch",
+                    "test": "test_from_DRR_patch1-Lang-35-ACS",
+                    "failing": 0,
+                    "testrun": 2672,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/ACS/Lang/patch1-Lang-35-ACS.patch",
+                    "test": "test_from_DRR_patch1-Lang-35-Arja",
+                    "failing": 6,
+                    "testrun": 2756,
+                    "failings": [
+                        "test0530(RegressionTest1)",
+                        "test0926(RegressionTest1)",
+                        "test1886(RegressionTest3)",
+                        "test2407(RegressionTest4)",
+                        "test1006(RegressionTest2)",
+                        "test1275(RegressionTest2)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.IllegalArgumentException",
+                        "java.lang.IllegalArgumentException",
+                        "java.lang.IllegalArgumentException",
+                        "java.lang.IllegalArgumentException",
+                        "java.lang.IllegalArgumentException",
+                        "java.lang.IllegalArgumentException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest1.test0530(RegressionTest1.java:1033)"
+                        ],
+                        [
+                            "RegressionTest1.test0926(RegressionTest1.java:16418)"
+                        ],
+                        [
+                            "RegressionTest3.test1886(RegressionTest3.java:17037)"
+                        ],
+                        [
+                            "RegressionTest4.test2407(RegressionTest4.java:18298)"
+                        ],
+                        [
+                            "RegressionTest2.test1006(RegressionTest2.java:205)"
+                        ],
+                        [
+                            "RegressionTest2.test1275(RegressionTest2.java:11350)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/ACS/Lang/patch1-Lang-35-ACS.patch",
+                    "test": "test_from_NFL_patch4_4-Lang-35-ACS",
+                    "failing": 0,
+                    "testrun": 2669,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 36.26
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Lang/patch4_4-Lang-35-ACS.patch",
+            "project": "Lang",
+            "bugid": "35",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:54:10.726999",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Lang/patch4_4-Lang-35-ACS.patch",
+                    "test": "test_from_DRR_patch1-Lang-35-ACS",
+                    "failing": 0,
+                    "testrun": 2672,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Lang/patch4_4-Lang-35-ACS.patch",
+                    "test": "test_from_DRR_patch1-Lang-35-Arja",
+                    "failing": 6,
+                    "testrun": 2756,
+                    "failings": [
+                        "test0530(RegressionTest1)",
+                        "test0926(RegressionTest1)",
+                        "test1886(RegressionTest3)",
+                        "test2407(RegressionTest4)",
+                        "test1006(RegressionTest2)",
+                        "test1275(RegressionTest2)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.IllegalArgumentException",
+                        "java.lang.IllegalArgumentException",
+                        "java.lang.IllegalArgumentException",
+                        "java.lang.IllegalArgumentException",
+                        "java.lang.IllegalArgumentException",
+                        "java.lang.IllegalArgumentException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "RegressionTest1.test0530(RegressionTest1.java:1033)"
+                        ],
+                        [
+                            "RegressionTest1.test0926(RegressionTest1.java:16418)"
+                        ],
+                        [
+                            "RegressionTest3.test1886(RegressionTest3.java:17037)"
+                        ],
+                        [
+                            "RegressionTest4.test2407(RegressionTest4.java:18298)"
+                        ],
+                        [
+                            "RegressionTest2.test1006(RegressionTest2.java:205)"
+                        ],
+                        [
+                            "RegressionTest2.test1275(RegressionTest2.java:11350)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Lang/patch4_4-Lang-35-ACS.patch",
+                    "test": "test_from_NFL_patch4_4-Lang-35-ACS",
+                    "failing": 0,
+                    "testrun": 2669,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "RegressionTest1",
+                        "RegressionTest3",
+                        "RegressionTest5",
+                        "RegressionTest4",
+                        "RegressionTest2",
+                        "RegressionTest0"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 36.14
+        }
+    ],
+    "date": "2021-11-22T22:52:57.793001",
+    "duration": -0.0
+}

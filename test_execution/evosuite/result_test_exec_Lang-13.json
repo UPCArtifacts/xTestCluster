@@ -1,0 +1,97 @@
+{
+    "bugid": "Lang-13",
+    "results": [
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch78_11-Lang-13-AVATAR.patch",
+            "project": "Lang",
+            "bugid": "13",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:45:54.805551",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch78_11-Lang-13-AVATAR.patch",
+                    "test": "test_from_NFL_patch78_11-Lang-13-AVATAR",
+                    "failing": 0,
+                    "testrun": 14,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.SerializationUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch78_11-Lang-13-AVATAR.patch",
+                    "test": "test_from_NFL_patch165_66-Lang-13-RSRepair-A",
+                    "failing": 1,
+                    "testrun": 16,
+                    "failings": [
+                        "test05(org.apache.commons.lang3.SerializationUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.SerializationUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.IllegalAccessError: tried to access method java.io.ObjectInputStream.resolveClass(Ljava/io/ObjectStreamClass;)Ljava/lang/Class; from class org.apache.commons.lang3.SerializationUtils_ESTest"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.SerializationUtils_ESTest.test05(SerializationUtils_ESTest.java:101)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 27.06
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Lang/patch165_66-Lang-13-RSRepair-A.patch",
+            "project": "Lang",
+            "bugid": "13",
+            "dataset": "NFL",
+            "date": "2021-11-22T22:46:21.865985",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Lang/patch165_66-Lang-13-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch78_11-Lang-13-AVATAR",
+                    "failing": 0,
+                    "testrun": 14,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.SerializationUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Lang/patch165_66-Lang-13-RSRepair-A.patch",
+                    "test": "test_from_NFL_patch165_66-Lang-13-RSRepair-A",
+                    "failing": 0,
+                    "testrun": 16,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.SerializationUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 27.88
+        }
+    ],
+    "date": "2021-11-22T22:45:54.804714",
+    "duration": -0.0
+}

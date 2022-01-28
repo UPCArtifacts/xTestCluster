@@ -1,0 +1,81 @@
+{
+    "bugid": "Time-14",
+    "results": [
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Arja/Time/patch1-Time-14-Arja-plausible.patch",
+            "project": "Time",
+            "bugid": "14",
+            "dataset": "patchesDRR",
+            "date": "2021-11-23T19:13:02.818780",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Time/patch1-Time-14-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch1_1-Time-14-Nopol",
+                    "failing": 3,
+                    "testrun": 54,
+                    "failings": [
+                        "test20(org.joda.time.chrono.BasicMonthOfYearDateTimeField_ESTest)",
+                        "test37(org.joda.time.chrono.BasicMonthOfYearDateTimeField_ESTest)",
+                        "test36(org.joda.time.chrono.BasicMonthOfYearDateTimeField_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.joda.time.chrono.BasicMonthOfYearDateTimeField_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Partial must not be null",
+                        "org.joda.time.IllegalFieldValueException: Value 0 for year is not supported",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.joda.time.chrono.BasicMonthOfYearDateTimeField_ESTest.test20(BasicMonthOfYearDateTimeField_ESTest.java:567)"
+                        ],
+                        [
+                            "org.joda.time.chrono.BasicMonthOfYearDateTimeField_ESTest.test37(BasicMonthOfYearDateTimeField_ESTest.java:972)"
+                        ],
+                        [
+                            "org.joda.time.chrono.BasicMonthOfYearDateTimeField_ESTest.test36(BasicMonthOfYearDateTimeField_ESTest.java:956)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 28.69
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Time/patch1_1-Time-14-Nopol.patch",
+            "project": "Time",
+            "bugid": "14",
+            "dataset": "NFL",
+            "date": "2021-11-23T19:13:31.507327",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Time/patch1_1-Time-14-Nopol.patch",
+                    "test": "test_from_NFL_patch1_1-Time-14-Nopol",
+                    "failing": 0,
+                    "testrun": 54,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.joda.time.chrono.BasicMonthOfYearDateTimeField_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 29.21
+        }
+    ],
+    "date": "2021-11-23T19:13:02.817950",
+    "duration": -0.0
+}

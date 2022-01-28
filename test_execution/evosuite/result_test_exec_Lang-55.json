@@ -1,0 +1,2435 @@
+{
+    "bugid": "Lang-55",
+    "results": [
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-55-Nopol2015.patch",
+            "project": "Lang",
+            "bugid": "55",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T23:08:05.369587",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-55-Nopol2015.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-55-Nopol2015.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-55-Nopol2015.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-55-Nopol2015.patch",
+                    "test": "test_from_PFL_patch1_1-Lang-55-DynaMoth",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-55-Nopol2015.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-55-Nopol2015.patch",
+                    "test": "test_from_DRR_patch4-Lang-55-Arja-plausible",
+                    "failing": 5,
+                    "testrun": 19,
+                    "failings": [
+                        "test16(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test03(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test00(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test01(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test09(org.apache.commons.lang.time.StopWatch_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. "
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test16(StopWatch_ESTest.java:219)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test03(StopWatch_ESTest.java:64)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test00(StopWatch_ESTest.java:26)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test01(StopWatch_ESTest.java:37)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test09(StopWatch_ESTest.java:122)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-55-Nopol2015.patch",
+                    "test": "test_from_NFL_patch1_1-Lang-55-Nopol",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-55-Nopol2015.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-55-Nopol2015.patch",
+                    "test": "test_from_DRR_patch5-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-55-Nopol2015.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-55-Nopol2015.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-55-Nopol2015.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Nopol2015",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 30.71
+        },
+        {
+            "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Lang/patch1-Lang-55-Jaid.patch",
+            "project": "Lang",
+            "bugid": "55",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T23:08:36.079132",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Lang/patch1-Lang-55-Jaid.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Lang/patch1-Lang-55-Jaid.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Lang/patch1-Lang-55-Jaid.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Lang/patch1-Lang-55-Jaid.patch",
+                    "test": "test_from_PFL_patch1_1-Lang-55-DynaMoth",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Lang/patch1-Lang-55-Jaid.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Lang/patch1-Lang-55-Jaid.patch",
+                    "test": "test_from_DRR_patch4-Lang-55-Arja-plausible",
+                    "failing": 5,
+                    "testrun": 19,
+                    "failings": [
+                        "test16(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test03(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test00(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test01(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test09(org.apache.commons.lang.time.StopWatch_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. "
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test16(StopWatch_ESTest.java:219)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test03(StopWatch_ESTest.java:64)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test00(StopWatch_ESTest.java:26)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test01(StopWatch_ESTest.java:37)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test09(StopWatch_ESTest.java:122)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Lang/patch1-Lang-55-Jaid.patch",
+                    "test": "test_from_NFL_patch1_1-Lang-55-Nopol",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Lang/patch1-Lang-55-Jaid.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Lang/patch1-Lang-55-Jaid.patch",
+                    "test": "test_from_DRR_patch5-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Lang/patch1-Lang-55-Jaid.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Lang/patch1-Lang-55-Jaid.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Lang/patch1-Lang-55-Jaid.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Nopol2015",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 31.56
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch4-Lang-55-Arja-plausible.patch",
+            "project": "Lang",
+            "bugid": "55",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T23:09:07.639981",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch4-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 20,
+                    "failings": [
+                        "test12(org.apache.commons.lang.time.StopWatch_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: IllegalStateException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test12(StopWatch_ESTest.java:166)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch4-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch4-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch4-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_PFL_patch1_1-Lang-55-DynaMoth",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch4-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch4-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch4-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch4-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch1_1-Lang-55-Nopol",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch4-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch4-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch5-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch4-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch4-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch4-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Nopol2015",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 31.85
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch5-Lang-55-Arja-plausible.patch",
+            "project": "Lang",
+            "bugid": "55",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T23:09:39.487659",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch5-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 20,
+                    "failings": [
+                        "test12(org.apache.commons.lang.time.StopWatch_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: IllegalStateException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test12(StopWatch_ESTest.java:166)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch5-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch5-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch5-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_PFL_patch1_1-Lang-55-DynaMoth",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch5-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch5-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch4-Lang-55-Arja-plausible",
+                    "failing": 5,
+                    "testrun": 19,
+                    "failings": [
+                        "test16(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test03(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test00(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test01(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test09(org.apache.commons.lang.time.StopWatch_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. "
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test16(StopWatch_ESTest.java:219)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test03(StopWatch_ESTest.java:64)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test00(StopWatch_ESTest.java:26)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test01(StopWatch_ESTest.java:37)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test09(StopWatch_ESTest.java:122)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch5-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch1_1-Lang-55-Nopol",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch5-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch5-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch5-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch5-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch5-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch5-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Nopol2015",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 31.39
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-55-Arja-plausible.patch",
+            "project": "Lang",
+            "bugid": "55",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T23:10:10.877846",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 20,
+                    "failings": [
+                        "test12(org.apache.commons.lang.time.StopWatch_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: IllegalStateException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test12(StopWatch_ESTest.java:166)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_PFL_patch1_1-Lang-55-DynaMoth",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch4-Lang-55-Arja-plausible",
+                    "failing": 5,
+                    "testrun": 19,
+                    "failings": [
+                        "test16(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test03(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test00(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test01(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test09(org.apache.commons.lang.time.StopWatch_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. "
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test16(StopWatch_ESTest.java:219)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test03(StopWatch_ESTest.java:64)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test00(StopWatch_ESTest.java:26)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test01(StopWatch_ESTest.java:37)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test09(StopWatch_ESTest.java:122)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch1_1-Lang-55-Nopol",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch5-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 20,
+                    "failings": [
+                        "test00(org.apache.commons.lang.time.StopWatch_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. "
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test00(StopWatch_ESTest.java:26)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch2-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Nopol2015",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 31.39
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-55-Arja-plausible.patch",
+            "project": "Lang",
+            "bugid": "55",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T23:10:42.269619",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 20,
+                    "failings": [
+                        "test12(org.apache.commons.lang.time.StopWatch_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: IllegalStateException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test12(StopWatch_ESTest.java:166)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_PFL_patch1_1-Lang-55-DynaMoth",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch4-Lang-55-Arja-plausible",
+                    "failing": 5,
+                    "testrun": 19,
+                    "failings": [
+                        "test16(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test03(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test00(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test01(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test09(org.apache.commons.lang.time.StopWatch_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. "
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test16(StopWatch_ESTest.java:219)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test03(StopWatch_ESTest.java:64)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test00(StopWatch_ESTest.java:26)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test01(StopWatch_ESTest.java:37)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test09(StopWatch_ESTest.java:122)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch1_1-Lang-55-Nopol",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch5-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch1-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Nopol2015",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 31.71
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch3-Lang-55-Arja-plausible.patch",
+            "project": "Lang",
+            "bugid": "55",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T23:11:13.984384",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch3-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 20,
+                    "failings": [
+                        "test12(org.apache.commons.lang.time.StopWatch_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: IllegalStateException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test12(StopWatch_ESTest.java:166)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch3-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch3-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch3-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_PFL_patch1_1-Lang-55-DynaMoth",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch3-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch3-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch4-Lang-55-Arja-plausible",
+                    "failing": 5,
+                    "testrun": 19,
+                    "failings": [
+                        "test16(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test03(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test00(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test01(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test09(org.apache.commons.lang.time.StopWatch_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. "
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test16(StopWatch_ESTest.java:219)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test03(StopWatch_ESTest.java:64)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test00(StopWatch_ESTest.java:26)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test01(StopWatch_ESTest.java:37)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test09(StopWatch_ESTest.java:122)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch3-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_NFL_patch1_1-Lang-55-Nopol",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch3-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch3-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch5-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch3-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch3-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Lang/patch3-Lang-55-Arja-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Nopol2015",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 31.47
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch1-Lang-55-Jaid-plausible.patch",
+            "project": "Lang",
+            "bugid": "55",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T23:11:45.454928",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch1-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch1-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch1-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch1-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_PFL_patch1_1-Lang-55-DynaMoth",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch1-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch1-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch4-Lang-55-Arja-plausible",
+                    "failing": 5,
+                    "testrun": 19,
+                    "failings": [
+                        "test16(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test03(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test00(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test01(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test09(org.apache.commons.lang.time.StopWatch_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. "
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test16(StopWatch_ESTest.java:219)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test03(StopWatch_ESTest.java:64)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test00(StopWatch_ESTest.java:26)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test01(StopWatch_ESTest.java:37)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test09(StopWatch_ESTest.java:122)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch1-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_NFL_patch1_1-Lang-55-Nopol",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch1-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch1-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch5-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch1-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch1-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch1-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Nopol2015",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 34.57
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch3-Lang-55-Jaid-plausible.patch",
+            "project": "Lang",
+            "bugid": "55",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T23:12:20.021356",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch3-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 20,
+                    "failings": [
+                        "test12(org.apache.commons.lang.time.StopWatch_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: IllegalStateException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test12(StopWatch_ESTest.java:166)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch3-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch3-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch3-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_PFL_patch1_1-Lang-55-DynaMoth",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch3-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch3-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch4-Lang-55-Arja-plausible",
+                    "failing": 5,
+                    "testrun": 19,
+                    "failings": [
+                        "test16(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test03(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test00(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test01(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test09(org.apache.commons.lang.time.StopWatch_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. "
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test16(StopWatch_ESTest.java:219)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test03(StopWatch_ESTest.java:64)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test00(StopWatch_ESTest.java:26)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test01(StopWatch_ESTest.java:37)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test09(StopWatch_ESTest.java:122)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch3-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_NFL_patch1_1-Lang-55-Nopol",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch3-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch3-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch5-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch3-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch3-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch3-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Nopol2015",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 31.34
+        },
+        {
+            "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch2-Lang-55-Jaid-plausible.patch",
+            "project": "Lang",
+            "bugid": "55",
+            "dataset": "patchesDRR",
+            "date": "2021-11-22T23:12:51.358901",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch2-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch2-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch2-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch2-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_PFL_patch1_1-Lang-55-DynaMoth",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch2-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch2-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch4-Lang-55-Arja-plausible",
+                    "failing": 5,
+                    "testrun": 19,
+                    "failings": [
+                        "test16(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test03(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test00(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test01(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test09(org.apache.commons.lang.time.StopWatch_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. "
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test16(StopWatch_ESTest.java:219)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test03(StopWatch_ESTest.java:64)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test00(StopWatch_ESTest.java:26)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test01(StopWatch_ESTest.java:37)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test09(StopWatch_ESTest.java:122)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch2-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_NFL_patch1_1-Lang-55-Nopol",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch2-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch2-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch5-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch2-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch2-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Lang/patch2-Lang-55-Jaid-plausible.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Nopol2015",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 31.51
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Lang/patch1_1-Lang-55-Nopol.patch",
+            "project": "Lang",
+            "bugid": "55",
+            "dataset": "NFL",
+            "date": "2021-11-22T23:13:22.869261",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Lang/patch1_1-Lang-55-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Lang/patch1_1-Lang-55-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Lang/patch1_1-Lang-55-Nopol.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Lang/patch1_1-Lang-55-Nopol.patch",
+                    "test": "test_from_PFL_patch1_1-Lang-55-DynaMoth",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Lang/patch1_1-Lang-55-Nopol.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Lang/patch1_1-Lang-55-Nopol.patch",
+                    "test": "test_from_DRR_patch4-Lang-55-Arja-plausible",
+                    "failing": 5,
+                    "testrun": 19,
+                    "failings": [
+                        "test16(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test03(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test00(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test01(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test09(org.apache.commons.lang.time.StopWatch_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. "
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test16(StopWatch_ESTest.java:219)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test03(StopWatch_ESTest.java:64)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test00(StopWatch_ESTest.java:26)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test01(StopWatch_ESTest.java:37)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test09(StopWatch_ESTest.java:122)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Lang/patch1_1-Lang-55-Nopol.patch",
+                    "test": "test_from_NFL_patch1_1-Lang-55-Nopol",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Lang/patch1_1-Lang-55-Nopol.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Lang/patch1_1-Lang-55-Nopol.patch",
+                    "test": "test_from_DRR_patch5-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Lang/patch1_1-Lang-55-Nopol.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Lang/patch1_1-Lang-55-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Lang/patch1_1-Lang-55-Nopol.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Nopol2015",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 31.45
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/DynaMoth/Lang/patch1_1-Lang-55-DynaMoth.patch",
+            "project": "Lang",
+            "bugid": "55",
+            "dataset": "PFL",
+            "date": "2021-11-22T23:13:54.321308",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "ok",
+            "test_execution": [
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/DynaMoth/Lang/patch1_1-Lang-55-DynaMoth.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/DynaMoth/Lang/patch1_1-Lang-55-DynaMoth.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/DynaMoth/Lang/patch1_1-Lang-55-DynaMoth.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/DynaMoth/Lang/patch1_1-Lang-55-DynaMoth.patch",
+                    "test": "test_from_PFL_patch1_1-Lang-55-DynaMoth",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/DynaMoth/Lang/patch1_1-Lang-55-DynaMoth.patch",
+                    "test": "test_from_DRR_patch3-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/DynaMoth/Lang/patch1_1-Lang-55-DynaMoth.patch",
+                    "test": "test_from_DRR_patch4-Lang-55-Arja-plausible",
+                    "failing": 5,
+                    "testrun": 19,
+                    "failings": [
+                        "test16(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test03(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test00(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test01(org.apache.commons.lang.time.StopWatch_ESTest)",
+                        "test09(org.apache.commons.lang.time.StopWatch_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch has not been split. ",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: Stopwatch must be split to get the split time. "
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test16(StopWatch_ESTest.java:219)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test03(StopWatch_ESTest.java:64)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test00(StopWatch_ESTest.java:26)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test01(StopWatch_ESTest.java:37)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.StopWatch_ESTest.test09(StopWatch_ESTest.java:122)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/DynaMoth/Lang/patch1_1-Lang-55-DynaMoth.patch",
+                    "test": "test_from_NFL_patch1_1-Lang-55-Nopol",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/DynaMoth/Lang/patch1_1-Lang-55-DynaMoth.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/DynaMoth/Lang/patch1_1-Lang-55-DynaMoth.patch",
+                    "test": "test_from_DRR_patch5-Lang-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 19,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/DynaMoth/Lang/patch1_1-Lang-55-DynaMoth.patch",
+                    "test": "test_from_DRR_patch2-Lang-55-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/DynaMoth/Lang/patch1_1-Lang-55-DynaMoth.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Jaid",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/DynaMoth/Lang/patch1_1-Lang-55-DynaMoth.patch",
+                    "test": "test_from_DRR_patch1-Lang-55-Nopol2015",
+                    "failing": 0,
+                    "testrun": 21,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.StopWatch_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 31.44
+        },
+        {
+            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Kali-A/Lang/patch1_1-Lang-55-Kali-A.patch",
+            "project": "Lang",
+            "bugid": "55",
+            "dataset": "PFL",
+            "date": "2021-11-22T23:14:25.759792",
+            "project_checked": "ok",
+            "compiledProjectModified": "no",
+            "patchApplied": "no",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        }
+    ],
+    "date": "2021-11-22T23:08:05.368797",
+    "duration": -0.0
+}
