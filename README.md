@@ -79,7 +79,7 @@ The generated test cases are divided by test generation tool, and then by bug id
 For example, the folder `test_generation/generatedTestEvosuite/Chart_17` has the test created by Evosuite for patches of Chart17.
 Then, inside of them, there are one folder for each patch of the bug. That folder contains the test cases generated after applying the patch.
 For example, the folder `generatedTestEvosuite/Chart_17/test_from_DRR_patch1-Chart-17-Elixir-plausible/` contains the Evosuite test generated from the Elixir patch for Chart 17, available on the DRR repository.
-The identifiers of the patch repositories are: DRR for Ye et al, API for Kechagia et al.  NFL and PFL for Liu et al.
+The identifiers of the patch repositories are: `DRR` for Ye et al, `API` for Kechagia et al.  `NFL` and `PFL` for Liu et al.
 
 
 ### Test Execution
