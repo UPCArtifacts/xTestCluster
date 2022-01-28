@@ -74,24 +74,24 @@ If you use this dataset, please cite:
 ### Test Generation
 
 We generate test cases for each patch using Randoop and Evosuite.
-The tests are available in the [test_generation](test_generation) folder.
+The tests are available in the `test_generation` folder.
 The generated test cases are divided by test generation tool, and then by bug id. 
-For example, the folder [/generatedTestEvosuite/Chart_17](test_generation/generatedTestEvosuite/Chart_17) has the test created by Evosuite for patches of Chart17.
+For example, the folder `test_generation/generatedTestEvosuite/Chart_17` has the test created by Evosuite for patches of Chart17.
 Then, inside of them, there are one folder for each patch of the bug. That folder contains the test cases generated after applying the patch.
-For example, the folder [generatedTestEvosuite/Chart_17/test_from_DRR_patch1-Chart-17-Elixir-plausible/](https://github.com/UPHF/xTestCluster/tree/main/test_generation/generatedTestEvosuite/Chart_17/test_from_DRR_patch1-Chart-17-Elixir-plausible/org/jfree/data/time) contains the Evosuite test generated from the Elixir patch for Chart 17, available on the DRR repository.
+For example, the folder `generatedTestEvosuite/Chart_17/test_from_DRR_patch1-Chart-17-Elixir-plausible/` contains the Evosuite test generated from the Elixir patch for Chart 17, available on the DRR repository.
 The identifiers of the patch repositories are: DRR for Ye et al, API for Kechagia et al.  NFL and PFL for Liu et al.
 
 
 ### Test Execution
 
-The information related to the execution of each generated patch is store in folder [test_execution](/test_execution) and also divided in two subfolders (Randoop and evosuite). 
-For example, [this file](https://github.com/UPHF/xTestCluster/blob/main/test_execution/evosuite/result_test_exec_Math-70.json]) contains the execution of all Evosuite test cases executed on all the patches for bug Math-70. (We exclude the execution of duplicate (i.e., syntactically equivalent) patches)
+The information related to the execution of each generated patch is store in folder `test_execution` and also divided in two subfolders (Randoop and evosuite). 
+For example, file `test_execution/evosuite/result_test_exec_Math-70.json` contains the execution of all Evosuite test cases executed on all the patches for bug Math-70. (We exclude the execution of duplicate (i.e., syntactically equivalent) patches)
 
 ### Clustering
 
 For each bug we present a JSON file that shows the cluster generated based on the test execution.
-The cluster generated using both Evosuite and Randoop, which are presented in the paper, have the identified *Both* and availables at [clustering/both](/clustering/both).
-Moreover, we also present the clusters generated only Evosuite test (here)(https://github.com/UPHF/xTestCluster/tree/main/clustering/evosuite) and only randoop [here](https://github.com/UPHF/xTestCluster/tree/main/clustering/randoop).
+The cluster generated using both Evosuite and Randoop, which are presented in the paper, have the identified *Both* and availables at `clustering/both`.
+Moreover, we also present the clusters generated only Evosuite test in folder `clustering/evosuite` and only randoop in folder `clustering/randoop`.
 
 
 
