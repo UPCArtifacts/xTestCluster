@@ -11,62 +11,18 @@ The patches are publicly available in the repositories of  those dataset, which 
 ### Dataset DRR:
 
 
-Data from this experiment (i.e., Patches) collected, processed and curated by Ye et al. available at [DRR](https://github.com/KTH/drr)
-If you use the data please cite:
-
-```
-@Article{Ye2021EMSE,
-    author = {Ye, He and Martinez, Matias and Monperrus, Martin},
-    title = "Automated Patch Assessment for Program Repair at Scale",
-    journal="Empirical Software Engineering",
-    volume = "26",
-    issn = "1573-7616",
-    doi = "https://doi.org/10.1007/s10664-020-09920-w",
-    year = "2021"
-}
-```
-
-
+Data (patches) from "Automated Patch Assessment for Program Repair at Scale" by Ye et al. is available at [DRR](https://github.com/KTH/drr).
 The patches are splitted in 3 folders: DCorrect (contains the correct), Doverfitting (contains the overfitting), Dunassesed (those not classified). 
 
 
 ### Dataset APR-Efficiency: 
 
-The dataset of patches is available at [APR-Efficiency](https://github.com/SerVal-DTF/APR-Efficiency).
-If you use this dataset, please cite:
-
-```
-Kui Liu, Shangwen Wang, Anil Koyuncu, Kisub Kim, Tegawendé F. Bissyandé, Dongsun Kim, Peng Wu, Jacques Klein, Xiaoguang Mao, and Yves Le Traon. 2020. 
-On the efficiency of test suite based program repair: A Systematic Assessment of 16 Automated Repair Systems for Java Programs. In Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering (ICSE '20). Association for Computing Machinery, New York, NY, USA, 615–627. DOI:https://doi.org/10.1145/3377811.3380338
-```
-
-We apply several transformations on the data provided by Lui et al. which we encoded in the script [patchConverter.py](../src/transformers/patchConverterICSE2020.py).
-
-First, many patches have noice and mistakes e.g., wrong file paths, reference to local folders, missing characters (e.g. ` ---`).
-
-Second, we organize the patches according from the convention from Ye He et al. from DRR.
-Consequently, we can analyze patches from Lui et al and from Ye He et al using the same scripts.
-
-Important: the converter may not focus on all mistakes, so it would be necessary to apply the patch and to see the result.
+Data (patches) from "On the efficiency of test suite based program repair: A Systematic Assessment of 16 Automated Repair Systems for Java Programs" by Liy et al. is available at [APR-Efficiency](https://github.com/SerVal-DTF/APR-Efficiency).
 
 
 ### Dataset APIARTY
 
-The dataset of patches is available at [APIARTY](https://github.com/SOLAR-group/APIARTy).
-If you use this dataset, please cite:
-
-```
-@ARTICLE{9381596,
-  author={Kechagia, Maria and Mechtaev, Sergey and Sarro, Federica and Harman, Mark},
-  journal={IEEE Transactions on Software Engineering}, 
-  title={Evaluating Automatic Program Repair Capabilities to Repair API Misuses}, 
-  year={2021},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1109/TSE.2021.3067156}}
-```
-
+Data (patches) from "Evaluating Automatic Program Repair Capabilities to Repair API Misuses" by Kechagia et al. is available at [APIARTY](https://github.com/SOLAR-group/APIARTy).
 
 
 ## Results from our experiment
@@ -94,6 +50,6 @@ The cluster generated using both Evosuite and Randoop, which are presented in th
 Moreover, we also present the clusters generated only Evosuite test in folder `clustering/evosuite` and only randoop in folder `clustering/randoop`.
 
 
-
-
 ## The tool
+
+Under release.
