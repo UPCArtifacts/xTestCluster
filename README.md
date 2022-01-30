@@ -71,6 +71,17 @@ The results of the patch selection strategy based on patch length are presented 
 
 
 
-## The tool
+## The tool xTestCluster
 
-Under release.
+The implementation of xTestCluster is publicly available at folder `tool_xTestCluster`. 
+If you use the tool, please cite our paper.
+
+### Instructions
+
+* First, download the patches to be analyzed and put in `tool_xTestCluster/Patches`. For the experiment presented in the paper paper,  we download patches from
+ https://github.com/KTH/drr, which were put in folder (`tool_xTestCluster/Patches/patchesDRR`),  from https://github.com/SerVal-DTF/APR-Efficiency which were put in `tool_xTestClusterPatches/patchesEffectivenessICSE20`, and from https://github.com/SOLAR-group/APIARTy put in `tool_xTestCluster/Patches/patchesAPI`
+ * Change the location to the Java virtual machine and Defects4J repositories in file `Config.py`. You need to previously checkout the bugs from Defects4J.
+ * Run xTestCluster using the entry point `MainLauncher.py`
+
+
+
