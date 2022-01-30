@@ -65,8 +65,9 @@ The following files contain the information presented in the paper, in particula
 
 * `clustering/summary/both/bugsWithPureCorrectAndPureIncorrectClusters.md` contains the bug Ids of the Defects4J bugs with at least one pure correct cluster, and at least one incorrect cluster, but no mixed cluster.
 
+### Patch Selection
 
-
+The results of the patch selection strategy based on patch length are presented in file `https://github.com/UPHF/xTestCluster/blob/main/selection/README.md`.
 
 
 
