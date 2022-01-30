@@ -49,6 +49,26 @@ For each bug we present a JSON file that shows the cluster generated based on th
 The cluster generated using both Evosuite and Randoop, which are presented in the paper, have the identified *Both* and availables at `clustering/both`.
 Moreover, we also present the clusters generated only Evosuite test in folder `clustering/evosuite` and only randoop in folder `clustering/randoop`.
 
+We also present the classification of the bugs from Defects4J according to the types of cluster they have (e.g., pure correct cluster, pure incorrect cluster, mixed cluster, etc).
+The following files contain the information presented in the paper, in particular:
+
+* `clustering/summary/both/consideredbugs.md` contains the bug Ids of the Defects4J bugs considered in our experiments
+* `clustering/summary/both/bugsWithSingleCluster.md` contains the bug Ids of the Defects4J bugs with a single cluster
+
+* `clustering/summary/both/bugsWithMixedClusters.md` contains the bug Ids of the Defects4J bugs with, at least, one mixed cluster (i.e., with correct and incorrect patches)
+
+* `clustering/summary/both/bugsWithMultipleClusters.md` contains the bug Ids of the Defects4J bugs with multiple clusters
+
+* `clustering/summary/both/bugsWithOnlyPureCorrectClusters.md` contains the bug Ids of the Defects4J bugs with at least one pure correct cluster.
+
+* `clustering/summary/both/bugsWithOnlyPureIncorrectClusters.md` contains the bug Ids of the Defects4J bugs with at least one pure incorrect cluster.
+
+* `clustering/summary/both/bugsWithPureCorrectAndPureIncorrectClusters.md` contains the bug Ids of the Defects4J bugs with at least one pure correct cluster, and at least one incorrect cluster, but no mixed cluster.
+
+
+
+
+
 
 ## The tool
 
