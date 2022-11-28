@@ -7,7 +7,7 @@ JAVAHOME8="<SET_PATH>jdk1.8.0_101.jdk/Contents/Home/"
 LOCATION_EXTRACTED_DEFECTS4="<SET_PATH_TO_FOLDER_WITH_BUGS>"
 
 ### Checkout using D4J or Copy from file system
-APPLY_CHECKOUT_D4J_OPTION = False
+APPLY_CHECKOUT_D4J_OPTION = True
 
 
 def getPathDefects4J():
