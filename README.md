@@ -82,6 +82,7 @@ If you use the tool, please cite our paper.
  https://github.com/KTH/drr, which were put in folder (`tool_xTestCluster/Patches/patchesDRR`),  from https://github.com/SerVal-DTF/APR-Efficiency which were put in `tool_xTestClusterPatches/patchesEffectivenessICSE20`, and from https://github.com/SOLAR-group/APIARTy put in `tool_xTestCluster/Patches/patchesAPI`
  * Change the location to the Java virtual machine and Defects4J repositories in file `Config.py`. You need to previously checkout the bugs from Defects4J.
  * Run xTestCluster using the entry point `MainLauncher.py`
+ * For more details on the usage of MainLauncher, please read [Runing instructions](https://github.com/UPHF/xTestCluster/blob/main/tool_xTestCluster/src/README.md)
 
 
 
