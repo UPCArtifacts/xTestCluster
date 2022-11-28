@@ -93,7 +93,7 @@ elif "testexecutionperproject" == mode:
 	print("Failing patches {}".format(failingPatches))
 	print("END. errors {}".format(errors))
 
-
+#It executes all tests every patch of a bug.
 elif "testexecutionsingle" == mode:
 
 	patchesFolder = sys.argv[2]
@@ -113,6 +113,19 @@ elif "testexecutionsingle" == mode:
 
 	runTestExecutionForBugId(bugid=bugid, pathsToPatches=foldersWithPatches, destinationTestGenerated=generatedTest, outResults=resultpath, isEvosuite= modeEvosuite)
 
+## It executes all tests on a patch passed as parameter
+
+elif "testexecutionsinglepatch" == mode:
+
+	iPatch = sys.argv[2]
+
+	generatedTest = sys.argv[3]
+
+	resultpath = sys.argv[4]
+
+	modeEvosuite = True if sys.argv[5] == "True" else False
+
+	resultPatch = runExecuteTestsForPatch(patchPath=iPatch, destinationTestGenerated=generatedTest, resultOutput=resultpath, isEvosuite=modeEvosuite, zipFile = False, OVERWRITERESULTS=True)
 
 elif "clustering" == mode:
 	resultDir = sys.argv[2]

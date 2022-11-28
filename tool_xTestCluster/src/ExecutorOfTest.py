@@ -37,7 +37,7 @@ def runTestExecutionForBugId(bugid,
 							 pathsToPatches=[],
 							 outResults = os.path.realpath("./results/"),
 							 isEvosuite = True,
-							 OVERWRITERESULTS = False,
+							 OVERWRITERESULTS = True,
 							 zipResult = True,
 							 duplicatePatches = None
 							 ):
@@ -50,17 +50,15 @@ def runTestExecutionForBugId(bugid,
 	a_datetime = datetime.datetime.now()
 	formatted_datetime = a_datetime.isoformat()
 
-	###
-
+	### Create the path to find the test cases generated
 	fname = fileNameResultBug.format("" if isEvosuite else "randoop_", bugid)
-
 	cpath = os.path.join(outResults, folderNameResultsBugs)
-
 	if not os.path.exists(cpath):
 		os.makedirs(cpath)
 
 	pathCompleteOutFile = "{}/{}".format(cpath, fname)
 
+	## Check if the result exists
 	if not OVERWRITERESULTS:
 		if  os.path.exists(pathCompleteOutFile) or  os.path.exists(pathCompleteOutFile.replace(".json", ".zip")) :
 			print("OVERWRITERESULTS? {}.  Existing results at {}. Finish analysis of {} ".format(OVERWRITERESULTS, pathCompleteOutFile, bugid ))
@@ -89,6 +87,7 @@ def runTestExecutionForBugId(bugid,
 	print("Retrieved patches  for bug {}: ({}) {} ".format(bugid, len(patches), patches))
 	timeInit = time.time()
 	results = []
+	## Navitage all the patches
 	for iPatch in patches:
 		print("---running for {}".format(iPatch))
 		resultPatch = runExecuteTestsForPatch(patchPath=iPatch, destinationTestGenerated=destinationTestGenerated, resultOutput=outResults, isEvosuite=isEvosuite, zipFile = zipResult, OVERWRITERESULTS=OVERWRITERESULTS)
@@ -101,7 +100,7 @@ def runTestExecutionForBugId(bugid,
 	json_string = json.dumps(resultsroot, indent=4)
 	print(json_string)
 
-
+	##Save the  results
 	print("\nGeneral result of {} store at: {}".format(bugid, pathCompleteOutFile))
 	if not zipResult:
 		f = open(pathCompleteOutFile, "w")
@@ -132,6 +131,7 @@ def runExecuteTestsForPatch(patchPath,
 							):
 
 
+	## Retrieve the bug id from the file name
 	arraynames = os.path.basename(patchPath).split("-")
 	timeInit = time.time()
 	if len(arraynames) == 0:
@@ -148,17 +148,16 @@ def runExecuteTestsForPatch(patchPath,
 	prever.reverse()
 	datasetName = prever[4]
 
-	###
+	### Prepare the name of the output
 	parentDir = os.path.join(resultOutput, folderNameResultPatch)
 	if not os.path.exists(parentDir):
 		os.makedirs(parentDir)
 
 	fileName = "result{}_{}".format( "" if isEvosuite else "_randoop", os.path.basename(
 		patchPath.replace(".patch", "_{}.json".format(datasetName))))
-
 	pathjsonsaved = "{}/{}".format(parentDir,fileName)
-	###
 
+	### check if the bug was analyzed, if we dont overwrite results, then we return the already computed results
 	if not OVERWRITERESULTS:
 		if  os.path.exists(pathjsonsaved) or  os.path.exists(pathjsonsaved.replace(".json", ".zip")) :
 			logging.debug("OVERWRITERESULTS PATCH? {}.  Existing results at {}. Finish analysis of {} ".format(OVERWRITERESULTS, pathjsonsaved, patchPath ))
@@ -169,9 +168,7 @@ def runExecuteTestsForPatch(patchPath,
 			logging.debug("OVERWRITERESULTS PATCH? {}. Not Existing results at {}, continue analysis of {}".format(OVERWRITERESULTS, pathjsonsaved, patchPath))
 
 
-	#logging.debug("Dataset name of path is: {}".format(datasetName))
-
-	## Exporting the results
+	## Prepare the JSON for the results
 	a_datetime = datetime.datetime.now()
 	formatted_datetime = a_datetime.isoformat()
 
@@ -191,17 +188,19 @@ def runExecuteTestsForPatch(patchPath,
 	attempsCompilations = 0
 	success = False
 
+
+	## Compilation of the project (we do different attempts)
 	while attempsCompilations < maxAttemptsCompilations and not success:
 		attempsCompilations+=1
 		logging.debug("** Step: Checkout project, attempt {} ".format(attempsCompilations))
-
 		destinationCheckOut="{}_{}".format(destinationCheckOut, attempsCompilations)
-
+		## Obtain the buggy project from D4J to be patched
 		if APPLY_CHECKOUT_D4J_OPTION:
+			## here we checkout the project using D4J command
 			checkedoutdir, resultCheckout = checkout_project(filePatchId=patchPath, projectDestination=destinationCheckOut, singleCheckout=singleCheckout)
 		else:
-			checkedoutdir, resultCheckout = copy_project(filePatchId=patchPath,
-															 projectDestination=destinationCheckOut)
+			## here we use a copy of an already checkout project
+			checkedoutdir, resultCheckout = copy_project(filePatchId=patchPath, projectDestination=destinationCheckOut)
 
 		if checkedoutdir is not None and  len(os.listdir(checkedoutdir)) > 0:
 			if resultCheckout:
@@ -212,18 +211,18 @@ def runExecuteTestsForPatch(patchPath,
 			logging.debug("Problems checking out project for {} {} ".format(projectId, bugId))
 			return mainResult
 
-
 		logging.debug("Project located at  {}".format(checkedoutdir))
 
 		logging.debug("**Step: Apply patch on project ")
 
+		##We apply the patch into the buggy project
 		if not avoidApplyPatch:
 			resultApplyingPatch, statusApplyingPatch, verificationSuccessfulyApplied = apply_patch(patchPath, checkedoutdir)
-
 		else:
 			## Only for testing purpose
 			resultApplyingPatch, statusApplyingPatch, verificationSuccessfulyApplied = "", 0, 0
 
+		## Check if the patch was correctly applied
 		if statusApplyingPatch != 0 or verificationSuccessfulyApplied != 0:
 			logging.debug("Error: We could not apply a patch {} ".format(patchPath))
 			return mainResult
@@ -250,14 +249,11 @@ def runExecuteTestsForPatch(patchPath,
 
 	mainResult[PATCHED_PROJECT_PASS_ALL_TEST] = OK
 
+	## Create the classpath
 	currentpath =  os.path.dirname(os.path.dirname(os.path.realpath(__file__))) ## we add a dirname to get the parent of src folderWithTests
-
 	logging.debug("Step: retrieve classpath of project ")
-
 	export_classpath_compile(checkedoutdir)
-
 	classpathOfProject = getClasspathOfProject(checkedoutdir)
-
 	logging.debug("-->Result classpath of project: {} given project at : {} ".format(classpathOfProject, checkedoutdir))
 
 
@@ -266,12 +262,13 @@ def runExecuteTestsForPatch(patchPath,
 	folderWithTests = os.path.join(destinationTestGenerated, projectId + "_" + bugId)
 	if(len(listOfTestGenerated) == 0):
 		## let's retrieve all test generated
-
 		allTestGenerated = os.listdir(folderWithTests)
 	else:
 		allTestGenerated = listOfTestGenerated
 
-	logging.debug("All tests to run {}".format(allTestGenerated))
+	logging.debug("Step:Run Test ")
+	logging.debug("--> All tests to run {}".format(allTestGenerated))
+	## For each generated test
 	for iTest in allTestGenerated:
 		if ".DS_Store" == iTest:
 			continue
@@ -280,8 +277,10 @@ def runExecuteTestsForPatch(patchPath,
 		if fnmatch.fnmatch(iTest, "{}*".format(prefixTestFolder)):
 			try:
 				nrAllFailingInAllExecution = []
+				## WE RUN A TEST CASE maxNumberOfExecution TIMES in order to detect flaky tests
 				for iRun in range(1, maxNumberOfExecution + 1):
 					destinationOfTestToExecute = os.path.join(folderWithTests, iTest)
+					## Execute the test cases:
 					failingTestsNo, testrun, allFailings, testExecuted, failing_assertions, failing_lines = \
 						executeGeneratedTestCases(dirWithTests=destinationOfTestToExecute, currentpath=currentpath,
 												  projectClasspath=classpathOfProject, isEvosuite = isEvosuite)
@@ -292,12 +291,13 @@ def runExecuteTestsForPatch(patchPath,
 						allTesteGeneratedSplittedRelative.append(aTest.replace(destinationTestGenerated, ""))
 					nrAllFailingInAllExecution.append(failingTestsNo)
 
-				## Means we have flaky tests
+				## if we have different failure during multiples execution, it means we have flaky tests
 				uniqueFailures = len(set(nrAllFailingInAllExecution))
 
 				logging.debug("For test {} result {}".format(iTest, nrAllFailingInAllExecution))
 
 				if uniqueFailures > 1:
+					# We report Flaky test cases:
 					result.append({"patch": patchPath, "test": iTest, "failing": failingTestsNo, "testrun": testrun,
 								   "failings": allFailings, "status": ERROR,
 								   "test_executed": allTesteGeneratedSplittedRelative,
@@ -310,11 +310,13 @@ def runExecuteTestsForPatch(patchPath,
 								   "failings": allFailings, "status": statusE, "test_executed": allTesteGeneratedSplittedRelative,
 								   "failing_assertions": failing_assertions, "failing_lines": failing_lines})
 				elif testrun == 0:
+					## We report no executed test
 					result.append({"patch": patchPath, "test": iTest, "failing": failingTestsNo, "testrun": testrun,
 								   "failings": allFailings, "status": ERROR, "test_executed": allTesteGeneratedSplittedRelative,
 								   "failing_assertions": failing_assertions, "failing_lines": failing_lines, "errorLog": "no test generated"})
 
-			except subprocess.CalledProcessError as ce:
+			except subprocess.CalledProcessError as ce:				#We report an error
+				result.append({"patch": patchPath, "test": iTest, "status": ERROR})
 				logging.error("CalledProcessError executing test {}".format(ce))
 				logging.error("Status : FAIL", ce.returncode, ce.output)
 				logging.error("\n--Process fail output: ")
@@ -322,27 +324,27 @@ def runExecuteTestsForPatch(patchPath,
 					print(l)
 				logging.error("\n--End Process fail output: ")
 				traceback.print_exc()
-				result.append({"patch": patchPath, "test": iTest, "status": ERROR})
 				logging.error("Problems executing  {}".format(iTest))
 
 			except Exception as e:
+				## In the results we put an Error as status
+				result.append({"patch": patchPath, "test": iTest, "status": ERROR})
 				logging.error("Exception executing test {}".format(e))
 				traceback.print_exc()
-				result.append({"patch": patchPath, "test": iTest, "status": ERROR})
 				logging.error("Problems executing  {}".format(iTest))
 
 	logging.debug("Step: revert patch")
+	# We undo the patch (to obtain again the buggy version)
 	apply_patch(patchPath, checkedoutdir, revert=True)
 
 	logging.debug("Step: Export the results")
-
 	mainResult['test_execution'] = result
 	mainResult[ARRIVE_END] = OK
-
 	timeEnd = time.time()
 	logging.debug("Computing duration")
 	mainResult['duration'] = round(timeEnd - timeInit, 2)
 
+	## We save the results on disk
 	if resultOutput is not None:
 		json_object = json.dumps(mainResult, indent=4)
 		if not zipFile:
