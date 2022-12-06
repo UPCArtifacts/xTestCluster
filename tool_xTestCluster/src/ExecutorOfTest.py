@@ -6,6 +6,7 @@ import traceback
 import time
 import zipfile
 import logging
+import time
 
 def runTestExecutionForBugIdAllTestGeneration(bugid,
 							 destinationTestGenerated,
@@ -396,6 +397,9 @@ def executeGeneratedTestCases(dirWithTests, projectClasspath, currentpath ,  isE
 	allTesteGenerated = ""
 	retrievedTestNames = ""
 
+	testId = os.path.basename(dirWithTests)
+	print("test id {}".format(testId))
+
 	if isEvosuite:
 
 		print("Compile generated test Evosuite for {}".format(dirWithTests))
@@ -456,12 +460,20 @@ def executeGeneratedTestCases(dirWithTests, projectClasspath, currentpath ,  isE
 	logging.debug("Step Running test: Generated Test Classes to run {} ".format(retrievedTestNames))
 
 	try:
+		## Original call witout jacoco coverage
+		# executeTest = javapath + "/java -cp {}{}{}  org.junit.runner.JUnitCore {}".format(classpath, os.path.pathsep, dirWithTests,retrievedTestNames)
+		##folder to put the jacoco results:
+		jccfn = os.path.join(currentpath, "coverageResults", testId)
+		if not os.path.exists(jccfn):
+			os.makedirs(jccfn, exist_ok=True)
 
-		executeTest = javapath + "/java -cp {}{}{}  org.junit.runner.JUnitCore {}".format(classpath, os.path.pathsep, dirWithTests,retrievedTestNames)
+		jccfile = jccfn+"/jacoco.exec"
+
+		## Now the test execution with Jacoco
+		executeTest = javapath + "/java -javaagent:"+currentpath+"/lib/jacocoagent.jar=append=false,destfile="+jccfile+" -cp {}{}{}  org.junit.runner.JUnitCore {}".format(classpath, os.path.pathsep, dirWithTests,retrievedTestNames)
 		logging.debug("Step running JUnitCore,  command {}".format(executeTest))
 		result = ""
 		try:
-
 			out = subprocess.check_output(executeTest, stderr=subprocess.STDOUT, timeout=timeoutSeconds, shell=True)
 			result = str(out)
 		except subprocess.CalledProcessError as ce:
@@ -474,6 +486,14 @@ def executeGeneratedTestCases(dirWithTests, projectClasspath, currentpath ,  isE
 		failingTestsNo, nrTestExecuted, allFailings, failing_assertions, failing_lines = parserOutput(result)
 
 		logging.debug("failing {} all execu {} ".format(failingTestsNo, nrTestExecuted))
+
+		## let's generate Jacoco report
+
+		commandJacocoReport = javapath + "java -jar "+currentpath+ "/lib/jacococli.jar report  "+ jccfile+ " --classfiles "+projectClasspath  +" --csv "+ jccfn+ "/coverage.csv" + " --html "+jccfn  #+  " --csv "
+#--html ./
+		print("Command jacoco report: "+commandJacocoReport )
+		out = subprocess.check_output(commandJacocoReport, stderr=subprocess.STDOUT, timeout=timeoutSeconds, shell=True)
+		logging.debug("output jacoco report:  {}".format(out))
 
 		return failingTestsNo, nrTestExecuted, allFailings, retrievedTestNames.split(" "), failing_assertions, failing_lines
 
