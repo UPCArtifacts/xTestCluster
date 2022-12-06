@@ -144,6 +144,8 @@ def runExecuteTestsForPatch(patchPath,
 
 	logging.debug("Analyzing buug {}-{} patch path:  {}".format(projectId, bugId, patchPath))
 
+	patchId = os.path.basename(patchPath).split(".")[0]
+
 	## we try to capture the name of the dataset of patches
 	prever = list(patchPath.split(os.sep))
 	prever.reverse()
@@ -284,7 +286,7 @@ def runExecuteTestsForPatch(patchPath,
 					## Execute the test cases:
 					failingTestsNo, testrun, allFailings, testExecuted, failing_assertions, failing_lines = \
 						executeGeneratedTestCases(dirWithTests=destinationOfTestToExecute, currentpath=currentpath,
-												  projectClasspath=classpathOfProject, isEvosuite = isEvosuite)
+												  projectClasspath=classpathOfProject, isEvosuite = isEvosuite, patchId = patchId)
 
 					## We remove the path to dir with test in other to keep the relative path
 					allTesteGeneratedSplittedRelative = []
@@ -388,7 +390,7 @@ def loadPatchFile(pathToFile = ""):
 
 
 
-def executeGeneratedTestCases(dirWithTests, projectClasspath, currentpath ,  isEvosuite = True, forceRecompilation = True):
+def executeGeneratedTestCases(dirWithTests, projectClasspath, currentpath ,  isEvosuite = True, forceRecompilation = True, patchId = "aPatch"):
 
 	classpath = projectClasspath
 
@@ -463,7 +465,7 @@ def executeGeneratedTestCases(dirWithTests, projectClasspath, currentpath ,  isE
 		## Original call witout jacoco coverage
 		# executeTest = javapath + "/java -cp {}{}{}  org.junit.runner.JUnitCore {}".format(classpath, os.path.pathsep, dirWithTests,retrievedTestNames)
 		##folder to put the jacoco results:
-		jccfn = os.path.join(currentpath, "coverageResults", testId)
+		jccfn = os.path.join(currentpath, "coverageResults", "p_{}".format(patchId),  testId)
 		if not os.path.exists(jccfn):
 			os.makedirs(jccfn, exist_ok=True)
 
@@ -488,9 +490,7 @@ def executeGeneratedTestCases(dirWithTests, projectClasspath, currentpath ,  isE
 		logging.debug("failing {} all execu {} ".format(failingTestsNo, nrTestExecuted))
 
 		## let's generate Jacoco report
-
-		commandJacocoReport = javapath + "java -jar "+currentpath+ "/lib/jacococli.jar report  "+ jccfile+ " --classfiles "+projectClasspath  +" --csv "+ jccfn+ "/coverage.csv" + " --html "+jccfn  #+  " --csv "
-#--html ./
+		commandJacocoReport = javapath + "java -jar "+currentpath+ "/lib/jacococli.jar report  "+ jccfile+ " --classfiles "+projectClasspath  +" --csv "+ jccfn+ "/coverage.csv" + " --html "+jccfn  + " --xml "+jccfn + "/coverageline.xml " #+  " --csv "
 		print("Command jacoco report: "+commandJacocoReport )
 		out = subprocess.check_output(commandJacocoReport, stderr=subprocess.STDOUT, timeout=timeoutSeconds, shell=True)
 		logging.debug("output jacoco report:  {}".format(out))
