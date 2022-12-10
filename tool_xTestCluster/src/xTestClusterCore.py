@@ -136,7 +136,8 @@ def runTestGenerationForBugId(bugid, patchPath, summaryResultsFolder, singleChec
 		#result = runTestGenerationForPatch(iPatch, patchSource= patchSource, singleCheckout= singleCheckout, destinationCheckOut=destinationCheckOut, destinationTestGenerated=destinationTestGenerated, evosuite=evosuite)
 		resultAll = runTestGenerationForPatchAllTGApproaches(iPatch, patchSource=patchSource, singleCheckout=singleCheckout,
 										   destinationCheckOut=destinationCheckOut,
-										   destinationTestGenerated=destinationTestGenerated)
+										   destinationTestGenerated=destinationTestGenerated,
+											TGApproach = testGenApproaches)
 
 		for key in testGenApproaches:
 
@@ -158,6 +159,12 @@ def determineSource(filePatchPath):
 		return "API"
 	if "patchesDRR" in filePatchPath:
 		return "DRR"
+
+	if "Patches_ICSE" in filePatchPath:
+		return "WangICSE"
+
+	if "Patches_others" in filePatchPath:
+		return "WangDRR"
 
 	return "Unknown"
 

@@ -362,7 +362,7 @@ def runTestGenerationForPatchAllTGApproaches(patchPath,
 	return finalResult
 
 
-def generateTestForPatchedEvosuite(outputdir, checkedOutDirectory, targetClass, projectClasspath, evoclasspath, generator ="evosuite", total_budget_Sec = 10):
+def generateTestForPatchedEvosuite(outputdir, checkedOutDirectory, targetClass, projectClasspath, evoclasspath, generator ="evosuite", total_budget_Sec = 30):
 	## http://defects4j.org/html_doc/gen_tests.html
 
 	logging.debug("Project checked out in  {} ".format(checkedOutDirectory))
@@ -372,9 +372,10 @@ def generateTestForPatchedEvosuite(outputdir, checkedOutDirectory, targetClass, 
 					 "-projectCP {} " \
 					 "-seed 10 " \
 					 "-Dsearch_budget={} " \
-					 "-Dassertion_timeout={} " \
+					 "-Dassertion_timeout={} -Doutput_variables=TARGET_CLASS,criterion,Coverage,Covered_Goals,Total_Goals,Size,Length,MutationScore " \
 					 "-Dsandbox=true -Dno_runtime_dependency=false -Dshow_progress=false " \
-					 "-Dtest_dir={}".format(javapath, evoclasspath, targetClass, projectClasspath, total_budget_Sec, total_budget_Sec, outputdir)
+					 "-Dtest_dir={} -Dreport_dir={}".format(javapath, evoclasspath, targetClass, projectClasspath, total_budget_Sec, total_budget_Sec, outputdir, outputdir)
+	# "-Dreport_dir={}".format(javapath, evoclasspath, targetClass, projectClasspath, total_budget_Sec, total_budget_Sec, outputdir, outputdir)
 
 	logging.debug("command test gen {}".format(commandGenTest))
 

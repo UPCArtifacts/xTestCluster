@@ -652,7 +652,7 @@ def retrieveAllBugs(patchesDirs = []):
 	for aPatchDir in patchesDirs:
 
 		aPatchDir =  os.path.realpath(aPatchDir)
-		for classification in ['Dcorrect', 'Doverfitting', 'Dunassessed']:
+		for classification in ['Dcorrect', 'Doverfitting', 'Dunassessed', 'Dsame', 'Ddifferent']:
 
 			dirClassif = os.path.join(aPatchDir, classification)
 

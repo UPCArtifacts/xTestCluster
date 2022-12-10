@@ -16,12 +16,12 @@ if "testgeneration" == mode:
 
 	isEvosuite = True
 
-	if len(sys.argv) > 6:
-		isEvosuite = True if str(sys.argv[6]).lower() == "evosuite" else False
-		print("Is evosuite mode: {}.".format(isEvosuite))
+	foldersWithPatches = patchesFolder.split("@")
 
-	runStep1TestGeneration(patchesFolderPaths=[os.path.realpath(patchesFolder)],
-						   singleCheckout=False, summaryResultsFolder=os.path.realpath(logFolder), destinationCheckOut=destinationCheckOut, destinationTestGenerated=destinationTestGenerated, evosuite=isEvosuite)
+	testGenApproaches = str(sys.argv[6]).upper().split("-")
+
+	runStep1TestGeneration(patchesFolderPaths=foldersWithPatches,
+						   singleCheckout=False, summaryResultsFolder=os.path.realpath(logFolder), destinationCheckOut=destinationCheckOut, destinationTestGenerated=destinationTestGenerated, testGenApproaches = testGenApproaches)
 
 if "testgenerationsingle" == mode:
 
