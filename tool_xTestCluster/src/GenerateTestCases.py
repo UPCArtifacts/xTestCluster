@@ -503,7 +503,10 @@ def runGeneratedTests(tests_dir, evo_classpath, project_classpath, target_class)
 
 	logging.debug("Generated test classes to run {}".format(test_names))
 	javapath = "{}/bin/".format(pathToJava8())
-	execute_test_command = "{}/java -cp {}{}{}{}{} org.junit.runner.JUnitCore {}".format(javapath,evo_classpath, os.path.pathsep, tests_dir, os.path.pathsep,
+
+	jccfile = tests_dir+ "/jacoco.exec"
+
+	execute_test_command = "{}/java -javaagent:{}/lib/jacocoagent.jar=append=false,destfile={} -cp {}{}{}{}{} org.junit.runner.JUnitCore {}".format(javapath,currentpath,jccfile, evo_classpath, os.path.pathsep, tests_dir, os.path.pathsep,
 																					project_classpath, test_names)
 	logging.debug(execute_test_command)
 	result = os.popen(execute_test_command).read()
