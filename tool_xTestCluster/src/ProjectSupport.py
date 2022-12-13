@@ -577,7 +577,7 @@ def retrieveAllPatches(patchesDir = "./Patches/patches-DRR/"):
 
 	collectedPatches = []
 	patchesDir =  os.path.realpath(patchesDir)
-	for classification in ['Dcorrect', 'Doverfitting', 'Dunassessed']:
+	for classification in ['Dcorrect', 'Doverfitting', 'Dunassessed', 'Dsame', 'Ddifferent']:
 		for iApproach	in 	os.listdir(os.path.join(patchesDir, classification)):
 			for iDataset in os.listdir(os.path.join(patchesDir, classification, iApproach)):
 				for iPatch in os.listdir(os.path.join(patchesDir, classification, iApproach, iDataset)):
@@ -608,7 +608,7 @@ def retriveNotDuplicatePatches(bugid, duplicatePatches):
 def retrieveAllPatchesFromBugid( bugid, patchesDirs = [], considerDunassessed = True ):
 
 	collectedPatches = []
-	types = ['Dcorrect', 'Doverfitting']
+	types = ['Dcorrect', 'Doverfitting', 'Dsame', 'Ddifferent']
 
 	if considerDunassessed:
 		types.append( 'Dunassessed')
@@ -689,7 +689,7 @@ def retrieveTools(patchesDirs = [], considerDunassessed = False):
 	toolsAndPatches = {}
 	allPatches = 0
 
-	types = ['Dcorrect', 'Doverfitting']
+	types = ['Dcorrect', 'Doverfitting', 'Dsame', 'Ddifferent']
 
 	if considerDunassessed:
 		types.append( 'Dunassessed')
