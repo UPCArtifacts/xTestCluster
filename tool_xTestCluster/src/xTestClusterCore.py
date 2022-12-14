@@ -152,7 +152,7 @@ def runTestGenerationForBugId(bugid, patchPath, summaryResultsFolder, singleChec
 											   destinationTestGenerated=destinationTestGenerated,
 												TGApproach = testGenApproaches)
 
-			fml.write("Finishing {}: Generated Test:  {}\n".format(iPatch, resultAll[TEST_GENERATED_NAMES]))
+			fml.write("Finishing {}: Generated Test:  {}\n".format(iPatch, resultAll))
 
 			foundTestGenerated = False
 			for key in testGenApproaches:
