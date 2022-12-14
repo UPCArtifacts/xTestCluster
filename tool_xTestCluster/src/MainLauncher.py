@@ -14,8 +14,6 @@ if "testgeneration" == mode:
 	destinationCheckOut = sys.argv[4]
 	destinationTestGenerated = sys.argv[5]
 
-	isEvosuite = True
-
 	foldersWithPatches = patchesFolder.split("@")
 
 	testGenApproaches = str(sys.argv[6]).upper().split("-")
@@ -29,12 +27,10 @@ if "testgenerationsingle" == mode:
 	logFolder = sys.argv[3]
 	destinationCheckOut = sys.argv[4]
 	destinationTestGenerated = sys.argv[5]
+	foldersWithPatches = patchesFolder.split("@")
 
 	testApproaches =  str(sys.argv[6]).upper().split("-")
-
 	iBug = sys.argv[7]
-
-	foldersWithPatches = patchesFolder.split("-")
 
 	runTestGenerationForBugId(iBug, patchPath=foldersWithPatches, singleCheckout=False, summaryResultsFolder=logFolder,
 							  destinationCheckOut=destinationCheckOut,

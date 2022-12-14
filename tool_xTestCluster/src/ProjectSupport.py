@@ -72,7 +72,7 @@ TEST_GENERATED = "testGenerated"
 TEST_GENERATED_NAMES = "testGeneratedNames"
 
 PATCHED_PROJECT_PASS_ALL_TEST = "patched_project_pass_all_test"
-
+MESSAGE = "message"
 PATCH_APPLIED = "patchApplied"
 
 PATCH_APPLIED_DIFF_Verified = "patchAppliedDiffVerified"
@@ -125,7 +125,7 @@ def executeOriginalTestPatchedProject(checkedoutDir, timeoutSeconds=240, mustPas
 		if (mustPass and "nFailing tests: 0" in outS ) or (not mustPass and  not "nFailing tests: 0" in outS):
 			return True, None
 		else:
-			return False, None
+			return False, outS
 	except subprocess.TimeoutExpired as e:
 		logging.error("TimeOut of {} reached for executing original test  at {}".format(timeoutSeconds, checkedoutDir))
 		return False, "Timeout"

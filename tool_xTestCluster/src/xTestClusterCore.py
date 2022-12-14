@@ -98,7 +98,7 @@ def alreadyAnalyzed(dataset, patchPath, summaryFolder, evosuite = True):
 		data = json.load(f)
 		f.close()
 		if ARRIVE_END in data and data[ARRIVE_END] == OK:
-			logging.debug("Previously analyzed complete {}".format(p))
+			logging.debug("Previously execution sucessfully completed {}".format(p))
 			return True
 		else:
 			logging.debug("Previously was failing, recomputing {}".format(p))
@@ -110,6 +110,7 @@ def runTestGenerationForBugId(bugid, patchPath, summaryResultsFolder, singleChec
 	logging.debug("\n****Running analysis for bugs {}".format(bugid))
 	patches = []
 	if duplicatePatches is None or len(duplicatePatches) == 0:
+		# Here, we dont filter the duplicates
 		patches = retrieveAllPatchesFromBugid(bugid, patchPath, considerDunassessed= False)
 		logging.debug("Given bugid: {}, at location: {}, ALL Retrieved patches ({}): {} ".format(bugid, patchPath, len(patches), patches))
 	else:
@@ -118,36 +119,60 @@ def runTestGenerationForBugId(bugid, patchPath, summaryResultsFolder, singleChec
 																						 patches))
 	results = []
 
+	fml = open("{}/ml_{}.txt".format(summaryResultsFolder,bugid ), "w")
+	fml.write("All patches: ({}) {}\n".format(len(patches),patches))
+
+
 	if len(patches) < 2:
 		logging.debug("Stop execution test generation: {} has less than 2 bugs".format(bugid))
+		fml.write("Stop execution test generation: {} has less than 2 bugs\n".format(bugid))
 		return None
+	else:
+		currentiPatch = 0
+		for iPatch in patches:
+			patchSource = determineSource(iPatch)
+			currentiPatch+=1
+			logging.debug("\n---{}/{} Start process of generating for {}, from source {}".format(currentiPatch, len(patches), iPatch, patchSource))
 
-	for iPatch in patches:
-		patchSource = determineSource(iPatch)
-		logging.debug("---generating for {}, from source {}".format(iPatch, patchSource))
-		if not OVERWRITERESULTS and alreadyAnalyzed(patchSource, iPatch, summaryResultsFolder, evosuite=True) and alreadyAnalyzed(patchSource, iPatch, summaryResultsFolder, evosuite=False):
-			logging.debug("Already analyzed {}".format(iPatch))
-			results.append((iPatch, None, None))
-			continue
-		else:
-			logging.debug("To analyze {}".format(iPatch))
+			checkEvo = True if EVOSUITE in testGenApproaches else False
+			logging.debug("Check test generated with "+ ("Evosuite" if checkEvo else "Randoop" ) + " for "+ iPatch )
+			if not OVERWRITERESULTS and alreadyAnalyzed(patchSource, iPatch, summaryResultsFolder, evosuite=checkEvo):
+				logging.debug("Already analyzed {}".format(iPatch))
+				results.append((iPatch, None, None))
+				fml.write("Already analyzed {}\n".format(iPatch))
+				continue
+			else:
+				logging.debug("To analyze {}".format(iPatch))
+				fml.write("To be analyzed {}\n".format(iPatch))
 
 
-		#result = runTestGenerationForPatch(iPatch, patchSource= patchSource, singleCheckout= singleCheckout, destinationCheckOut=destinationCheckOut, destinationTestGenerated=destinationTestGenerated, evosuite=evosuite)
-		resultAll = runTestGenerationForPatchAllTGApproaches(iPatch, patchSource=patchSource, singleCheckout=singleCheckout,
-										   destinationCheckOut=destinationCheckOut,
-										   destinationTestGenerated=destinationTestGenerated,
-											TGApproach = testGenApproaches)
+			#result = runTestGenerationForPatch(iPatch, patchSource= patchSource, singleCheckout= singleCheckout, destinationCheckOut=destinationCheckOut, destinationTestGenerated=destinationTestGenerated, evosuite=evosuite)
+			resultAll = runTestGenerationForPatchAllTGApproaches(iPatch, patchSource=patchSource, singleCheckout=singleCheckout,
+											   destinationCheckOut=destinationCheckOut,
+											   destinationTestGenerated=destinationTestGenerated,
+												TGApproach = testGenApproaches)
 
-		for key in testGenApproaches:
+			fml.write("Finishing {}: Generated Test:  {}\n".format(iPatch, resultAll[TEST_GENERATED_NAMES]))
 
-			if key in resultAll:
-				result = resultAll[key]
+			foundTestGenerated = False
+			for key in testGenApproaches:
 
-				filenamelog = saveResults(result, patchSource, iPatch, logFolder=summaryResultsFolder, evosuite= (key == EVOSUITE))
+				if key in resultAll:
+					result = resultAll[key]
 
-				results.append((iPatch, result, filenamelog))
+					filenamelog = saveResults(result, patchSource, iPatch, logFolder=summaryResultsFolder, evosuite= (key == EVOSUITE))
+					foundTestGenerated = True
+					results.append((iPatch, result, filenamelog))
 
+			## It could be a problem before running the test cases (e.g., application of the patch)
+			if not foundTestGenerated:
+				filenamelog = saveResults(resultAll, patchSource, iPatch, logFolder=summaryResultsFolder,
+											  evosuite=(key == EVOSUITE))
+				foundTestGenerated = True
+				results.append((iPatch, resultAll, filenamelog))
+
+		fml.flush()
+		fml.close()
 	return results
 
 def determineSource(filePatchPath):

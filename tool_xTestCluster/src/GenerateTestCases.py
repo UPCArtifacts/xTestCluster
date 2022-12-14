@@ -241,6 +241,7 @@ def runTestGenerationForPatchAllTGApproaches(patchPath,
 	result[REMOVING_CHECKED] = NO
 	result[ARRIVE_END] = NO
 	result[FOLDER_TEST_GENERATED] = NO
+	result[MESSAGE] = NO
 	result[PATCH_APPLIED_DIFF_Verified]  = NO
 	result[ERROR_LOG_TEST_GENERATION] = NO
 	result[COMPILED_PROJECT_MODIFIED] = NO
@@ -312,6 +313,7 @@ def runTestGenerationForPatchAllTGApproaches(patchPath,
 	if not success:
 		logging.error("No passing all test cases:{}.".format(message))
 		result[PATCHED_PROJECT_PASS_ALL_TEST] = NO
+		result[MESSAGE] = message
 		return result
 
 	result[PATCHED_PROJECT_PASS_ALL_TEST] = OK
