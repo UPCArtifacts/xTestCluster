@@ -74,6 +74,8 @@ TEST_GENERATED_NAMES = "testGeneratedNames"
 PATCHED_PROJECT_PASS_ALL_TEST = "patched_project_pass_all_test"
 MESSAGE = "message"
 PATCH_APPLIED = "patchApplied"
+PAUSIBILITE_CHECKED_DONE = "pausibility_cheched_done"
+
 
 PATCH_APPLIED_DIFF_Verified = "patchAppliedDiffVerified"
 

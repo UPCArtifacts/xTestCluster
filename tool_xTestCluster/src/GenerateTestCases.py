@@ -62,15 +62,16 @@ def generateTestEvosuite(projectId, bugId, checkedoutdir, destinationTestGenerat
 		foundFlaky = checkFlakyTests(tests_dir=destinationForGeneratedTestsForBug, evo_classpath=evoClasspath,
 									 project_classpath=classpathOfProject, target_class=affectedFile)
 
-		logging.debug("----Execute sanity check for {}".format(affectedFile))
-		sanity_check_pass = sanityCheck(tests_dir=destinationForGeneratedTestsForBug, evo_classpath=evoClasspath,
-										project_classpath=classpathOfProject, target_class=affectedFile)
+		# Update: we dont need to apply sanity as we check the flakiness
+		#logging.debug("----Execute sanity check for {}".format(affectedFile))
+		#sanity_check_pass = sanityCheck(tests_dir=destinationForGeneratedTestsForBug, evo_classpath=evoClasspath,
+		#								project_classpath=classpathOfProject, target_class=affectedFile)
 
 		if foundFlaky:
 			generatedFlaky = True
 
-		if not sanity_check_pass:
-			sanityCheckPass = False
+		#if not sanity_check_pass:
+		#	sanityCheckPass = False
 
 	if problemsInGeneration:
 		logging.debug("We could generate tests for patch {} ".format(patchPath))
@@ -87,17 +88,18 @@ def generateTestEvosuite(projectId, bugId, checkedoutdir, destinationTestGenerat
 		logging.debug("We stop due to  Flaky test found")
 		return result
 
-	if not sanityCheckPass:
-		result[SANITY_CHECK_PASS] = NO
-		logging.debug("We stop due to  problems in sanity check")
-		return result
+	#if not sanityCheckPass:
+	#	result[SANITY_CHECK_PASS] = NO
+	#	logging.debug("We stop due to  problems in sanity check")
+	#	return result
 
 	logging.debug("Step: compiling tests")
 	allTesteGenerated = retrieveTestFromEvosuite(destinationForGeneratedTestsForBug)
 
 	classPath = "{}{}{}".format(evoClasspath, os.path.pathsep, classpathOfProject)
 
-	isCompiled = compileGeneratedTest(outputdir=destinationForGeneratedTestsForBug, classpath=classPath, allTesteGenerated = allTesteGenerated)
+	isCompiled = compileGeneratedTest(outputdir=destinationForGeneratedTestsForBug, classpath=classPath,
+									  allTesteGenerated=allTesteGenerated)
 
 	if not isCompiled:
 		logging.debug("Problems compiling {}".format(patchPath))
@@ -225,9 +227,12 @@ def runTestGenerationForPatchAllTGApproaches(patchPath,
 							  destinationTestGenerated =  os.path.realpath("../dataTempTestGenerated/"),
 							  doTestGeneration = True,
 							  singleCheckout = False,
-							  TGApproach = [EVOSUITE, RANDOOP]
+							  TGApproach = [EVOSUITE, RANDOOP],
+							  checkPatchPausibility = False,
+							  excludeNonPlausibles = False
 							  ):
 	result = {}
+	result[PAUSIBILITE_CHECKED_DONE] = checkPatchPausibility
 	result[PATCH_ID] = patchPath
 	result[PROJECT_CHECKED] = NO
 	result[PATCH_APPLIED] = NO
@@ -236,7 +241,8 @@ def runTestGenerationForPatchAllTGApproaches(patchPath,
 	result[TEST_COMPILED] = NO
 	result[FOUND_FLAKY_TEST] = NO
 	result[SANITY_CHECK_PASS] = YES
-	result[TEST_GENERATED_PASSING] = UNKNOWN
+	#Not necesary, if we have failing, then the Found Flaky is True
+	#result[TEST_GENERATED_PASSING] = UNKNOWN
 	result[PATCH_UNDO] = NO
 	result[REMOVING_CHECKED] = NO
 	result[ARRIVE_END] = NO
@@ -306,17 +312,24 @@ def runTestGenerationForPatchAllTGApproaches(patchPath,
 
 	result[COMPILED_PROJECT_MODIFIED] = OK
 
-	logging.debug("Step: Execute Original test on patched project before test generation")
-	success, message = executeOriginalTestPatchedProject(checkedoutdir, mustPass=True)
-	logging.debug("Result Execution on tests of patched, success {}".format(success))
+	if checkPatchPausibility:
+		result[PAUSIBILITE_CHECKED_DONE] = True
+		logging.debug("Step: Execute Original test on patched project before test generation")
+		success, message = executeOriginalTestPatchedProject(checkedoutdir, mustPass=True)
+		logging.debug("Result Execution on tests of patched, success {}".format(success))
 
-	if not success:
-		logging.error("No passing all test cases:{}.".format(message))
-		result[PATCHED_PROJECT_PASS_ALL_TEST] = NO
-		result[MESSAGE] = message
-		return result
+		if not success:
 
-	result[PATCHED_PROJECT_PASS_ALL_TEST] = OK
+			logging.error("No passing all test cases:{}.".format(message))
+			result[PATCHED_PROJECT_PASS_ALL_TEST] = NO
+			result[MESSAGE] = message
+			## In case of non plausibility on the original test, continue
+			if excludeNonPlausibles:
+				return result
+		else:
+			result[PATCHED_PROJECT_PASS_ALL_TEST] = OK
+	else:
+		logging.debug("Step: We don't execute Original test on patched project before test generation")
 
 	resultEvo = {}
 	resultRandoop = {}
@@ -436,21 +449,25 @@ def generateTestForPatchedRandoop(outputdir, checkedOutDirectory, targetClassFil
 
 def checkFlakyTests(tests_dir, evo_classpath, project_classpath, target_class):
 	NUM_CONSECUTIVE_RUNS = 1
-	logging.debug('Number of consecutive runs needed to confirm test suite is not flaky - %d' % NUM_CONSECUTIVE_RUNS)
+	logging.debug('[Step] Flaky check Number of consecutive runs needed to confirm test suite is not flaky - %d' % NUM_CONSECUTIVE_RUNS)
 	num_runs_without_flaky = 0
 	foundFlaky = False
+
+	logging.debug('Clean bytecode files of %s tests in %s' % (target_class, tests_dir))
+	cleanBytecodeFiles(tests_dir, target_class)
+
+	logging.debug('Compile generated tests for %s in %s' % (target_class, tests_dir))
+	compileTest(tests_dir=tests_dir, evoclasspath=evo_classpath, projectClasspath=project_classpath,
+				target_class=target_class)
+
+	logging.debug('Run generated tests for %s in %s' % (target_class, tests_dir))
+
 	while num_runs_without_flaky < NUM_CONSECUTIVE_RUNS:
-		logging.debug('Clean bytecode files of %s tests in %s' % (target_class, tests_dir))
-		cleanBytecodeFiles(tests_dir, target_class)
 
-		logging.debug('Compile generated tests for %s in %s' % (target_class, tests_dir))
-		compileTest(tests_dir=tests_dir, evoclasspath=evo_classpath, projectClasspath=project_classpath,
-					target_class=target_class)
-
-		logging.debug('Run generated tests for %s in %s' % (target_class, tests_dir))
+		logging.debug('Flaky execution %d ' % (num_runs_without_flaky))
 		result = runGeneratedTests(tests_dir, evo_classpath, project_classpath, target_class)
 
-		logging.debug('Parse results from test execution for %s in %s' % (target_class, tests_dir))
+		logging.debug('Flaky execution %d Parse results from test execution for %s in %s' % (num_runs_without_flaky, target_class, tests_dir))
 		parsed_results = parseExecResults(result)
 
 		if not flakyTestsExist(parsed_results):
@@ -494,6 +511,14 @@ def compileTest(tests_dir, projectClasspath, evoclasspath, target_class):
 	out, err = process.communicate()
 	logging.debug("out compile2 generated test: {}".format(out))
 
+	if err is not None and "javac: no source files" in str(err):
+
+		logging.error("Problems compiling at {} tests {}".format(tests_dir, all_tests_generated))
+
+		return False
+
+	return True
+
 def runGeneratedTests(tests_dir, evo_classpath, project_classpath, target_class):
 	all_test_names = retrieveClassesTestEvosuite(tests_dir)
 	test_names = ''
@@ -512,7 +537,13 @@ def runGeneratedTests(tests_dir, evo_classpath, project_classpath, target_class)
 																					project_classpath, test_names)
 	logging.debug(execute_test_command)
 	result = os.popen(execute_test_command).read()
-	logging.debug(result)
+	#logging.debug(result)
+
+	## let's generate Jacoco report
+	#commandJacocoReport = javapath + "java -jar " + currentpath + "/lib/jacococli.jar report  " + jccfile + " --classfiles " + project_classpath + " --csv " + tests_dir + "/coverage.csv" + " --xml " + tests_dir + "/coverageline.xml "  # +  " --csv "
+	#print("Command jacoco report: " + commandJacocoReport)
+	#out = subprocess.check_output(commandJacocoReport, stderr=subprocess.STDOUT, timeout=timeoutSeconds, shell=True)
+	#logging.debug("output jacoco report:  {}".format(out))
 
 	return result
 
