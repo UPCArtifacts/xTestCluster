@@ -94,7 +94,7 @@ elif "testexecutionsingle" == mode:
 
 	patchesFolder = sys.argv[2]
 
-	foldersWithPatches = patchesFolder.split("-")
+	foldersWithPatches = patchesFolder.split("@")
 
 	generatedTest = sys.argv[3]
 
@@ -102,12 +102,15 @@ elif "testexecutionsingle" == mode:
 
 	modeEvosuite = True if sys.argv[5] == "True" else False
 
-	if len(sys.argv) > 7:
-		bugid = sys.argv[7]
-	else:
-		bugid = sys.argv[6]
+	bugid = sys.argv[6]
 
-	runTestExecutionForBugId(bugid=bugid, pathsToPatches=foldersWithPatches, destinationTestGenerated=generatedTest, outResults=resultpath, isEvosuite= modeEvosuite)
+	runJacoco = False
+
+	if len(sys.argv) > 7:
+		runJacoco = True if sys.argv[7] == "True" else False
+
+
+	runTestExecutionForBugId(bugid=bugid, pathsToPatches=foldersWithPatches, destinationTestGenerated=generatedTest, outResults=resultpath, isEvosuite= modeEvosuite, runJacoco = runJacoco)
 
 ## It executes all tests on a patch passed as parameter
 

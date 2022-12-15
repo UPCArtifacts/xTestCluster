@@ -1,5 +1,7 @@
 import json
 import datetime
+import os.path
+
 from src.CompileTest import *
 from src.Config import *
 import traceback
@@ -40,7 +42,8 @@ def runTestExecutionForBugId(bugid,
 							 isEvosuite = True,
 							 OVERWRITERESULTS = True,
 							 zipResult = True,
-							 duplicatePatches = None
+							 duplicatePatches = None,
+							runJacoco = False
 							 ):
 
 	print("\n****Running analysis for bugs {}".format(bugid))
@@ -91,7 +94,7 @@ def runTestExecutionForBugId(bugid,
 	## Navitage all the patches
 	for iPatch in patches:
 		print("---running for {}".format(iPatch))
-		resultPatch = runExecuteTestsForPatch(patchPath=iPatch, destinationTestGenerated=destinationTestGenerated, resultOutput=outResults, isEvosuite=isEvosuite, zipFile = zipResult, OVERWRITERESULTS=OVERWRITERESULTS)
+		resultPatch = runExecuteTestsForPatch(patchPath=iPatch, destinationTestGenerated=destinationTestGenerated, resultOutput=outResults, isEvosuite=isEvosuite, zipFile = zipResult, OVERWRITERESULTS=OVERWRITERESULTS, runJacoco=runJacoco)
 		results.append(resultPatch)
 
 
@@ -128,7 +131,9 @@ def runExecuteTestsForPatch(patchPath,
 							avoidApplyPatch = False ,
 							singleCheckout = False,
 							maxNumberOfExecution = 1,
-							maxAttemptsCompilations = 1
+							maxAttemptsCompilations = 1,
+							checkPlausibility = False,
+							runJacoco = False
 							):
 
 
@@ -241,16 +246,18 @@ def runExecuteTestsForPatch(patchPath,
 			return mainResult
 
 		mainResult[COMPILED_PROJECT_MODIFIED] = OK
-		logging.debug("Step: Executed Original test on patched project at attempt {}".format(attempsCompilations))
-		success, message = executeOriginalTestPatchedProject(checkedoutdir, mustPass=True)
-		logging.debug("Result Execution on test of patched, success {}".format(success))
+		if checkPlausibility:
+			logging.debug("Step: Executed Original test on patched project at attempt {}".format(attempsCompilations))
+			success, message = executeOriginalTestPatchedProject(checkedoutdir, mustPass=True)
+			logging.debug("Result Execution on test of patched, success {}".format(success))
 
-	if not success:
-		logging.debug("Error: We could not succeed with the checkout and compilation")
-		mainResult[PATCHED_PROJECT_PASS_ALL_TEST] = NO
-		return mainResult
-
-	mainResult[PATCHED_PROJECT_PASS_ALL_TEST] = OK
+	if checkPlausibility:
+		if not success:
+			logging.debug("Error: We could not succeed with the checkout and compilation")
+			mainResult[PATCHED_PROJECT_PASS_ALL_TEST] = NO
+			return mainResult
+		else:
+			mainResult[PATCHED_PROJECT_PASS_ALL_TEST] = OK
 
 	## Create the classpath
 	currentpath =  os.path.dirname(os.path.dirname(os.path.realpath(__file__))) ## we add a dirname to get the parent of src folderWithTests
@@ -286,7 +293,7 @@ def runExecuteTestsForPatch(patchPath,
 					## Execute the test cases:
 					failingTestsNo, testrun, allFailings, testExecuted, failing_assertions, failing_lines = \
 						executeGeneratedTestCases(dirWithTests=destinationOfTestToExecute, currentpath=currentpath,
-												  projectClasspath=classpathOfProject, isEvosuite = isEvosuite, patchId = patchId)
+												  projectClasspath=classpathOfProject, isEvosuite = isEvosuite, patchId = patchId, runJacoco=runJacoco)
 
 					## We remove the path to dir with test in other to keep the relative path
 					allTesteGeneratedSplittedRelative = []
@@ -390,7 +397,7 @@ def loadPatchFile(pathToFile = ""):
 
 
 
-def executeGeneratedTestCases(dirWithTests, projectClasspath, currentpath ,  isEvosuite = True, forceRecompilation = True, patchId = "aPatch"):
+def executeGeneratedTestCases(dirWithTests, projectClasspath, currentpath ,  isEvosuite = True, forceRecompilation = True, patchId = "aPatch", runJacoco = False):
 
 	classpath = projectClasspath
 
@@ -415,6 +422,9 @@ def executeGeneratedTestCases(dirWithTests, projectClasspath, currentpath ,  isE
 		allTesteGeneratedSplitted = allTesteGenerated.strip().split(" ")
 
 		logging.debug("#Tests to compile ({}): {} from:  {}.".format(len(allTesteGeneratedSplitted), allTesteGenerated , dirWithTests))
+		if runJacoco:
+			editTestCases(allTesteGeneratedSplitted)
+
 		## TODO Recompilation
 		isCompiled = compileGeneratedTest(outputdir=dirWithTests, classpath = classpath, allTesteGenerated=allTesteGenerated, useJava7=False)
 
@@ -463,16 +473,19 @@ def executeGeneratedTestCases(dirWithTests, projectClasspath, currentpath ,  isE
 
 	try:
 		## Original call witout jacoco coverage
-		# executeTest = javapath + "/java -cp {}{}{}  org.junit.runner.JUnitCore {}".format(classpath, os.path.pathsep, dirWithTests,retrievedTestNames)
-		##folder to put the jacoco results:
-		jccfn = os.path.join(currentpath, "coverageResults", "p_{}".format(patchId),  testId)
-		if not os.path.exists(jccfn):
-			os.makedirs(jccfn, exist_ok=True)
+		if not runJacoco:
+		 executeTest = javapath + "/java -cp {}{}{}  org.junit.runner.JUnitCore {}".format(classpath, os.path.pathsep, dirWithTests,retrievedTestNames)
 
-		jccfile = jccfn+"/jacoco.exec"
+		else:
+			##folder to put the jacoco results:
+			jccfn = os.path.join(currentpath, "coverageResults", "p_{}".format(patchId),  testId)
+			if not os.path.exists(jccfn):
+				os.makedirs(jccfn, exist_ok=True)
 
-		## Now the test execution with Jacoco
-		executeTest = javapath + "/java -javaagent:"+currentpath+"/lib/jacocoagent.jar=append=false,destfile="+jccfile+" -cp {}{}{}  org.junit.runner.JUnitCore {}".format(classpath, os.path.pathsep, dirWithTests,retrievedTestNames)
+			jccfile = jccfn+"/jacoco.exec"
+			## Now the test execution with Jacoco
+			executeTest = javapath + "/java -javaagent:"+currentpath+"/lib/jacocoagent.jar=append=false,destfile="+jccfile+" -cp {}{}{}  org.junit.runner.JUnitCore {}".format(classpath, os.path.pathsep, dirWithTests,retrievedTestNames)
+
 		logging.debug("Step running JUnitCore,  command {}".format(executeTest))
 		result = ""
 		try:
@@ -483,21 +496,43 @@ def executeGeneratedTestCases(dirWithTests, projectClasspath, currentpath ,  isE
 			logging.error("Status : FAIL {}".format(ce.returncode))
 			result =  str(ce.output)
 
-		logging.debug("output test execution:  {}".format(result))
+		#logging.debug("output test execution:  {}".format(result))
 
 		failingTestsNo, nrTestExecuted, allFailings, failing_assertions, failing_lines = parserOutput(result)
 
 		logging.debug("failing {} all execu {} ".format(failingTestsNo, nrTestExecuted))
 
 		## let's generate Jacoco report
-		commandJacocoReport = javapath + "java -jar "+currentpath+ "/lib/jacococli.jar report  "+ jccfile+ " --classfiles "+projectClasspath  +" --csv "+ jccfn+ "/coverage.csv" + " --html "+jccfn  + " --xml "+jccfn + "/coverageline.xml " #+  " --csv "
-		print("Command jacoco report: "+commandJacocoReport )
-		out = subprocess.check_output(commandJacocoReport, stderr=subprocess.STDOUT, timeout=timeoutSeconds, shell=True)
-		logging.debug("output jacoco report:  {}".format(out))
+		if runJacoco:
+
+			binPath = None
+			for p in projectClasspath.split(os.path.pathsep):
+				if not p.endswith("jar"):
+					binPath = p
+			commandJacocoReport = javapath + "java -jar "+currentpath+ "/lib/jacococli.jar report  "+ jccfile+ " --classfiles "+binPath  +" --csv "+ jccfn+ "/coverage.csv" + " --html "+jccfn  + " --xml "+jccfn + "/coverageline.xml " #+  " --csv "
+			print("Command jacoco report: "+commandJacocoReport )
+			out = subprocess.check_output(commandJacocoReport, stderr=subprocess.STDOUT, timeout=timeoutSeconds, shell=True)
+			logging.debug("output jacoco report:  {}".format(out))
 
 		return failingTestsNo, nrTestExecuted, allFailings, retrievedTestNames.split(" "), failing_assertions, failing_lines
 
 	except  subprocess.TimeoutExpired as e:
 		logging.error("TimeOut of {} reached when executing generared tests.".format(timeoutSeconds))
 		return -1, -1, -1, "", None, None
+
+
+def editTestCases(allTesteGeneratedSplitted):
+	logging.debug("Editing tests {}".format(allTesteGeneratedSplitted))
+	for aTest in allTesteGeneratedSplitted:
+		s = ""
+		with open(aTest, 'r') as fp:
+			for line in fp:
+				if line.startswith("@RunWith(EvoRunner"):
+					s += "//" + line + "\n"
+				else:
+					s += line + "\n"
+			fp.close()
+		with open(aTest, 'w') as fp:
+			fp.write(s)
+			fp.close()
 
