@@ -41,11 +41,16 @@ elif "testexecution" == mode:
 
 	patchesFolder = sys.argv[2]
 
-	foldersWithPatches = patchesFolder.split("-")
+	foldersWithPatches = patchesFolder.split("@")
 
 	generatedTest = sys.argv[3]
 
 	resultpath = sys.argv[4]
+
+	#modeEvosuite = True if sys.argv[5] == "True" else False
+
+	runJacoco = False
+
 	runStep2TestExecution(patchesFolderPaths=foldersWithPatches, destinationTestGenerated = generatedTest, result=resultpath)
 
 
