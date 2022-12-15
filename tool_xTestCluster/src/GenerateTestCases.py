@@ -19,6 +19,10 @@ def generateTestEvosuite(projectId, bugId, checkedoutdir, destinationTestGenerat
 
 	classpathOfProject = getClasspathOfProject(checkedoutdir)
 
+	if classpathOfProject is None:
+		result[MESSAGE] = "Problem_classpath"
+		return result
+
 	logging.debug("Result classpath of project {}".format(classpathOfProject))
 
 	evoClasspath = currentpath + '/lib/evosuite-1.1.0.jar'+os.path.pathsep + currentpath + '/lib/junit-4.12.jar'+ os.path.pathsep + currentpath + '/lib/hamcrest-core-1.3.jar'
@@ -123,6 +127,10 @@ def generateTestRandoop(projectId, bugId, checkedoutdir, destinationTestGenerate
 	export_classpath_compile(checkedoutdir)
 
 	classpathOfProject = getClasspathOfProject(checkedoutdir)
+
+	if classpathOfProject is None:
+		result[MESSAGE] = "Problem_classpath"
+		return result
 
 	logging.debug("Result classpath of project {}".format(classpathOfProject))
 

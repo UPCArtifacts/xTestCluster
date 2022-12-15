@@ -151,7 +151,7 @@ def pathToJava(javaHome):
 	if not os.path.exists(javaHome):
 		import sys
 		logging.debug("Error: The path does not exit: finish program {}".format(javaHome))
-		sys.exit()
+		#sys.exit()
 
 	return javaHome
 
@@ -163,7 +163,7 @@ def configJavaPath(javaHome):
 	if not os.path.exists(javaHome):
 		import sys
 		logging.debug("Error: The path does not exit: finish program {}".format(javaHome))
-		sys.exit()
+		#sys.exit()
 
 	preSetupJava = "export PATH={}/bin/:$PATH;export JAVA_HOME={}; echo $JAVA_HOME".format(javaHome, javaHome)
 	logging.debug("Java home: {}".format(javaHome))
@@ -557,7 +557,8 @@ def getClasspathOfProject(checkedoutProject):
 
 	if len(classpath) == 0:
 		logging.debug("END Unexpected: Classpath empty after extracting classpath")
-		sys.exit()
+		#sys.exit()
+		return None
 
 	return classpath
 

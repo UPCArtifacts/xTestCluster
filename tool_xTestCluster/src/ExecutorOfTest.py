@@ -264,6 +264,9 @@ def runExecuteTestsForPatch(patchPath,
 	logging.debug("Step: retrieve classpath of project ")
 	export_classpath_compile(checkedoutdir)
 	classpathOfProject = getClasspathOfProject(checkedoutdir)
+	if classpathOfProject is None:
+		mainResult[MESSAGE] = "Problem_classpath"
+		return mainResult
 	logging.debug("-->Result classpath of project: {} given project at : {} ".format(classpathOfProject, checkedoutdir))
 
 
