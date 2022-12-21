@@ -40,7 +40,7 @@ def runTestExecutionForBugId(bugid,
 							 pathsToPatches=[],
 							 outResults = os.path.realpath("./results/"),
 							 isEvosuite = True,
-							 OVERWRITERESULTS = True,
+							 OVERWRITERESULTS = False,
 							 zipResult = True,
 							 duplicatePatches = None,
 							runJacoco = False

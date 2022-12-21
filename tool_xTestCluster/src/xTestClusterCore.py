@@ -97,7 +97,7 @@ def alreadyAnalyzed(dataset, patchPath, summaryFolder, evosuite = True):
 		f =open(p, "r")
 		data = json.load(f)
 		f.close()
-		if ARRIVE_END in data and data[ARRIVE_END] == OK:
+		if ARRIVE_END in data and data[ARRIVE_END] == OK and data[TEST_GENERATED] == OK:
 			logging.debug("Previously execution sucessfully completed {}".format(p))
 			return True
 		else:
