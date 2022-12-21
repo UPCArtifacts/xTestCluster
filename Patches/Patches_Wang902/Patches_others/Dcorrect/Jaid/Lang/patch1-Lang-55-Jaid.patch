@@ -1,6 +1,6 @@
 --- /src/java/org/apache/commons/lang/time/StopWatch.java
 +++ /src/java/org/apache/commons/lang/time/StopWatch.java
-@@ -115,7 +115,9 @@ public class StopWatch {
+@@ -115,6 +115,8 @@ public class StopWatch {
          if(this.runningState != STATE_RUNNING && this.runningState != STATE_SUSPENDED) {
              throw new IllegalStateException("Stopwatch is not running. ");
          }
