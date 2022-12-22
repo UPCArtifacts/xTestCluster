@@ -18,8 +18,9 @@ if "testgeneration" == mode:
 
 	testGenApproaches = str(sys.argv[6]).upper().split("-")
 
+	seed = sys.argv[7]
 	runStep1TestGeneration(patchesFolderPaths=foldersWithPatches,
-						   singleCheckout=False, summaryResultsFolder=os.path.realpath(logFolder), destinationCheckOut=destinationCheckOut, destinationTestGenerated=destinationTestGenerated, testGenApproaches = testGenApproaches)
+						   singleCheckout=False, summaryResultsFolder=os.path.realpath(logFolder), destinationCheckOut=destinationCheckOut, destinationTestGenerated=destinationTestGenerated, testGenApproaches = testGenApproaches, seed=seed)
 
 if "testgenerationsingle" == mode:
 
