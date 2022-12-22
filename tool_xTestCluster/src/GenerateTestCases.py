@@ -6,7 +6,7 @@ from src.ProjectSupport import *
 from src.CompileTest import *
 import tempfile
 
-def generateTestEvosuite(projectId, bugId, checkedoutdir, destinationTestGenerated, patchSource, patchPath):
+def generateTestEvosuite(projectId, bugId, checkedoutdir, destinationTestGenerated, patchSource, patchPath, seed = 100):
 
 	result = {}
 
@@ -57,7 +57,7 @@ def generateTestEvosuite(projectId, bugId, checkedoutdir, destinationTestGenerat
 														 checkedOutDirectory=currentpath + "/myTempTest/{}/{}_{}_buggy/".format(
 													 projectId, projectId.lower(), bugId),
 														 targetClass=affectedFile, evoclasspath=evoClasspath,
-														 projectClasspath=classpathOfProject)
+														 projectClasspath=classpathOfProject, seed=seed)
 
 		if not isTestGenerated:
 			problemsInGeneration = True
@@ -217,7 +217,8 @@ def runTestGenerationForPatch(patchPath,
 							  destinationTestGenerated =  os.path.realpath("../dataTempTestGenerated/"),
 							  doTestGeneration = True,
 							  singleCheckout = False,
-							  evosuite = True
+							  evosuite = True,
+							  seed = 10
 							  ):
 	singleApproach = EVOSUITE if evosuite else RANDOOP
 	result = runTestGenerationForPatchAllTGApproaches(patchPath,
@@ -226,7 +227,7 @@ def runTestGenerationForPatch(patchPath,
 							  destinationTestGenerated ,
 							  doTestGeneration,
 							  singleCheckout ,
-							  evosuite = [singleApproach])
+							  evosuite = [singleApproach], seed=seed)
 	return {singleApproach:result}
 
 def runTestGenerationForPatchAllTGApproaches(patchPath,
@@ -237,7 +238,8 @@ def runTestGenerationForPatchAllTGApproaches(patchPath,
 							  singleCheckout = False,
 							  TGApproach = [EVOSUITE, RANDOOP],
 							  checkPatchPausibility = False,
-							  excludeNonPlausibles = False
+							  excludeNonPlausibles = False,
+							   seed = 100
 							  ):
 	result = {}
 	result[PAUSIBILITE_CHECKED_DONE] = checkPatchPausibility
@@ -344,7 +346,7 @@ def runTestGenerationForPatchAllTGApproaches(patchPath,
 	if doTestGeneration:
 		if EVOSUITE in TGApproach:
 			logging.debug("Running test generation with Evosuite ")
-			resultEvo = generateTestEvosuite(projectId, bugId, checkedoutdir, "{}{}".format(destinationTestGenerated, EVOSUITE.title()), patchSource, patchPath)
+			resultEvo = generateTestEvosuite(projectId, bugId, checkedoutdir, "{}{}".format(destinationTestGenerated, EVOSUITE.title()), patchSource, patchPath, seed=seed)
 
 		if RANDOOP in TGApproach:
 			logging.debug("Running test generation with Randoop ")
@@ -385,19 +387,20 @@ def runTestGenerationForPatchAllTGApproaches(patchPath,
 	return finalResult
 
 
-def generateTestForPatchedEvosuite(outputdir, checkedOutDirectory, targetClass, projectClasspath, evoclasspath, generator ="evosuite", total_budget_Sec = 30):
+def generateTestForPatchedEvosuite(outputdir, checkedOutDirectory, targetClass, projectClasspath, evoclasspath, generator ="evosuite", total_budget_Sec = 30, seed = 10):
 	## http://defects4j.org/html_doc/gen_tests.html
 
 	logging.debug("Project checked out in  {} ".format(checkedOutDirectory))
+	logging.debug("Generating  evotests with seed  {} {} ".format(seed, total_budget_Sec))
 	javapath = "{}/bin/".format(pathToJava8())
 	commandGenTest = "{}java -cp {} org.evosuite.EvoSuite " \
 					 "-class {} " \
 					 "-projectCP {} " \
-					 "-seed 10 " \
+					 "-seed {} " \
 					 "-Dsearch_budget={} " \
 					 "-Dassertion_timeout={} -Doutput_variables=TARGET_CLASS,criterion,Coverage,Covered_Goals,Total_Goals,Size,Length,MutationScore " \
 					 "-Dsandbox=true -Dno_runtime_dependency=false -Dshow_progress=false " \
-					 "-Dtest_dir={} -Dreport_dir={}".format(javapath, evoclasspath, targetClass, projectClasspath, total_budget_Sec, total_budget_Sec, outputdir, outputdir)
+					 "-Dtest_dir={} -Dreport_dir={}".format(javapath, evoclasspath, targetClass, projectClasspath, seed, total_budget_Sec, total_budget_Sec, outputdir, outputdir)
 	# "-Dreport_dir={}".format(javapath, evoclasspath, targetClass, projectClasspath, total_budget_Sec, total_budget_Sec, outputdir, outputdir)
 
 	logging.debug("command test gen {}".format(commandGenTest))

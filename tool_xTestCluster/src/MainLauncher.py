@@ -50,8 +50,10 @@ elif "testexecution" == mode:
 	#modeEvosuite = True if sys.argv[5] == "True" else False
 
 	runJacoco = False
+	if len(sys.argv) > 5:
+		runJacoco = True if sys.argv[5] == "True" else False
 
-	runStep2TestExecution(patchesFolderPaths=foldersWithPatches, destinationTestGenerated = generatedTest, result=resultpath)
+	runStep2TestExecution(patchesFolderPaths=foldersWithPatches, destinationTestGenerated = generatedTest, result=resultpath, runJacoco = runJacoco)
 
 
 elif "testexecutionperproject" == mode:

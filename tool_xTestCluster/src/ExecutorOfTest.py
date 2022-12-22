@@ -288,7 +288,12 @@ def runExecuteTestsForPatch(patchPath,
 
 		logging.debug("Test to run {}".format(iTest))
 		if fnmatch.fnmatch(iTest, "{}*".format(prefixTestFolder)):
+
+			if runJacoco is True and not iTest.endswith(patchId):
+				print("Ignoring test {} on patch {}".format(iTest, patchId))
+				continue
 			try:
+				print("Processing test {} on patch {}".format(iTest, patchId))
 				nrAllFailingInAllExecution = []
 				## WE RUN A TEST CASE maxNumberOfExecution TIMES in order to detect flaky tests
 				for iRun in range(1, maxNumberOfExecution + 1):

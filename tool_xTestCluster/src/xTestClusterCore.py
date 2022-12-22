@@ -12,7 +12,7 @@ logging.basicConfig(format='%(levelname)-8s [%(filename)s:%(lineno)d] %(message)
     datefmt='%Y-%m-%d:%H:%M:%S',level=logging.DEBUG)
 
 def runStep1TestGeneration(patchesFolderPaths, singleCheckout, summaryResultsFolder, destinationCheckOut = os.path.realpath("../dataTemp/"),
-						   destinationTestGenerated =  os.path.realpath("../dataTempTestGenerated/"), testGenApproaches = [EVOSUITE, RANDOOP], duplicatePatches = None):
+						   destinationTestGenerated =  os.path.realpath("../dataTempTestGenerated/"), testGenApproaches = [EVOSUITE, RANDOOP], duplicatePatches = None, seed = 100):
 
 	allBugs = retrieveAllBugs(patchesDirs=patchesFolderPaths)
 	logging.debug("Mode test generation evosuite?: {}.".format(testGenApproaches))
@@ -33,7 +33,7 @@ def runStep1TestGeneration(patchesFolderPaths, singleCheckout, summaryResultsFol
 									  destinationCheckOut=destinationCheckOut,
 									  destinationTestGenerated=destinationTestGenerated,
 									  testGenApproaches = testGenApproaches,
-									  duplicatePatches = duplicatePatches)
+									  duplicatePatches = duplicatePatches, seed=seed)
 
 		except Exception as error:
 			logging.error('Error: ' + str(error))
@@ -62,7 +62,7 @@ def saveResults(result, dataset, patchPath, logFolder, evosuite = True ):
 	f.close()
 	return filenamelog
 
-def runStep2TestExecution(patchesFolderPaths, destinationTestGenerated, result,duplicatePatches = None):
+def runStep2TestExecution(patchesFolderPaths, destinationTestGenerated, result,duplicatePatches = None, runJacoco = False):
 	allBugs = retrieveAllBugs(patchesDirs=patchesFolderPaths)
 	failingPatches = []
 	logging.debug("all bugs to analyze {}".format(allBugs))
@@ -77,7 +77,7 @@ def runStep2TestExecution(patchesFolderPaths, destinationTestGenerated, result,d
 
 	for iBug in allBugs:
 		try:
-			runTestExecutionForBugId(bugid=iBug, pathsToPatches=patchesFolderPaths, destinationTestGenerated=destinationTestGenerated, outResults = result, duplicatePatches = duplicatePatches)
+			runTestExecutionForBugId(bugid=iBug, pathsToPatches=patchesFolderPaths, destinationTestGenerated=destinationTestGenerated, outResults = result, duplicatePatches = duplicatePatches, runJacoco = runJacoco)
 
 		except Exception as error:
 			logging.debug('Error: ' + str(error))
@@ -105,7 +105,7 @@ def alreadyAnalyzed(dataset, patchPath, summaryFolder, evosuite = True):
 			return False
 
 def runTestGenerationForBugId(bugid, patchPath, summaryResultsFolder, singleCheckout = False, destinationCheckOut = os.path.realpath("../dataTemp/"),
-							  destinationTestGenerated =  os.path.realpath("../dataTempTestGenerated/"), testGenApproaches = [EVOSUITE, RANDOOP], duplicatePatches = None, OVERWRITERESULTS=False):
+							  destinationTestGenerated =  os.path.realpath("../dataTempTestGenerated/"), testGenApproaches = [EVOSUITE, RANDOOP], duplicatePatches = None, OVERWRITERESULTS=False, seed = 100):
 
 	logging.debug("\n****Running analysis for bugs {}".format(bugid))
 	patches = []
@@ -150,7 +150,7 @@ def runTestGenerationForBugId(bugid, patchPath, summaryResultsFolder, singleChec
 			resultAll = runTestGenerationForPatchAllTGApproaches(iPatch, patchSource=patchSource, singleCheckout=singleCheckout,
 											   destinationCheckOut=destinationCheckOut,
 											   destinationTestGenerated=destinationTestGenerated,
-												TGApproach = testGenApproaches)
+												TGApproach = testGenApproaches, seed=seed)
 
 			fml.write("Finishing {}: Generated Test:  {}\n".format(iPatch, resultAll))
 
