@@ -387,7 +387,7 @@ def runTestGenerationForPatchAllTGApproaches(patchPath,
 	return finalResult
 
 
-def generateTestForPatchedEvosuite(outputdir, checkedOutDirectory, targetClass, projectClasspath, evoclasspath, generator ="evosuite", total_budget_Sec = 30, seed = 10):
+def generateTestForPatchedEvosuite(outputdir, checkedOutDirectory, targetClass, projectClasspath, evoclasspath, generator ="evosuite", total_budget_Sec = 60, seed = 10):
 	## http://defects4j.org/html_doc/gen_tests.html
 
 	logging.debug("Project checked out in  {} ".format(checkedOutDirectory))
