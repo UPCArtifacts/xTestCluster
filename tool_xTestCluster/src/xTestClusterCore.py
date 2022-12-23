@@ -222,7 +222,7 @@ def runSummariseClusteringResults(patchesFolderPaths, clustering_results_dir, te
 		result_summary_bug_id_fp = os.path.join(clustering_results_dir, 'result_summary_' + testGenerationMethod + '_'
 												+ bug_id + '.json')
 		if not os.path.exists(result_summary_bug_id_fp):
-			logging.debug('Error! Clustering results not available for %s' % bug_id)
+			logging.debug('Error! Clustering results not available for %s %s' % (bug_id, result_summary_bug_id_fp))
 			continue
 
 		all_results[bug_id] = dict()
@@ -274,3 +274,5 @@ def runSummariseClusteringResults(patchesFolderPaths, clustering_results_dir, te
 
 		with open(clustering_summary_out_fp, 'a', newline='') as clustering_summary_out_csv:
 			csv.writer(clustering_summary_out_csv).writerow(out_row)
+
+	print("End, generating summary at: {}".format(clustering_summary_out_fp))

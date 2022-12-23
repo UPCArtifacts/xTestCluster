@@ -6,6 +6,7 @@ import fnmatch
 from src.FusionResultsExecution import *
 from src.ProjectSupport import *
 
+NOFAILING = "no-failing"
 ## a simple clustering: cluster together if same failing tests
 def clusterPatches(resultOfPatches, resultDir = os.path.realpath("./Patches/patchesDRR/")):
 	clusters = {}
@@ -32,7 +33,7 @@ def clusterPatches(resultOfPatches, resultDir = os.path.realpath("./Patches/patc
 		if len(allFailings) > 0:
 			key = str(",".join(allFailings))
 		else:
-			key= "no-failing"
+			key= NOFAILING
 		if key not in clusters:
 			clusters[key] = [patchId]
 		else:
@@ -76,7 +77,7 @@ def clusterPatchesFailingLines(resultOfPatches, resultDir = os.path.realpath("./
 		if len(allFailings) > 0:
 			key = str(",".join(allFailings))
 		else:
-			key= "no-failing"
+			key= NOFAILING
 		if key not in clusters:
 			clusters[key] = [patchId]
 		else:
@@ -148,7 +149,7 @@ def executeClusteringFromData(data, filter, iResultFile, outResults, toolTestGen
 		patchesFromCluster = clusters[aCluster]
 		print("c{} nr patches {} key: {} {}".format(nrcluster, len(patchesFromCluster), aCluster,
 													patchesFromCluster))
-		nrFailing = len(aCluster.split(","))
+		nrFailing = 0 if aCluster == NOFAILING else len(aCluster.split(","))
 		clustersOfBugs.append({'cid': nrcluster, 'nr_patches': len(patchesFromCluster), "nrFailing": nrFailing,
 							   "failings": aCluster, "patchesFromCluster": patchesFromCluster})
 	bugid = iResultFile.replace("result_{}test_exec_".format(filter), "").replace(".json", "")

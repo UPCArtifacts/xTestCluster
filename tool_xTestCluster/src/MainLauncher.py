@@ -40,13 +40,23 @@ if "testgenerationsingle" == mode:
 	destinationCheckOut = sys.argv[4]
 	destinationTestGenerated = sys.argv[5]
 	foldersWithPatches = patchesFolder.split("@")
-
 	testApproaches =  str(sys.argv[6]).upper().split("-")
 	iBug = sys.argv[7]
+	seed = sys.argv[8]
 
+	## We add the seed to the output
+	destinationTestGenerated = os.path.join(destinationTestGenerated, "seed_" + str(seed))
+	logFolder = os.path.join(os.path.realpath(logFolder), "seed_" + str(seed))
+
+	if not os.path.exists(destinationTestGenerated):
+		os.makedirs(destinationTestGenerated)
+
+	if not os.path.exists(logFolder):
+		os.makedirs(logFolder)
+	print("Generating with {}".format(testApproaches))
 	runTestGenerationForBugId(iBug, patchPath=foldersWithPatches, singleCheckout=False, summaryResultsFolder=logFolder,
 							  destinationCheckOut=destinationCheckOut,
-							  destinationTestGenerated=destinationTestGenerated, testGenApproaches = testApproaches)
+							  destinationTestGenerated=destinationTestGenerated, testGenApproaches = testApproaches, seed=seed)
 
 
 elif "testexecution" == mode:
@@ -149,7 +159,9 @@ elif "testexecutionsinglepatch" == mode:
 elif "clustering" == mode:
 	resultDir = sys.argv[2]
 	out =  sys.argv[3]
+	# Evosuite, Randoop or Both
 	toolTestGeneration =  sys.argv[4]
+	# feature == "failingTests" or "failingLines":
 	feature = sys.argv[5]
 	runStep3Clustering(resultDir = resultDir, outResults= out, toolTestGeneration = toolTestGeneration, feature = feature)
 
@@ -160,7 +172,7 @@ elif "reportingclusteringhistogram" == mode:
 
 elif "summariseresults" == mode:
 	patchesFolder = sys.argv[2]
-	foldersWithPatches = patchesFolder.split("-")
+	foldersWithPatches = patchesFolder.split("@")
 	resultpath = sys.argv[3]
 	testGenerationMethod = sys.argv[4].lower()
 

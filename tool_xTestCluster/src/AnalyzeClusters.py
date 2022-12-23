@@ -16,7 +16,6 @@ def analyzeCluster(fileClusters):
 
 def runClusteringReport(pathResultsExecutionFolder, toolTestGeneration = ""):
 
-
 	allNrClusters = []
 	filesConsidered = []
 
