@@ -65,6 +65,7 @@ elif "testexecution" == mode:
 	if len(sys.argv) > 5:
 		runJacoco = True if sys.argv[5] == "True" else False
 
+	print("Running jacoco {}".format(runJacoco))
 	runStep2TestExecution(patchesFolderPaths=foldersWithPatches, destinationTestGenerated = generatedTest, result=resultpath, runJacoco = runJacoco)
 
 
