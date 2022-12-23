@@ -19,8 +19,19 @@ if "testgeneration" == mode:
 	testGenApproaches = str(sys.argv[6]).upper().split("-")
 
 	seed = sys.argv[7]
+
+	## We add the seed to the output
+	destinationTestGenerated = os.path.join(destinationTestGenerated, "seed_"+str(seed))
+	logFolder = os.path.join(os.path.realpath(logFolder), "seed_"+str(seed))
+
+	if not os.path.exists(destinationTestGenerated):
+		os.makedirs(destinationTestGenerated)
+
+	if not os.path.exists(logFolder):
+		os.makedirs(logFolder)
+
 	runStep1TestGeneration(patchesFolderPaths=foldersWithPatches,
-						   singleCheckout=False, summaryResultsFolder=os.path.realpath(logFolder), destinationCheckOut=destinationCheckOut, destinationTestGenerated=destinationTestGenerated, testGenApproaches = testGenApproaches, seed=seed)
+						   singleCheckout=False, summaryResultsFolder=logFolder, destinationCheckOut=destinationCheckOut, destinationTestGenerated=destinationTestGenerated, testGenApproaches = testGenApproaches, seed=seed)
 
 if "testgenerationsingle" == mode:
 

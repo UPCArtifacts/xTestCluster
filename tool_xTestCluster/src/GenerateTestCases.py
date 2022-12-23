@@ -391,7 +391,7 @@ def generateTestForPatchedEvosuite(outputdir, checkedOutDirectory, targetClass, 
 	## http://defects4j.org/html_doc/gen_tests.html
 
 	logging.debug("Project checked out in  {} ".format(checkedOutDirectory))
-	logging.debug("Generating  evotests with seed  {} {} ".format(seed, total_budget_Sec))
+	logging.debug("Generating  evotests with seed  {} and total_budget_Sec {} ".format(seed, total_budget_Sec))
 	javapath = "{}/bin/".format(pathToJava8())
 	commandGenTest = "{}java -cp {} org.evosuite.EvoSuite " \
 					 "-class {} " \
@@ -543,9 +543,12 @@ def runGeneratedTests(tests_dir, evo_classpath, project_classpath, target_class)
 	javapath = "{}/bin/".format(pathToJava8())
 
 	jccfile = tests_dir+ "/jacoco.exec"
+	## We dont want to execute jacoco during test generation
+	#execute_test_command = "{}/java -javaagent:{}/lib/jacocoagent.jar=append=false,destfile={} -cp {}{}{}{}{} org.junit.runner.JUnitCore {}".format(javapath,currentpath,jccfile, evo_classpath, os.path.pathsep, tests_dir, os.path.pathsep,
+	#																				project_classpath, test_names)
+	execute_test_command = "{}/java -cp {}{}{}{}{} org.junit.runner.JUnitCore {}".format(
+		javapath, evo_classpath, os.path.pathsep, tests_dir, os.path.pathsep,project_classpath, test_names)
 
-	execute_test_command = "{}/java -javaagent:{}/lib/jacocoagent.jar=append=false,destfile={} -cp {}{}{}{}{} org.junit.runner.JUnitCore {}".format(javapath,currentpath,jccfile, evo_classpath, os.path.pathsep, tests_dir, os.path.pathsep,
-																					project_classpath, test_names)
 	logging.debug(execute_test_command)
 	result = os.popen(execute_test_command).read()
 	#logging.debug(result)
