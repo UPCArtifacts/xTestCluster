@@ -1,0 +1,134 @@
+{
+    "bugid": "Chart-19",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-19-Arja-plusible.patch",
+            "project": "Chart",
+            "bugid": "19",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:18:15.882035",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-19-Arja-plusible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-19-AVATAR",
+                    "failing": 2,
+                    "testrun": 250,
+                    "failings": [
+                        "test187(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test180(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.jfree.chart.plot.CategoryPlot but in org.jfree.chart.util.AbstractObjectList.indexOf(AbstractObjectList.java:165): org.evosuite.runtime.mock.java.lang.MockThrowable: Null \\'object\\' argument.",
+                        "java.lang.AssertionError: Exception was not thrown in org.jfree.chart.plot.CategoryPlot but in org.jfree.chart.util.AbstractObjectList.indexOf(AbstractObjectList.java:165): org.evosuite.runtime.mock.java.lang.MockThrowable: Null \\'object\\' argument."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test187(CategoryPlot_ESTest.java:28794)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test180(CategoryPlot_ESTest.java:28044)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-19-Arja-plusible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-19-Arja-plusible",
+                    "failing": 0,
+                    "testrun": 246,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.util.AbstractObjectList_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 41.04
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Chart/patch1-Chart-19-AVATAR.patch",
+            "project": "Chart",
+            "bugid": "19",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:18:56.927449",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Chart/patch1-Chart-19-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-19-AVATAR",
+                    "failing": 0,
+                    "testrun": 250,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Chart/patch1-Chart-19-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-19-Arja-plusible",
+                    "failing": 3,
+                    "testrun": 246,
+                    "failings": [
+                        "test13(org.jfree.chart.util.AbstractObjectList_ESTest)",
+                        "test046(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test167(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.util.AbstractObjectList_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.AssertionError: Exception was not thrown in org.jfree.chart.util.AbstractObjectList but in org.jfree.chart.plot.CategoryPlot.getRangeAxisIndex(CategoryPlot.java:977): org.evosuite.runtime.mock.java.lang.MockThrowable: Null \\'axis\\' argument.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'axis\\' argument."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.util.AbstractObjectList_ESTest.test13(AbstractObjectList_ESTest.java:169)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test046(CategoryPlot_ESTest.java:9905)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test167(CategoryPlot_ESTest.java:28497)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 42.04
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/ACS/Chart/patch1-Chart-19-ACS.patch",
+            "project": "Chart",
+            "bugid": "19",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:19:38.970892",
+            "project_checked": "ok",
+            "compiledProjectModified": "no",
+            "patchApplied": "no",
+            "arrive_end": "no",
+            "patched_project_pass_all_test": "no"
+        }
+    ],
+    "date": "2022-12-16T05:18:15.881746",
+    "duration": -0.0
+}

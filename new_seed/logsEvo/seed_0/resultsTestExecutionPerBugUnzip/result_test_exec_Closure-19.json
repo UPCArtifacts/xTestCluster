@@ -1,0 +1,102 @@
+{
+    "bugid": "Closure-19",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Closure/patch1-Closure-19-FixMiner-plausible.patch",
+            "project": "Closure",
+            "bugid": "19",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:54:50.543533",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Closure/patch1-Closure-19-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-19-SimFix",
+                    "failing": 0,
+                    "testrun": 5,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.type.ClosureReverseAbstractInterpreter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Closure/patch1-Closure-19-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-19-FixMiner-plausible",
+                    "failing": 0,
+                    "testrun": 141,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 33.56
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/SimFix/Closure/patch1-Closure-19-SimFix.patch",
+            "project": "Closure",
+            "bugid": "19",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:55:24.107460",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/SimFix/Closure/patch1-Closure-19-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-19-SimFix",
+                    "failing": 0,
+                    "testrun": 5,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.type.ClosureReverseAbstractInterpreter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/SimFix/Closure/patch1-Closure-19-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-19-FixMiner-plausible",
+                    "failing": 2,
+                    "testrun": 141,
+                    "failings": [
+                        "test110(com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest)",
+                        "test109(com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: 355",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Node cannot be refined. "
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest.test110(ChainableReverseAbstractInterpreter_ESTest.java:2686)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest.test109(ChainableReverseAbstractInterpreter_ESTest.java:2667)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 33.85
+        }
+    ],
+    "date": "2022-12-16T05:54:50.543279",
+    "duration": -0.0
+}

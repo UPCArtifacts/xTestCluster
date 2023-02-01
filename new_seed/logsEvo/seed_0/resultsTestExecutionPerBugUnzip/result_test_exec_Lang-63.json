@@ -1,0 +1,485 @@
+{
+    "bugid": "Lang-63",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Lang/patch1-Lang-63-DynaMoth-plausible.patch",
+            "project": "Lang",
+            "bugid": "63",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:04:50.531773",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Lang/patch1-Lang-63-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-FixMiner-plausible",
+                    "failing": 0,
+                    "testrun": 47,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Lang/patch1-Lang-63-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-DynaMoth-plausible",
+                    "failing": 0,
+                    "testrun": 51,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Lang/patch1-Lang-63-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 47,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Lang/patch1-Lang-63-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 48,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Lang/patch1-Lang-63-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-SimFix-plausible",
+                    "failing": 2,
+                    "testrun": 51,
+                    "failings": [
+                        "test12(org.apache.commons.lang.time.DurationFormatUtils_ESTest)",
+                        "test13(org.apache.commons.lang.time.DurationFormatUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<...ianCalendar[time=159[5017281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=6,WEEK_OF_YEAR=29,WEEK_OF_MONTH=3,DAY_OF_MONTH=17,DAY_OF_YEAR=199,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=3],AM_PM=1,HOUR=8,HOUR...> but was:<...ianCalendar[time=159[3807681320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=6,WEEK_OF_YEAR=27,WEEK_OF_MONTH=1,DAY_OF_MONTH=3,DAY_OF_YEAR=185,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=1],AM_PM=1,HOUR=8,HOUR...>",
+                        "org.junit.ComparisonFailure: expected:<...nCalendar[time=-5391[7306680000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=261,MONTH=5,WEEK_OF_YEAR=23,WEEK_OF_MONTH=2,DAY_OF_MONTH=6,DAY_OF_YEAR=157,DAY_OF_WEEK=5,DAY_OF_WEEK_IN_MONTH=1],AM_PM=0,HOUR=2,HOUR...> but was:<...nCalendar[time=-5391[6701880000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=261,MONTH=5,WEEK_OF_YEAR=24,WEEK_OF_MONTH=3,DAY_OF_MONTH=13,DAY_OF_YEAR=164,DAY_OF_WEEK=5,DAY_OF_WEEK_IN_MONTH=2],AM_PM=0,HOUR=2,HOUR...>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.DurationFormatUtils_ESTest.test12(DurationFormatUtils_ESTest.java:208)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.DurationFormatUtils_ESTest.test13(DurationFormatUtils_ESTest.java:250)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 23.56
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Lang/patch1-Lang-63-SimFix-plausible.patch",
+            "project": "Lang",
+            "bugid": "63",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:05:14.097098",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Lang/patch1-Lang-63-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-FixMiner-plausible",
+                    "failing": 0,
+                    "testrun": 47,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Lang/patch1-Lang-63-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-DynaMoth-plausible",
+                    "failing": 0,
+                    "testrun": 51,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Lang/patch1-Lang-63-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 47,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Lang/patch1-Lang-63-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 48,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Lang/patch1-Lang-63-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 51,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 23.3
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Lang/patch1-Lang-63-FixMiner-plausible.patch",
+            "project": "Lang",
+            "bugid": "63",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:05:37.396146",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Lang/patch1-Lang-63-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-FixMiner-plausible",
+                    "failing": 0,
+                    "testrun": 47,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Lang/patch1-Lang-63-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-DynaMoth-plausible",
+                    "failing": 0,
+                    "testrun": 51,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Lang/patch1-Lang-63-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 47,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Lang/patch1-Lang-63-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 48,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Lang/patch1-Lang-63-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-SimFix-plausible",
+                    "failing": 2,
+                    "testrun": 51,
+                    "failings": [
+                        "test12(org.apache.commons.lang.time.DurationFormatUtils_ESTest)",
+                        "test13(org.apache.commons.lang.time.DurationFormatUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[1595017281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=6,WEEK_OF_YEAR=29,WEEK_OF_MONTH=3,DAY_OF_MONTH=17,DAY_OF_YEAR=199,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=3],AM_PM=1,HOUR=8,HOUR...> but was:<...gorianCalendar[time=[?,areFieldsSet=false,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=8,WEEK_OF_YEAR=27,WEEK_OF_MONTH=1,DAY_OF_MONTH=3,DAY_OF_YEAR=185,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=1],AM_PM=1,HOUR=8,HOUR...>",
+                        "org.junit.ComparisonFailure: expected:<...nCalendar[time=-5391[7306680000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=261,MONTH=5,WEEK_OF_YEAR=23,WEEK_OF_MONTH=2,DAY_OF_MONTH=6,DAY_OF_YEAR=157,DAY_OF_WEEK=5,DAY_OF_WEEK_IN_MONTH=1],AM_PM=0,HOUR=2,HOUR...> but was:<...nCalendar[time=-5391[6701880000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=261,MONTH=5,WEEK_OF_YEAR=24,WEEK_OF_MONTH=3,DAY_OF_MONTH=13,DAY_OF_YEAR=164,DAY_OF_WEEK=5,DAY_OF_WEEK_IN_MONTH=2],AM_PM=0,HOUR=2,HOUR...>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.DurationFormatUtils_ESTest.test12(DurationFormatUtils_ESTest.java:208)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.DurationFormatUtils_ESTest.test13(DurationFormatUtils_ESTest.java:250)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 23.36
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Lang/patch1-Lang-63-AVATAR-plausible.patch",
+            "project": "Lang",
+            "bugid": "63",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:06:00.762811",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Lang/patch1-Lang-63-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-FixMiner-plausible",
+                    "failing": 0,
+                    "testrun": 47,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Lang/patch1-Lang-63-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-DynaMoth-plausible",
+                    "failing": 2,
+                    "testrun": 51,
+                    "failings": [
+                        "test38(org.apache.commons.lang.time.DurationFormatUtils_ESTest)",
+                        "test02(org.apache.commons.lang.time.DurationFormatUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<3> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.DurationFormatUtils_ESTest.test38(DurationFormatUtils_ESTest.java:377)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.DurationFormatUtils_ESTest.test02(DurationFormatUtils_ESTest.java:49)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Lang/patch1-Lang-63-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 47,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Lang/patch1-Lang-63-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 48,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Lang/patch1-Lang-63-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-SimFix-plausible",
+                    "failing": 2,
+                    "testrun": 51,
+                    "failings": [
+                        "test12(org.apache.commons.lang.time.DurationFormatUtils_ESTest)",
+                        "test13(org.apache.commons.lang.time.DurationFormatUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<...ianCalendar[time=159[5017281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=6,WEEK_OF_YEAR=29,WEEK_OF_MONTH=3,DAY_OF_MONTH=17,DAY_OF_YEAR=199,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=3],AM_PM=1,HOUR=8,HOUR...> but was:<...ianCalendar[time=159[3807681320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=6,WEEK_OF_YEAR=27,WEEK_OF_MONTH=1,DAY_OF_MONTH=3,DAY_OF_YEAR=185,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=1],AM_PM=1,HOUR=8,HOUR...>",
+                        "org.junit.ComparisonFailure: expected:<...nCalendar[time=-5391[7306680000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=261,MONTH=5,WEEK_OF_YEAR=23,WEEK_OF_MONTH=2,DAY_OF_MONTH=6,DAY_OF_YEAR=157,DAY_OF_WEEK=5,DAY_OF_WEEK_IN_MONTH=1],AM_PM=0,HOUR=2,HOUR...> but was:<...nCalendar[time=-5391[6701880000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=261,MONTH=5,WEEK_OF_YEAR=24,WEEK_OF_MONTH=3,DAY_OF_MONTH=13,DAY_OF_YEAR=164,DAY_OF_WEEK=5,DAY_OF_WEEK_IN_MONTH=2],AM_PM=0,HOUR=2,HOUR...>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.DurationFormatUtils_ESTest.test12(DurationFormatUtils_ESTest.java:208)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.DurationFormatUtils_ESTest.test13(DurationFormatUtils_ESTest.java:250)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 23.21
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-63-TBar-plausible.patch",
+            "project": "Lang",
+            "bugid": "63",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:06:23.976137",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-63-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-FixMiner-plausible",
+                    "failing": 0,
+                    "testrun": 47,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-63-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-DynaMoth-plausible",
+                    "failing": 2,
+                    "testrun": 51,
+                    "failings": [
+                        "test38(org.apache.commons.lang.time.DurationFormatUtils_ESTest)",
+                        "test02(org.apache.commons.lang.time.DurationFormatUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<87>",
+                        "java.lang.AssertionError: expected:<3> but was:<-1365>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.DurationFormatUtils_ESTest.test38(DurationFormatUtils_ESTest.java:377)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.DurationFormatUtils_ESTest.test02(DurationFormatUtils_ESTest.java:49)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-63-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 47,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-63-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 48,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-63-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-63-SimFix-plausible",
+                    "failing": 2,
+                    "testrun": 51,
+                    "failings": [
+                        "test12(org.apache.commons.lang.time.DurationFormatUtils_ESTest)",
+                        "test13(org.apache.commons.lang.time.DurationFormatUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DurationFormatUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<...orianCalendar[time=1[595017281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=6,WEEK_OF_YEAR=29,WEEK_OF_MONTH=3,DAY_OF_MONTH=17,DAY_OF_YEAR=199,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=3],AM_PM=1,HOUR=8,HOUR...> but was:<...orianCalendar[time=1[391804481320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=6,WEEK_OF_MONTH=2,DAY_OF_MONTH=7,DAY_OF_YEAR=38,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=1],AM_PM=1,HOUR=8,HOUR...>",
+                        "org.junit.ComparisonFailure: expected:<...nCalendar[time=-5391[7306680000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=261,MONTH=5,WEEK_OF_YEAR=23,WEEK_OF_MONTH=2,DAY_OF_MONTH=6,DAY_OF_YEAR=157,DAY_OF_WEEK=5,DAY_OF_WEEK_IN_MONTH=1],AM_PM=0,HOUR=2,HOUR...> but was:<...nCalendar[time=-5391[6701880000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=261,MONTH=5,WEEK_OF_YEAR=24,WEEK_OF_MONTH=3,DAY_OF_MONTH=13,DAY_OF_YEAR=164,DAY_OF_WEEK=5,DAY_OF_WEEK_IN_MONTH=2],AM_PM=0,HOUR=2,HOUR...>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.DurationFormatUtils_ESTest.test12(DurationFormatUtils_ESTest.java:208)"
+                        ],
+                        [
+                            "org.apache.commons.lang.time.DurationFormatUtils_ESTest.test13(DurationFormatUtils_ESTest.java:250)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 23.27
+        }
+    ],
+    "date": "2022-12-16T03:04:50.531503",
+    "duration": -0.0
+}

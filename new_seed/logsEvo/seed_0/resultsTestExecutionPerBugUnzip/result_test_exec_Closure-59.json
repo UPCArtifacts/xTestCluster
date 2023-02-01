@@ -1,0 +1,301 @@
+{
+    "bugid": "Closure-59",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-59-GenProg-plausible.patch",
+            "project": "Closure",
+            "bugid": "59",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:51:52.518941",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-59-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 30,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.DefaultPassConfig_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-59-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 5,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-59-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-RSRepair-plausible",
+                    "failing": 2,
+                    "testrun": 6,
+                    "failings": [
+                        "test4(com.google.javascript.jscomp.WarningLevel_ESTest)",
+                        "test0(com.google.javascript.jscomp.WarningLevel_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.WarningLevel_ESTest.test4(WarningLevel_ESTest.java:56)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.WarningLevel_ESTest.test0(WarningLevel_ESTest.java:25)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-59-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 6,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 42.89
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-59-Kali-plausible.patch",
+            "project": "Closure",
+            "bugid": "59",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:52:35.415783",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-59-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 30,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.DefaultPassConfig_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-59-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 5,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-59-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 6,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-59-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 6,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 42.64
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-59-Arja-plausible.patch",
+            "project": "Closure",
+            "bugid": "59",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:53:18.056746",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-59-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 30,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.DefaultPassConfig_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-59-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 5,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-59-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-RSRepair-plausible",
+                    "failing": 2,
+                    "testrun": 6,
+                    "failings": [
+                        "test4(com.google.javascript.jscomp.WarningLevel_ESTest)",
+                        "test0(com.google.javascript.jscomp.WarningLevel_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.WarningLevel_ESTest.test4(WarningLevel_ESTest.java:56)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.WarningLevel_ESTest.test0(WarningLevel_ESTest.java:25)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-59-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 6,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 40.93
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-59-RSRepair-plausible.patch",
+            "project": "Closure",
+            "bugid": "59",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:53:58.986226",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-59-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 30,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.DefaultPassConfig_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-59-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 5,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-59-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 6,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-59-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 6,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 41.8
+        }
+    ],
+    "date": "2022-12-16T03:51:52.518505",
+    "duration": -0.0
+}

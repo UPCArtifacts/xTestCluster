@@ -1,0 +1,875 @@
+{
+    "bugid": "Math-49",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-49-DynaMoth-plausible.patch",
+            "project": "Math",
+            "bugid": "49",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T02:08:46.536541",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-49-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-49-Nopol-plausible",
+                    "failing": 0,
+                    "testrun": 197,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.linear.OpenMapRealVector_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-49-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-49-Kali-plausible",
+                    "failing": 17,
+                    "testrun": 200,
+                    "failings": [
+                        "test075(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test077(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test184(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test083(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test011(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test006(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test001(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test152(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test025(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test142(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test052(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test174(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test176(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test047(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test046(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test164(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test156(org.apache.commons.math.linear.OpenMapRealVector_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.linear.OpenMapRealVector_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.5> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.2>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<0.25> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.AssertionError: expected:<0.6666666666666666> but was:<0.3333333333333333>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test075(OpenMapRealVector_ESTest.java:2371)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test077(OpenMapRealVector_ESTest.java:2428)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test184(OpenMapRealVector_ESTest.java:4167)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test083(OpenMapRealVector_ESTest.java:2574)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test011(OpenMapRealVector_ESTest.java:503)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test006(OpenMapRealVector_ESTest.java:246)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test001(OpenMapRealVector_ESTest.java:97)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test152(OpenMapRealVector_ESTest.java:3851)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test025(OpenMapRealVector_ESTest.java:1061)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test142(OpenMapRealVector_ESTest.java:3727)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test052(OpenMapRealVector_ESTest.java:1786)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test174(OpenMapRealVector_ESTest.java:4059)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test176(OpenMapRealVector_ESTest.java:4085)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test047(OpenMapRealVector_ESTest.java:1610)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test046(OpenMapRealVector_ESTest.java:1555)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test164(OpenMapRealVector_ESTest.java:3962)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test156(OpenMapRealVector_ESTest.java:3895)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-49-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-49-DynaMoth-plausible",
+                    "failing": 0,
+                    "testrun": 190,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.linear.OpenMapRealVector_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-49-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-49-AVATAR-plausible",
+                    "failing": 13,
+                    "testrun": 32,
+                    "failings": [
+                        "test03(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test02(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test24(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test05(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test04(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test29(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test14(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test16(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test10(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test12(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test11(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test19(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test30(org.apache.commons.math.MathRuntimeException_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.MathRuntimeException_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test03(MathRuntimeException_ESTest.java:71)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test02(MathRuntimeException_ESTest.java:56)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test24(MathRuntimeException_ESTest.java:379)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test05(MathRuntimeException_ESTest.java:103)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test04(MathRuntimeException_ESTest.java:86)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test29(MathRuntimeException_ESTest.java:464)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test14(MathRuntimeException_ESTest.java:240)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test16(MathRuntimeException_ESTest.java:272)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test10(MathRuntimeException_ESTest.java:175)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test12(MathRuntimeException_ESTest.java:207)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test11(MathRuntimeException_ESTest.java:190)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test19(MathRuntimeException_ESTest.java:303)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test30(MathRuntimeException_ESTest.java:481)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 34.74
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-49-Kali-plausible.patch",
+            "project": "Math",
+            "bugid": "49",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T02:09:21.281480",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-49-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-49-Nopol-plausible",
+                    "failing": 11,
+                    "testrun": 197,
+                    "failings": [
+                        "test068(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test099(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test102(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test128(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test127(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test129(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test153(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test154(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test143(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test134(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test036(org.apache.commons.math.linear.OpenMapRealVector_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.linear.OpenMapRealVector_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.5>",
+                        "java.lang.AssertionError: Expecting exception: ConcurrentModificationException",
+                        "java.lang.AssertionError: Expecting exception: ConcurrentModificationException",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.10975609756097561>",
+                        "java.lang.AssertionError: expected:<0.1111111111111111> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test068(OpenMapRealVector_ESTest.java:2058)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test099(OpenMapRealVector_ESTest.java:2860)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test102(OpenMapRealVector_ESTest.java:2951)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test128(OpenMapRealVector_ESTest.java:3595)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test127(OpenMapRealVector_ESTest.java:3569)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test129(OpenMapRealVector_ESTest.java:3620)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test153(OpenMapRealVector_ESTest.java:4405)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test154(OpenMapRealVector_ESTest.java:4430)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test143(OpenMapRealVector_ESTest.java:4054)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test134(OpenMapRealVector_ESTest.java:3742)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test036(OpenMapRealVector_ESTest.java:1213)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-49-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-49-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 200,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.linear.OpenMapRealVector_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-49-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-49-DynaMoth-plausible",
+                    "failing": 11,
+                    "testrun": 190,
+                    "failings": [
+                        "test105(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test133(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test132(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test006(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test148(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test134(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test015(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test175(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test160(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test161(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test159(org.apache.commons.math.linear.OpenMapRealVector_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.linear.OpenMapRealVector_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: ConcurrentModificationException",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.5>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError: expected:<0.0> but was:<0.5>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test105(OpenMapRealVector_ESTest.java:1296)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test133(OpenMapRealVector_ESTest.java:1736)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test132(OpenMapRealVector_ESTest.java:1724)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test006(OpenMapRealVector_ESTest.java:93)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test148(OpenMapRealVector_ESTest.java:1889)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test134(OpenMapRealVector_ESTest.java:1744)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test015(OpenMapRealVector_ESTest.java:189)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test175(OpenMapRealVector_ESTest.java:2165)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test160(OpenMapRealVector_ESTest.java:2008)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test161(OpenMapRealVector_ESTest.java:2018)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test159(OpenMapRealVector_ESTest.java:1999)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-49-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-49-AVATAR-plausible",
+                    "failing": 13,
+                    "testrun": 32,
+                    "failings": [
+                        "test03(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test02(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test24(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test05(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test04(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test29(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test14(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test16(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test10(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test12(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test11(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test19(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test30(org.apache.commons.math.MathRuntimeException_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.MathRuntimeException_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test03(MathRuntimeException_ESTest.java:71)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test02(MathRuntimeException_ESTest.java:56)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test24(MathRuntimeException_ESTest.java:379)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test05(MathRuntimeException_ESTest.java:103)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test04(MathRuntimeException_ESTest.java:86)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test29(MathRuntimeException_ESTest.java:464)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test14(MathRuntimeException_ESTest.java:240)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test16(MathRuntimeException_ESTest.java:272)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test10(MathRuntimeException_ESTest.java:175)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test12(MathRuntimeException_ESTest.java:207)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test11(MathRuntimeException_ESTest.java:190)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test19(MathRuntimeException_ESTest.java:303)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test30(MathRuntimeException_ESTest.java:481)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 35.03
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-49-Nopol-plausible.patch",
+            "project": "Math",
+            "bugid": "49",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T02:09:56.316629",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-49-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-49-Nopol-plausible",
+                    "failing": 0,
+                    "testrun": 197,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.linear.OpenMapRealVector_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-49-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-49-Kali-plausible",
+                    "failing": 17,
+                    "testrun": 200,
+                    "failings": [
+                        "test075(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test077(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test184(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test083(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test011(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test006(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test001(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test152(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test025(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test142(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test052(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test174(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test176(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test047(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test046(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test164(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test156(org.apache.commons.math.linear.OpenMapRealVector_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.linear.OpenMapRealVector_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.5> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.2>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<0.25> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.AssertionError: expected:<0.6666666666666666> but was:<0.3333333333333333>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test075(OpenMapRealVector_ESTest.java:2371)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test077(OpenMapRealVector_ESTest.java:2428)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test184(OpenMapRealVector_ESTest.java:4167)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test083(OpenMapRealVector_ESTest.java:2574)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test011(OpenMapRealVector_ESTest.java:503)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test006(OpenMapRealVector_ESTest.java:246)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test001(OpenMapRealVector_ESTest.java:97)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test152(OpenMapRealVector_ESTest.java:3851)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test025(OpenMapRealVector_ESTest.java:1061)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test142(OpenMapRealVector_ESTest.java:3727)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test052(OpenMapRealVector_ESTest.java:1786)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test174(OpenMapRealVector_ESTest.java:4059)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test176(OpenMapRealVector_ESTest.java:4085)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test047(OpenMapRealVector_ESTest.java:1610)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test046(OpenMapRealVector_ESTest.java:1555)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test164(OpenMapRealVector_ESTest.java:3962)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test156(OpenMapRealVector_ESTest.java:3895)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-49-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-49-DynaMoth-plausible",
+                    "failing": 0,
+                    "testrun": 190,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.linear.OpenMapRealVector_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-49-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-49-AVATAR-plausible",
+                    "failing": 13,
+                    "testrun": 32,
+                    "failings": [
+                        "test03(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test02(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test24(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test05(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test04(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test29(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test14(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test16(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test10(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test12(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test11(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test19(org.apache.commons.math.MathRuntimeException_ESTest)",
+                        "test30(org.apache.commons.math.MathRuntimeException_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.MathRuntimeException_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException",
+                        "java.lang.AssertionError: Expecting exception: ClassCastException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test03(MathRuntimeException_ESTest.java:71)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test02(MathRuntimeException_ESTest.java:56)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test24(MathRuntimeException_ESTest.java:379)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test05(MathRuntimeException_ESTest.java:103)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test04(MathRuntimeException_ESTest.java:86)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test29(MathRuntimeException_ESTest.java:464)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test14(MathRuntimeException_ESTest.java:240)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test16(MathRuntimeException_ESTest.java:272)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test10(MathRuntimeException_ESTest.java:175)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test12(MathRuntimeException_ESTest.java:207)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test11(MathRuntimeException_ESTest.java:190)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test19(MathRuntimeException_ESTest.java:303)"
+                        ],
+                        [
+                            "org.apache.commons.math.MathRuntimeException_ESTest.test30(MathRuntimeException_ESTest.java:481)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 34.55
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Math/patch1-Math-49-AVATAR-plausible.patch",
+            "project": "Math",
+            "bugid": "49",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T02:10:30.869371",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Math/patch1-Math-49-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-49-Nopol-plausible",
+                    "failing": 1,
+                    "testrun": 197,
+                    "failings": [
+                        "test143(org.apache.commons.math.linear.OpenMapRealVector_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.linear.OpenMapRealVector_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test143(OpenMapRealVector_ESTest.java:4054)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Math/patch1-Math-49-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-49-Kali-plausible",
+                    "failing": 17,
+                    "testrun": 200,
+                    "failings": [
+                        "test075(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test077(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test184(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test083(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test011(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test006(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test001(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test152(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test025(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test142(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test052(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test174(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test176(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test047(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test046(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test164(org.apache.commons.math.linear.OpenMapRealVector_ESTest)",
+                        "test156(org.apache.commons.math.linear.OpenMapRealVector_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.linear.OpenMapRealVector_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.5> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.2>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<0.25> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.AssertionError: expected:<0.6666666666666666> but was:<0.3333333333333333>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test075(OpenMapRealVector_ESTest.java:2371)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test077(OpenMapRealVector_ESTest.java:2428)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test184(OpenMapRealVector_ESTest.java:4167)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test083(OpenMapRealVector_ESTest.java:2574)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test011(OpenMapRealVector_ESTest.java:503)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test006(OpenMapRealVector_ESTest.java:246)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test001(OpenMapRealVector_ESTest.java:97)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test152(OpenMapRealVector_ESTest.java:3851)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test025(OpenMapRealVector_ESTest.java:1061)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test142(OpenMapRealVector_ESTest.java:3727)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test052(OpenMapRealVector_ESTest.java:1786)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test174(OpenMapRealVector_ESTest.java:4059)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test176(OpenMapRealVector_ESTest.java:4085)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test047(OpenMapRealVector_ESTest.java:1610)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test046(OpenMapRealVector_ESTest.java:1555)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test164(OpenMapRealVector_ESTest.java:3962)"
+                        ],
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test156(OpenMapRealVector_ESTest.java:3895)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Math/patch1-Math-49-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-49-DynaMoth-plausible",
+                    "failing": 1,
+                    "testrun": 190,
+                    "failings": [
+                        "test015(org.apache.commons.math.linear.OpenMapRealVector_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.linear.OpenMapRealVector_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.09090909090909091> but was:<0.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.linear.OpenMapRealVector_ESTest.test015(OpenMapRealVector_ESTest.java:188)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Math/patch1-Math-49-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-49-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 32,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.MathRuntimeException_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.35
+        }
+    ],
+    "date": "2022-12-16T02:08:46.536240",
+    "duration": -0.0
+}

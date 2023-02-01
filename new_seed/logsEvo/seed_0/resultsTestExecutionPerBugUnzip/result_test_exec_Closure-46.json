@@ -1,0 +1,715 @@
+{
+    "bugid": "Closure-46",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-46-SimFix-plausible.patch",
+            "project": "Closure",
+            "bugid": "46",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:34:59.237022",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-46-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-Kali-plausible",
+                    "failing": 1,
+                    "testrun": 44,
+                    "failings": [
+                        "test15(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in com.google.javascript.rhino.jstype.JSType but in com.google.javascript.rhino.jstype.RecordType.getLeastSupertype(RecordType.java:142): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test15(RecordType_ESTest.java:284)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-46-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-Arja-plausible",
+                    "failing": 1,
+                    "testrun": 123,
+                    "failings": [
+                        "test32(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest",
+                        "com.google.javascript.rhino.jstype.RecordTypeBuilder_ESTest",
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test32(RecordType_ESTest.java:533)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-46-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-AVATAR",
+                    "failing": 0,
+                    "testrun": 34,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-46-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-kPAR-plausible",
+                    "failing": 2,
+                    "testrun": 43,
+                    "failings": [
+                        "test34(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test35(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test34(RecordType_ESTest.java:564)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test35(RecordType_ESTest.java:583)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-46-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 43,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 40.82
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-46-Kali-plausible.patch",
+            "project": "Closure",
+            "bugid": "46",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:35:40.060519",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-46-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 44,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-46-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-Arja-plausible",
+                    "failing": 2,
+                    "testrun": 123,
+                    "failings": [
+                        "test32(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test33(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest",
+                        "com.google.javascript.rhino.jstype.RecordTypeBuilder_ESTest",
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test32(RecordType_ESTest.java:533)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test33(RecordType_ESTest.java:549)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-46-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-AVATAR",
+                    "failing": 0,
+                    "testrun": 34,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-46-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-kPAR-plausible",
+                    "failing": 2,
+                    "testrun": 43,
+                    "failings": [
+                        "test34(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test35(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test34(RecordType_ESTest.java:564)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test35(RecordType_ESTest.java:583)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-46-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-SimFix-plausible",
+                    "failing": 1,
+                    "testrun": 43,
+                    "failings": [
+                        "test37(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test37(RecordType_ESTest.java:576)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 41.12
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-46-Arja-plausible.patch",
+            "project": "Closure",
+            "bugid": "46",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:36:21.179349",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-46-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-Kali-plausible",
+                    "failing": 5,
+                    "testrun": 44,
+                    "failings": [
+                        "test24(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test26(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test19(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test35(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test15(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.ClassCastException: com.google.javascript.rhino.jstype.RecordType cannot be cast to com.google.javascript.rhino.jstype.InstanceObjectType",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError: Exception was not thrown in com.google.javascript.rhino.jstype.JSType but in com.google.javascript.rhino.jstype.RecordType.getLeastSupertype(RecordType.java:142): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test24(RecordType_ESTest.java:438)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test26(RecordType_ESTest.java:472)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test19(RecordType_ESTest.java:352)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test35(RecordType_ESTest.java:588)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test15(RecordType_ESTest.java:284)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-46-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 123,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest",
+                        "com.google.javascript.rhino.jstype.RecordTypeBuilder_ESTest",
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-46-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-AVATAR",
+                    "failing": 7,
+                    "testrun": 34,
+                    "failings": [
+                        "test29(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test00(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test18(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test19(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test32(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test12(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test30(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.ClassCastException: com.google.javascript.rhino.jstype.RecordType cannot be cast to com.google.javascript.rhino.jstype.InstanceObjectType",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test29(RecordType_ESTest.java:495)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test00(RecordType_ESTest.java:54)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test18(RecordType_ESTest.java:342)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test19(RecordType_ESTest.java:357)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test32(RecordType_ESTest.java:544)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test12(RecordType_ESTest.java:244)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test30(RecordType_ESTest.java:510)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-46-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-kPAR-plausible",
+                    "failing": 8,
+                    "testrun": 43,
+                    "failings": [
+                        "test22(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test25(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test17(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test33(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test12(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test34(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test35(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test14(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.ClassCastException: com.google.javascript.rhino.jstype.RecordType cannot be cast to com.google.javascript.rhino.jstype.InstanceObjectType",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError",
+                        "java.lang.ClassCastException: com.google.javascript.rhino.jstype.RecordType cannot be cast to com.google.javascript.rhino.jstype.InstanceObjectType"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test22(RecordType_ESTest.java:397)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test25(RecordType_ESTest.java:433)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test17(RecordType_ESTest.java:333)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test33(RecordType_ESTest.java:546)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test12(RecordType_ESTest.java:244)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test34(RecordType_ESTest.java:564)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test35(RecordType_ESTest.java:583)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test14(RecordType_ESTest.java:280)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-46-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-SimFix-plausible",
+                    "failing": 12,
+                    "testrun": 43,
+                    "failings": [
+                        "test06(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test29(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test21(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test24(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test25(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test27(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test40(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test41(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test19(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test11(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test34(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test36(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.ClassCastException: com.google.javascript.rhino.jstype.RecordType cannot be cast to com.google.javascript.rhino.jstype.InstanceObjectType",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.ClassCastException: com.google.javascript.rhino.jstype.RecordType cannot be cast to com.google.javascript.rhino.jstype.InstanceObjectType",
+                        "java.lang.ClassCastException: com.google.javascript.rhino.jstype.RecordType cannot be cast to com.google.javascript.rhino.jstype.InstanceObjectType",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test06(RecordType_ESTest.java:126)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test29(RecordType_ESTest.java:468)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test21(RecordType_ESTest.java:351)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test24(RecordType_ESTest.java:406)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test25(RecordType_ESTest.java:420)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test27(RecordType_ESTest.java:440)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test40(RecordType_ESTest.java:614)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test41(RecordType_ESTest.java:628)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test19(RecordType_ESTest.java:318)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test11(RecordType_ESTest.java:181)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test34(RecordType_ESTest.java:539)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test36(RecordType_ESTest.java:562)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 41.24
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Closure/patch1-Closure-46-kPAR-plausible.patch",
+            "project": "Closure",
+            "bugid": "46",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:37:02.421482",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Closure/patch1-Closure-46-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-Kali-plausible",
+                    "failing": 1,
+                    "testrun": 44,
+                    "failings": [
+                        "test15(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in com.google.javascript.rhino.jstype.JSType but in com.google.javascript.rhino.jstype.RecordType.getLeastSupertype(RecordType.java:142): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test15(RecordType_ESTest.java:284)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Closure/patch1-Closure-46-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-Arja-plausible",
+                    "failing": 2,
+                    "testrun": 123,
+                    "failings": [
+                        "test32(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test33(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest",
+                        "com.google.javascript.rhino.jstype.RecordTypeBuilder_ESTest",
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test32(RecordType_ESTest.java:533)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test33(RecordType_ESTest.java:549)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Closure/patch1-Closure-46-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-AVATAR",
+                    "failing": 0,
+                    "testrun": 34,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Closure/patch1-Closure-46-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-kPAR-plausible",
+                    "failing": 0,
+                    "testrun": 43,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Closure/patch1-Closure-46-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-SimFix-plausible",
+                    "failing": 1,
+                    "testrun": 43,
+                    "failings": [
+                        "test37(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test37(RecordType_ESTest.java:576)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 41.53
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Closure/patch1-Closure-46-AVATAR.patch",
+            "project": "Closure",
+            "bugid": "46",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:37:43.953898",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Closure/patch1-Closure-46-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 44,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Closure/patch1-Closure-46-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-Arja-plausible",
+                    "failing": 2,
+                    "testrun": 123,
+                    "failings": [
+                        "test32(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test33(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest",
+                        "com.google.javascript.rhino.jstype.RecordTypeBuilder_ESTest",
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test32(RecordType_ESTest.java:533)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test33(RecordType_ESTest.java:549)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Closure/patch1-Closure-46-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-AVATAR",
+                    "failing": 0,
+                    "testrun": 34,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Closure/patch1-Closure-46-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-kPAR-plausible",
+                    "failing": 2,
+                    "testrun": 43,
+                    "failings": [
+                        "test34(com.google.javascript.rhino.jstype.RecordType_ESTest)",
+                        "test35(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test34(RecordType_ESTest.java:564)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test35(RecordType_ESTest.java:583)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Closure/patch1-Closure-46-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-46-SimFix-plausible",
+                    "failing": 1,
+                    "testrun": 43,
+                    "failings": [
+                        "test37(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test37(RecordType_ESTest.java:576)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 41.94
+        }
+    ],
+    "date": "2022-12-16T04:34:59.236772",
+    "duration": -0.0
+}

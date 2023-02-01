@@ -1,0 +1,333 @@
+{
+    "bugid": "Closure-10",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-10-GenProg-plausible.patch",
+            "project": "Closure",
+            "bugid": "10",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:33:50.072231",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-10-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-10-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 237,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.NodeUtil_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-10-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-10-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 105,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.PeepholeFoldConstants_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-10-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-10-Arja-plausible",
+                    "failing": 3,
+                    "testrun": 571,
+                    "failings": [
+                        "test249(com.google.javascript.rhino.Token_ESTest)",
+                        "test254(com.google.javascript.rhino.Node_ESTest)",
+                        "test255(com.google.javascript.rhino.Node_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.Token_ESTest",
+                        "com.google.javascript.rhino.Node_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<G[E]> but was:<G[T]>",
+                        "org.junit.ComparisonFailure: expected:<G[E] > but was:<G[T] >",
+                        "org.junit.ComparisonFailure: expected:<G[E] > but was:<G[T] >"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.Token_ESTest.test249(Token_ESTest.java:2956)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.Node_ESTest.test254(Node_ESTest.java)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.Node_ESTest.test255(Node_ESTest.java)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-10-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-10-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 218,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.NodeUtil_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 88.07
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-10-Kali-plausible.patch",
+            "project": "Closure",
+            "bugid": "10",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:35:18.143562",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-10-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-10-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 237,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.NodeUtil_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-10-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-10-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 105,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.PeepholeFoldConstants_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-10-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-10-Arja-plausible",
+                    "failing": 3,
+                    "testrun": 571,
+                    "failings": [
+                        "test249(com.google.javascript.rhino.Token_ESTest)",
+                        "test254(com.google.javascript.rhino.Node_ESTest)",
+                        "test255(com.google.javascript.rhino.Node_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.Token_ESTest",
+                        "com.google.javascript.rhino.Node_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<G[E]> but was:<G[T]>",
+                        "org.junit.ComparisonFailure: expected:<G[E] > but was:<G[T] >",
+                        "org.junit.ComparisonFailure: expected:<G[E] > but was:<G[T] >"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.Token_ESTest.test249(Token_ESTest.java:2956)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.Node_ESTest.test254(Node_ESTest.java)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.Node_ESTest.test255(Node_ESTest.java)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-10-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-10-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 218,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.NodeUtil_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 88.5
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-10-Arja-plausible.patch",
+            "project": "Closure",
+            "bugid": "10",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:36:46.648684",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-10-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-10-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 237,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.NodeUtil_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-10-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-10-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 105,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.PeepholeFoldConstants_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-10-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-10-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 571,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.Token_ESTest",
+                        "com.google.javascript.rhino.Node_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-10-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-10-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 218,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.NodeUtil_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 87.8
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-10-RSRepair-plausible.patch",
+            "project": "Closure",
+            "bugid": "10",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:38:14.446209",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-10-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-10-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 237,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.NodeUtil_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-10-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-10-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 105,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.PeepholeFoldConstants_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-10-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-10-Arja-plausible",
+                    "failing": 3,
+                    "testrun": 571,
+                    "failings": [
+                        "test249(com.google.javascript.rhino.Token_ESTest)",
+                        "test254(com.google.javascript.rhino.Node_ESTest)",
+                        "test255(com.google.javascript.rhino.Node_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.Token_ESTest",
+                        "com.google.javascript.rhino.Node_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<G[E]> but was:<G[T]>",
+                        "org.junit.ComparisonFailure: expected:<G[E] > but was:<G[T] >",
+                        "org.junit.ComparisonFailure: expected:<G[E] > but was:<G[T] >"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.Token_ESTest.test249(Token_ESTest.java:2956)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.Node_ESTest.test254(Node_ESTest.java)"
+                        ],
+                        [
+                            "com.google.javascript.rhino.Node_ESTest.test255(Node_ESTest.java)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-10-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-10-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 218,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.NodeUtil_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 88.0
+        }
+    ],
+    "date": "2022-12-16T03:33:50.071867",
+    "duration": -0.0
+}

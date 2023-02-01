@@ -1,0 +1,125 @@
+{
+    "bugid": "Math-78",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-78-Nopol-plausible.patch",
+            "project": "Math",
+            "bugid": "78",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T06:01:17.403477",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-78-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-78-Nopol-plausible",
+                    "failing": 0,
+                    "testrun": 40,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-78-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-78-AVATAR-plausible",
+                    "failing": 1,
+                    "testrun": 43,
+                    "failings": [
+                        "test29(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "06:01:38.239 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.MessagesResources"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest.test29(BrentSolver_ESTest.java:455)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 20.87
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Math/patch1-Math-78-AVATAR-plausible.patch",
+            "project": "Math",
+            "bugid": "78",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T06:01:38.277084",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Math/patch1-Math-78-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-78-Nopol-plausible",
+                    "failing": 5,
+                    "testrun": 40,
+                    "failings": [
+                        "test32(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest)",
+                        "test34(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest)",
+                        "test36(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest)",
+                        "test16(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest)",
+                        "test23(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<61> but was:<43>",
+                        "java.lang.AssertionError: expected:<21> but was:<27>",
+                        "java.lang.AssertionError: Expecting exception: Exception",
+                        "java.lang.AssertionError: expected:<39> but was:<43>",
+                        "java.lang.AssertionError: Expecting exception: Exception"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest.test32(BrentSolver_ESTest.java:467)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest.test34(BrentSolver_ESTest.java:488)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest.test36(BrentSolver_ESTest.java:511)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest.test16(BrentSolver_ESTest.java:232)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest.test23(BrentSolver_ESTest.java:342)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Math/patch1-Math-78-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-78-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 43,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 21.32
+        }
+    ],
+    "date": "2022-12-16T06:01:17.403203",
+    "duration": -0.0
+}

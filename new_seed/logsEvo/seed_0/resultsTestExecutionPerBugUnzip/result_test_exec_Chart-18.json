@@ -1,0 +1,102 @@
+{
+    "bugid": "Chart-18",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Chart/patch1-Chart-18-DynaMoth-plausible.patch",
+            "project": "Chart",
+            "bugid": "18",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:03:46.751413",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Chart/patch1-Chart-18-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-18-DynaMoth-plausible",
+                    "failing": 0,
+                    "testrun": 55,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.category.DefaultCategoryDataset_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Chart/patch1-Chart-18-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-18-SimFix-plausible",
+                    "failing": 2,
+                    "testrun": 55,
+                    "failings": [
+                        "test01(org.jfree.data.DefaultKeyedValues_ESTest)",
+                        "test45(org.jfree.data.DefaultKeyedValues_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.DefaultKeyedValues_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<2>",
+                        "java.lang.AssertionError: expected:<0> but was:<1>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.DefaultKeyedValues_ESTest.test01(DefaultKeyedValues_ESTest.java:42)"
+                        ],
+                        [
+                            "org.jfree.data.DefaultKeyedValues_ESTest.test45(DefaultKeyedValues_ESTest.java:582)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 31.35
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Chart/patch1-Chart-18-SimFix-plausible.patch",
+            "project": "Chart",
+            "bugid": "18",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:04:18.103436",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Chart/patch1-Chart-18-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-18-DynaMoth-plausible",
+                    "failing": 0,
+                    "testrun": 55,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.category.DefaultCategoryDataset_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Chart/patch1-Chart-18-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-18-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 55,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.DefaultKeyedValues_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 32.43
+        }
+    ],
+    "date": "2022-12-16T03:03:46.751117",
+    "duration": -0.0
+}

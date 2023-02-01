@@ -1,0 +1,2090 @@
+{
+    "bugid": "Chart-26",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Chart/patch1-Chart-26-jMutRepair-plausible.patch",
+            "project": "Chart",
+            "bugid": "26",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-21T23:52:58.740094",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Chart/patch1-Chart-26-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 221,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Chart/patch1-Chart-26-jMutRepair-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 103,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Chart/patch1-Chart-26-jMutRepair-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 87,
+                    "failings": [
+                        "test47(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test47(Axis_ESTest.java:753)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Chart/patch1-Chart-26-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-AVATAR-plausible",
+                    "failing": 1,
+                    "testrun": 219,
+                    "failings": [
+                        "test128(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0> but was:<1>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test128(CategoryPlot_ESTest.java:17704)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Chart/patch1-Chart-26-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 223,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Chart/patch1-Chart-26-jMutRepair-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid",
+                    "failing": 3,
+                    "testrun": 98,
+                    "failings": [
+                        "test04(org.jfree.chart.axis.Axis_ESTest)",
+                        "test00(org.jfree.chart.axis.Axis_ESTest)",
+                        "test37(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test04(Axis_ESTest.java:144)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test00(Axis_ESTest.java:87)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test37(Axis_ESTest.java:632)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Chart/patch1-Chart-26-jMutRepair-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Chart/patch1-Chart-26-jMutRepair-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-SOFix",
+                    "failing": 2,
+                    "testrun": 81,
+                    "failings": [
+                        "test40(org.jfree.chart.axis.Axis_ESTest)",
+                        "test26(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<11.43359375> but was:<11.515625>",
+                        "java.lang.AssertionError: expected:<-1.56640625> but was:<-1.984375>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test40(Axis_ESTest.java:662)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test26(Axis_ESTest.java:434)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Chart/patch1-Chart-26-jMutRepair-plausible.patch",
+                    "test": "test_from_WangDRR_patch3-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 84,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Chart/patch1-Chart-26-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-jMutRepair-plausible",
+                    "failing": 0,
+                    "testrun": 243,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Chart/patch1-Chart-26-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-FixMiner-plausible",
+                    "failing": 0,
+                    "testrun": 372,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 88.22
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-26-Kali-plausible.patch",
+            "project": "Chart",
+            "bugid": "26",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-21T23:54:26.964768",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-26-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 221,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-26-Kali-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 103,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-26-Kali-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-26-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-26-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 223,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-26-Kali-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid",
+                    "failing": 3,
+                    "testrun": 98,
+                    "failings": [
+                        "test04(org.jfree.chart.axis.Axis_ESTest)",
+                        "test00(org.jfree.chart.axis.Axis_ESTest)",
+                        "test37(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test04(Axis_ESTest.java:144)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test00(Axis_ESTest.java:87)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test37(Axis_ESTest.java:632)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-26-Kali-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-26-Kali-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-SOFix",
+                    "failing": 2,
+                    "testrun": 81,
+                    "failings": [
+                        "test40(org.jfree.chart.axis.Axis_ESTest)",
+                        "test26(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<11.43359375> but was:<11.515625>",
+                        "java.lang.AssertionError: expected:<-1.56640625> but was:<-1.984375>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test40(Axis_ESTest.java:662)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test26(Axis_ESTest.java:434)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-26-Kali-plausible.patch",
+                    "test": "test_from_WangDRR_patch3-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 84,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-26-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-jMutRepair-plausible",
+                    "failing": 0,
+                    "testrun": 243,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-26-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-FixMiner-plausible",
+                    "failing": 0,
+                    "testrun": 372,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 82.37
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-26-FixMiner-plausible.patch",
+            "project": "Chart",
+            "bugid": "26",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-21T23:55:49.338416",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-26-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 221,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-26-FixMiner-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 103,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-26-FixMiner-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-26-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-26-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 223,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-26-FixMiner-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid",
+                    "failing": 3,
+                    "testrun": 98,
+                    "failings": [
+                        "test04(org.jfree.chart.axis.Axis_ESTest)",
+                        "test00(org.jfree.chart.axis.Axis_ESTest)",
+                        "test37(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test04(Axis_ESTest.java:144)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test00(Axis_ESTest.java:87)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test37(Axis_ESTest.java:632)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-26-FixMiner-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-26-FixMiner-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-SOFix",
+                    "failing": 2,
+                    "testrun": 81,
+                    "failings": [
+                        "test40(org.jfree.chart.axis.Axis_ESTest)",
+                        "test26(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<11.43359375> but was:<11.515625>",
+                        "java.lang.AssertionError: expected:<-1.56640625> but was:<-1.984375>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test40(Axis_ESTest.java:662)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test26(Axis_ESTest.java:434)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-26-FixMiner-plausible.patch",
+                    "test": "test_from_WangDRR_patch3-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 84,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-26-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-jMutRepair-plausible",
+                    "failing": 0,
+                    "testrun": 243,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-26-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-FixMiner-plausible",
+                    "failing": 0,
+                    "testrun": 372,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 83.18
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Chart/patch1-Chart-26-AVATAR-plausible.patch",
+            "project": "Chart",
+            "bugid": "26",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-21T23:57:12.520959",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Chart/patch1-Chart-26-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 221,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Chart/patch1-Chart-26-AVATAR-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 103,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Chart/patch1-Chart-26-AVATAR-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Chart/patch1-Chart-26-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Chart/patch1-Chart-26-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 223,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Chart/patch1-Chart-26-AVATAR-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid",
+                    "failing": 3,
+                    "testrun": 98,
+                    "failings": [
+                        "test04(org.jfree.chart.axis.Axis_ESTest)",
+                        "test00(org.jfree.chart.axis.Axis_ESTest)",
+                        "test37(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test04(Axis_ESTest.java:144)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test00(Axis_ESTest.java:87)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test37(Axis_ESTest.java:632)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Chart/patch1-Chart-26-AVATAR-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Chart/patch1-Chart-26-AVATAR-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-SOFix",
+                    "failing": 2,
+                    "testrun": 81,
+                    "failings": [
+                        "test40(org.jfree.chart.axis.Axis_ESTest)",
+                        "test26(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<11.43359375> but was:<11.515625>",
+                        "java.lang.AssertionError: expected:<-1.56640625> but was:<-1.984375>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test40(Axis_ESTest.java:662)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test26(Axis_ESTest.java:434)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Chart/patch1-Chart-26-AVATAR-plausible.patch",
+                    "test": "test_from_WangDRR_patch3-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 84,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Chart/patch1-Chart-26-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-jMutRepair-plausible",
+                    "failing": 0,
+                    "testrun": 243,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Chart/patch1-Chart-26-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-FixMiner-plausible",
+                    "failing": 0,
+                    "testrun": 372,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 82.04
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-26-TBar-plausible.patch",
+            "project": "Chart",
+            "bugid": "26",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-21T23:58:34.559394",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-26-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 221,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-26-TBar-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 103,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-26-TBar-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-26-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-AVATAR-plausible",
+                    "failing": 1,
+                    "testrun": 219,
+                    "failings": [
+                        "test128(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0> but was:<1>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test128(CategoryPlot_ESTest.java:17704)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-26-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 223,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-26-TBar-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid",
+                    "failing": 3,
+                    "testrun": 98,
+                    "failings": [
+                        "test04(org.jfree.chart.axis.Axis_ESTest)",
+                        "test00(org.jfree.chart.axis.Axis_ESTest)",
+                        "test37(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test04(Axis_ESTest.java:144)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test00(Axis_ESTest.java:87)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test37(Axis_ESTest.java:632)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-26-TBar-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-26-TBar-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-SOFix",
+                    "failing": 2,
+                    "testrun": 81,
+                    "failings": [
+                        "test40(org.jfree.chart.axis.Axis_ESTest)",
+                        "test26(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<11.43359375> but was:<11.515625>",
+                        "java.lang.AssertionError: expected:<-1.56640625> but was:<-1.984375>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test40(Axis_ESTest.java:662)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test26(Axis_ESTest.java:434)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-26-TBar-plausible.patch",
+                    "test": "test_from_WangDRR_patch3-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 84,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-26-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-jMutRepair-plausible",
+                    "failing": 0,
+                    "testrun": 243,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-26-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-FixMiner-plausible",
+                    "failing": 0,
+                    "testrun": 372,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 82.9
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Chart/patch1-Chart-26-SOFix.patch",
+            "project": "Chart",
+            "bugid": "26",
+            "dataset": "Patches_others",
+            "date": "2022-12-21T23:59:57.464005",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Chart/patch1-Chart-26-SOFix.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 221,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Chart/patch1-Chart-26-SOFix.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 103,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Chart/patch1-Chart-26-SOFix.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Chart/patch1-Chart-26-SOFix.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Chart/patch1-Chart-26-SOFix.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 223,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Chart/patch1-Chart-26-SOFix.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Chart/patch1-Chart-26-SOFix.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Chart/patch1-Chart-26-SOFix.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-SOFix",
+                    "failing": 2,
+                    "testrun": 81,
+                    "failings": [
+                        "test40(org.jfree.chart.axis.Axis_ESTest)",
+                        "test26(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<11.43359375> but was:<11.515625>",
+                        "java.lang.AssertionError: expected:<-1.56640625> but was:<-1.984375>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test40(Axis_ESTest.java:662)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test26(Axis_ESTest.java:434)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Chart/patch1-Chart-26-SOFix.patch",
+                    "test": "test_from_WangDRR_patch3-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 84,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Chart/patch1-Chart-26-SOFix.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-jMutRepair-plausible",
+                    "failing": 0,
+                    "testrun": 243,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Chart/patch1-Chart-26-SOFix.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-FixMiner-plausible",
+                    "failing": 0,
+                    "testrun": 372,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 82.28
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch3-Chart-26-Jaid.patch",
+            "project": "Chart",
+            "bugid": "26",
+            "dataset": "Patches_others",
+            "date": "2022-12-22T00:01:19.741941",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch3-Chart-26-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 221,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch3-Chart-26-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 103,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch3-Chart-26-Jaid.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch3-Chart-26-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch3-Chart-26-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 223,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch3-Chart-26-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch3-Chart-26-Jaid.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch3-Chart-26-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-SOFix",
+                    "failing": 2,
+                    "testrun": 81,
+                    "failings": [
+                        "test40(org.jfree.chart.axis.Axis_ESTest)",
+                        "test26(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<11.43359375> but was:<11.515625>",
+                        "java.lang.AssertionError: expected:<-1.56640625> but was:<-1.984375>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test40(Axis_ESTest.java:662)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test26(Axis_ESTest.java:434)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch3-Chart-26-Jaid.patch",
+                    "test": "test_from_WangDRR_patch3-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 84,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch3-Chart-26-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-jMutRepair-plausible",
+                    "failing": 0,
+                    "testrun": 243,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch3-Chart-26-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-FixMiner-plausible",
+                    "failing": 0,
+                    "testrun": 372,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 82.4
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch2-Chart-26-Jaid.patch",
+            "project": "Chart",
+            "bugid": "26",
+            "dataset": "Patches_others",
+            "date": "2022-12-22T00:02:42.143166",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch2-Chart-26-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 221,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch2-Chart-26-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 103,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch2-Chart-26-Jaid.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch2-Chart-26-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch2-Chart-26-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 223,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch2-Chart-26-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch2-Chart-26-Jaid.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch2-Chart-26-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-SOFix",
+                    "failing": 2,
+                    "testrun": 81,
+                    "failings": [
+                        "test40(org.jfree.chart.axis.Axis_ESTest)",
+                        "test26(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<11.43359375> but was:<11.515625>",
+                        "java.lang.AssertionError: expected:<-1.56640625> but was:<-1.984375>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test40(Axis_ESTest.java:662)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test26(Axis_ESTest.java:434)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch2-Chart-26-Jaid.patch",
+                    "test": "test_from_WangDRR_patch3-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 84,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch2-Chart-26-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-jMutRepair-plausible",
+                    "failing": 0,
+                    "testrun": 243,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch2-Chart-26-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-FixMiner-plausible",
+                    "failing": 0,
+                    "testrun": 372,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 82.13
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch1-Chart-26-Jaid.patch",
+            "project": "Chart",
+            "bugid": "26",
+            "dataset": "Patches_others",
+            "date": "2022-12-22T00:04:04.274241",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch1-Chart-26-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 221,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch1-Chart-26-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 103,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch1-Chart-26-Jaid.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch1-Chart-26-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch1-Chart-26-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 223,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch1-Chart-26-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 98,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch1-Chart-26-Jaid.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch1-Chart-26-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-SOFix",
+                    "failing": 2,
+                    "testrun": 81,
+                    "failings": [
+                        "test40(org.jfree.chart.axis.Axis_ESTest)",
+                        "test26(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<11.43359375> but was:<11.515625>",
+                        "java.lang.AssertionError: expected:<-1.56640625> but was:<-1.984375>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test40(Axis_ESTest.java:662)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test26(Axis_ESTest.java:434)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch1-Chart-26-Jaid.patch",
+                    "test": "test_from_WangDRR_patch3-Chart-26-Jaid",
+                    "failing": 0,
+                    "testrun": 84,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch1-Chart-26-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-jMutRepair-plausible",
+                    "failing": 0,
+                    "testrun": 243,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Chart/patch1-Chart-26-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-FixMiner-plausible",
+                    "failing": 0,
+                    "testrun": 372,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 81.91
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch2-Chart-26-Jaid-plausible.patch",
+            "project": "Chart",
+            "bugid": "26",
+            "dataset": "Patches_others",
+            "date": "2022-12-22T00:05:26.181925",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch2-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 221,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch2-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 103,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch2-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch2-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch2-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 223,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch2-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid",
+                    "failing": 5,
+                    "testrun": 98,
+                    "failings": [
+                        "test49(org.jfree.chart.axis.Axis_ESTest)",
+                        "test48(org.jfree.chart.axis.Axis_ESTest)",
+                        "test16(org.jfree.chart.axis.Axis_ESTest)",
+                        "test09(org.jfree.chart.axis.Axis_ESTest)",
+                        "test36(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test49(Axis_ESTest.java:840)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test48(Axis_ESTest.java:821)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test16(Axis_ESTest.java:334)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test09(Axis_ESTest.java:230)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test36(Axis_ESTest.java:615)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch2-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid",
+                    "failing": 1,
+                    "testrun": 87,
+                    "failings": [
+                        "test17(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test17(Axis_ESTest.java:355)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch2-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-SOFix",
+                    "failing": 2,
+                    "testrun": 81,
+                    "failings": [
+                        "test40(org.jfree.chart.axis.Axis_ESTest)",
+                        "test26(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<11.43359375> but was:<11.515625>",
+                        "java.lang.AssertionError: expected:<-1.56640625> but was:<-1.984375>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test40(Axis_ESTest.java:662)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test26(Axis_ESTest.java:434)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch2-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch3-Chart-26-Jaid",
+                    "failing": 1,
+                    "testrun": 84,
+                    "failings": [
+                        "test13(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test13(Axis_ESTest.java:280)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch2-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-jMutRepair-plausible",
+                    "failing": 0,
+                    "testrun": 243,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch2-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-FixMiner-plausible",
+                    "failing": 0,
+                    "testrun": 372,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 81.8
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch1-Chart-26-Jaid-plausible.patch",
+            "project": "Chart",
+            "bugid": "26",
+            "dataset": "Patches_others",
+            "date": "2022-12-22T00:06:47.987180",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch1-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 221,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch1-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 103,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch1-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 87,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch1-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch1-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 223,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch1-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-Jaid",
+                    "failing": 5,
+                    "testrun": 98,
+                    "failings": [
+                        "test49(org.jfree.chart.axis.Axis_ESTest)",
+                        "test48(org.jfree.chart.axis.Axis_ESTest)",
+                        "test16(org.jfree.chart.axis.Axis_ESTest)",
+                        "test09(org.jfree.chart.axis.Axis_ESTest)",
+                        "test36(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test49(Axis_ESTest.java:840)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test48(Axis_ESTest.java:821)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test16(Axis_ESTest.java:334)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test09(Axis_ESTest.java:230)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test36(Axis_ESTest.java:615)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch1-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Chart-26-Jaid",
+                    "failing": 1,
+                    "testrun": 87,
+                    "failings": [
+                        "test17(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test17(Axis_ESTest.java:355)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch1-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Chart-26-SOFix",
+                    "failing": 2,
+                    "testrun": 81,
+                    "failings": [
+                        "test40(org.jfree.chart.axis.Axis_ESTest)",
+                        "test26(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<11.43359375> but was:<11.515625>",
+                        "java.lang.AssertionError: expected:<-1.56640625> but was:<-1.984375>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test40(Axis_ESTest.java:662)"
+                        ],
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test26(Axis_ESTest.java:434)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch1-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch3-Chart-26-Jaid",
+                    "failing": 1,
+                    "testrun": 84,
+                    "failings": [
+                        "test13(org.jfree.chart.axis.Axis_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.axis.Axis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.axis.Axis_ESTest.test13(Axis_ESTest.java:280)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch1-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-jMutRepair-plausible",
+                    "failing": 0,
+                    "testrun": 243,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Chart/patch1-Chart-26-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-26-FixMiner-plausible",
+                    "failing": 0,
+                    "testrun": 372,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 82.86
+        }
+    ],
+    "date": "2022-12-21T23:52:58.739160",
+    "duration": -0.0
+}

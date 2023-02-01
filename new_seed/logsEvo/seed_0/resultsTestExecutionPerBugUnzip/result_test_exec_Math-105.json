@@ -1,0 +1,175 @@
+{
+    "bugid": "Math-105",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-105-DynaMoth-plausible.patch",
+            "project": "Math",
+            "bugid": "105",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T02:03:41.250572",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-105-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-105-Nopol-plausible",
+                    "failing": 7,
+                    "testrun": 53,
+                    "failings": [
+                        "test26(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test15(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test13(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test11(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test05(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test47(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test08(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.regression.SimpleRegression_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<546917.5693218402> but was:<410188.17699138017>",
+                        "java.lang.AssertionError: expected:<11.003896144533178> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1.7790415682689698> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<0.11414497982915262> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<-1.82336800758206669E18> but was:<-8672695.473058725>",
+                        "java.lang.AssertionError: expected:<-173.3296148621124> but was:<0.0>",
+                        "java.lang.AssertionError: expected:<1093835.1386436804> but was:<820376.3539827603>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test26(SimpleRegression_ESTest.java:348)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test15(SimpleRegression_ESTest.java:218)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test13(SimpleRegression_ESTest.java:188)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test11(SimpleRegression_ESTest.java:162)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test05(SimpleRegression_ESTest.java:90)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test47(SimpleRegression_ESTest.java:597)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test08(SimpleRegression_ESTest.java:124)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-105-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-105-DynaMoth-plausible",
+                    "failing": 0,
+                    "testrun": 52,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.regression.SimpleRegression_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 18.09
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-105-Nopol-plausible.patch",
+            "project": "Math",
+            "bugid": "105",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T02:03:59.346078",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-105-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-105-Nopol-plausible",
+                    "failing": 0,
+                    "testrun": 53,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.regression.SimpleRegression_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-105-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-105-DynaMoth-plausible",
+                    "failing": 9,
+                    "testrun": 52,
+                    "failings": [
+                        "test31(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test15(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test13(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test12(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test19(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test17(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test05(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test45(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)",
+                        "test44(org.apache.commons.math.stat.regression.SimpleRegression_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.regression.SimpleRegression_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<NaN>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<NaN>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<NaN>",
+                        "java.lang.AssertionError: expected:<0.31307218596877295> but was:<NaN>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<NaN>",
+                        "java.lang.AssertionError: expected:<1.0> but was:<NaN>",
+                        "java.lang.AssertionError: expected:<1095920.6704052293> but was:<548827.9352026146>",
+                        "java.lang.AssertionError: expected:<-3.3881317890172014E-21> but was:<NaN>",
+                        "java.lang.AssertionError: expected:<-1.0000000000000002> but was:<NaN>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test31(SimpleRegression_ESTest.java:452)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test15(SimpleRegression_ESTest.java:237)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test13(SimpleRegression_ESTest.java:210)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test12(SimpleRegression_ESTest.java:199)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test19(SimpleRegression_ESTest.java:294)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test17(SimpleRegression_ESTest.java:267)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test05(SimpleRegression_ESTest.java:110)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test45(SimpleRegression_ESTest.java:622)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.regression.SimpleRegression_ESTest.test44(SimpleRegression_ESTest.java:611)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 16.81
+        }
+    ],
+    "date": "2022-12-16T02:03:41.250294",
+    "duration": -0.0
+}

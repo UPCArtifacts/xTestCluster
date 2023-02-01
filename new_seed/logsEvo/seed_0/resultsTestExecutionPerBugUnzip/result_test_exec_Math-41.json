@@ -1,0 +1,277 @@
+{
+    "bugid": "Math-41",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-41-DynaMoth-plausible.patch",
+            "project": "Math",
+            "bugid": "41",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T00:50:02.469590",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-41-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-41-SimFix",
+                    "failing": 6,
+                    "testrun": 79,
+                    "failings": [
+                        "test29(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test28(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test27(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test26(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test25(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test38(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic but in org.apache.commons.math.stat.descriptive.moment.Variance.evaluate(Variance.java:318): java.lang.ArrayIndexOutOfBoundsException: 0",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic but in org.apache.commons.math.stat.descriptive.moment.Variance.evaluate(Variance.java:318): java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.ArrayIndexOutOfBoundsException: 0",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.ArrayIndexOutOfBoundsException: 0"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test29(Variance_ESTest.java:336)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test28(Variance_ESTest.java:319)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test27(Variance_ESTest.java:295)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test26(Variance_ESTest.java:279)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test25(Variance_ESTest.java:262)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test38(Variance_ESTest.java:483)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-41-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-41-Nopol-plausible",
+                    "failing": 2,
+                    "testrun": 42,
+                    "failings": [
+                        "test32(org.apache.commons.math.stat.descriptive.moment.Mean_ESTest)",
+                        "test01(org.apache.commons.math.stat.descriptive.moment.Mean_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<NaN> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<NaN> but was:<212.84>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest.test32(Mean_ESTest.java:440)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest.test01(Mean_ESTest.java:39)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-41-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-41-DynaMoth-plausible",
+                    "failing": 0,
+                    "testrun": 81,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 24.31
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-41-Nopol-plausible.patch",
+            "project": "Math",
+            "bugid": "41",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T00:50:26.781092",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-41-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-41-SimFix",
+                    "failing": 1,
+                    "testrun": 79,
+                    "failings": [
+                        "test13(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1467.282263199803> but was:<NaN>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test13(Variance_ESTest.java:138)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-41-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-41-Nopol-plausible",
+                    "failing": 0,
+                    "testrun": 42,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-41-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-41-DynaMoth-plausible",
+                    "failing": 3,
+                    "testrun": 81,
+                    "failings": [
+                        "test66(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test24(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test37(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.ArrayIndexOutOfBoundsException: -2146437945",
+                        "00:50:52.540 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: META-INF/localization/LocalizedFormats",
+                        "org.apache.commons.math.exception.MathIllegalArgumentException: weigth array must contain at least one non-zero value"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test66(Variance_ESTest.java:883)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test24(Variance_ESTest.java:290)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test37(Variance_ESTest.java:511)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 25.81
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Math/patch1-Math-41-SimFix.patch",
+            "project": "Math",
+            "bugid": "41",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T00:50:52.590636",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Math/patch1-Math-41-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-41-SimFix",
+                    "failing": 0,
+                    "testrun": 79,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Math/patch1-Math-41-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-41-Nopol-plausible",
+                    "failing": 2,
+                    "testrun": 42,
+                    "failings": [
+                        "test32(org.apache.commons.math.stat.descriptive.moment.Mean_ESTest)",
+                        "test01(org.apache.commons.math.stat.descriptive.moment.Mean_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<NaN> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<NaN> but was:<212.84>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest.test32(Mean_ESTest.java:440)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Mean_ESTest.test01(Mean_ESTest.java:39)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Math/patch1-Math-41-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-41-DynaMoth-plausible",
+                    "failing": 4,
+                    "testrun": 81,
+                    "failings": [
+                        "test07(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test66(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test24(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)",
+                        "test37(org.apache.commons.math.stat.descriptive.moment.Variance_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.9999996786047155> but was:<NaN>",
+                        "java.lang.ArrayIndexOutOfBoundsException: -2146437945",
+                        "00:51:17.038 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: META-INF/localization/LocalizedFormats",
+                        "org.apache.commons.math.exception.MathIllegalArgumentException: weigth array must contain at least one non-zero value"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test07(Variance_ESTest.java:94)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test66(Variance_ESTest.java:883)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test24(Variance_ESTest.java:290)"
+                        ],
+                        [
+                            "org.apache.commons.math.stat.descriptive.moment.Variance_ESTest.test37(Variance_ESTest.java:511)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 24.49
+        }
+    ],
+    "date": "2022-12-16T00:50:02.469316",
+    "duration": -0.0
+}

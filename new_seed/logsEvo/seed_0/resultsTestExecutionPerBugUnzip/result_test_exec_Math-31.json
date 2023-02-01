@@ -1,0 +1,93 @@
+{
+    "bugid": "Math-31",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Math/patch1-Math-31-GenProg-plausible.patch",
+            "project": "Math",
+            "bugid": "31",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:23:31.411911",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Math/patch1-Math-31-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-31-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 1,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.util.ContinuedFraction_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Math/patch1-Math-31-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-31-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 38,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.exception.MathIllegalStateException_ESTest",
+                        "org.apache.commons.math3.distribution.FDistribution_ESTest",
+                        "org.apache.commons.math3.util.ContinuedFraction_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 21.76
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-31-Kali-plausible.patch",
+            "project": "Math",
+            "bugid": "31",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:23:53.177018",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-31-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-31-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 1,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.util.ContinuedFraction_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-31-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-31-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 38,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.exception.MathIllegalStateException_ESTest",
+                        "org.apache.commons.math3.distribution.FDistribution_ESTest",
+                        "org.apache.commons.math3.util.ContinuedFraction_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 21.57
+        }
+    ],
+    "date": "2022-12-16T03:23:31.411634",
+    "duration": -0.0
+}

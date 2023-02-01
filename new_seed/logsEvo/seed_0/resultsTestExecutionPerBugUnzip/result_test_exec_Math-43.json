@@ -1,0 +1,97 @@
+{
+    "bugid": "Math-43",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Math/patch1-Math-43-SimFix-plausible.patch",
+            "project": "Math",
+            "bugid": "43",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:28:57.670010",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Math/patch1-Math-43-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-43-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 102,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.SummaryStatistics_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Math/patch1-Math-43-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-43-kPAR-plausible",
+                    "failing": 0,
+                    "testrun": 109,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.SummaryStatistics_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 23.31
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Math/patch1-Math-43-kPAR-plausible.patch",
+            "project": "Math",
+            "bugid": "43",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:29:20.984905",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Math/patch1-Math-43-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-43-SimFix-plausible",
+                    "failing": 1,
+                    "testrun": 102,
+                    "failings": [
+                        "test076(org.apache.commons.math.stat.descriptive.SummaryStatistics_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.SummaryStatistics_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.descriptive.SummaryStatistics_ESTest.test076(SummaryStatistics_ESTest.java:873)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Math/patch1-Math-43-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-43-kPAR-plausible",
+                    "failing": 0,
+                    "testrun": 109,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.SummaryStatistics_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 23.37
+        }
+    ],
+    "date": "2022-12-16T04:28:57.669721",
+    "duration": -0.0
+}

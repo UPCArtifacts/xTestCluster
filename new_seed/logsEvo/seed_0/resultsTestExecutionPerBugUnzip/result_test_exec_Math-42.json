@@ -1,0 +1,97 @@
+{
+    "bugid": "Math-42",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-42-Nopol-plausible.patch",
+            "project": "Math",
+            "bugid": "42",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T06:00:29.489345",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-42-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-42-Nopol-plausible",
+                    "failing": 0,
+                    "testrun": 76,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-42-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-42-kPAR-plausible",
+                    "failing": 0,
+                    "testrun": 75,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 23.78
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Math/patch1-Math-42-kPAR-plausible.patch",
+            "project": "Math",
+            "bugid": "42",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T06:00:53.269177",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Math/patch1-Math-42-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-42-Nopol-plausible",
+                    "failing": 1,
+                    "testrun": 76,
+                    "failings": [
+                        "test72(org.apache.commons.math.optimization.linear.SimplexTableau_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<0.0> but was:<-1.5268114740029824E9>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest.test72(SimplexTableau_ESTest.java:2755)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Math/patch1-Math-42-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-42-kPAR-plausible",
+                    "failing": 0,
+                    "testrun": 75,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 24.13
+        }
+    ],
+    "date": "2022-12-16T06:00:29.489044",
+    "duration": -0.0
+}

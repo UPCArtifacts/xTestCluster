@@ -1,0 +1,973 @@
+{
+    "bugid": "Chart-3",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Chart/patch1-Chart-3-GenProg-plausible.patch",
+            "project": "Chart",
+            "bugid": "3",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:24:14.753999",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Chart/patch1-Chart-3-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 156,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Chart/patch1-Chart-3-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-SimFix-plausible",
+                    "failing": 2,
+                    "testrun": 157,
+                    "failings": [
+                        "test091(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test131(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test091(TimeSeries_ESTest.java:1328)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test131(TimeSeries_ESTest.java:1871)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Chart/patch1-Chart-3-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-kPAR-plausible",
+                    "failing": 2,
+                    "testrun": 165,
+                    "failings": [
+                        "test095(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test141(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test095(TimeSeries_ESTest.java:1364)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test141(TimeSeries_ESTest.java:1965)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Chart/patch1-Chart-3-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-TBar-plausible",
+                    "failing": 1,
+                    "testrun": 163,
+                    "failings": [
+                        "test139(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test139(TimeSeries_ESTest.java:1974)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Chart/patch1-Chart-3-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-Arja-plusible",
+                    "failing": 2,
+                    "testrun": 159,
+                    "failings": [
+                        "test092(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test135(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test092(TimeSeries_ESTest.java:1268)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test135(TimeSeries_ESTest.java:1819)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Chart/patch1-Chart-3-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-jGenProg-plausible",
+                    "failing": 1,
+                    "testrun": 164,
+                    "failings": [
+                        "test143(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test143(TimeSeries_ESTest.java:2037)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Chart/patch1-Chart-3-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-FixMiner-plausible",
+                    "failing": 2,
+                    "testrun": 160,
+                    "failings": [
+                        "test093(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test136(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test093(TimeSeries_ESTest.java:1332)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test136(TimeSeries_ESTest.java:1911)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 49.77
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Chart/patch1-Chart-3-SimFix-plausible.patch",
+            "project": "Chart",
+            "bugid": "3",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:25:04.529300",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Chart/patch1-Chart-3-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-GenProg-plausible",
+                    "failing": 5,
+                    "testrun": 156,
+                    "failings": [
+                        "test067(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test002(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test093(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test000(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test040(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'item\\' argument.",
+                        "java.lang.AssertionError: expected:<NaN> but was:<1.0>",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'item\\' argument.",
+                        "java.lang.AssertionError: expected:<53.0> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<NaN> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test067(TimeSeries_ESTest.java:910)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test002(TimeSeries_ESTest.java:63)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test093(TimeSeries_ESTest.java:1317)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test000(TimeSeries_ESTest.java:41)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test040(TimeSeries_ESTest.java:473)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Chart/patch1-Chart-3-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 157,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Chart/patch1-Chart-3-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-kPAR-plausible",
+                    "failing": 2,
+                    "testrun": 165,
+                    "failings": [
+                        "test037(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test035(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<NaN> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test037(TimeSeries_ESTest.java:472)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test035(TimeSeries_ESTest.java:449)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Chart/patch1-Chart-3-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-TBar-plausible",
+                    "failing": 3,
+                    "testrun": 163,
+                    "failings": [
+                        "test071(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test002(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test040(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'item\\' argument.",
+                        "java.lang.AssertionError: expected:<2958465.0> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<0.0> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test071(TimeSeries_ESTest.java:1032)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test002(TimeSeries_ESTest.java:80)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test040(TimeSeries_ESTest.java:533)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Chart/patch1-Chart-3-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-Arja-plusible",
+                    "failing": 1,
+                    "testrun": 159,
+                    "failings": [
+                        "test111(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<NaN> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test111(TimeSeries_ESTest.java:1511)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Chart/patch1-Chart-3-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-jGenProg-plausible",
+                    "failing": 3,
+                    "testrun": 164,
+                    "failings": [
+                        "test101(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test004(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test007(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'item\\' argument.",
+                        "java.lang.AssertionError: expected:<2958465.0> but was:<1.0>",
+                        "java.lang.AssertionError: expected:<NaN> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test101(TimeSeries_ESTest.java:1464)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test004(TimeSeries_ESTest.java:106)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test007(TimeSeries_ESTest.java:154)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Chart/patch1-Chart-3-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-FixMiner-plausible",
+                    "failing": 1,
+                    "testrun": 160,
+                    "failings": [
+                        "test004(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<NaN> but was:<1.0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test004(TimeSeries_ESTest.java:101)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 51.38
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-3-Arja-plusible.patch",
+            "project": "Chart",
+            "bugid": "3",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:25:55.913302",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-3-Arja-plusible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-GenProg-plausible",
+                    "failing": 2,
+                    "testrun": 156,
+                    "failings": [
+                        "test067(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test093(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'item\\' argument.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'item\\' argument."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test067(TimeSeries_ESTest.java:910)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test093(TimeSeries_ESTest.java:1317)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-3-Arja-plusible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 157,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-3-Arja-plusible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-kPAR-plausible",
+                    "failing": 2,
+                    "testrun": 165,
+                    "failings": [
+                        "test090(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test140(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test090(TimeSeries_ESTest.java:1288)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test140(TimeSeries_ESTest.java:1949)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-3-Arja-plusible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-TBar-plausible",
+                    "failing": 2,
+                    "testrun": 163,
+                    "failings": [
+                        "test071(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test138(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'item\\' argument.",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test071(TimeSeries_ESTest.java:1032)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test138(TimeSeries_ESTest.java:1958)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-3-Arja-plusible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-Arja-plusible",
+                    "failing": 0,
+                    "testrun": 159,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-3-Arja-plusible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-jGenProg-plausible",
+                    "failing": 1,
+                    "testrun": 164,
+                    "failings": [
+                        "test101(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'item\\' argument."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test101(TimeSeries_ESTest.java:1464)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-3-Arja-plusible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-FixMiner-plausible",
+                    "failing": 2,
+                    "testrun": 160,
+                    "failings": [
+                        "test086(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test135(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: RuntimeException",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test086(TimeSeries_ESTest.java:1227)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test135(TimeSeries_ESTest.java:1895)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 50.71
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Chart/patch1-Chart-3-jGenProg-plausible.patch",
+            "project": "Chart",
+            "bugid": "3",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:26:46.623882",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Chart/patch1-Chart-3-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-GenProg-plausible",
+                    "failing": 1,
+                    "testrun": 156,
+                    "failings": [
+                        "test067(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'item\\' argument."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test067(TimeSeries_ESTest.java:910)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Chart/patch1-Chart-3-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-SimFix-plausible",
+                    "failing": 1,
+                    "testrun": 157,
+                    "failings": [
+                        "test131(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test131(TimeSeries_ESTest.java:1871)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Chart/patch1-Chart-3-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-kPAR-plausible",
+                    "failing": 1,
+                    "testrun": 165,
+                    "failings": [
+                        "test095(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test095(TimeSeries_ESTest.java:1364)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Chart/patch1-Chart-3-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 163,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Chart/patch1-Chart-3-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-Arja-plusible",
+                    "failing": 1,
+                    "testrun": 159,
+                    "failings": [
+                        "test092(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test092(TimeSeries_ESTest.java:1268)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Chart/patch1-Chart-3-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-jGenProg-plausible",
+                    "failing": 0,
+                    "testrun": 164,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Chart/patch1-Chart-3-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-FixMiner-plausible",
+                    "failing": 1,
+                    "testrun": 160,
+                    "failings": [
+                        "test093(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test093(TimeSeries_ESTest.java:1332)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 50.95
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-3-FixMiner-plausible.patch",
+            "project": "Chart",
+            "bugid": "3",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:27:37.572063",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-3-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-GenProg-plausible",
+                    "failing": 2,
+                    "testrun": 156,
+                    "failings": [
+                        "test067(org.jfree.data.time.TimeSeries_ESTest)",
+                        "test093(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'item\\' argument.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'item\\' argument."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test067(TimeSeries_ESTest.java:910)"
+                        ],
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test093(TimeSeries_ESTest.java:1317)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-3-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 157,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-3-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-kPAR-plausible",
+                    "failing": 0,
+                    "testrun": 165,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-3-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-TBar-plausible",
+                    "failing": 1,
+                    "testrun": 163,
+                    "failings": [
+                        "test071(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'item\\' argument."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test071(TimeSeries_ESTest.java:1032)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-3-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-Arja-plusible",
+                    "failing": 0,
+                    "testrun": 159,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-3-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-jGenProg-plausible",
+                    "failing": 1,
+                    "testrun": 164,
+                    "failings": [
+                        "test101(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'item\\' argument."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test101(TimeSeries_ESTest.java:1464)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-3-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-FixMiner-plausible",
+                    "failing": 0,
+                    "testrun": 160,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 56.36
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-3-TBar-plausible.patch",
+            "project": "Chart",
+            "bugid": "3",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:28:33.930793",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-3-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-GenProg-plausible",
+                    "failing": 1,
+                    "testrun": 156,
+                    "failings": [
+                        "test067(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'item\\' argument."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test067(TimeSeries_ESTest.java:910)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-3-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-SimFix-plausible",
+                    "failing": 1,
+                    "testrun": 157,
+                    "failings": [
+                        "test131(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test131(TimeSeries_ESTest.java:1871)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-3-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-kPAR-plausible",
+                    "failing": 1,
+                    "testrun": 165,
+                    "failings": [
+                        "test095(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test095(TimeSeries_ESTest.java:1364)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-3-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 163,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-3-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-Arja-plusible",
+                    "failing": 1,
+                    "testrun": 159,
+                    "failings": [
+                        "test092(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test092(TimeSeries_ESTest.java:1268)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-3-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-jGenProg-plausible",
+                    "failing": 0,
+                    "testrun": 164,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-3-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-3-FixMiner-plausible",
+                    "failing": 1,
+                    "testrun": 160,
+                    "failings": [
+                        "test093(org.jfree.data.time.TimeSeries_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.time.TimeSeries_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.time.TimeSeries_ESTest.test093(TimeSeries_ESTest.java:1332)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 51.06
+        }
+    ],
+    "date": "2022-12-16T03:24:14.753277",
+    "duration": -0.0
+}

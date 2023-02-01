@@ -1,0 +1,956 @@
+{
+    "bugid": "Lang-7",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Lang/patch1-Lang-7-GenProg-plausible.patch",
+            "project": "Lang",
+            "bugid": "7",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:06:18.691262",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Lang/patch1-Lang-7-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-jKali",
+                    "failing": 2,
+                    "testrun": 216,
+                    "failings": [
+                        "test184(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test201(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043): java.lang.NumberFormatException: For input string: \"---0X,c5l\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043): java.lang.NumberFormatException: For input string: \"--\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test184(NumberUtils_ESTest.java:1571)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test201(NumberUtils_ESTest.java:1783)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Lang/patch1-Lang-7-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-ACS",
+                    "failing": 1,
+                    "testrun": 219,
+                    "failings": [
+                        "test203(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043): java.lang.NumberFormatException: For input string: \"--A blank string is not a valid number\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test203(NumberUtils_ESTest.java:1804)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Lang/patch1-Lang-7-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-RSRepair-plausible",
+                    "failing": 1,
+                    "testrun": 227,
+                    "failings": [
+                        "test210(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043): java.lang.NumberFormatException: For input string: \"--2y\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test210(NumberUtils_ESTest.java:1812)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Lang/patch1-Lang-7-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-Arja-plausible",
+                    "failing": 1,
+                    "testrun": 219,
+                    "failings": [
+                        "test197(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.event.EventListenerSupport_ESTest",
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043): java.lang.NumberFormatException: For input string: \"---0X,c5l\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test197(NumberUtils_ESTest.java:1756)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Lang/patch1-Lang-7-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-TBar",
+                    "failing": 1,
+                    "testrun": 215,
+                    "failings": [
+                        "test198(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043): java.lang.NumberFormatException: For input string: \"---\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test198(NumberUtils_ESTest.java:1758)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Lang/patch1-Lang-7-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 225,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Lang/patch1-Lang-7-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-AVATAR",
+                    "failing": 3,
+                    "testrun": 218,
+                    "failings": [
+                        "test190(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test076(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test176(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043): java.lang.NumberFormatException: For input string: \"--R^!k6NA4{A5<CN\\'L\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.math.BigDecimal.<init>(BigDecimal.java:494): java.lang.NumberFormatException",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043): java.lang.NumberFormatException: For input string: \"--.vRj!d/8\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test190(NumberUtils_ESTest.java:1631)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test076(NumberUtils_ESTest.java:558)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test176(NumberUtils_ESTest.java:1491)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 30.93
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Lang/patch1-Lang-7-Arja-plausible.patch",
+            "project": "Lang",
+            "bugid": "7",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:06:49.619326",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Lang/patch1-Lang-7-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-jKali",
+                    "failing": 0,
+                    "testrun": 216,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Lang/patch1-Lang-7-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-ACS",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Lang/patch1-Lang-7-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-RSRepair-plausible",
+                    "failing": 1,
+                    "testrun": 227,
+                    "failings": [
+                        "test210(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:548): java.lang.NumberFormatException: --2y is not a valid number."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test210(NumberUtils_ESTest.java:1812)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Lang/patch1-Lang-7-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.event.EventListenerSupport_ESTest",
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Lang/patch1-Lang-7-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-TBar",
+                    "failing": 0,
+                    "testrun": 215,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Lang/patch1-Lang-7-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 225,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Lang/patch1-Lang-7-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-AVATAR",
+                    "failing": 2,
+                    "testrun": 218,
+                    "failings": [
+                        "test076(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test176(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.math.BigDecimal.<init>(BigDecimal.java:494): java.lang.NumberFormatException",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.math.BigDecimal.<init>(BigDecimal.java:494): java.lang.NumberFormatException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test076(NumberUtils_ESTest.java:558)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test176(NumberUtils_ESTest.java:1491)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 31.24
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Lang/patch1-Lang-7-RSRepair-plausible.patch",
+            "project": "Lang",
+            "bugid": "7",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:07:20.858351",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Lang/patch1-Lang-7-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-jKali",
+                    "failing": 2,
+                    "testrun": 216,
+                    "failings": [
+                        "test184(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test201(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"---0X,c5l\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"--\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test184(NumberUtils_ESTest.java:1571)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test201(NumberUtils_ESTest.java:1783)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Lang/patch1-Lang-7-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-ACS",
+                    "failing": 1,
+                    "testrun": 219,
+                    "failings": [
+                        "test203(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"--A blank string is not a valid number\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test203(NumberUtils_ESTest.java:1804)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Lang/patch1-Lang-7-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 227,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Lang/patch1-Lang-7-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-Arja-plausible",
+                    "failing": 1,
+                    "testrun": 219,
+                    "failings": [
+                        "test197(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.event.EventListenerSupport_ESTest",
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"---0X,c5l\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test197(NumberUtils_ESTest.java:1756)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Lang/patch1-Lang-7-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-TBar",
+                    "failing": 1,
+                    "testrun": 215,
+                    "failings": [
+                        "test198(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"---\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test198(NumberUtils_ESTest.java:1758)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Lang/patch1-Lang-7-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 225,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Lang/patch1-Lang-7-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-AVATAR",
+                    "failing": 3,
+                    "testrun": 218,
+                    "failings": [
+                        "test190(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test076(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test176(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"--R^!k6NA4{A5<CN\\'L\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.math.BigDecimal.<init>(BigDecimal.java:494): java.lang.NumberFormatException",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"--.vRj!d/8\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test190(NumberUtils_ESTest.java:1631)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test076(NumberUtils_ESTest.java:558)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test176(NumberUtils_ESTest.java:1491)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 30.94
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Lang/patch1-Lang-7-AVATAR.patch",
+            "project": "Lang",
+            "bugid": "7",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:07:51.796657",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Lang/patch1-Lang-7-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-jKali",
+                    "failing": 0,
+                    "testrun": 216,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Lang/patch1-Lang-7-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-ACS",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Lang/patch1-Lang-7-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-RSRepair-plausible",
+                    "failing": 1,
+                    "testrun": 227,
+                    "failings": [
+                        "test210(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:546): java.lang.NumberFormatException: --2y is not a valid number."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test210(NumberUtils_ESTest.java:1812)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Lang/patch1-Lang-7-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.event.EventListenerSupport_ESTest",
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Lang/patch1-Lang-7-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-TBar",
+                    "failing": 0,
+                    "testrun": 215,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Lang/patch1-Lang-7-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 225,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Lang/patch1-Lang-7-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-AVATAR",
+                    "failing": 0,
+                    "testrun": 218,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 30.98
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/jKali/Lang/patch1-Lang-7-jKali.patch",
+            "project": "Lang",
+            "bugid": "7",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:08:22.778275",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/jKali/Lang/patch1-Lang-7-jKali.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-jKali",
+                    "failing": 0,
+                    "testrun": 216,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/jKali/Lang/patch1-Lang-7-jKali.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-ACS",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/jKali/Lang/patch1-Lang-7-jKali.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-RSRepair-plausible",
+                    "failing": 1,
+                    "testrun": 227,
+                    "failings": [
+                        "test210(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:549): java.lang.NumberFormatException: --2y is not a valid number."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test210(NumberUtils_ESTest.java:1812)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/jKali/Lang/patch1-Lang-7-jKali.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.event.EventListenerSupport_ESTest",
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/jKali/Lang/patch1-Lang-7-jKali.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-TBar",
+                    "failing": 0,
+                    "testrun": 215,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/jKali/Lang/patch1-Lang-7-jKali.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 225,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/jKali/Lang/patch1-Lang-7-jKali.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-AVATAR",
+                    "failing": 2,
+                    "testrun": 218,
+                    "failings": [
+                        "test076(org.apache.commons.lang3.math.NumberUtils_ESTest)",
+                        "test176(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.math.BigDecimal.<init>(BigDecimal.java:494): java.lang.NumberFormatException",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.math.BigDecimal.<init>(BigDecimal.java:494): java.lang.NumberFormatException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test076(NumberUtils_ESTest.java:558)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test176(NumberUtils_ESTest.java:1491)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 30.88
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/TBar/Lang/patch1-Lang-7-TBar.patch",
+            "project": "Lang",
+            "bugid": "7",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:08:53.663611",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/TBar/Lang/patch1-Lang-7-TBar.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-jKali",
+                    "failing": 0,
+                    "testrun": 216,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/TBar/Lang/patch1-Lang-7-TBar.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-ACS",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/TBar/Lang/patch1-Lang-7-TBar.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-RSRepair-plausible",
+                    "failing": 1,
+                    "testrun": 227,
+                    "failings": [
+                        "test210(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:450): java.lang.NumberFormatException: A blank string is not a valid number"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test210(NumberUtils_ESTest.java:1812)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/TBar/Lang/patch1-Lang-7-TBar.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.event.EventListenerSupport_ESTest",
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/TBar/Lang/patch1-Lang-7-TBar.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-TBar",
+                    "failing": 0,
+                    "testrun": 215,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/TBar/Lang/patch1-Lang-7-TBar.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 225,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/TBar/Lang/patch1-Lang-7-TBar.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-AVATAR",
+                    "failing": 1,
+                    "testrun": 218,
+                    "failings": [
+                        "test076(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.math.BigDecimal.<init>(BigDecimal.java:494): java.lang.NumberFormatException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test076(NumberUtils_ESTest.java:558)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 30.83
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/ACS/Lang/patch1-Lang-7-ACS.patch",
+            "project": "Lang",
+            "bugid": "7",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:09:24.492917",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/ACS/Lang/patch1-Lang-7-ACS.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-jKali",
+                    "failing": 0,
+                    "testrun": 216,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/ACS/Lang/patch1-Lang-7-ACS.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-ACS",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/ACS/Lang/patch1-Lang-7-ACS.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-RSRepair-plausible",
+                    "failing": 1,
+                    "testrun": 227,
+                    "failings": [
+                        "test210(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:453): java.lang.NumberFormatException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test210(NumberUtils_ESTest.java:1812)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/ACS/Lang/patch1-Lang-7-ACS.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.event.EventListenerSupport_ESTest",
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/ACS/Lang/patch1-Lang-7-ACS.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-TBar",
+                    "failing": 0,
+                    "testrun": 215,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/ACS/Lang/patch1-Lang-7-ACS.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 225,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/ACS/Lang/patch1-Lang-7-ACS.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-7-AVATAR",
+                    "failing": 1,
+                    "testrun": 218,
+                    "failings": [
+                        "test076(org.apache.commons.lang3.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang3.math.NumberUtils but in java.math.BigDecimal.<init>(BigDecimal.java:494): java.lang.NumberFormatException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.math.NumberUtils_ESTest.test076(NumberUtils_ESTest.java:558)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 31.22
+        }
+    ],
+    "date": "2022-12-16T04:06:18.690906",
+    "duration": -0.0
+}
