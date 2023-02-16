@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in {303..320}
+for i in {400..420}
 do
 echo "$i"
 /home/mmartinez/xTestCluster/tool_xTestCluster/runGenAndExec.sh Math-59 $i;

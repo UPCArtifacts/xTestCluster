@@ -14,8 +14,6 @@ def clusterPatches(resultOfPatches, resultDir = os.path.realpath("./Patches/patc
 		patchId = str(resultOfPatch["patch"]).replace(resultDir, "")
 		allFailings = []
 
-		#print("-->{}".format(resultOfPatch))
-
 		if "test_execution" not in resultOfPatch:
 			continue
 
@@ -141,6 +139,27 @@ def executeClusteringFromData(data, filter, iResultFile, outResults, toolTestGen
 		print("Error! Unsupported feature for clustering - %s" % feature)
 		return ""
 
+	bugid, json_string = expandClusterJson(clusters, filter, iResultFile, resultBug)
+
+	if feature == "failingTests":
+		parDir = "{}/{}/{}".format(outResults, "resultsSimpleClustering", toolTestGeneration.lower())
+	elif feature == "failingLines":
+		parDir = "{}/{}/{}".format(outResults, "resultsClusteringFailingLines", toolTestGeneration.lower())
+	else:
+		print("Error! Unsupported feature for clustering - %s" % feature)
+		return ""
+
+	if not os.path.exists(parDir):
+		os.makedirs(parDir)
+
+	outputName = "{}/result_summary_{}_{}.json".format(parDir, toolTestGeneration, bugid)
+	filesummary = open(outputName, "w")
+	filesummary.write(json_string)
+	filesummary.close()
+	return outputName
+
+
+def expandClusterJson(clusters, filter, iResultFile, resultBug):
 	print("clusters {} ".format(clusters))
 	nrcluster = 0
 	clustersOfBugs = []
@@ -160,20 +179,59 @@ def executeClusteringFromData(data, filter, iResultFile, outResults, toolTestGen
 	formatted_datetime = a_datetime.isoformat()
 	resultBug["date"] = formatted_datetime
 	json_string = json.dumps(resultBug, indent=4)
+	return bugid, json_string
 
-	if feature == "failingTests":
-		parDir = "{}/{}/{}".format(outResults, "resultsSimpleClustering", toolTestGeneration.lower())
-	elif feature == "failingLines":
-		parDir = "{}/{}/{}".format(outResults, "resultsClusteringFailingLines", toolTestGeneration.lower())
-	else:
-		print("Error! Unsupported feature for clustering - %s" % feature)
-		return ""
 
-	if not os.path.exists(parDir):
-		os.makedirs(parDir)
+def mergeResultsSeeds(listResults):
 
-	outputName = "{}/result_summary_{}_{}.json".format(parDir, toolTestGeneration, bugid)
-	filesummary = open(outputName, "w")
-	filesummary.write(json_string)
-	filesummary.close()
-	return outputName
+	if len(listResults) is 0:
+		return None
+
+	mergedExecutions = readJson(listResults[0])
+
+	print("All to analyze ", len(listResults))
+	for otherExecution in listResults[1:]:
+		otherExecJson = readJson(otherExecution)
+
+		for onePatchResult in otherExecJson["results"]:
+				# find the patch in the merged
+				foundPatch = False
+				for onePatchInMerged in mergedExecutions["results"]:
+					if onePatchResult["patch"] == onePatchInMerged["patch"]:
+						print("analyzing ",onePatchResult["patch"])
+						foundPatch = True
+						newOnes = []
+
+						if "test_execution" not in onePatchResult:
+							print("Missing test execution ", onePatchResult)
+							continue
+
+						for executionOfTest in onePatchResult["test_execution"]:
+
+							if  executionOfTest in onePatchInMerged["test_execution"]:
+								#print("Existing")
+								pass
+							else:
+								#print("adding at the end ", executionOfTest["test"])
+								newOnes.append(executionOfTest)
+						onePatchInMerged["test_execution"].extend(newOnes)
+
+				if not foundPatch:
+					#print("Adding a patch that was not found")
+					mergedExecutions["results"].append(onePatchResult)
+
+	return mergedExecutions
+
+
+
+
+
+
+
+def readJson(file):
+	data = None
+	with open(os.path.join(file)) as fileResults:
+		data = json.load(fileResults)
+		fileResults.close()
+	return data
+
