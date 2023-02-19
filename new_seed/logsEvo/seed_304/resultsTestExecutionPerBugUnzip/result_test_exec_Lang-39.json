@@ -1,0 +1,373 @@
+{
+    "bugid": "Lang-39",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Lang/patch1-Lang-39-jGenProg-plausible.patch",
+            "project": "Lang",
+            "bugid": "39",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-04T05:25:26.144580",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Lang/patch1-Lang-39-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-39-jGenProg-plausible",
+                    "failing": 0,
+                    "testrun": 572,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Lang/patch1-Lang-39-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-39-SimFix",
+                    "failing": 0,
+                    "testrun": 586,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Lang/patch1-Lang-39-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-39-AVATAR-plausible",
+                    "failing": 2,
+                    "testrun": 570,
+                    "failings": [
+                        "test344(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test345(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test344(StringUtils_ESTest.java:2700)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test345(StringUtils_ESTest.java:2718)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Lang/patch1-Lang-39-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-39-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 576,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 23.46
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Lang/patch1-Lang-39-AVATAR-plausible.patch",
+            "project": "Lang",
+            "bugid": "39",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-04T05:25:49.602177",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Lang/patch1-Lang-39-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-39-jGenProg-plausible",
+                    "failing": 2,
+                    "testrun": 572,
+                    "failings": [
+                        "test341(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test337(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test341(StringUtils_ESTest.java:2224)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test337(StringUtils_ESTest.java:2182)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Lang/patch1-Lang-39-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-39-SimFix",
+                    "failing": 6,
+                    "testrun": 586,
+                    "failings": [
+                        "test336(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test337(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test338(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test333(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test334(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test335(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test336(StringUtils_ESTest.java:2704)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test337(StringUtils_ESTest.java:2722)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test338(StringUtils_ESTest.java:2740)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test333(StringUtils_ESTest.java:2658)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test334(StringUtils_ESTest.java:2669)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test335(StringUtils_ESTest.java:2687)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Lang/patch1-Lang-39-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-39-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 570,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Lang/patch1-Lang-39-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-39-TBar-plausible",
+                    "failing": 2,
+                    "testrun": 576,
+                    "failings": [
+                        "test330(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test329(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test330(StringUtils_ESTest.java:2566)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test329(StringUtils_ESTest.java:2554)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 23.41
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-39-TBar-plausible.patch",
+            "project": "Lang",
+            "bugid": "39",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-04T05:26:13.012536",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-39-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-39-jGenProg-plausible",
+                    "failing": 0,
+                    "testrun": 572,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-39-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-39-SimFix",
+                    "failing": 0,
+                    "testrun": 586,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-39-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-39-AVATAR-plausible",
+                    "failing": 2,
+                    "testrun": 570,
+                    "failings": [
+                        "test344(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test345(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test344(StringUtils_ESTest.java:2700)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test345(StringUtils_ESTest.java:2718)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-39-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-39-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 576,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 23.59
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Lang/patch1-Lang-39-SimFix.patch",
+            "project": "Lang",
+            "bugid": "39",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-04T05:26:36.608485",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Lang/patch1-Lang-39-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-39-jGenProg-plausible",
+                    "failing": 0,
+                    "testrun": 572,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Lang/patch1-Lang-39-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-39-SimFix",
+                    "failing": 0,
+                    "testrun": 586,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Lang/patch1-Lang-39-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-39-AVATAR-plausible",
+                    "failing": 2,
+                    "testrun": 570,
+                    "failings": [
+                        "test344(org.apache.commons.lang3.StringUtils_ESTest)",
+                        "test345(org.apache.commons.lang3.StringUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test344(StringUtils_ESTest.java:2700)"
+                        ],
+                        [
+                            "org.apache.commons.lang3.StringUtils_ESTest.test345(StringUtils_ESTest.java:2718)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Lang/patch1-Lang-39-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-39-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 576,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang3.StringUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 23.56
+        }
+    ],
+    "date": "2023-02-04T05:25:26.123795",
+    "duration": -0.02
+}

@@ -1,0 +1,612 @@
+{
+    "bugid": "Lang-45",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Lang/patch1-Lang-45-SimFix-plausible.patch",
+            "project": "Lang",
+            "bugid": "45",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-05T19:50:09.973280",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Lang/patch1-Lang-45-SimFix-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Lang-45-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 55,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Lang/patch1-Lang-45-SimFix-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Lang-45-Jaid",
+                    "failing": 2,
+                    "testrun": 56,
+                    "failings": [
+                        "test26(org.apache.commons.lang.WordUtils_ESTest)",
+                        "test23(org.apache.commons.lang.WordUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.StringIndexOutOfBoundsException: String index out of range: 69",
+                        "java.lang.StringIndexOutOfBoundsException: String index out of range: -1413"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.WordUtils_ESTest.test26(WordUtils_ESTest.java:189)"
+                        ],
+                        [
+                            "org.apache.commons.lang.WordUtils_ESTest.test23(WordUtils_ESTest.java:171)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Lang/patch1-Lang-45-SimFix-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Lang-45-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 54,
+                    "failings": [
+                        "test25(org.apache.commons.lang.WordUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.StringIndexOutOfBoundsException: String index out of range: -164"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.WordUtils_ESTest.test25(WordUtils_ESTest.java:186)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Lang/patch1-Lang-45-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-45-kPAR-plausible",
+                    "failing": 2,
+                    "testrun": 56,
+                    "failings": [
+                        "test00(org.apache.commons.lang.WordUtils_ESTest)",
+                        "test26(org.apache.commons.lang.WordUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.StringIndexOutOfBoundsException: String index out of range: -793",
+                        "java.lang.StringIndexOutOfBoundsException: String index out of range: 31"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.WordUtils_ESTest.test00(WordUtils_ESTest.java:21)"
+                        ],
+                        [
+                            "org.apache.commons.lang.WordUtils_ESTest.test26(WordUtils_ESTest.java:197)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Lang/patch1-Lang-45-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-45-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 58,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Lang/patch1-Lang-45-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-45-TBar-plausible",
+                    "failing": 2,
+                    "testrun": 56,
+                    "failings": [
+                        "test00(org.apache.commons.lang.WordUtils_ESTest)",
+                        "test26(org.apache.commons.lang.WordUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.StringIndexOutOfBoundsException: String index out of range: -793",
+                        "java.lang.StringIndexOutOfBoundsException: String index out of range: 31"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.WordUtils_ESTest.test00(WordUtils_ESTest.java:21)"
+                        ],
+                        [
+                            "org.apache.commons.lang.WordUtils_ESTest.test26(WordUtils_ESTest.java:197)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 18.89
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Lang/patch1-Lang-45-kPAR-plausible.patch",
+            "project": "Lang",
+            "bugid": "45",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-05T19:50:28.866787",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Lang/patch1-Lang-45-kPAR-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Lang-45-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 55,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Lang/patch1-Lang-45-kPAR-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Lang-45-Jaid",
+                    "failing": 0,
+                    "testrun": 56,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Lang/patch1-Lang-45-kPAR-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Lang-45-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 54,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Lang/patch1-Lang-45-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-45-kPAR-plausible",
+                    "failing": 0,
+                    "testrun": 56,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Lang/patch1-Lang-45-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-45-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 58,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Lang/patch1-Lang-45-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-45-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 56,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 18.67
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-45-TBar-plausible.patch",
+            "project": "Lang",
+            "bugid": "45",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-05T19:50:47.538656",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-45-TBar-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Lang-45-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 55,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-45-TBar-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Lang-45-Jaid",
+                    "failing": 0,
+                    "testrun": 56,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-45-TBar-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Lang-45-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 54,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-45-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-45-kPAR-plausible",
+                    "failing": 0,
+                    "testrun": 56,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-45-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-45-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 58,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-45-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-45-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 56,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 18.62
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Lang/patch1-Lang-45-Jaid.patch",
+            "project": "Lang",
+            "bugid": "45",
+            "dataset": "Patches_others",
+            "date": "2023-02-05T19:51:06.155953",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Lang/patch1-Lang-45-Jaid.patch",
+                    "test": "test_from_WangDRR_patch2-Lang-45-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 55,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Lang/patch1-Lang-45-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Lang-45-Jaid",
+                    "failing": 0,
+                    "testrun": 56,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Lang/patch1-Lang-45-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Lang-45-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 54,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Lang/patch1-Lang-45-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-45-kPAR-plausible",
+                    "failing": 0,
+                    "testrun": 56,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Lang/patch1-Lang-45-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-45-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 58,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Lang/patch1-Lang-45-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-45-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 56,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 18.83
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Lang/patch2-Lang-45-Jaid-plausible.patch",
+            "project": "Lang",
+            "bugid": "45",
+            "dataset": "Patches_others",
+            "date": "2023-02-05T19:51:24.986959",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Lang/patch2-Lang-45-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Lang-45-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 55,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Lang/patch2-Lang-45-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Lang-45-Jaid",
+                    "failing": 0,
+                    "testrun": 56,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Lang/patch2-Lang-45-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Lang-45-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 54,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Lang/patch2-Lang-45-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-45-kPAR-plausible",
+                    "failing": 0,
+                    "testrun": 56,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Lang/patch2-Lang-45-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-45-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 58,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Lang/patch2-Lang-45-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-45-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 56,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 18.85
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Lang/patch1-Lang-45-Jaid-plausible.patch",
+            "project": "Lang",
+            "bugid": "45",
+            "dataset": "Patches_others",
+            "date": "2023-02-05T19:51:43.834428",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Lang/patch1-Lang-45-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Lang-45-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 55,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Lang/patch1-Lang-45-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Lang-45-Jaid",
+                    "failing": 0,
+                    "testrun": 56,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Lang/patch1-Lang-45-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Lang-45-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 54,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Lang/patch1-Lang-45-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-45-kPAR-plausible",
+                    "failing": 0,
+                    "testrun": 56,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Lang/patch1-Lang-45-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-45-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 58,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Lang/patch1-Lang-45-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-45-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 56,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.WordUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 18.69
+        }
+    ],
+    "date": "2023-02-05T19:50:09.954119",
+    "duration": -0.02
+}

@@ -1,0 +1,201 @@
+{
+    "bugid": "Math-4",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-4-Nopol-plausible.patch",
+            "project": "Math",
+            "bugid": "4",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-04T18:38:32.545394",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-4-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-4-AVATAR",
+                    "failing": 2,
+                    "testrun": 50,
+                    "failings": [
+                        "test26(org.apache.commons.math3.geometry.euclidean.twod.SubLine_ESTest)",
+                        "test15(org.apache.commons.math3.geometry.euclidean.threed.SubLine_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.geometry.euclidean.twod.SubLine_ESTest",
+                        "org.apache.commons.math3.geometry.euclidean.threed.SubLine_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math3.geometry.euclidean.twod.SubLine_ESTest.test26(SubLine_ESTest.java:387)"
+                        ],
+                        [
+                            "org.apache.commons.math3.geometry.euclidean.threed.SubLine_ESTest.test15(SubLine_ESTest.java:234)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-4-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-4-ACS-plausible",
+                    "failing": 2,
+                    "testrun": 49,
+                    "failings": [
+                        "test28(org.apache.commons.math3.geometry.euclidean.twod.SubLine_ESTest)",
+                        "test12(org.apache.commons.math3.geometry.euclidean.threed.SubLine_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.geometry.euclidean.twod.SubLine_ESTest",
+                        "org.apache.commons.math3.geometry.euclidean.threed.SubLine_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math3.geometry.euclidean.twod.SubLine_ESTest.test28(SubLine_ESTest.java:399)"
+                        ],
+                        [
+                            "org.apache.commons.math3.geometry.euclidean.threed.SubLine_ESTest.test12(SubLine_ESTest.java:216)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-4-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-4-Nopol-plausible",
+                    "failing": 0,
+                    "testrun": 75,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.geometry.euclidean.twod.Line_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 20.16
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/ACS/Math/patch1-Math-4-ACS-plausible.patch",
+            "project": "Math",
+            "bugid": "4",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-04T18:38:52.711458",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/ACS/Math/patch1-Math-4-ACS-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-4-AVATAR",
+                    "failing": 0,
+                    "testrun": 50,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.geometry.euclidean.twod.SubLine_ESTest",
+                        "org.apache.commons.math3.geometry.euclidean.threed.SubLine_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/ACS/Math/patch1-Math-4-ACS-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-4-ACS-plausible",
+                    "failing": 0,
+                    "testrun": 49,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.geometry.euclidean.twod.SubLine_ESTest",
+                        "org.apache.commons.math3.geometry.euclidean.threed.SubLine_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/ACS/Math/patch1-Math-4-ACS-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-4-Nopol-plausible",
+                    "failing": 0,
+                    "testrun": 75,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.geometry.euclidean.twod.Line_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 19.92
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Math/patch1-Math-4-AVATAR.patch",
+            "project": "Math",
+            "bugid": "4",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-04T18:39:12.632979",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Math/patch1-Math-4-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Math-4-AVATAR",
+                    "failing": 0,
+                    "testrun": 50,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.geometry.euclidean.twod.SubLine_ESTest",
+                        "org.apache.commons.math3.geometry.euclidean.threed.SubLine_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Math/patch1-Math-4-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Math-4-ACS-plausible",
+                    "failing": 0,
+                    "testrun": 49,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.geometry.euclidean.twod.SubLine_ESTest",
+                        "org.apache.commons.math3.geometry.euclidean.threed.SubLine_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Math/patch1-Math-4-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Math-4-Nopol-plausible",
+                    "failing": 0,
+                    "testrun": 75,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.geometry.euclidean.twod.Line_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 20.57
+        }
+    ],
+    "date": "2023-02-04T18:38:32.525458",
+    "duration": -0.02
+}
