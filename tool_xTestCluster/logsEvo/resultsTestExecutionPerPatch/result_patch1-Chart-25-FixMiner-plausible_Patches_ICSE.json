@@ -1,0 +1,468 @@
+{
+    "patch": "/Users/matias/develop/git-xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-25-FixMiner-plausible.patch",
+    "project": "Chart",
+    "bugid": "25",
+    "dataset": "Patches_ICSE",
+    "date": "2022-12-23T12:19:03.258109",
+    "project_checked": "ok",
+    "compiledProjectModified": "ok",
+    "patchApplied": "ok",
+    "arrive_end": "ok",
+    "patched_project_pass_all_test": "no",
+    "test_execution": [
+        {
+            "patch": "/Users/matias/develop/git-xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-25-FixMiner-plausible.patch",
+            "test": "test_from_WangICSE_patch1-Chart-25-jMutRepair-plausible",
+            "failing": 6,
+            "testrun": 61,
+            "failings": [
+                "test50(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)",
+                "test51(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)",
+                "test55(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)",
+                "test05(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)",
+                "test49(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)",
+                "test29(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)"
+            ],
+            "status": "ok",
+            "test_executed": [
+                "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest"
+            ],
+            "failing_assertions": [
+                "java.lang.AssertionError: expected null, but was:<0>",
+                "java.lang.AssertionError: Expecting exception: NullPointerException",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 1, Size: 1",
+                "java.lang.AssertionError: Expecting exception: NullPointerException",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0"
+            ],
+            "failing_lines": [
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test50(DefaultStatisticalCategoryDataset_ESTest.java:574)"
+                ],
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test51(DefaultStatisticalCategoryDataset_ESTest.java:585)"
+                ],
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test55(DefaultStatisticalCategoryDataset_ESTest.java:639)"
+                ],
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test05(DefaultStatisticalCategoryDataset_ESTest.java:89)"
+                ],
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test49(DefaultStatisticalCategoryDataset_ESTest.java:558)"
+                ],
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test29(DefaultStatisticalCategoryDataset_ESTest.java:352)"
+                ]
+            ]
+        },
+        {
+            "patch": "/Users/matias/develop/git-xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-25-FixMiner-plausible.patch",
+            "test": "test_from_WangICSE_patch1-Chart-25-DynaMoth-plausible",
+            "failing": 3,
+            "testrun": 18,
+            "failings": [
+                "test07(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test05(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test14(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)"
+            ],
+            "status": "ok",
+            "test_executed": [
+                "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest"
+            ],
+            "failing_assertions": [
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0"
+            ],
+            "failing_lines": [
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test07(StatisticalBarRenderer_ESTest.java:184)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test05(StatisticalBarRenderer_ESTest.java:139)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test14(StatisticalBarRenderer_ESTest.java:303)"
+                ]
+            ]
+        },
+        {
+            "patch": "/Users/matias/develop/git-xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-25-FixMiner-plausible.patch",
+            "test": "test_from_WangICSE_patch1-Chart-25-jKali-plausible",
+            "failing": 7,
+            "testrun": 22,
+            "failings": [
+                "test06(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test05(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test13(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test03(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test14(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test11(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test12(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)"
+            ],
+            "status": "ok",
+            "test_executed": [
+                "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest"
+            ],
+            "failing_assertions": [
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.NullPointerException",
+                "java.lang.ArrayIndexOutOfBoundsException: -3",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 1, Size: 1",
+                "java.lang.ArrayIndexOutOfBoundsException",
+                "java.lang.IndexOutOfBoundsException: Index: 1, Size: 1"
+            ],
+            "failing_lines": [
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test06(StatisticalBarRenderer_ESTest.java:145)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test05(StatisticalBarRenderer_ESTest.java:131)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test13(StatisticalBarRenderer_ESTest.java:239)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test03(StatisticalBarRenderer_ESTest.java:105)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test14(StatisticalBarRenderer_ESTest.java:260)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test12(StatisticalBarRenderer_ESTest.java:223)"
+                ]
+            ]
+        },
+        {
+            "patch": "/Users/matias/develop/git-xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-25-FixMiner-plausible.patch",
+            "test": "test_from_WangICSE_patch1-Chart-25-GenProg-plausible",
+            "failing": 3,
+            "testrun": 60,
+            "failings": [
+                "test05(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)",
+                "test23(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)",
+                "test27(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)"
+            ],
+            "status": "ok",
+            "test_executed": [
+                "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest"
+            ],
+            "failing_assertions": [
+                "java.lang.IndexOutOfBoundsException: Index: 1, Size: 1",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0"
+            ],
+            "failing_lines": [
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test05(DefaultStatisticalCategoryDataset_ESTest.java:97)"
+                ],
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test23(DefaultStatisticalCategoryDataset_ESTest.java:264)"
+                ],
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test27(DefaultStatisticalCategoryDataset_ESTest.java:328)"
+                ]
+            ]
+        },
+        {
+            "patch": "/Users/matias/develop/git-xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-25-FixMiner-plausible.patch",
+            "test": "test_from_WangICSE_patch1-Chart-25-Arja-plusible",
+            "failing": 9,
+            "testrun": 79,
+            "failings": [
+                "test19(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test09(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test03(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test01(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test10(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test45(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)",
+                "test03(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)",
+                "test32(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)",
+                "test27(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)"
+            ],
+            "status": "ok",
+            "test_executed": [
+                "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest",
+                "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest"
+            ],
+            "failing_assertions": [
+                "java.lang.AssertionError: Exception was not thrown in org.jfree.chart.renderer.category.StatisticalBarRenderer but in org.jfree.chart.axis.CategoryAxis.getCategoryStart(CategoryAxis.java:594): java.lang.NullPointerException",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 1, Size: 1",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 1, Size: 1",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0"
+            ],
+            "failing_lines": [
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test19(StatisticalBarRenderer_ESTest.java:404)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test09(StatisticalBarRenderer_ESTest.java:253)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test03(StatisticalBarRenderer_ESTest.java:145)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test01(StatisticalBarRenderer_ESTest.java:87)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test10(StatisticalBarRenderer_ESTest.java:279)"
+                ],
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test45(DefaultStatisticalCategoryDataset_ESTest.java:498)"
+                ],
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test03(DefaultStatisticalCategoryDataset_ESTest.java:74)"
+                ],
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test32(DefaultStatisticalCategoryDataset_ESTest.java:386)"
+                ],
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test27(DefaultStatisticalCategoryDataset_ESTest.java:332)"
+                ]
+            ]
+        },
+        {
+            "patch": "/Users/matias/develop/git-xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-25-FixMiner-plausible.patch",
+            "test": "test_from_WangICSE_patch1-Chart-25-Nopol-plausible",
+            "failing": 8,
+            "testrun": 22,
+            "failings": [
+                "test18(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test15(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test16(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test02(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test03(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test14(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test01(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test10(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)"
+            ],
+            "status": "ok",
+            "test_executed": [
+                "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest"
+            ],
+            "failing_assertions": [
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.ArrayIndexOutOfBoundsException: -4153",
+                "java.lang.IndexOutOfBoundsException: Index: 1, Size: 1",
+                "java.lang.AssertionError: expected:<188.0> but was:<174.0>",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.ArrayIndexOutOfBoundsException: -30000",
+                "java.lang.IndexOutOfBoundsException: Index: 10, Size: 1",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0"
+            ],
+            "failing_lines": [
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test18(StatisticalBarRenderer_ESTest.java:342)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test15(StatisticalBarRenderer_ESTest.java:287)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test16(StatisticalBarRenderer_ESTest.java:307)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test02(StatisticalBarRenderer_ESTest.java:79)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test03(StatisticalBarRenderer_ESTest.java:94)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test14(StatisticalBarRenderer_ESTest.java:263)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test01(StatisticalBarRenderer_ESTest.java:62)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test10(StatisticalBarRenderer_ESTest.java:215)"
+                ]
+            ]
+        },
+        {
+            "patch": "/Users/matias/develop/git-xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-25-FixMiner-plausible.patch",
+            "test": "test_from_WangICSE_patch1-Chart-25-jGenProg-plausible",
+            "failing": 3,
+            "testrun": 17,
+            "failings": [
+                "test02(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test12(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test10(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)"
+            ],
+            "status": "ok",
+            "test_executed": [
+                "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest"
+            ],
+            "failing_assertions": [
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0"
+            ],
+            "failing_lines": [
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test02(StatisticalBarRenderer_ESTest.java:97)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test12(StatisticalBarRenderer_ESTest.java:272)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test10(StatisticalBarRenderer_ESTest.java:225)"
+                ]
+            ]
+        },
+        {
+            "patch": "/Users/matias/develop/git-xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-25-FixMiner-plausible.patch",
+            "test": "test_from_WangICSE_patch1-Chart-25-FixMiner-plausible",
+            "failing": 0,
+            "testrun": 61,
+            "failings": [],
+            "status": "ok",
+            "test_executed": [
+                "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest"
+            ],
+            "failing_assertions": [],
+            "failing_lines": []
+        },
+        {
+            "patch": "/Users/matias/develop/git-xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-25-FixMiner-plausible.patch",
+            "test": "test_from_WangICSE_patch1-Chart-25-AVATAR-plausible",
+            "failing": 2,
+            "testrun": 16,
+            "failings": [
+                "test00(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test11(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)"
+            ],
+            "status": "ok",
+            "test_executed": [
+                "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest"
+            ],
+            "failing_assertions": [
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0"
+            ],
+            "failing_lines": [
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test00(StatisticalBarRenderer_ESTest.java:56)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test11(StatisticalBarRenderer_ESTest.java:222)"
+                ]
+            ]
+        },
+        {
+            "patch": "/Users/matias/develop/git-xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-25-FixMiner-plausible.patch",
+            "test": "test_from_WangICSE_patch1-Chart-25-RSRepair-plausible",
+            "failing": 6,
+            "testrun": 79,
+            "failings": [
+                "test09(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test06(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test15(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test05(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)",
+                "test31(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)",
+                "test26(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)"
+            ],
+            "status": "ok",
+            "test_executed": [
+                "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest",
+                "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest"
+            ],
+            "failing_assertions": [
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 1, Size: 1",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0"
+            ],
+            "failing_lines": [
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test09(StatisticalBarRenderer_ESTest.java:225)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test06(StatisticalBarRenderer_ESTest.java:159)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test15(StatisticalBarRenderer_ESTest.java:316)"
+                ],
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test05(DefaultStatisticalCategoryDataset_ESTest.java:97)"
+                ],
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test31(DefaultStatisticalCategoryDataset_ESTest.java:380)"
+                ],
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test26(DefaultStatisticalCategoryDataset_ESTest.java:299)"
+                ]
+            ]
+        },
+        {
+            "patch": "/Users/matias/develop/git-xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-25-FixMiner-plausible.patch",
+            "test": "test_from_WangICSE_patch1-Chart-25-Kali-plausible",
+            "failing": 3,
+            "testrun": 60,
+            "failings": [
+                "test05(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)",
+                "test28(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)",
+                "test23(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest)"
+            ],
+            "status": "ok",
+            "test_executed": [
+                "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest"
+            ],
+            "failing_assertions": [
+                "java.lang.IndexOutOfBoundsException: Index: 1, Size: 1",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0"
+            ],
+            "failing_lines": [
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test05(DefaultStatisticalCategoryDataset_ESTest.java:97)"
+                ],
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test28(DefaultStatisticalCategoryDataset_ESTest.java:348)"
+                ],
+                [
+                    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest.test23(DefaultStatisticalCategoryDataset_ESTest.java:265)"
+                ]
+            ]
+        },
+        {
+            "patch": "/Users/matias/develop/git-xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-25-FixMiner-plausible.patch",
+            "test": "test_from_WangICSE_patch1-Chart-25-SimFix-plausible",
+            "failing": 3,
+            "testrun": 20,
+            "failings": [
+                "test05(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test13(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)",
+                "test14(org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest)"
+            ],
+            "status": "ok",
+            "test_executed": [
+                "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest"
+            ],
+            "failing_assertions": [
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
+                "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0"
+            ],
+            "failing_lines": [
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test05(StatisticalBarRenderer_ESTest.java:166)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test13(StatisticalBarRenderer_ESTest.java:295)"
+                ],
+                [
+                    "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest.test14(StatisticalBarRenderer_ESTest.java:316)"
+                ]
+            ]
+        }
+    ],
+    "duration": 97.46
+}

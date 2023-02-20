@@ -1,0 +1,66 @@
+{
+    "patch": "/Users/matias/develop/git-xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Closure/patch1-Closure-126-AVATAR-plausible.patch",
+    "project": "Closure",
+    "bugid": "126",
+    "dataset": "Patches_ICSE",
+    "date": "2022-12-22T12:50:26.602059",
+    "project_checked": "ok",
+    "compiledProjectModified": "ok",
+    "patchApplied": "ok",
+    "arrive_end": "ok",
+    "patched_project_pass_all_test": "no",
+    "test_execution": [
+        {
+            "patch": "/Users/matias/develop/git-xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Closure/patch1-Closure-126-AVATAR-plausible.patch",
+            "test": "test_from_WangICSE_patch1-Closure-126-AVATAR-plausible",
+            "failing": 7,
+            "testrun": 9,
+            "failings": [
+                "test0(com.google.javascript.jscomp.MinimizeExitPoints_ESTest)",
+                "test1(com.google.javascript.jscomp.MinimizeExitPoints_ESTest)",
+                "test2(com.google.javascript.jscomp.MinimizeExitPoints_ESTest)",
+                "test3(com.google.javascript.jscomp.MinimizeExitPoints_ESTest)",
+                "test6(com.google.javascript.jscomp.MinimizeExitPoints_ESTest)",
+                "test7(com.google.javascript.jscomp.MinimizeExitPoints_ESTest)",
+                "test8(com.google.javascript.jscomp.MinimizeExitPoints_ESTest)"
+            ],
+            "status": "ok",
+            "test_executed": [
+                "com.google.javascript.jscomp.MinimizeExitPoints_ESTest"
+            ],
+            "failing_assertions": [
+                "java.lang.NoClassDefFoundError: Could not initialize class java.util.logging.LogManager",
+                "java.lang.NoClassDefFoundError: Could not initialize class com.google.javascript.jscomp.Compiler",
+                "java.lang.NoClassDefFoundError: Could not initialize class com.google.javascript.jscomp.Compiler",
+                "java.lang.NoClassDefFoundError: Could not initialize class com.google.javascript.jscomp.Compiler",
+                "java.lang.NoClassDefFoundError: Could not initialize class com.google.javascript.jscomp.Compiler",
+                "java.lang.NoClassDefFoundError: Could not initialize class com.google.javascript.jscomp.Compiler",
+                "java.lang.NoClassDefFoundError: Could not initialize class com.google.javascript.jscomp.Compiler"
+            ],
+            "failing_lines": [
+                [
+                    "com.google.javascript.jscomp.MinimizeExitPoints_ESTest.test0(MinimizeExitPoints_ESTest.java:59)"
+                ],
+                [
+                    "com.google.javascript.jscomp.MinimizeExitPoints_ESTest.test1(MinimizeExitPoints_ESTest.java:91)"
+                ],
+                [
+                    "com.google.javascript.jscomp.MinimizeExitPoints_ESTest.test2(MinimizeExitPoints_ESTest.java:111)"
+                ],
+                [
+                    "com.google.javascript.jscomp.MinimizeExitPoints_ESTest.test3(MinimizeExitPoints_ESTest.java:129)"
+                ],
+                [
+                    "com.google.javascript.jscomp.MinimizeExitPoints_ESTest.test6(MinimizeExitPoints_ESTest.java:215)"
+                ],
+                [
+                    "com.google.javascript.jscomp.MinimizeExitPoints_ESTest.test7(MinimizeExitPoints_ESTest.java:233)"
+                ],
+                [
+                    "com.google.javascript.jscomp.MinimizeExitPoints_ESTest.test8(MinimizeExitPoints_ESTest.java:257)"
+                ]
+            ]
+        }
+    ],
+    "duration": 40.43
+}

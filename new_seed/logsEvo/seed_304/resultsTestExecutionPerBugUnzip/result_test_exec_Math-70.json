@@ -1,0 +1,2360 @@
+{
+    "bugid": "Math-70",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Math/patch1-Math-70-SimFix.patch",
+            "project": "Math",
+            "bugid": "70",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-04T04:38:36.234367",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Math/patch1-Math-70-SimFix.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix-plausible",
+                    "failing": 0,
+                    "testrun": 31,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Math/patch1-Math-70-SimFix.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SOFix",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Math/patch1-Math-70-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-Cardumen",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Math/patch1-Math-70-SimFix.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-CapGen",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Math/patch1-Math-70-SimFix.patch",
+                    "test": "test_from_WangDRR_patch2-Math-70-SketchFix-plausible",
+                    "failing": 4,
+                    "testrun": 29,
+                    "failings": [
+                        "test26(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<102.2293204591661> but was:<6.967288664440496E-7>",
+                        "java.lang.AssertionError: expected:<-2.7213461281824546E-7> but was:<-584.4046308098586>",
+                        "java.lang.AssertionError: expected:<52> but was:<55>",
+                        "java.lang.AssertionError: expected:<619.046994744549> but was:<102.22932132132397>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test26(BisectionSolver_ESTest.java:407)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:70)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:30)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:101)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Math/patch1-Math-70-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-TBar",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Math/patch1-Math-70-SimFix.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix",
+                    "failing": 0,
+                    "testrun": 29,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Math/patch1-Math-70-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-jGenProg",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Math/patch1-Math-70-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-FixMiner",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Math/patch1-Math-70-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-SimFix",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Math/patch1-Math-70-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-kPAR",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 27.29
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/jGenProg/Math/patch1-Math-70-jGenProg.patch",
+            "project": "Math",
+            "bugid": "70",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-04T04:39:03.530390",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/jGenProg/Math/patch1-Math-70-jGenProg.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix-plausible",
+                    "failing": 0,
+                    "testrun": 31,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/jGenProg/Math/patch1-Math-70-jGenProg.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SOFix",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/jGenProg/Math/patch1-Math-70-jGenProg.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-Cardumen",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/jGenProg/Math/patch1-Math-70-jGenProg.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-CapGen",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/jGenProg/Math/patch1-Math-70-jGenProg.patch",
+                    "test": "test_from_WangDRR_patch2-Math-70-SketchFix-plausible",
+                    "failing": 4,
+                    "testrun": 29,
+                    "failings": [
+                        "test26(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<102.2293204591661> but was:<6.967288664440496E-7>",
+                        "java.lang.AssertionError: expected:<-2.7213461281824546E-7> but was:<-584.4046308098586>",
+                        "java.lang.AssertionError: expected:<52> but was:<55>",
+                        "java.lang.AssertionError: expected:<619.046994744549> but was:<102.22932132132397>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test26(BisectionSolver_ESTest.java:407)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:70)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:30)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:101)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/jGenProg/Math/patch1-Math-70-jGenProg.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-TBar",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/jGenProg/Math/patch1-Math-70-jGenProg.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix",
+                    "failing": 0,
+                    "testrun": 29,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/jGenProg/Math/patch1-Math-70-jGenProg.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-jGenProg",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/jGenProg/Math/patch1-Math-70-jGenProg.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-FixMiner",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/jGenProg/Math/patch1-Math-70-jGenProg.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-SimFix",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/jGenProg/Math/patch1-Math-70-jGenProg.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-kPAR",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 27.63
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Cardumen/Math/patch1-Math-70-Cardumen.patch",
+            "project": "Math",
+            "bugid": "70",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-04T04:39:31.156477",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Cardumen/Math/patch1-Math-70-Cardumen.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix-plausible",
+                    "failing": 0,
+                    "testrun": 31,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Cardumen/Math/patch1-Math-70-Cardumen.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SOFix",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Cardumen/Math/patch1-Math-70-Cardumen.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-Cardumen",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Cardumen/Math/patch1-Math-70-Cardumen.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-CapGen",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Cardumen/Math/patch1-Math-70-Cardumen.patch",
+                    "test": "test_from_WangDRR_patch2-Math-70-SketchFix-plausible",
+                    "failing": 4,
+                    "testrun": 29,
+                    "failings": [
+                        "test26(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<102.2293204591661> but was:<6.967288664440496E-7>",
+                        "java.lang.AssertionError: expected:<-2.7213461281824546E-7> but was:<-584.4046308098586>",
+                        "java.lang.AssertionError: expected:<52> but was:<55>",
+                        "java.lang.AssertionError: expected:<619.046994744549> but was:<102.22932132132397>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test26(BisectionSolver_ESTest.java:407)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:70)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:30)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:101)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Cardumen/Math/patch1-Math-70-Cardumen.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-TBar",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Cardumen/Math/patch1-Math-70-Cardumen.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix",
+                    "failing": 0,
+                    "testrun": 29,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Cardumen/Math/patch1-Math-70-Cardumen.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-jGenProg",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Cardumen/Math/patch1-Math-70-Cardumen.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-FixMiner",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Cardumen/Math/patch1-Math-70-Cardumen.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-SimFix",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Cardumen/Math/patch1-Math-70-Cardumen.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-kPAR",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 27.17
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/FixMiner/Math/patch1-Math-70-FixMiner.patch",
+            "project": "Math",
+            "bugid": "70",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-04T04:39:58.326840",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/FixMiner/Math/patch1-Math-70-FixMiner.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix-plausible",
+                    "failing": 0,
+                    "testrun": 31,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/FixMiner/Math/patch1-Math-70-FixMiner.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SOFix",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/FixMiner/Math/patch1-Math-70-FixMiner.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-Cardumen",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/FixMiner/Math/patch1-Math-70-FixMiner.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-CapGen",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/FixMiner/Math/patch1-Math-70-FixMiner.patch",
+                    "test": "test_from_WangDRR_patch2-Math-70-SketchFix-plausible",
+                    "failing": 4,
+                    "testrun": 29,
+                    "failings": [
+                        "test26(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<102.2293204591661> but was:<6.967288664440496E-7>",
+                        "java.lang.AssertionError: expected:<-2.7213461281824546E-7> but was:<-584.4046308098586>",
+                        "java.lang.AssertionError: expected:<52> but was:<55>",
+                        "java.lang.AssertionError: expected:<619.046994744549> but was:<102.22932132132397>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test26(BisectionSolver_ESTest.java:407)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:70)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:30)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:101)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/FixMiner/Math/patch1-Math-70-FixMiner.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-TBar",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/FixMiner/Math/patch1-Math-70-FixMiner.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix",
+                    "failing": 0,
+                    "testrun": 29,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/FixMiner/Math/patch1-Math-70-FixMiner.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-jGenProg",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/FixMiner/Math/patch1-Math-70-FixMiner.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-FixMiner",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/FixMiner/Math/patch1-Math-70-FixMiner.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-SimFix",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/FixMiner/Math/patch1-Math-70-FixMiner.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-kPAR",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 27.2
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/kPAR/Math/patch1-Math-70-kPAR.patch",
+            "project": "Math",
+            "bugid": "70",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-04T04:40:25.531950",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/kPAR/Math/patch1-Math-70-kPAR.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix-plausible",
+                    "failing": 0,
+                    "testrun": 31,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/kPAR/Math/patch1-Math-70-kPAR.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SOFix",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/kPAR/Math/patch1-Math-70-kPAR.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-Cardumen",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/kPAR/Math/patch1-Math-70-kPAR.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-CapGen",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/kPAR/Math/patch1-Math-70-kPAR.patch",
+                    "test": "test_from_WangDRR_patch2-Math-70-SketchFix-plausible",
+                    "failing": 4,
+                    "testrun": 29,
+                    "failings": [
+                        "test26(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<102.2293204591661> but was:<6.967288664440496E-7>",
+                        "java.lang.AssertionError: expected:<-2.7213461281824546E-7> but was:<-584.4046308098586>",
+                        "java.lang.AssertionError: expected:<52> but was:<55>",
+                        "java.lang.AssertionError: expected:<619.046994744549> but was:<102.22932132132397>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test26(BisectionSolver_ESTest.java:407)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:70)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:30)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:101)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/kPAR/Math/patch1-Math-70-kPAR.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-TBar",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/kPAR/Math/patch1-Math-70-kPAR.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix",
+                    "failing": 0,
+                    "testrun": 29,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/kPAR/Math/patch1-Math-70-kPAR.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-jGenProg",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/kPAR/Math/patch1-Math-70-kPAR.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-FixMiner",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/kPAR/Math/patch1-Math-70-kPAR.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-SimFix",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/kPAR/Math/patch1-Math-70-kPAR.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-kPAR",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 27.3
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/TBar/Math/patch1-Math-70-TBar.patch",
+            "project": "Math",
+            "bugid": "70",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-04T04:40:52.837076",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/TBar/Math/patch1-Math-70-TBar.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix-plausible",
+                    "failing": 0,
+                    "testrun": 31,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/TBar/Math/patch1-Math-70-TBar.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SOFix",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/TBar/Math/patch1-Math-70-TBar.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-Cardumen",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/TBar/Math/patch1-Math-70-TBar.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-CapGen",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/TBar/Math/patch1-Math-70-TBar.patch",
+                    "test": "test_from_WangDRR_patch2-Math-70-SketchFix-plausible",
+                    "failing": 4,
+                    "testrun": 29,
+                    "failings": [
+                        "test26(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<102.2293204591661> but was:<6.967288664440496E-7>",
+                        "java.lang.AssertionError: expected:<-2.7213461281824546E-7> but was:<-584.4046308098586>",
+                        "java.lang.AssertionError: expected:<52> but was:<55>",
+                        "java.lang.AssertionError: expected:<619.046994744549> but was:<102.22932132132397>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test26(BisectionSolver_ESTest.java:407)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:70)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:30)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:101)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/TBar/Math/patch1-Math-70-TBar.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-TBar",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/TBar/Math/patch1-Math-70-TBar.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix",
+                    "failing": 0,
+                    "testrun": 29,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/TBar/Math/patch1-Math-70-TBar.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-jGenProg",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/TBar/Math/patch1-Math-70-TBar.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-FixMiner",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/TBar/Math/patch1-Math-70-TBar.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-SimFix",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/TBar/Math/patch1-Math-70-TBar.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-kPAR",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 27.24
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-70-SOFix.patch",
+            "project": "Math",
+            "bugid": "70",
+            "dataset": "Patches_others",
+            "date": "2023-02-04T04:41:20.080553",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-70-SOFix.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix-plausible",
+                    "failing": 0,
+                    "testrun": 31,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-70-SOFix.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SOFix",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-70-SOFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-Cardumen",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-70-SOFix.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-CapGen",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-70-SOFix.patch",
+                    "test": "test_from_WangDRR_patch2-Math-70-SketchFix-plausible",
+                    "failing": 4,
+                    "testrun": 29,
+                    "failings": [
+                        "test26(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<102.2293204591661> but was:<6.967288664440496E-7>",
+                        "java.lang.AssertionError: expected:<-2.7213461281824546E-7> but was:<-584.4046308098586>",
+                        "java.lang.AssertionError: expected:<52> but was:<55>",
+                        "java.lang.AssertionError: expected:<619.046994744549> but was:<102.22932132132397>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test26(BisectionSolver_ESTest.java:407)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:70)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:30)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:101)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-70-SOFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-TBar",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-70-SOFix.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix",
+                    "failing": 0,
+                    "testrun": 29,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-70-SOFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-jGenProg",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-70-SOFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-FixMiner",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-70-SOFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-SimFix",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-70-SOFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-kPAR",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 27.36
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-70-CapGen.patch",
+            "project": "Math",
+            "bugid": "70",
+            "dataset": "Patches_others",
+            "date": "2023-02-04T04:41:47.446055",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-70-CapGen.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix-plausible",
+                    "failing": 0,
+                    "testrun": 31,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-70-CapGen.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SOFix",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-70-CapGen.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-Cardumen",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-70-CapGen.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-CapGen",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-70-CapGen.patch",
+                    "test": "test_from_WangDRR_patch2-Math-70-SketchFix-plausible",
+                    "failing": 4,
+                    "testrun": 29,
+                    "failings": [
+                        "test26(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<102.2293204591661> but was:<6.967288664440496E-7>",
+                        "java.lang.AssertionError: expected:<-2.7213461281824546E-7> but was:<-584.4046308098586>",
+                        "java.lang.AssertionError: expected:<52> but was:<55>",
+                        "java.lang.AssertionError: expected:<619.046994744549> but was:<102.22932132132397>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test26(BisectionSolver_ESTest.java:407)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:70)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:30)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:101)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-70-CapGen.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-TBar",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-70-CapGen.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix",
+                    "failing": 0,
+                    "testrun": 29,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-70-CapGen.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-jGenProg",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-70-CapGen.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-FixMiner",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-70-CapGen.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-SimFix",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-70-CapGen.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-kPAR",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 28.5
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SketchFix/Math/patch1-Math-70-SketchFix.patch",
+            "project": "Math",
+            "bugid": "70",
+            "dataset": "Patches_others",
+            "date": "2023-02-04T04:42:15.945347",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SketchFix/Math/patch1-Math-70-SketchFix.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix-plausible",
+                    "failing": 0,
+                    "testrun": 31,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SketchFix/Math/patch1-Math-70-SketchFix.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SOFix",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SketchFix/Math/patch1-Math-70-SketchFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-Cardumen",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SketchFix/Math/patch1-Math-70-SketchFix.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-CapGen",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SketchFix/Math/patch1-Math-70-SketchFix.patch",
+                    "test": "test_from_WangDRR_patch2-Math-70-SketchFix-plausible",
+                    "failing": 4,
+                    "testrun": 29,
+                    "failings": [
+                        "test26(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<102.2293204591661> but was:<6.967288664440496E-7>",
+                        "java.lang.AssertionError: expected:<-2.7213461281824546E-7> but was:<-584.4046308098586>",
+                        "java.lang.AssertionError: expected:<52> but was:<55>",
+                        "java.lang.AssertionError: expected:<619.046994744549> but was:<102.22932132132397>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test26(BisectionSolver_ESTest.java:407)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:70)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:30)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:101)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SketchFix/Math/patch1-Math-70-SketchFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-TBar",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SketchFix/Math/patch1-Math-70-SketchFix.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix",
+                    "failing": 0,
+                    "testrun": 29,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SketchFix/Math/patch1-Math-70-SketchFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-jGenProg",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SketchFix/Math/patch1-Math-70-SketchFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-FixMiner",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SketchFix/Math/patch1-Math-70-SketchFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-SimFix",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SketchFix/Math/patch1-Math-70-SketchFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-kPAR",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 27.44
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch2-Math-70-SketchFix-plausible.patch",
+            "project": "Math",
+            "bugid": "70",
+            "dataset": "Patches_others",
+            "date": "2023-02-04T04:42:43.391183",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch2-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix-plausible",
+                    "failing": 8,
+                    "testrun": 31,
+                    "failings": [
+                        "test05(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test04(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test02(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test29(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test28(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1.3101237237616136E-6> but was:<2663.9425032296144>",
+                        "java.lang.AssertionError: expected:<4.675239324569702E-7> but was:<15.687499532476068>",
+                        "java.lang.AssertionError: expected:<-898.8917735814209> but was:<-1.2585150084164686E-6>",
+                        "java.lang.AssertionError: expected:<0.5000004768371582> but was:<0.9999995231628418>",
+                        "04:42:57.864 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.MessagesResources",
+                        "java.lang.AssertionError: expected:<-4603.242999732056> but was:<-2.6794400764629247E-7>",
+                        "java.lang.AssertionError: expected:<-1047.969308102467> but was:<-1.0000004875330761>",
+                        "java.lang.AssertionError: expected:<-2633.5992609689238> but was:<-898.8917744038931>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test05(BisectionSolver_ESTest.java:82)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test04(BisectionSolver_ESTest.java:72)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:62)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test02(BisectionSolver_ESTest.java:52)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:29)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test29(BisectionSolver_ESTest.java:461)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:92)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test28(BisectionSolver_ESTest.java:451)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch2-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SOFix",
+                    "failing": 7,
+                    "testrun": 28,
+                    "failings": [
+                        "test05(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test04(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test02(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test07(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-824.1884316162075> but was:<-3.8379263622926715E-7>",
+                        "java.lang.AssertionError: expected:<102.22932125884094> but was:<551.9563695811592>",
+                        "java.lang.AssertionError: expected:<3.717366978325881E-7> but was:<1596.5969595422634>",
+                        "java.lang.AssertionError: expected:<-824.1884315051473> but was:<-292.8442157358528>",
+                        "04:42:59.223 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.MessagesResources",
+                        "java.lang.AssertionError: expected:<-2755.4062206237686> but was:<-3.207715019751969E-7>",
+                        "java.lang.AssertionError: expected:<4.6584931419906614E-7> but was:<0.0305294341506958>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test05(BisectionSolver_ESTest.java:89)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test04(BisectionSolver_ESTest.java:79)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:69)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test02(BisectionSolver_ESTest.java:59)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:29)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test07(BisectionSolver_ESTest.java:109)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:99)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch2-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-Cardumen",
+                    "failing": 7,
+                    "testrun": 27,
+                    "failings": [
+                        "test05(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test04(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test02(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test07(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-824.1884316162075> but was:<-3.8379263622926715E-7>",
+                        "java.lang.AssertionError: expected:<102.22932125884094> but was:<551.9563695811592>",
+                        "java.lang.AssertionError: expected:<3.717366978325881E-7> but was:<1596.5969595422634>",
+                        "java.lang.AssertionError: expected:<-824.1884315051473> but was:<-292.8442157358528>",
+                        "04:43:00.562 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.MessagesResources",
+                        "java.lang.AssertionError: expected:<-2755.4062206237686> but was:<-3.207715019751969E-7>",
+                        "java.lang.AssertionError: expected:<4.6584931419906614E-7> but was:<0.0305294341506958>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test05(BisectionSolver_ESTest.java:89)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test04(BisectionSolver_ESTest.java:79)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:69)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test02(BisectionSolver_ESTest.java:59)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:29)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test07(BisectionSolver_ESTest.java:109)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:99)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch2-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-CapGen",
+                    "failing": 7,
+                    "testrun": 28,
+                    "failings": [
+                        "test05(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test04(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test02(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test07(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-824.1884316162075> but was:<-3.8379263622926715E-7>",
+                        "java.lang.AssertionError: expected:<102.22932125884094> but was:<551.9563695811592>",
+                        "java.lang.AssertionError: expected:<3.717366978325881E-7> but was:<1596.5969595422634>",
+                        "java.lang.AssertionError: expected:<-824.1884315051473> but was:<-292.8442157358528>",
+                        "04:43:01.887 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.MessagesResources",
+                        "java.lang.AssertionError: expected:<-2755.4062206237686> but was:<-3.207715019751969E-7>",
+                        "java.lang.AssertionError: expected:<4.6584931419906614E-7> but was:<0.0305294341506958>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test05(BisectionSolver_ESTest.java:89)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test04(BisectionSolver_ESTest.java:79)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:69)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test02(BisectionSolver_ESTest.java:59)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:29)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test07(BisectionSolver_ESTest.java:109)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:99)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch2-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Math-70-SketchFix-plausible",
+                    "failing": 0,
+                    "testrun": 29,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch2-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-TBar",
+                    "failing": 7,
+                    "testrun": 27,
+                    "failings": [
+                        "test05(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test04(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test02(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test07(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-824.1884316162075> but was:<-3.8379263622926715E-7>",
+                        "java.lang.AssertionError: expected:<102.22932125884094> but was:<551.9563695811592>",
+                        "java.lang.AssertionError: expected:<3.717366978325881E-7> but was:<1596.5969595422634>",
+                        "java.lang.AssertionError: expected:<-824.1884315051473> but was:<-292.8442157358528>",
+                        "04:43:04.533 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.MessagesResources",
+                        "java.lang.AssertionError: expected:<-2755.4062206237686> but was:<-3.207715019751969E-7>",
+                        "java.lang.AssertionError: expected:<4.6584931419906614E-7> but was:<0.0305294341506958>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test05(BisectionSolver_ESTest.java:89)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test04(BisectionSolver_ESTest.java:79)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:69)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test02(BisectionSolver_ESTest.java:59)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:29)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test07(BisectionSolver_ESTest.java:109)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:99)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch2-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix",
+                    "failing": 7,
+                    "testrun": 29,
+                    "failings": [
+                        "test05(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test04(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test02(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test07(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-824.1884316162075> but was:<-3.8379263622926715E-7>",
+                        "java.lang.AssertionError: expected:<102.22932125884094> but was:<551.9563695811592>",
+                        "java.lang.AssertionError: expected:<3.717366978325881E-7> but was:<1596.5969595422634>",
+                        "java.lang.AssertionError: expected:<-824.1884315051473> but was:<-292.8442157358528>",
+                        "04:43:05.829 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.MessagesResources",
+                        "java.lang.AssertionError: expected:<-2755.4062206237686> but was:<-3.207715019751969E-7>",
+                        "java.lang.AssertionError: expected:<4.6584931419906614E-7> but was:<0.0305294341506958>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test05(BisectionSolver_ESTest.java:89)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test04(BisectionSolver_ESTest.java:79)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:69)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test02(BisectionSolver_ESTest.java:59)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:29)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test07(BisectionSolver_ESTest.java:109)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:99)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch2-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-jGenProg",
+                    "failing": 7,
+                    "testrun": 27,
+                    "failings": [
+                        "test05(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test04(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test02(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test07(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-824.1884316162075> but was:<-3.8379263622926715E-7>",
+                        "java.lang.AssertionError: expected:<102.22932125884094> but was:<551.9563695811592>",
+                        "java.lang.AssertionError: expected:<3.717366978325881E-7> but was:<1596.5969595422634>",
+                        "java.lang.AssertionError: expected:<-824.1884315051473> but was:<-292.8442157358528>",
+                        "04:43:07.141 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.MessagesResources",
+                        "java.lang.AssertionError: expected:<-2755.4062206237686> but was:<-3.207715019751969E-7>",
+                        "java.lang.AssertionError: expected:<4.6584931419906614E-7> but was:<0.0305294341506958>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test05(BisectionSolver_ESTest.java:89)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test04(BisectionSolver_ESTest.java:79)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:69)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test02(BisectionSolver_ESTest.java:59)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:29)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test07(BisectionSolver_ESTest.java:109)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:99)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch2-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-FixMiner",
+                    "failing": 7,
+                    "testrun": 27,
+                    "failings": [
+                        "test05(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test04(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test25(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test02(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-824.1884316162075> but was:<-3.8379263622926715E-7>",
+                        "java.lang.AssertionError: expected:<102.22932125884094> but was:<551.9563695811592>",
+                        "java.lang.AssertionError: expected:<3.717366978325881E-7> but was:<1596.5969595422634>",
+                        "java.lang.AssertionError: expected:<-1829.7482596239784> but was:<-4.2602146511198953E-7>",
+                        "java.lang.AssertionError: expected:<-824.1884315051473> but was:<-292.8442157358528>",
+                        "04:43:08.493 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.MessagesResources",
+                        "java.lang.AssertionError: expected:<4.6584931419906614E-7> but was:<0.0305294341506958>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test05(BisectionSolver_ESTest.java:89)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test04(BisectionSolver_ESTest.java:79)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:69)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test25(BisectionSolver_ESTest.java:408)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test02(BisectionSolver_ESTest.java:59)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:29)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:99)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch2-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-SimFix",
+                    "failing": 7,
+                    "testrun": 27,
+                    "failings": [
+                        "test05(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test04(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test02(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test07(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-824.1884316162075> but was:<-3.8379263622926715E-7>",
+                        "java.lang.AssertionError: expected:<102.22932125884094> but was:<551.9563695811592>",
+                        "java.lang.AssertionError: expected:<3.717366978325881E-7> but was:<1596.5969595422634>",
+                        "java.lang.AssertionError: expected:<-824.1884315051473> but was:<-292.8442157358528>",
+                        "04:43:09.797 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.MessagesResources",
+                        "java.lang.AssertionError: expected:<-2755.4062206237686> but was:<-3.207715019751969E-7>",
+                        "java.lang.AssertionError: expected:<4.6584931419906614E-7> but was:<0.0305294341506958>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test05(BisectionSolver_ESTest.java:89)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test04(BisectionSolver_ESTest.java:79)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:69)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test02(BisectionSolver_ESTest.java:59)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:29)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test07(BisectionSolver_ESTest.java:109)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:99)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch2-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-kPAR",
+                    "failing": 7,
+                    "testrun": 28,
+                    "failings": [
+                        "test05(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test04(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test02(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test07(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-824.1884316162075> but was:<-3.8379263622926715E-7>",
+                        "java.lang.AssertionError: expected:<102.22932125884094> but was:<551.9563695811592>",
+                        "java.lang.AssertionError: expected:<3.717366978325881E-7> but was:<1596.5969595422634>",
+                        "java.lang.AssertionError: expected:<-824.1884315051473> but was:<-292.8442157358528>",
+                        "04:43:11.125 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.MessagesResources",
+                        "java.lang.AssertionError: expected:<-2755.4062206237686> but was:<-3.207715019751969E-7>",
+                        "java.lang.AssertionError: expected:<4.6584931419906614E-7> but was:<0.0305294341506958>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test05(BisectionSolver_ESTest.java:89)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test04(BisectionSolver_ESTest.java:79)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:69)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test02(BisectionSolver_ESTest.java:59)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:29)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test07(BisectionSolver_ESTest.java:109)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:99)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 27.76
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch1-Math-70-SketchFix-plausible.patch",
+            "project": "Math",
+            "bugid": "70",
+            "dataset": "Patches_others",
+            "date": "2023-02-04T04:43:11.154691",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch1-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix-plausible",
+                    "failing": 0,
+                    "testrun": 31,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch1-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SOFix",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch1-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-Cardumen",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch1-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-CapGen",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch1-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Math-70-SketchFix-plausible",
+                    "failing": 4,
+                    "testrun": 29,
+                    "failings": [
+                        "test26(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test03(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test00(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)",
+                        "test06(org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<102.2293204591661> but was:<6.967288664440496E-7>",
+                        "java.lang.AssertionError: expected:<-2.7213461281824546E-7> but was:<-584.4046308098586>",
+                        "java.lang.AssertionError: expected:<52> but was:<55>",
+                        "java.lang.AssertionError: expected:<619.046994744549> but was:<102.22932132132397>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test26(BisectionSolver_ESTest.java:407)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test03(BisectionSolver_ESTest.java:70)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test00(BisectionSolver_ESTest.java:30)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest.test06(BisectionSolver_ESTest.java:101)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch1-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-TBar",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch1-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-70-SketchFix",
+                    "failing": 0,
+                    "testrun": 29,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch1-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-jGenProg",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch1-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-FixMiner",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch1-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-SimFix",
+                    "failing": 0,
+                    "testrun": 27,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch1-Math-70-SketchFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-70-kPAR",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 27.38
+        }
+    ],
+    "date": "2023-02-04T04:38:36.215094",
+    "duration": -0.02
+}

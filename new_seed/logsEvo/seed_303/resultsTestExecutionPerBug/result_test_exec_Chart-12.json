@@ -1,0 +1,1339 @@
+{
+    "bugid": "Chart-12",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Chart/patch1-Chart-12-GenProg-plausible.patch",
+            "project": "Chart",
+            "bugid": "12",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-03T21:21:26.463535",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Chart/patch1-Chart-12-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-RSRepair-plausible",
+                    "failing": 11,
+                    "testrun": 44,
+                    "failings": [
+                        "test41(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test29(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test28(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test25(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test24(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test27(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test26(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test18(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test10(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test14(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test15(org.jfree.chart.plot.MultiplePiePlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test41(MultiplePiePlot_ESTest.java:545)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test29(MultiplePiePlot_ESTest.java:402)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test28(MultiplePiePlot_ESTest.java:390)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test25(MultiplePiePlot_ESTest.java:357)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test24(MultiplePiePlot_ESTest.java:346)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test27(MultiplePiePlot_ESTest.java:379)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test26(MultiplePiePlot_ESTest.java:368)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test18(MultiplePiePlot_ESTest.java:277)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test10(MultiplePiePlot_ESTest.java:171)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test14(MultiplePiePlot_ESTest.java:233)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test15(MultiplePiePlot_ESTest.java:246)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Chart/patch1-Chart-12-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-SimFix-plausible",
+                    "failing": 9,
+                    "testrun": 38,
+                    "failings": [
+                        "test28(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test08(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test21(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test20(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test23(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test22(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test24(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test18(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test11(org.jfree.chart.plot.MultiplePiePlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'fillPaint\\' argument.",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test28(MultiplePiePlot_ESTest.java:410)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test08(MultiplePiePlot_ESTest.java:166)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test21(MultiplePiePlot_ESTest.java:307)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test20(MultiplePiePlot_ESTest.java:291)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test23(MultiplePiePlot_ESTest.java:329)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test22(MultiplePiePlot_ESTest.java:318)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test24(MultiplePiePlot_ESTest.java:349)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test18(MultiplePiePlot_ESTest.java:274)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test11(MultiplePiePlot_ESTest.java:195)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Chart/patch1-Chart-12-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 163,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest",
+                        "org.jfree.chart.JFreeChart_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Chart/patch1-Chart-12-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-Kali-plausible",
+                    "failing": 1,
+                    "testrun": 11,
+                    "failings": [
+                        "test08(org.jfree.data.general.AbstractDataset_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.general.AbstractDataset_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.general.AbstractDataset_ESTest.test08(AbstractDataset_ESTest.java:110)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Chart/patch1-Chart-12-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-TBar-plausible",
+                    "failing": 1,
+                    "testrun": 14,
+                    "failings": [
+                        "test09(org.jfree.data.general.AbstractDataset_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.general.AbstractDataset_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.general.AbstractDataset_ESTest.test09(AbstractDataset_ESTest.java:138)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Chart/patch1-Chart-12-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-Arja",
+                    "failing": 6,
+                    "testrun": 38,
+                    "failings": [
+                        "test21(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test23(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test22(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test24(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test10(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test35(org.jfree.chart.plot.MultiplePiePlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test21(MultiplePiePlot_ESTest.java:308)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test23(MultiplePiePlot_ESTest.java:336)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test22(MultiplePiePlot_ESTest.java:323)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test24(MultiplePiePlot_ESTest.java:350)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test10(MultiplePiePlot_ESTest.java:200)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test35(MultiplePiePlot_ESTest.java:488)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 35.74
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Chart/patch1-Chart-12-SimFix-plausible.patch",
+            "project": "Chart",
+            "bugid": "12",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-03T21:22:02.206074",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Chart/patch1-Chart-12-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 44,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Chart/patch1-Chart-12-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 38,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Chart/patch1-Chart-12-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-GenProg-plausible",
+                    "failing": 22,
+                    "testrun": 163,
+                    "failings": [
+                        "test28(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test22(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test05(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test18(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test17(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test054(org.jfree.chart.JFreeChart_ESTest)",
+                        "test107(org.jfree.chart.JFreeChart_ESTest)",
+                        "test108(org.jfree.chart.JFreeChart_ESTest)",
+                        "test106(org.jfree.chart.JFreeChart_ESTest)",
+                        "test103(org.jfree.chart.JFreeChart_ESTest)",
+                        "test111(org.jfree.chart.JFreeChart_ESTest)",
+                        "test100(org.jfree.chart.JFreeChart_ESTest)",
+                        "test127(org.jfree.chart.JFreeChart_ESTest)",
+                        "test125(org.jfree.chart.JFreeChart_ESTest)",
+                        "test123(org.jfree.chart.JFreeChart_ESTest)",
+                        "test098(org.jfree.chart.JFreeChart_ESTest)",
+                        "test118(org.jfree.chart.JFreeChart_ESTest)",
+                        "test119(org.jfree.chart.JFreeChart_ESTest)",
+                        "test117(org.jfree.chart.JFreeChart_ESTest)",
+                        "test112(org.jfree.chart.JFreeChart_ESTest)",
+                        "test121(org.jfree.chart.JFreeChart_ESTest)",
+                        "test122(org.jfree.chart.JFreeChart_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest",
+                        "org.jfree.chart.JFreeChart_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected null, but was:<java.awt.Color[r=192,g=192,b=192]>",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<2> but was:<1>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test28(MultiplePiePlot_ESTest.java:411)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test22(MultiplePiePlot_ESTest.java:337)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test05(MultiplePiePlot_ESTest.java:95)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test18(MultiplePiePlot_ESTest.java:268)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test17(MultiplePiePlot_ESTest.java:249)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test054(JFreeChart_ESTest.java:766)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test107(JFreeChart_ESTest.java:1424)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test108(JFreeChart_ESTest.java:1436)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test106(JFreeChart_ESTest.java:1412)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test103(JFreeChart_ESTest.java:1375)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test111(JFreeChart_ESTest.java:1485)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test100(JFreeChart_ESTest.java:1329)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test127(JFreeChart_ESTest.java:1669)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test125(JFreeChart_ESTest.java:1649)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test123(JFreeChart_ESTest.java:1622)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test098(JFreeChart_ESTest.java:1307)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test118(JFreeChart_ESTest.java:1565)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test119(JFreeChart_ESTest.java:1575)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test117(JFreeChart_ESTest.java:1553)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test112(JFreeChart_ESTest.java:1496)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test121(JFreeChart_ESTest.java:1600)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test122(JFreeChart_ESTest.java:1610)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Chart/patch1-Chart-12-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-Kali-plausible",
+                    "failing": 1,
+                    "testrun": 11,
+                    "failings": [
+                        "test08(org.jfree.data.general.AbstractDataset_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.general.AbstractDataset_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.general.AbstractDataset_ESTest.test08(AbstractDataset_ESTest.java:110)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Chart/patch1-Chart-12-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-TBar-plausible",
+                    "failing": 1,
+                    "testrun": 14,
+                    "failings": [
+                        "test09(org.jfree.data.general.AbstractDataset_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.general.AbstractDataset_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.general.AbstractDataset_ESTest.test09(AbstractDataset_ESTest.java:138)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Chart/patch1-Chart-12-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-Arja",
+                    "failing": 0,
+                    "testrun": 38,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.23
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-12-Kali-plausible.patch",
+            "project": "Chart",
+            "bugid": "12",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-03T21:22:37.436810",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-12-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 44,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-12-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 38,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-12-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-GenProg-plausible",
+                    "failing": 22,
+                    "testrun": 163,
+                    "failings": [
+                        "test28(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test22(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test05(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test18(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test17(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test054(org.jfree.chart.JFreeChart_ESTest)",
+                        "test107(org.jfree.chart.JFreeChart_ESTest)",
+                        "test108(org.jfree.chart.JFreeChart_ESTest)",
+                        "test106(org.jfree.chart.JFreeChart_ESTest)",
+                        "test103(org.jfree.chart.JFreeChart_ESTest)",
+                        "test111(org.jfree.chart.JFreeChart_ESTest)",
+                        "test100(org.jfree.chart.JFreeChart_ESTest)",
+                        "test127(org.jfree.chart.JFreeChart_ESTest)",
+                        "test125(org.jfree.chart.JFreeChart_ESTest)",
+                        "test123(org.jfree.chart.JFreeChart_ESTest)",
+                        "test098(org.jfree.chart.JFreeChart_ESTest)",
+                        "test118(org.jfree.chart.JFreeChart_ESTest)",
+                        "test119(org.jfree.chart.JFreeChart_ESTest)",
+                        "test117(org.jfree.chart.JFreeChart_ESTest)",
+                        "test112(org.jfree.chart.JFreeChart_ESTest)",
+                        "test121(org.jfree.chart.JFreeChart_ESTest)",
+                        "test122(org.jfree.chart.JFreeChart_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest",
+                        "org.jfree.chart.JFreeChart_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected null, but was:<java.awt.Color[r=192,g=192,b=192]>",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<2> but was:<1>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test28(MultiplePiePlot_ESTest.java:411)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test22(MultiplePiePlot_ESTest.java:337)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test05(MultiplePiePlot_ESTest.java:95)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test18(MultiplePiePlot_ESTest.java:268)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test17(MultiplePiePlot_ESTest.java:249)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test054(JFreeChart_ESTest.java:766)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test107(JFreeChart_ESTest.java:1424)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test108(JFreeChart_ESTest.java:1436)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test106(JFreeChart_ESTest.java:1412)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test103(JFreeChart_ESTest.java:1375)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test111(JFreeChart_ESTest.java:1485)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test100(JFreeChart_ESTest.java:1329)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test127(JFreeChart_ESTest.java:1669)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test125(JFreeChart_ESTest.java:1649)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test123(JFreeChart_ESTest.java:1622)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test098(JFreeChart_ESTest.java:1307)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test118(JFreeChart_ESTest.java:1565)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test119(JFreeChart_ESTest.java:1575)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test117(JFreeChart_ESTest.java:1553)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test112(JFreeChart_ESTest.java:1496)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test121(JFreeChart_ESTest.java:1600)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test122(JFreeChart_ESTest.java:1610)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-12-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 11,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.general.AbstractDataset_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-12-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 14,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.general.AbstractDataset_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Chart/patch1-Chart-12-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-Arja",
+                    "failing": 0,
+                    "testrun": 38,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.59
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-12-TBar-plausible.patch",
+            "project": "Chart",
+            "bugid": "12",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-03T21:23:13.028125",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-12-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 44,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-12-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 38,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-12-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-GenProg-plausible",
+                    "failing": 22,
+                    "testrun": 163,
+                    "failings": [
+                        "test28(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test22(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test05(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test18(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test17(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test054(org.jfree.chart.JFreeChart_ESTest)",
+                        "test107(org.jfree.chart.JFreeChart_ESTest)",
+                        "test108(org.jfree.chart.JFreeChart_ESTest)",
+                        "test106(org.jfree.chart.JFreeChart_ESTest)",
+                        "test103(org.jfree.chart.JFreeChart_ESTest)",
+                        "test111(org.jfree.chart.JFreeChart_ESTest)",
+                        "test100(org.jfree.chart.JFreeChart_ESTest)",
+                        "test127(org.jfree.chart.JFreeChart_ESTest)",
+                        "test125(org.jfree.chart.JFreeChart_ESTest)",
+                        "test123(org.jfree.chart.JFreeChart_ESTest)",
+                        "test098(org.jfree.chart.JFreeChart_ESTest)",
+                        "test118(org.jfree.chart.JFreeChart_ESTest)",
+                        "test119(org.jfree.chart.JFreeChart_ESTest)",
+                        "test117(org.jfree.chart.JFreeChart_ESTest)",
+                        "test112(org.jfree.chart.JFreeChart_ESTest)",
+                        "test121(org.jfree.chart.JFreeChart_ESTest)",
+                        "test122(org.jfree.chart.JFreeChart_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest",
+                        "org.jfree.chart.JFreeChart_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected null, but was:<java.awt.Color[r=192,g=192,b=192]>",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<2> but was:<1>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test28(MultiplePiePlot_ESTest.java:411)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test22(MultiplePiePlot_ESTest.java:337)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test05(MultiplePiePlot_ESTest.java:95)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test18(MultiplePiePlot_ESTest.java:268)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test17(MultiplePiePlot_ESTest.java:249)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test054(JFreeChart_ESTest.java:766)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test107(JFreeChart_ESTest.java:1424)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test108(JFreeChart_ESTest.java:1436)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test106(JFreeChart_ESTest.java:1412)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test103(JFreeChart_ESTest.java:1375)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test111(JFreeChart_ESTest.java:1485)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test100(JFreeChart_ESTest.java:1329)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test127(JFreeChart_ESTest.java:1669)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test125(JFreeChart_ESTest.java:1649)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test123(JFreeChart_ESTest.java:1622)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test098(JFreeChart_ESTest.java:1307)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test118(JFreeChart_ESTest.java:1565)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test119(JFreeChart_ESTest.java:1575)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test117(JFreeChart_ESTest.java:1553)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test112(JFreeChart_ESTest.java:1496)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test121(JFreeChart_ESTest.java:1600)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test122(JFreeChart_ESTest.java:1610)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-12-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 11,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.general.AbstractDataset_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-12-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 14,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.general.AbstractDataset_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-12-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-Arja",
+                    "failing": 0,
+                    "testrun": 38,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.52
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Chart/patch1-Chart-12-RSRepair-plausible.patch",
+            "project": "Chart",
+            "bugid": "12",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-03T21:23:48.548089",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Chart/patch1-Chart-12-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 44,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Chart/patch1-Chart-12-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 38,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Chart/patch1-Chart-12-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-GenProg-plausible",
+                    "failing": 22,
+                    "testrun": 163,
+                    "failings": [
+                        "test28(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test22(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test05(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test18(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test17(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test054(org.jfree.chart.JFreeChart_ESTest)",
+                        "test107(org.jfree.chart.JFreeChart_ESTest)",
+                        "test108(org.jfree.chart.JFreeChart_ESTest)",
+                        "test106(org.jfree.chart.JFreeChart_ESTest)",
+                        "test103(org.jfree.chart.JFreeChart_ESTest)",
+                        "test111(org.jfree.chart.JFreeChart_ESTest)",
+                        "test100(org.jfree.chart.JFreeChart_ESTest)",
+                        "test127(org.jfree.chart.JFreeChart_ESTest)",
+                        "test125(org.jfree.chart.JFreeChart_ESTest)",
+                        "test123(org.jfree.chart.JFreeChart_ESTest)",
+                        "test098(org.jfree.chart.JFreeChart_ESTest)",
+                        "test118(org.jfree.chart.JFreeChart_ESTest)",
+                        "test119(org.jfree.chart.JFreeChart_ESTest)",
+                        "test117(org.jfree.chart.JFreeChart_ESTest)",
+                        "test112(org.jfree.chart.JFreeChart_ESTest)",
+                        "test121(org.jfree.chart.JFreeChart_ESTest)",
+                        "test122(org.jfree.chart.JFreeChart_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest",
+                        "org.jfree.chart.JFreeChart_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected null, but was:<java.awt.Color[r=192,g=192,b=192]>",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<2> but was:<1>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test28(MultiplePiePlot_ESTest.java:411)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test22(MultiplePiePlot_ESTest.java:337)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test05(MultiplePiePlot_ESTest.java:95)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test18(MultiplePiePlot_ESTest.java:268)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test17(MultiplePiePlot_ESTest.java:249)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test054(JFreeChart_ESTest.java:766)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test107(JFreeChart_ESTest.java:1424)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test108(JFreeChart_ESTest.java:1436)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test106(JFreeChart_ESTest.java:1412)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test103(JFreeChart_ESTest.java:1375)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test111(JFreeChart_ESTest.java:1485)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test100(JFreeChart_ESTest.java:1329)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test127(JFreeChart_ESTest.java:1669)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test125(JFreeChart_ESTest.java:1649)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test123(JFreeChart_ESTest.java:1622)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test098(JFreeChart_ESTest.java:1307)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test118(JFreeChart_ESTest.java:1565)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test119(JFreeChart_ESTest.java:1575)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test117(JFreeChart_ESTest.java:1553)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test112(JFreeChart_ESTest.java:1496)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test121(JFreeChart_ESTest.java:1600)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test122(JFreeChart_ESTest.java:1610)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Chart/patch1-Chart-12-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-Kali-plausible",
+                    "failing": 1,
+                    "testrun": 11,
+                    "failings": [
+                        "test08(org.jfree.data.general.AbstractDataset_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.general.AbstractDataset_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.general.AbstractDataset_ESTest.test08(AbstractDataset_ESTest.java:110)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Chart/patch1-Chart-12-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-TBar-plausible",
+                    "failing": 1,
+                    "testrun": 14,
+                    "failings": [
+                        "test09(org.jfree.data.general.AbstractDataset_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.general.AbstractDataset_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.general.AbstractDataset_ESTest.test09(AbstractDataset_ESTest.java:138)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Chart/patch1-Chart-12-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-Arja",
+                    "failing": 0,
+                    "testrun": 38,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.49
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/Arja/Chart/patch1-Chart-12-Arja.patch",
+            "project": "Chart",
+            "bugid": "12",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-03T21:24:24.039711",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/Arja/Chart/patch1-Chart-12-Arja.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 44,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/Arja/Chart/patch1-Chart-12-Arja.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 38,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/Arja/Chart/patch1-Chart-12-Arja.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-GenProg-plausible",
+                    "failing": 22,
+                    "testrun": 163,
+                    "failings": [
+                        "test28(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test22(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test05(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test18(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test17(org.jfree.chart.plot.MultiplePiePlot_ESTest)",
+                        "test054(org.jfree.chart.JFreeChart_ESTest)",
+                        "test107(org.jfree.chart.JFreeChart_ESTest)",
+                        "test108(org.jfree.chart.JFreeChart_ESTest)",
+                        "test106(org.jfree.chart.JFreeChart_ESTest)",
+                        "test103(org.jfree.chart.JFreeChart_ESTest)",
+                        "test111(org.jfree.chart.JFreeChart_ESTest)",
+                        "test100(org.jfree.chart.JFreeChart_ESTest)",
+                        "test127(org.jfree.chart.JFreeChart_ESTest)",
+                        "test125(org.jfree.chart.JFreeChart_ESTest)",
+                        "test123(org.jfree.chart.JFreeChart_ESTest)",
+                        "test098(org.jfree.chart.JFreeChart_ESTest)",
+                        "test118(org.jfree.chart.JFreeChart_ESTest)",
+                        "test119(org.jfree.chart.JFreeChart_ESTest)",
+                        "test117(org.jfree.chart.JFreeChart_ESTest)",
+                        "test112(org.jfree.chart.JFreeChart_ESTest)",
+                        "test121(org.jfree.chart.JFreeChart_ESTest)",
+                        "test122(org.jfree.chart.JFreeChart_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest",
+                        "org.jfree.chart.JFreeChart_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected null, but was:<java.awt.Color[r=192,g=192,b=192]>",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<2> but was:<1>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>",
+                        "java.lang.AssertionError: expected:<1> but was:<0>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test28(MultiplePiePlot_ESTest.java:411)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test22(MultiplePiePlot_ESTest.java:337)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test05(MultiplePiePlot_ESTest.java:95)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test18(MultiplePiePlot_ESTest.java:268)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.MultiplePiePlot_ESTest.test17(MultiplePiePlot_ESTest.java:249)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test054(JFreeChart_ESTest.java:766)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test107(JFreeChart_ESTest.java:1424)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test108(JFreeChart_ESTest.java:1436)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test106(JFreeChart_ESTest.java:1412)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test103(JFreeChart_ESTest.java:1375)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test111(JFreeChart_ESTest.java:1485)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test100(JFreeChart_ESTest.java:1329)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test127(JFreeChart_ESTest.java:1669)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test125(JFreeChart_ESTest.java:1649)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test123(JFreeChart_ESTest.java:1622)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test098(JFreeChart_ESTest.java:1307)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test118(JFreeChart_ESTest.java:1565)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test119(JFreeChart_ESTest.java:1575)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test117(JFreeChart_ESTest.java:1553)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test112(JFreeChart_ESTest.java:1496)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test121(JFreeChart_ESTest.java:1600)"
+                        ],
+                        [
+                            "org.jfree.chart.JFreeChart_ESTest.test122(JFreeChart_ESTest.java:1610)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/Arja/Chart/patch1-Chart-12-Arja.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-Kali-plausible",
+                    "failing": 1,
+                    "testrun": 11,
+                    "failings": [
+                        "test08(org.jfree.data.general.AbstractDataset_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.general.AbstractDataset_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.general.AbstractDataset_ESTest.test08(AbstractDataset_ESTest.java:110)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/Arja/Chart/patch1-Chart-12-Arja.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-TBar-plausible",
+                    "failing": 1,
+                    "testrun": 14,
+                    "failings": [
+                        "test09(org.jfree.data.general.AbstractDataset_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.data.general.AbstractDataset_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.data.general.AbstractDataset_ESTest.test09(AbstractDataset_ESTest.java:138)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/Arja/Chart/patch1-Chart-12-Arja.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-12-Arja",
+                    "failing": 0,
+                    "testrun": 38,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.MultiplePiePlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.69
+        }
+    ],
+    "date": "2023-02-03T21:21:26.444041",
+    "duration": -0.02
+}

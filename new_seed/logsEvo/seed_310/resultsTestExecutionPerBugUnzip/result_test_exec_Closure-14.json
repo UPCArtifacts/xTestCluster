@@ -1,0 +1,109 @@
+{
+    "bugid": "Closure-14",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-14-SimFix-plausible.patch",
+            "project": "Closure",
+            "bugid": "14",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-06T02:52:57.051443",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-14-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-14-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 139,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.ControlFlowAnalysis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "02:53:20.840 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-14-SimFix-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-14-SketchFix",
+                    "failing": 0,
+                    "testrun": 127,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.ControlFlowAnalysis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "02:53:24.627 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "02:53:24.956 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 28.09
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SketchFix/Closure/patch1-Closure-14-SketchFix.patch",
+            "project": "Closure",
+            "bugid": "14",
+            "dataset": "Patches_others",
+            "date": "2023-02-06T02:53:25.146700",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SketchFix/Closure/patch1-Closure-14-SketchFix.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-14-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 139,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.ControlFlowAnalysis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "02:53:49.223 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SketchFix/Closure/patch1-Closure-14-SketchFix.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-14-SketchFix",
+                    "failing": 0,
+                    "testrun": 127,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.ControlFlowAnalysis_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "02:53:53.016 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "02:53:53.319 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 28.31
+        }
+    ],
+    "date": "2023-02-06T02:52:57.031970",
+    "duration": -0.02
+}

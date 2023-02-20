@@ -1,0 +1,1165 @@
+{
+    "bugid": "Closure-18",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Closure/patch1-Closure-18-Jaid.patch",
+            "project": "Closure",
+            "bugid": "18",
+            "dataset": "Patches_others",
+            "date": "2023-02-05T20:47:17.315313",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Closure/patch1-Closure-18-Jaid.patch",
+                    "test": "test_from_WangDRR_patch5-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 226,
+                    "failings": [
+                        "Error",
+                        "test213(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:47:42.926 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[34]> but was:<2023/02/05 11:[47]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test213(Compiler_ESTest.java:2909)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Closure/patch1-Closure-18-Jaid.patch",
+                    "test": "test_from_WangDRR_patch4-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 224,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test207(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:47:46.933 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:47:47.073 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:47:47.299 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:47:47.767 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:4[4]> but was:<2023/02/05 11:4[7]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test207(Compiler_ESTest.java:2879)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Closure/patch1-Closure-18-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-18-SequenceR-plausible",
+                    "failing": 1,
+                    "testrun": 233,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test220(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:47:51.863 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "com.google.javascript.rhino.head.Kit.codeBug(Kit.java:449)",
+                        "20:47:52.697 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "Feb 05, 2023 7:47:52 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "20:47:52.764 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:47:52.830 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:47:52.861 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:47:52.899 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[38]> but was:<2023/02/05 11:[47]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test220(Compiler_ESTest.java:3051)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Closure/patch1-Closure-18-Jaid.patch",
+                    "test": "test_from_WangDRR_patch3-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 225,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test206(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "Feb 05, 2023 7:47:57 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "20:47:57.119 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:47:57.185 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:47:57.269 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:47:57.318 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:47:57.385 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:47:57.457 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:47:57.565 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:47:57.635 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:47:57.652 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:47:57.728 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:4[1]> but was:<2023/02/05 11:4[7]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test206(Compiler_ESTest.java:2894)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Closure/patch1-Closure-18-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 197,
+                    "failings": [
+                        "Error",
+                        "test184(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:48:01.775 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[31]> but was:<2023/02/05 11:[47]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test184(Compiler_ESTest.java:2515)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Closure/patch1-Closure-18-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-18-Jaid",
+                    "failing": 1,
+                    "testrun": 216,
+                    "failings": [
+                        "Error",
+                        "test197(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:48:07.584 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[28]> but was:<2023/02/05 11:[47]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test197(Compiler_ESTest.java:2718)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 50.67
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+            "project": "Closure",
+            "bugid": "18",
+            "dataset": "Patches_others",
+            "date": "2023-02-05T20:48:07.983887",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch5-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 226,
+                    "failings": [
+                        "Error",
+                        "test213(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:48:33.062 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[34]> but was:<2023/02/05 11:[48]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test213(Compiler_ESTest.java:2909)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch4-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 224,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test207(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:48:37.104 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:48:37.247 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:48:37.456 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:48:37.941 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:4[4]> but was:<2023/02/05 11:4[8]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test207(Compiler_ESTest.java:2879)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-18-SequenceR-plausible",
+                    "failing": 1,
+                    "testrun": 233,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test220(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:48:42.227 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "com.google.javascript.rhino.head.Kit.codeBug(Kit.java:449)",
+                        "20:48:43.079 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "Feb 05, 2023 7:48:43 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "20:48:43.139 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:48:43.210 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:48:43.250 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:48:43.288 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[3]8> but was:<2023/02/05 11:[4]8>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test220(Compiler_ESTest.java:3051)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch3-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 225,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test206(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "Feb 05, 2023 7:48:47 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "20:48:47.459 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:48:47.524 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:48:47.625 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:48:47.680 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:48:47.749 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:48:47.821 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:48:47.926 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:48:47.993 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:48:48.008 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:48:48.081 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:4[1]> but was:<2023/02/05 11:4[8]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test206(Compiler_ESTest.java:2894)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 197,
+                    "failings": [
+                        "Error",
+                        "test184(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:48:52.259 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[31]> but was:<2023/02/05 11:[48]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test184(Compiler_ESTest.java:2515)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SequenceR/Closure/patch1-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-18-Jaid",
+                    "failing": 1,
+                    "testrun": 216,
+                    "failings": [
+                        "Error",
+                        "test197(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:48:58.185 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[2]8> but was:<2023/02/05 11:[4]8>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test197(Compiler_ESTest.java:2718)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 50.59
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch5-Closure-18-SequenceR.patch",
+            "project": "Closure",
+            "bugid": "18",
+            "dataset": "Patches_others",
+            "date": "2023-02-05T20:48:58.579610",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch5-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch5-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 226,
+                    "failings": [
+                        "Error",
+                        "test213(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:49:23.628 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[34]> but was:<2023/02/05 11:[49]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test213(Compiler_ESTest.java:2909)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch5-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch4-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 224,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test207(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:49:27.457 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:49:27.612 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:49:27.775 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:49:28.237 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:4[4]> but was:<2023/02/05 11:4[9]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test207(Compiler_ESTest.java:2879)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch5-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-18-SequenceR-plausible",
+                    "failing": 1,
+                    "testrun": 233,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test220(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:49:32.443 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "com.google.javascript.rhino.head.Kit.codeBug(Kit.java:449)",
+                        "20:49:33.250 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "Feb 05, 2023 7:49:33 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "20:49:33.306 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:49:33.374 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:49:33.407 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:49:33.447 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[38]> but was:<2023/02/05 11:[49]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test220(Compiler_ESTest.java:3051)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch5-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch3-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 225,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test206(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "Feb 05, 2023 7:49:37 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "20:49:37.570 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:49:37.632 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:49:37.719 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:49:37.771 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:49:37.842 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:49:37.913 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:49:38.019 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:49:38.086 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:49:38.101 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:49:38.178 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:4[1]> but was:<2023/02/05 11:4[9]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test206(Compiler_ESTest.java:2894)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch5-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 197,
+                    "failings": [
+                        "Error",
+                        "test184(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:49:42.400 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[31]> but was:<2023/02/05 11:[49]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test184(Compiler_ESTest.java:2515)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch5-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-18-Jaid",
+                    "failing": 1,
+                    "testrun": 216,
+                    "failings": [
+                        "Error",
+                        "test197(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:49:48.122 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[28]> but was:<2023/02/05 11:[49]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test197(Compiler_ESTest.java:2718)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 49.94
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch1-Closure-18-SequenceR-plausible.patch",
+            "project": "Closure",
+            "bugid": "18",
+            "dataset": "Patches_others",
+            "date": "2023-02-05T20:49:48.523886",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch1-Closure-18-SequenceR-plausible.patch",
+                    "test": "test_from_WangDRR_patch5-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 226,
+                    "failings": [
+                        "Error",
+                        "test213(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:50:13.529 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[34]> but was:<2023/02/05 11:[50]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test213(Compiler_ESTest.java:2909)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch1-Closure-18-SequenceR-plausible.patch",
+                    "test": "test_from_WangDRR_patch4-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 224,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test207(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:50:17.591 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:50:17.730 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:50:17.948 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:50:18.405 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[44]> but was:<2023/02/05 11:[50]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test207(Compiler_ESTest.java:2879)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch1-Closure-18-SequenceR-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-18-SequenceR-plausible",
+                    "failing": 1,
+                    "testrun": 233,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test220(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:50:22.513 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "com.google.javascript.rhino.head.Kit.codeBug(Kit.java:449)",
+                        "20:50:23.397 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "Feb 05, 2023 7:50:23 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "20:50:23.456 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:50:23.517 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:50:23.548 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:50:23.584 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[38]> but was:<2023/02/05 11:[50]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test220(Compiler_ESTest.java:3051)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch1-Closure-18-SequenceR-plausible.patch",
+                    "test": "test_from_WangDRR_patch3-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 225,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test206(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "Feb 05, 2023 7:50:28 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "20:50:28.155 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:50:28.217 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:50:28.293 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:50:28.343 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:50:28.410 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:50:28.483 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:50:28.600 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:50:28.668 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:50:28.683 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:50:28.758 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[41]> but was:<2023/02/05 11:[50]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test206(Compiler_ESTest.java:2894)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch1-Closure-18-SequenceR-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 197,
+                    "failings": [
+                        "Error",
+                        "test184(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:50:32.979 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[31]> but was:<2023/02/05 11:[50]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test184(Compiler_ESTest.java:2515)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch1-Closure-18-SequenceR-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-18-Jaid",
+                    "failing": 1,
+                    "testrun": 216,
+                    "failings": [
+                        "Error",
+                        "test197(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:50:38.697 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[28]> but was:<2023/02/05 11:[50]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test197(Compiler_ESTest.java:2718)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 50.57
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch3-Closure-18-SequenceR.patch",
+            "project": "Closure",
+            "bugid": "18",
+            "dataset": "Patches_others",
+            "date": "2023-02-05T20:50:39.096863",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch3-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch5-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 226,
+                    "failings": [
+                        "Error",
+                        "test213(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:51:04.331 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[34]> but was:<2023/02/05 11:[50]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test213(Compiler_ESTest.java:2909)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch3-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch4-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 224,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test207(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:51:08.260 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:51:08.417 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:51:08.598 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:51:09.049 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[44]> but was:<2023/02/05 11:[50]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test207(Compiler_ESTest.java:2879)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch3-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-18-SequenceR-plausible",
+                    "failing": 1,
+                    "testrun": 233,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test220(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:51:13.114 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "com.google.javascript.rhino.head.Kit.codeBug(Kit.java:449)",
+                        "20:51:13.924 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "Feb 05, 2023 7:51:13 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "20:51:13.986 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:51:14.057 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:51:14.088 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:51:14.125 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[38]> but was:<2023/02/05 11:[50]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test220(Compiler_ESTest.java:3051)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch3-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch3-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 225,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test206(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "Feb 05, 2023 7:51:18 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "20:51:18.504 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:51:18.577 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:51:18.669 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:51:18.721 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:51:18.791 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:51:18.862 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:51:18.970 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:51:19.037 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:51:19.053 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:51:19.126 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[41]> but was:<2023/02/05 11:[50]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test206(Compiler_ESTest.java:2894)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch3-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 197,
+                    "failings": [
+                        "Error",
+                        "test184(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:51:23.367 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[31]> but was:<2023/02/05 11:[50]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test184(Compiler_ESTest.java:2515)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch3-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-18-Jaid",
+                    "failing": 1,
+                    "testrun": 216,
+                    "failings": [
+                        "Error",
+                        "test197(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:51:29.095 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[28]> but was:<2023/02/05 11:[50]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test197(Compiler_ESTest.java:2718)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 50.43
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch4-Closure-18-SequenceR.patch",
+            "project": "Closure",
+            "bugid": "18",
+            "dataset": "Patches_others",
+            "date": "2023-02-05T20:51:29.524859",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch4-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch5-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 226,
+                    "failings": [
+                        "Error",
+                        "test213(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:51:54.240 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[34]> but was:<2023/02/05 11:[51]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test213(Compiler_ESTest.java:2909)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch4-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch4-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 224,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test207(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:51:58.174 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:51:58.307 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:51:58.504 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:51:58.984 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[44]> but was:<2023/02/05 11:[51]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test207(Compiler_ESTest.java:2879)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch4-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-18-SequenceR-plausible",
+                    "failing": 1,
+                    "testrun": 233,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test220(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:52:03.230 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "com.google.javascript.rhino.head.Kit.codeBug(Kit.java:449)",
+                        "20:52:04.091 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "Feb 05, 2023 7:52:04 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "20:52:04.149 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:52:04.212 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:52:04.243 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:52:04.281 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[38]> but was:<2023/02/05 11:[51]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test220(Compiler_ESTest.java:3051)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch4-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch3-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 225,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "test206(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "Feb 05, 2023 7:52:08 PM com.google.javascript.jscomp.LoggerErrorManager println",
+                        "20:52:08.781 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:52:08.845 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:52:08.928 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:52:08.982 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:52:09.057 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:52:09.131 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:52:09.245 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:52:09.313 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:52:09.328 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "20:52:09.420 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[4]1> but was:<2023/02/05 11:[5]1>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test206(Compiler_ESTest.java:2894)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch4-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-18-SequenceR",
+                    "failing": 1,
+                    "testrun": 197,
+                    "failings": [
+                        "Error",
+                        "test184(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:52:13.428 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[3]1> but was:<2023/02/05 11:[5]1>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test184(Compiler_ESTest.java:2515)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SequenceR/Closure/patch4-Closure-18-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-18-Jaid",
+                    "failing": 1,
+                    "testrun": 216,
+                    "failings": [
+                        "Error",
+                        "test197(com.google.javascript.jscomp.Compiler_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "20:52:19.265 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "org.junit.ComparisonFailure: expected:<2023/02/05 11:[28]> but was:<2023/02/05 11:[51]>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.Compiler_ESTest.test197(Compiler_ESTest.java:2718)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 50.16
+        }
+    ],
+    "date": "2023-02-05T20:47:17.295793",
+    "duration": -0.02
+}

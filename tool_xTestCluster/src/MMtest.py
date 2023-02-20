@@ -12,10 +12,10 @@ class MyTestCase(unittest.TestCase):
 		for item in allBugs:
 			print(item)
 			seeds = []
-			for seed in ["seed_0", "seed_101", "seed_201", "seed_301", "seed_302", "seed_303", "seed_304", "seed_305", "seed_306", "seed_307", "seed_308", "seed_309", "seed_310", "seed_311"]:
+			for seed in ["seed_0", "seed_101", "seed_201", "seed_301", "seed_302", "seed_303", "seed_304", "seed_305", "seed_306", "seed_307", "seed_308", "seed_309", "seed_310", "seed_311", "seed_400R"]:
 				path = "/Users/matias/develop/git-xTestCluster/new_seed/logsEvo/{}/resultsTestExecutionPerBugUnzip/result_test_exec_{}.json".format(seed, item)
 				if os.path.exists(path):
-					#print("Exist", path)
+					print("Exist", path)
 					seeds.append(path)
 				else:
 					print("Error",seed,  path)
@@ -26,7 +26,7 @@ class MyTestCase(unittest.TestCase):
 
 			bugid, json_string = expandClusterJson(cr, filter, item, {})
 
-			f = open("/Users/matias/develop/git-xTestCluster/new_seed/logsEvo/all_seeds/result_summary_Evosuite_{}.json".format(item), "w")
+			f = open("/Users/matias/develop/git-xTestCluster/new_seed/logsEvo/all_seedsR/result_summary_Evosuite_{}.json".format(item), "w")
 			f.write(json_string)
 			f.close()
 

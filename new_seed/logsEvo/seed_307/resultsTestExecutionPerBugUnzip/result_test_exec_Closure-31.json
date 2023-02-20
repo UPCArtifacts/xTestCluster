@@ -1,0 +1,253 @@
+{
+    "bugid": "Closure-31",
+    "results": [
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-31-Kali-plausible.patch",
+            "project": "Closure",
+            "bugid": "31",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-04T22:24:40.781296",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-31-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-31-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 425,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.Node_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-31-Kali-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-31-Jaid",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "22:25:13.764 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "22:25:13.845 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "22:25:13.925 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "22:25:14.015 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "com.google.javascript.rhino.head.Kit.codeBug(Kit.java:449)",
+                        "22:25:14.122 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "22:25:14.127 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-31-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-31-RSRepair-plausible",
+                    "failing": 3,
+                    "testrun": 436,
+                    "failings": [
+                        "test350(com.google.javascript.rhino.Node_ESTest)",
+                        "test352(com.google.javascript.rhino.Node_ESTest)",
+                        "test170(com.google.javascript.rhino.Node_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.Node_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.StackOverflowError",
+                        "java.lang.StackOverflowError",
+                        "java.lang.StackOverflowError"
+                    ],
+                    "failing_lines": [
+                        [],
+                        [],
+                        []
+                    ]
+                }
+            ],
+            "duration": 40.6
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-31-RSRepair-plausible.patch",
+            "project": "Closure",
+            "bugid": "31",
+            "dataset": "Patches_ICSE",
+            "date": "2023-02-04T22:25:21.380847",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-31-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-31-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 425,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.Node_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-31-RSRepair-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-31-Jaid",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "22:25:53.317 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "22:25:53.396 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "22:25:53.473 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "22:25:53.557 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "com.google.javascript.rhino.head.Kit.codeBug(Kit.java:449)",
+                        "22:25:53.681 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "22:25:53.685 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-31-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-31-RSRepair-plausible",
+                    "failing": 3,
+                    "testrun": 436,
+                    "failings": [
+                        "test350(com.google.javascript.rhino.Node_ESTest)",
+                        "test352(com.google.javascript.rhino.Node_ESTest)",
+                        "test170(com.google.javascript.rhino.Node_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.Node_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.StackOverflowError",
+                        "java.lang.StackOverflowError",
+                        "java.lang.StackOverflowError"
+                    ],
+                    "failing_lines": [
+                        [],
+                        [],
+                        []
+                    ]
+                }
+            ],
+            "duration": 39.32
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Closure/patch1-Closure-31-Jaid.patch",
+            "project": "Closure",
+            "bugid": "31",
+            "dataset": "Patches_others",
+            "date": "2023-02-04T22:26:00.697950",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Closure/patch1-Closure-31-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-31-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 425,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.Node_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Closure/patch1-Closure-31-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-31-Jaid",
+                    "failing": 0,
+                    "testrun": 219,
+                    "failings": [
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.Compiler_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "22:26:33.609 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "22:26:33.693 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "22:26:33.778 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "22:26:33.879 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "com.google.javascript.rhino.head.Kit.codeBug(Kit.java:449)",
+                        "22:26:33.997 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "22:26:34.002 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Closure/patch1-Closure-31-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-31-RSRepair-plausible",
+                    "failing": 3,
+                    "testrun": 436,
+                    "failings": [
+                        "test350(com.google.javascript.rhino.Node_ESTest)",
+                        "test352(com.google.javascript.rhino.Node_ESTest)",
+                        "test170(com.google.javascript.rhino.Node_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.Node_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.StackOverflowError",
+                        "java.lang.StackOverflowError",
+                        "java.lang.StackOverflowError"
+                    ],
+                    "failing_lines": [
+                        [],
+                        [],
+                        []
+                    ]
+                }
+            ],
+            "duration": 40.43
+        }
+    ],
+    "date": "2023-02-04T22:24:40.761463",
+    "duration": -0.02
+}
