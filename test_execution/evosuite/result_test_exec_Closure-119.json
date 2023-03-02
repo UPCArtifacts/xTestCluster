@@ -2,30 +2,90 @@
     "bugid": "Closure-119",
     "results": [
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch30_26-Closure-119-ARJA.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-119-Kali-plausible.patch",
             "project": "Closure",
             "bugid": "119",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:16:48.373091",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:01:59.353993",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-119-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-119-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 2,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckGlobalNames_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-119-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-119-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 162,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.AstValidator_ESTest",
+                        "com.google.javascript.jscomp.SyntacticScopeCreator_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 34.48
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch9_9-Closure-119-Kali-A.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-119-Arja-plausible.patch",
             "project": "Closure",
             "bugid": "119",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:18:17.503563",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:02:33.836876",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-119-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-119-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 2,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckGlobalNames_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-119-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-119-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 162,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.AstValidator_ESTest",
+                        "com.google.javascript.jscomp.SyntacticScopeCreator_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.0
         }
     ],
-    "date": "2021-11-23T19:16:48.372177",
+    "date": "2022-12-16T05:01:59.353721",
     "duration": -0.0
 }

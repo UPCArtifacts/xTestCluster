@@ -2,63 +2,39 @@
     "bugid": "Closure-21",
     "results": [
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/jGenProg/Closure/patch7_6-Closure-21-jGenProg.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Closure/patch1-Closure-21-jMutRepair-plausible.patch",
             "project": "Closure",
             "bugid": "21",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:39:11.940095",
-            "project_checked": "ok",
-            "compiledProjectModified": "no",
-            "patchApplied": "no",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/jKali/Closure/patch2_2-Closure-21-jKali.patch",
-            "project": "Closure",
-            "bugid": "21",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:39:16.679501",
-            "project_checked": "ok",
-            "compiledProjectModified": "no",
-            "patchApplied": "no",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch1_1-Closure-21-RSRepair-A.patch",
-            "project": "Closure",
-            "bugid": "21",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:39:21.851098",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T00:31:20.647225",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch1_1-Closure-21-RSRepair-A.patch",
-                    "test": "test_from_PFL_patch7_3-Closure-21-GenProg-A",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Closure/patch1-Closure-21-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jGenProg-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:31:50.672 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Closure/patch1-Closure-21-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-SimFix-plausible",
                     "failing": 0,
                     "testrun": 18,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:40:37.214 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch1_1-Closure-21-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch260_40-Closure-21-TBar",
-                    "failing": 0,
-                    "testrun": 19,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -68,35 +44,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch1_1-Closure-21-RSRepair-A.patch",
-                    "test": "test_from_PFL_patch400_219-Closure-21-TBar",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Closure/patch1-Closure-21-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-AVATAR-plausible",
                     "failing": 0,
-                    "testrun": 13,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:40:41.812 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:40:42.086 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:40:42.129 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:40:42.147 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:40:42.158 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch1_1-Closure-21-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch1_1-Closure-21-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 15,
+                    "testrun": 22,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -106,10 +57,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch1_1-Closure-21-RSRepair-A.patch",
-                    "test": "test_from_PFL_patch64-Closure-21-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Closure/patch1-Closure-21-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Arja-plausible",
                     "failing": 0,
-                    "testrun": 19,
+                    "testrun": 18,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -119,76 +70,15 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch1_1-Closure-21-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch18_5-Closure-21-ARJA",
-                    "failing": 0,
-                    "testrun": 17,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:40:48.884 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:40:49.188 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:40:49.196 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch1_1-Closure-21-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch2_2-Closure-21-Kali-A",
-                    "failing": 0,
-                    "testrun": 14,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:40:51.607 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch1_1-Closure-21-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch15_4-Closure-21-AVATAR",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch1_1-Closure-21-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch61_20-Closure-21-GenProg-A",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch1_1-Closure-21-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch15_15-Closure-21-SimFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Closure/patch1-Closure-21-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-RSRepair-plausible",
                     "failing": 0,
                     "testrun": 18,
                     "failings": [
                         "Error",
+                        "Error",
+                        "Error",
+                        "Error",
                         "Error"
                     ],
                     "status": "ok",
@@ -196,14 +86,17 @@
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [
-                        "19:40:58.305 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:40:58.351 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                        "00:32:07.635 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:32:07.693 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:32:07.727 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:32:07.809 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:32:07.874 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
                     ],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch1_1-Closure-21-RSRepair-A.patch",
-                    "test": "test_from_PFL_patch556_343-Closure-21-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Closure/patch1-Closure-21-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Kali-plausible",
                     "failing": 0,
                     "testrun": 17,
                     "failings": [],
@@ -215,55 +108,104 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/RSRepair-A/Closure/patch1_1-Closure-21-RSRepair-A.patch",
-                    "test": "test_from_PFL_patch13_3-Closure-21-ARJA",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Closure/patch1-Closure-21-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jMutRepair-plausible",
                     "failing": 0,
-                    "testrun": 17,
+                    "testrun": 16,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Closure/patch1-Closure-21-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jKali-plausible",
+                    "failing": 0,
+                    "testrun": 23,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:32:20.377 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:32:20.423 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Closure/patch1-Closure-21-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 22,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Closure/patch1-Closure-21-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:32:28.528 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
                     "failing_lines": []
                 }
             ],
-            "duration": 101.59
+            "duration": 68.17
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch18_5-Closure-21-ARJA.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-21-GenProg-plausible.patch",
             "project": "Closure",
             "bugid": "21",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:41:03.437057",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T00:32:28.819537",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch18_5-Closure-21-ARJA.patch",
-                    "test": "test_from_PFL_patch7_3-Closure-21-GenProg-A",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-21-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jGenProg-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:32:59.834 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-21-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-SimFix-plausible",
                     "failing": 0,
                     "testrun": 18,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:42:20.178 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch18_5-Closure-21-ARJA.patch",
-                    "test": "test_from_NFL_patch260_40-Closure-21-TBar",
-                    "failing": 0,
-                    "testrun": 19,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -273,35 +215,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch18_5-Closure-21-ARJA.patch",
-                    "test": "test_from_PFL_patch400_219-Closure-21-TBar",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-21-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-AVATAR-plausible",
                     "failing": 0,
-                    "testrun": 13,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:42:24.749 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:42:25.031 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:42:25.072 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:42:25.089 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:42:25.101 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch18_5-Closure-21-ARJA.patch",
-                    "test": "test_from_NFL_patch1_1-Closure-21-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 15,
+                    "testrun": 22,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -311,10 +228,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch18_5-Closure-21-ARJA.patch",
-                    "test": "test_from_PFL_patch64-Closure-21-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-21-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Arja-plausible",
                     "failing": 0,
-                    "testrun": 19,
+                    "testrun": 18,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -324,76 +241,15 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch18_5-Closure-21-ARJA.patch",
-                    "test": "test_from_NFL_patch18_5-Closure-21-ARJA",
-                    "failing": 0,
-                    "testrun": 17,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:42:31.811 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:42:32.116 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:42:32.124 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch18_5-Closure-21-ARJA.patch",
-                    "test": "test_from_NFL_patch2_2-Closure-21-Kali-A",
-                    "failing": 0,
-                    "testrun": 14,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:42:34.591 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch18_5-Closure-21-ARJA.patch",
-                    "test": "test_from_NFL_patch15_4-Closure-21-AVATAR",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch18_5-Closure-21-ARJA.patch",
-                    "test": "test_from_NFL_patch61_20-Closure-21-GenProg-A",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch18_5-Closure-21-ARJA.patch",
-                    "test": "test_from_NFL_patch15_15-Closure-21-SimFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-21-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-RSRepair-plausible",
                     "failing": 0,
                     "testrun": 18,
                     "failings": [
                         "Error",
+                        "Error",
+                        "Error",
+                        "Error",
                         "Error"
                     ],
                     "status": "ok",
@@ -401,14 +257,17 @@
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [
-                        "19:42:41.374 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:42:41.419 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                        "00:33:16.150 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:33:16.203 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:33:16.234 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:33:16.305 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:33:16.345 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
                     ],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch18_5-Closure-21-ARJA.patch",
-                    "test": "test_from_PFL_patch556_343-Closure-21-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-21-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Kali-plausible",
                     "failing": 0,
                     "testrun": 17,
                     "failings": [],
@@ -420,67 +279,104 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch18_5-Closure-21-ARJA.patch",
-                    "test": "test_from_PFL_patch13_3-Closure-21-ARJA",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-21-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jMutRepair-plausible",
                     "failing": 0,
-                    "testrun": 17,
+                    "testrun": 16,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-21-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jKali-plausible",
+                    "failing": 0,
+                    "testrun": 23,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:33:28.791 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:33:28.838 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-21-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 22,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-21-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:33:37.221 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
                     "failing_lines": []
                 }
             ],
-            "duration": 103.15
+            "duration": 68.62
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jMutRepair/Closure/patch2_2-Closure-21-jMutRepair.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-21-SimFix-plausible.patch",
             "project": "Closure",
             "bugid": "21",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:42:46.588872",
-            "project_checked": "ok",
-            "compiledProjectModified": "no",
-            "patchApplied": "no",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch15_15-Closure-21-SimFix.patch",
-            "project": "Closure",
-            "bugid": "21",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:42:51.923352",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T00:33:37.441869",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch15_15-Closure-21-SimFix.patch",
-                    "test": "test_from_PFL_patch7_3-Closure-21-GenProg-A",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-21-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jGenProg-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:34:08.937 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-21-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-SimFix-plausible",
                     "failing": 0,
                     "testrun": 18,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:44:06.291 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch15_15-Closure-21-SimFix.patch",
-                    "test": "test_from_NFL_patch260_40-Closure-21-TBar",
-                    "failing": 0,
-                    "testrun": 19,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -490,35 +386,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch15_15-Closure-21-SimFix.patch",
-                    "test": "test_from_PFL_patch400_219-Closure-21-TBar",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-21-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-AVATAR-plausible",
                     "failing": 0,
-                    "testrun": 13,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:44:10.887 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:44:11.152 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:44:11.195 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:44:11.211 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:44:11.223 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch15_15-Closure-21-SimFix.patch",
-                    "test": "test_from_NFL_patch1_1-Closure-21-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 15,
+                    "testrun": 22,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -528,10 +399,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch15_15-Closure-21-SimFix.patch",
-                    "test": "test_from_PFL_patch64-Closure-21-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-21-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Arja-plausible",
                     "failing": 0,
-                    "testrun": 19,
+                    "testrun": 18,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -541,76 +412,15 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch15_15-Closure-21-SimFix.patch",
-                    "test": "test_from_NFL_patch18_5-Closure-21-ARJA",
-                    "failing": 0,
-                    "testrun": 17,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:44:18.009 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:44:18.315 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:44:18.324 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch15_15-Closure-21-SimFix.patch",
-                    "test": "test_from_NFL_patch2_2-Closure-21-Kali-A",
-                    "failing": 0,
-                    "testrun": 14,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:44:20.768 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch15_15-Closure-21-SimFix.patch",
-                    "test": "test_from_NFL_patch15_4-Closure-21-AVATAR",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch15_15-Closure-21-SimFix.patch",
-                    "test": "test_from_NFL_patch61_20-Closure-21-GenProg-A",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch15_15-Closure-21-SimFix.patch",
-                    "test": "test_from_NFL_patch15_15-Closure-21-SimFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-21-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-RSRepair-plausible",
                     "failing": 0,
                     "testrun": 18,
                     "failings": [
                         "Error",
+                        "Error",
+                        "Error",
+                        "Error",
                         "Error"
                     ],
                     "status": "ok",
@@ -618,14 +428,17 @@
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [
-                        "19:44:27.363 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:44:27.408 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                        "00:34:25.315 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:34:25.373 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:34:25.409 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:34:25.491 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:34:25.542 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
                     ],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch15_15-Closure-21-SimFix.patch",
-                    "test": "test_from_PFL_patch556_343-Closure-21-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-21-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Kali-plausible",
                     "failing": 0,
                     "testrun": 17,
                     "failings": [],
@@ -637,55 +450,104 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Closure/patch15_15-Closure-21-SimFix.patch",
-                    "test": "test_from_PFL_patch13_3-Closure-21-ARJA",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-21-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jMutRepair-plausible",
                     "failing": 0,
-                    "testrun": 17,
+                    "testrun": 16,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-21-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jKali-plausible",
+                    "failing": 0,
+                    "testrun": 23,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:34:38.089 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:34:38.142 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-21-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 22,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Closure/patch1-Closure-21-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:34:46.515 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
                     "failing_lines": []
                 }
             ],
-            "duration": 100.68
+            "duration": 69.32
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch61_20-Closure-21-GenProg-A.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-21-Kali-plausible.patch",
             "project": "Closure",
             "bugid": "21",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:44:32.599624",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T00:34:46.767361",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch61_20-Closure-21-GenProg-A.patch",
-                    "test": "test_from_PFL_patch7_3-Closure-21-GenProg-A",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-21-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jGenProg-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:35:17.912 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-21-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-SimFix-plausible",
                     "failing": 0,
                     "testrun": 18,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:45:47.581 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch61_20-Closure-21-GenProg-A.patch",
-                    "test": "test_from_NFL_patch260_40-Closure-21-TBar",
-                    "failing": 0,
-                    "testrun": 19,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -695,35 +557,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch61_20-Closure-21-GenProg-A.patch",
-                    "test": "test_from_PFL_patch400_219-Closure-21-TBar",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-21-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-AVATAR-plausible",
                     "failing": 0,
-                    "testrun": 13,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:45:52.124 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:45:52.389 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:45:52.432 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:45:52.451 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:45:52.464 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch61_20-Closure-21-GenProg-A.patch",
-                    "test": "test_from_NFL_patch1_1-Closure-21-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 15,
+                    "testrun": 22,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -733,10 +570,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch61_20-Closure-21-GenProg-A.patch",
-                    "test": "test_from_PFL_patch64-Closure-21-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-21-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Arja-plausible",
                     "failing": 0,
-                    "testrun": 19,
+                    "testrun": 18,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -746,76 +583,15 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch61_20-Closure-21-GenProg-A.patch",
-                    "test": "test_from_NFL_patch18_5-Closure-21-ARJA",
-                    "failing": 0,
-                    "testrun": 17,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:45:59.105 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:45:59.407 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:45:59.415 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch61_20-Closure-21-GenProg-A.patch",
-                    "test": "test_from_NFL_patch2_2-Closure-21-Kali-A",
-                    "failing": 0,
-                    "testrun": 14,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:46:01.897 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch61_20-Closure-21-GenProg-A.patch",
-                    "test": "test_from_NFL_patch15_4-Closure-21-AVATAR",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch61_20-Closure-21-GenProg-A.patch",
-                    "test": "test_from_NFL_patch61_20-Closure-21-GenProg-A",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch61_20-Closure-21-GenProg-A.patch",
-                    "test": "test_from_NFL_patch15_15-Closure-21-SimFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-21-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-RSRepair-plausible",
                     "failing": 0,
                     "testrun": 18,
                     "failings": [
                         "Error",
+                        "Error",
+                        "Error",
+                        "Error",
                         "Error"
                     ],
                     "status": "ok",
@@ -823,14 +599,17 @@
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [
-                        "19:46:08.508 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:46:08.556 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                        "00:35:34.115 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:35:34.167 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:35:34.198 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:35:34.270 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:35:34.310 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
                     ],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch61_20-Closure-21-GenProg-A.patch",
-                    "test": "test_from_PFL_patch556_343-Closure-21-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-21-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Kali-plausible",
                     "failing": 0,
                     "testrun": 17,
                     "failings": [],
@@ -842,55 +621,104 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch61_20-Closure-21-GenProg-A.patch",
-                    "test": "test_from_PFL_patch13_3-Closure-21-ARJA",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-21-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jMutRepair-plausible",
                     "failing": 0,
-                    "testrun": 17,
+                    "testrun": 16,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-21-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jKali-plausible",
+                    "failing": 0,
+                    "testrun": 23,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:35:46.705 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:35:46.756 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-21-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 22,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-21-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:35:54.976 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
                     "failing_lines": []
                 }
             ],
-            "duration": 101.16
+            "duration": 68.46
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch2_2-Closure-21-Kali-A.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-21-Arja-plausible.patch",
             "project": "Closure",
             "bugid": "21",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:46:13.757233",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T00:35:55.224930",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch2_2-Closure-21-Kali-A.patch",
-                    "test": "test_from_PFL_patch7_3-Closure-21-GenProg-A",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-21-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jGenProg-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:36:26.528 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-21-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-SimFix-plausible",
                     "failing": 0,
                     "testrun": 18,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:47:29.161 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch2_2-Closure-21-Kali-A.patch",
-                    "test": "test_from_NFL_patch260_40-Closure-21-TBar",
-                    "failing": 0,
-                    "testrun": 19,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -900,35 +728,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch2_2-Closure-21-Kali-A.patch",
-                    "test": "test_from_PFL_patch400_219-Closure-21-TBar",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-21-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-AVATAR-plausible",
                     "failing": 0,
-                    "testrun": 13,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:47:33.745 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:47:34.010 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:47:34.055 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:47:34.073 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:47:34.086 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch2_2-Closure-21-Kali-A.patch",
-                    "test": "test_from_NFL_patch1_1-Closure-21-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 15,
+                    "testrun": 22,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -938,10 +741,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch2_2-Closure-21-Kali-A.patch",
-                    "test": "test_from_PFL_patch64-Closure-21-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-21-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Arja-plausible",
                     "failing": 0,
-                    "testrun": 19,
+                    "testrun": 18,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -951,76 +754,15 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch2_2-Closure-21-Kali-A.patch",
-                    "test": "test_from_NFL_patch18_5-Closure-21-ARJA",
-                    "failing": 0,
-                    "testrun": 17,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:47:40.788 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:47:41.088 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:47:41.096 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch2_2-Closure-21-Kali-A.patch",
-                    "test": "test_from_NFL_patch2_2-Closure-21-Kali-A",
-                    "failing": 0,
-                    "testrun": 14,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:47:43.550 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch2_2-Closure-21-Kali-A.patch",
-                    "test": "test_from_NFL_patch15_4-Closure-21-AVATAR",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch2_2-Closure-21-Kali-A.patch",
-                    "test": "test_from_NFL_patch61_20-Closure-21-GenProg-A",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch2_2-Closure-21-Kali-A.patch",
-                    "test": "test_from_NFL_patch15_15-Closure-21-SimFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-21-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-RSRepair-plausible",
                     "failing": 0,
                     "testrun": 18,
                     "failings": [
                         "Error",
+                        "Error",
+                        "Error",
+                        "Error",
                         "Error"
                     ],
                     "status": "ok",
@@ -1028,14 +770,17 @@
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [
-                        "19:47:50.250 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:47:50.295 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                        "00:36:42.965 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:36:43.023 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:36:43.057 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:36:43.132 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:36:43.181 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
                     ],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch2_2-Closure-21-Kali-A.patch",
-                    "test": "test_from_PFL_patch556_343-Closure-21-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-21-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Kali-plausible",
                     "failing": 0,
                     "testrun": 17,
                     "failings": [],
@@ -1047,55 +792,104 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch2_2-Closure-21-Kali-A.patch",
-                    "test": "test_from_PFL_patch13_3-Closure-21-ARJA",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-21-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jMutRepair-plausible",
                     "failing": 0,
-                    "testrun": 17,
+                    "testrun": 16,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-21-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jKali-plausible",
+                    "failing": 0,
+                    "testrun": 23,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:36:56.322 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:36:56.372 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-21-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 22,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-21-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:37:04.617 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
                     "failing_lines": []
                 }
             ],
-            "duration": 101.77
+            "duration": 69.68
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch15_4-Closure-21-AVATAR.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Closure/patch1-Closure-21-jGenProg-plausible.patch",
             "project": "Closure",
             "bugid": "21",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:47:55.524175",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T00:37:04.910932",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch15_4-Closure-21-AVATAR.patch",
-                    "test": "test_from_PFL_patch7_3-Closure-21-GenProg-A",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Closure/patch1-Closure-21-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jGenProg-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:37:35.835 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Closure/patch1-Closure-21-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-SimFix-plausible",
                     "failing": 0,
                     "testrun": 18,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:49:10.419 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch15_4-Closure-21-AVATAR.patch",
-                    "test": "test_from_NFL_patch260_40-Closure-21-TBar",
-                    "failing": 0,
-                    "testrun": 19,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -1105,35 +899,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch15_4-Closure-21-AVATAR.patch",
-                    "test": "test_from_PFL_patch400_219-Closure-21-TBar",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Closure/patch1-Closure-21-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-AVATAR-plausible",
                     "failing": 0,
-                    "testrun": 13,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:49:14.962 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:49:15.227 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:49:15.271 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:49:15.288 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:49:15.301 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch15_4-Closure-21-AVATAR.patch",
-                    "test": "test_from_NFL_patch1_1-Closure-21-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 15,
+                    "testrun": 22,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -1143,10 +912,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch15_4-Closure-21-AVATAR.patch",
-                    "test": "test_from_PFL_patch64-Closure-21-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Closure/patch1-Closure-21-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Arja-plausible",
                     "failing": 0,
-                    "testrun": 19,
+                    "testrun": 18,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -1156,76 +925,15 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch15_4-Closure-21-AVATAR.patch",
-                    "test": "test_from_NFL_patch18_5-Closure-21-ARJA",
-                    "failing": 0,
-                    "testrun": 17,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:49:21.995 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:49:22.295 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:49:22.303 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch15_4-Closure-21-AVATAR.patch",
-                    "test": "test_from_NFL_patch2_2-Closure-21-Kali-A",
-                    "failing": 0,
-                    "testrun": 14,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:49:24.805 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch15_4-Closure-21-AVATAR.patch",
-                    "test": "test_from_NFL_patch15_4-Closure-21-AVATAR",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch15_4-Closure-21-AVATAR.patch",
-                    "test": "test_from_NFL_patch61_20-Closure-21-GenProg-A",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch15_4-Closure-21-AVATAR.patch",
-                    "test": "test_from_NFL_patch15_15-Closure-21-SimFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Closure/patch1-Closure-21-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-RSRepair-plausible",
                     "failing": 0,
                     "testrun": 18,
                     "failings": [
                         "Error",
+                        "Error",
+                        "Error",
+                        "Error",
                         "Error"
                     ],
                     "status": "ok",
@@ -1233,14 +941,17 @@
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [
-                        "19:49:31.412 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:49:31.459 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                        "00:37:52.672 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:37:52.723 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:37:52.757 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:37:52.828 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:37:52.874 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
                     ],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch15_4-Closure-21-AVATAR.patch",
-                    "test": "test_from_PFL_patch556_343-Closure-21-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Closure/patch1-Closure-21-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Kali-plausible",
                     "failing": 0,
                     "testrun": 17,
                     "failings": [],
@@ -1252,55 +963,104 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Closure/patch15_4-Closure-21-AVATAR.patch",
-                    "test": "test_from_PFL_patch13_3-Closure-21-ARJA",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Closure/patch1-Closure-21-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jMutRepair-plausible",
                     "failing": 0,
-                    "testrun": 17,
+                    "testrun": 16,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Closure/patch1-Closure-21-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jKali-plausible",
+                    "failing": 0,
+                    "testrun": 23,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:38:05.167 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:38:05.227 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Closure/patch1-Closure-21-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 22,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Closure/patch1-Closure-21-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:38:13.453 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
                     "failing_lines": []
                 }
             ],
-            "duration": 101.14
+            "duration": 68.84
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch260_40-Closure-21-TBar.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jKali/Closure/patch1-Closure-21-jKali-plausible.patch",
             "project": "Closure",
             "bugid": "21",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:49:36.667008",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T00:38:13.750154",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch260_40-Closure-21-TBar.patch",
-                    "test": "test_from_PFL_patch7_3-Closure-21-GenProg-A",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jKali/Closure/patch1-Closure-21-jKali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jGenProg-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:38:44.704 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jKali/Closure/patch1-Closure-21-jKali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-SimFix-plausible",
                     "failing": 0,
                     "testrun": 18,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:50:52.386 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch260_40-Closure-21-TBar.patch",
-                    "test": "test_from_NFL_patch260_40-Closure-21-TBar",
-                    "failing": 0,
-                    "testrun": 19,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -1310,35 +1070,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch260_40-Closure-21-TBar.patch",
-                    "test": "test_from_PFL_patch400_219-Closure-21-TBar",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jKali/Closure/patch1-Closure-21-jKali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-AVATAR-plausible",
                     "failing": 0,
-                    "testrun": 13,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:50:56.837 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:50:57.095 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:50:57.138 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:50:57.155 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:50:57.166 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch260_40-Closure-21-TBar.patch",
-                    "test": "test_from_NFL_patch1_1-Closure-21-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 15,
+                    "testrun": 22,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -1348,10 +1083,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch260_40-Closure-21-TBar.patch",
-                    "test": "test_from_PFL_patch64-Closure-21-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jKali/Closure/patch1-Closure-21-jKali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Arja-plausible",
                     "failing": 0,
-                    "testrun": 19,
+                    "testrun": 18,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -1361,76 +1096,15 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch260_40-Closure-21-TBar.patch",
-                    "test": "test_from_NFL_patch18_5-Closure-21-ARJA",
-                    "failing": 0,
-                    "testrun": 17,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:51:03.927 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:51:04.237 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:51:04.246 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch260_40-Closure-21-TBar.patch",
-                    "test": "test_from_NFL_patch2_2-Closure-21-Kali-A",
-                    "failing": 0,
-                    "testrun": 14,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:51:06.801 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch260_40-Closure-21-TBar.patch",
-                    "test": "test_from_NFL_patch15_4-Closure-21-AVATAR",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch260_40-Closure-21-TBar.patch",
-                    "test": "test_from_NFL_patch61_20-Closure-21-GenProg-A",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch260_40-Closure-21-TBar.patch",
-                    "test": "test_from_NFL_patch15_15-Closure-21-SimFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jKali/Closure/patch1-Closure-21-jKali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-RSRepair-plausible",
                     "failing": 0,
                     "testrun": 18,
                     "failings": [
                         "Error",
+                        "Error",
+                        "Error",
+                        "Error",
                         "Error"
                     ],
                     "status": "ok",
@@ -1438,14 +1112,17 @@
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [
-                        "19:51:13.631 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:51:13.675 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                        "00:39:00.993 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:39:01.043 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:39:01.074 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:39:01.156 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:39:01.202 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
                     ],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch260_40-Closure-21-TBar.patch",
-                    "test": "test_from_PFL_patch556_343-Closure-21-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jKali/Closure/patch1-Closure-21-jKali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Kali-plausible",
                     "failing": 0,
                     "testrun": 17,
                     "failings": [],
@@ -1457,55 +1134,104 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch260_40-Closure-21-TBar.patch",
-                    "test": "test_from_PFL_patch13_3-Closure-21-ARJA",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jKali/Closure/patch1-Closure-21-jKali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jMutRepair-plausible",
                     "failing": 0,
-                    "testrun": 17,
+                    "testrun": 16,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jKali/Closure/patch1-Closure-21-jKali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jKali-plausible",
+                    "failing": 0,
+                    "testrun": 23,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:39:13.666 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:39:13.707 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jKali/Closure/patch1-Closure-21-jKali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 22,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jKali/Closure/patch1-Closure-21-jKali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:39:21.938 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
                     "failing_lines": []
                 }
             ],
-            "duration": 102.26
+            "duration": 68.41
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/GenProg-A/Closure/patch7_3-Closure-21-GenProg-A.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Closure/patch1-Closure-21-AVATAR-plausible.patch",
             "project": "Closure",
             "bugid": "21",
-            "dataset": "PFL",
-            "date": "2021-11-23T19:51:18.931146",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T00:39:22.157793",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/GenProg-A/Closure/patch7_3-Closure-21-GenProg-A.patch",
-                    "test": "test_from_PFL_patch7_3-Closure-21-GenProg-A",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Closure/patch1-Closure-21-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jGenProg-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:39:53.813 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Closure/patch1-Closure-21-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-SimFix-plausible",
                     "failing": 0,
                     "testrun": 18,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:52:34.545 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/GenProg-A/Closure/patch7_3-Closure-21-GenProg-A.patch",
-                    "test": "test_from_NFL_patch260_40-Closure-21-TBar",
-                    "failing": 0,
-                    "testrun": 19,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -1515,35 +1241,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/GenProg-A/Closure/patch7_3-Closure-21-GenProg-A.patch",
-                    "test": "test_from_PFL_patch400_219-Closure-21-TBar",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Closure/patch1-Closure-21-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-AVATAR-plausible",
                     "failing": 0,
-                    "testrun": 13,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:52:39.140 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:52:39.412 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:52:39.456 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:52:39.474 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:52:39.486 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/GenProg-A/Closure/patch7_3-Closure-21-GenProg-A.patch",
-                    "test": "test_from_NFL_patch1_1-Closure-21-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 15,
+                    "testrun": 22,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -1553,10 +1254,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/GenProg-A/Closure/patch7_3-Closure-21-GenProg-A.patch",
-                    "test": "test_from_PFL_patch64-Closure-21-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Closure/patch1-Closure-21-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Arja-plausible",
                     "failing": 0,
-                    "testrun": 19,
+                    "testrun": 18,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -1566,76 +1267,15 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/GenProg-A/Closure/patch7_3-Closure-21-GenProg-A.patch",
-                    "test": "test_from_NFL_patch18_5-Closure-21-ARJA",
-                    "failing": 0,
-                    "testrun": 17,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:52:46.164 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:52:46.469 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:52:46.477 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/GenProg-A/Closure/patch7_3-Closure-21-GenProg-A.patch",
-                    "test": "test_from_NFL_patch2_2-Closure-21-Kali-A",
-                    "failing": 0,
-                    "testrun": 14,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:52:48.959 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/GenProg-A/Closure/patch7_3-Closure-21-GenProg-A.patch",
-                    "test": "test_from_NFL_patch15_4-Closure-21-AVATAR",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/GenProg-A/Closure/patch7_3-Closure-21-GenProg-A.patch",
-                    "test": "test_from_NFL_patch61_20-Closure-21-GenProg-A",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/GenProg-A/Closure/patch7_3-Closure-21-GenProg-A.patch",
-                    "test": "test_from_NFL_patch15_15-Closure-21-SimFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Closure/patch1-Closure-21-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-RSRepair-plausible",
                     "failing": 0,
                     "testrun": 18,
                     "failings": [
                         "Error",
+                        "Error",
+                        "Error",
+                        "Error",
                         "Error"
                     ],
                     "status": "ok",
@@ -1643,14 +1283,17 @@
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [
-                        "19:52:55.759 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:52:55.804 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                        "00:40:10.366 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:40:10.421 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:40:10.456 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:40:10.534 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:40:10.581 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
                     ],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/GenProg-A/Closure/patch7_3-Closure-21-GenProg-A.patch",
-                    "test": "test_from_PFL_patch556_343-Closure-21-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Closure/patch1-Closure-21-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Kali-plausible",
                     "failing": 0,
                     "testrun": 17,
                     "failings": [],
@@ -1662,55 +1305,104 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/GenProg-A/Closure/patch7_3-Closure-21-GenProg-A.patch",
-                    "test": "test_from_PFL_patch13_3-Closure-21-ARJA",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Closure/patch1-Closure-21-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jMutRepair-plausible",
                     "failing": 0,
-                    "testrun": 17,
+                    "testrun": 16,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Closure/patch1-Closure-21-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jKali-plausible",
+                    "failing": 0,
+                    "testrun": 23,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:40:23.132 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:40:23.181 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Closure/patch1-Closure-21-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 22,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Closure/patch1-Closure-21-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:40:31.619 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
                     "failing_lines": []
                 }
             ],
-            "duration": 102.21
+            "duration": 69.68
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Closure/patch13_3-Closure-21-ARJA.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Closure/patch1-Closure-21-TBar-plausible.patch",
             "project": "Closure",
             "bugid": "21",
-            "dataset": "PFL",
-            "date": "2021-11-23T19:53:01.140314",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T00:40:31.844223",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Closure/patch13_3-Closure-21-ARJA.patch",
-                    "test": "test_from_PFL_patch7_3-Closure-21-GenProg-A",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Closure/patch1-Closure-21-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jGenProg-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:41:03.066 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Closure/patch1-Closure-21-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-SimFix-plausible",
                     "failing": 0,
                     "testrun": 18,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:54:17.528 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Closure/patch13_3-Closure-21-ARJA.patch",
-                    "test": "test_from_NFL_patch260_40-Closure-21-TBar",
-                    "failing": 0,
-                    "testrun": 19,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -1720,35 +1412,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Closure/patch13_3-Closure-21-ARJA.patch",
-                    "test": "test_from_PFL_patch400_219-Closure-21-TBar",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Closure/patch1-Closure-21-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-AVATAR-plausible",
                     "failing": 0,
-                    "testrun": 13,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:54:22.167 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:54:22.435 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:54:22.481 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:54:22.498 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:54:22.510 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Closure/patch13_3-Closure-21-ARJA.patch",
-                    "test": "test_from_NFL_patch1_1-Closure-21-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 15,
+                    "testrun": 22,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -1758,10 +1425,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Closure/patch13_3-Closure-21-ARJA.patch",
-                    "test": "test_from_PFL_patch64-Closure-21-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Closure/patch1-Closure-21-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Arja-plausible",
                     "failing": 0,
-                    "testrun": 19,
+                    "testrun": 18,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -1771,76 +1438,15 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Closure/patch13_3-Closure-21-ARJA.patch",
-                    "test": "test_from_NFL_patch18_5-Closure-21-ARJA",
-                    "failing": 0,
-                    "testrun": 17,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:54:29.077 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:54:29.375 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:54:29.383 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Closure/patch13_3-Closure-21-ARJA.patch",
-                    "test": "test_from_NFL_patch2_2-Closure-21-Kali-A",
-                    "failing": 0,
-                    "testrun": 14,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:54:31.859 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Closure/patch13_3-Closure-21-ARJA.patch",
-                    "test": "test_from_NFL_patch15_4-Closure-21-AVATAR",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Closure/patch13_3-Closure-21-ARJA.patch",
-                    "test": "test_from_NFL_patch61_20-Closure-21-GenProg-A",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Closure/patch13_3-Closure-21-ARJA.patch",
-                    "test": "test_from_NFL_patch15_15-Closure-21-SimFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Closure/patch1-Closure-21-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-RSRepair-plausible",
                     "failing": 0,
                     "testrun": 18,
                     "failings": [
                         "Error",
+                        "Error",
+                        "Error",
+                        "Error",
                         "Error"
                     ],
                     "status": "ok",
@@ -1848,14 +1454,17 @@
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [
-                        "19:54:38.640 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:54:38.687 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                        "00:41:19.610 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:41:19.665 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:41:19.699 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:41:19.775 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:41:19.827 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
                     ],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Closure/patch13_3-Closure-21-ARJA.patch",
-                    "test": "test_from_PFL_patch556_343-Closure-21-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Closure/patch1-Closure-21-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Kali-plausible",
                     "failing": 0,
                     "testrun": 17,
                     "failings": [],
@@ -1867,67 +1476,104 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Closure/patch13_3-Closure-21-ARJA.patch",
-                    "test": "test_from_PFL_patch13_3-Closure-21-ARJA",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Closure/patch1-Closure-21-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jMutRepair-plausible",
                     "failing": 0,
-                    "testrun": 17,
+                    "testrun": 16,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Closure/patch1-Closure-21-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jKali-plausible",
+                    "failing": 0,
+                    "testrun": 23,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:41:32.532 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:41:32.577 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Closure/patch1-Closure-21-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 22,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Closure/patch1-Closure-21-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:41:41.060 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
                     "failing_lines": []
                 }
             ],
-            "duration": 102.76
+            "duration": 69.46
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/AVATAR/Closure/patch64-Closure-21-AVATAR.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-21-RSRepair-plausible.patch",
             "project": "Closure",
             "bugid": "21",
-            "dataset": "PFL",
-            "date": "2021-11-23T19:54:43.901466",
-            "project_checked": "ok",
-            "compiledProjectModified": "no",
-            "patchApplied": "no",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch556_343-Closure-21-kPAR.patch",
-            "project": "Closure",
-            "bugid": "21",
-            "dataset": "PFL",
-            "date": "2021-11-23T19:54:49.458450",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T00:41:41.309881",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch556_343-Closure-21-kPAR.patch",
-                    "test": "test_from_PFL_patch7_3-Closure-21-GenProg-A",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-21-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jGenProg-plausible",
+                    "failing": 0,
+                    "testrun": 20,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:42:12.478 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-21-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-SimFix-plausible",
                     "failing": 0,
                     "testrun": 18,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:56:03.539 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch556_343-Closure-21-kPAR.patch",
-                    "test": "test_from_NFL_patch260_40-Closure-21-TBar",
-                    "failing": 0,
-                    "testrun": 19,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -1937,35 +1583,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch556_343-Closure-21-kPAR.patch",
-                    "test": "test_from_PFL_patch400_219-Closure-21-TBar",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-21-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-AVATAR-plausible",
                     "failing": 0,
-                    "testrun": 13,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:56:08.072 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:56:08.331 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:56:08.374 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:56:08.390 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:56:08.401 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch556_343-Closure-21-kPAR.patch",
-                    "test": "test_from_NFL_patch1_1-Closure-21-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 15,
+                    "testrun": 22,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -1975,10 +1596,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch556_343-Closure-21-kPAR.patch",
-                    "test": "test_from_PFL_patch64-Closure-21-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-21-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Arja-plausible",
                     "failing": 0,
-                    "testrun": 19,
+                    "testrun": 18,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -1988,76 +1609,15 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch556_343-Closure-21-kPAR.patch",
-                    "test": "test_from_NFL_patch18_5-Closure-21-ARJA",
-                    "failing": 0,
-                    "testrun": 17,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:56:15.139 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:56:15.439 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:56:15.447 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch556_343-Closure-21-kPAR.patch",
-                    "test": "test_from_NFL_patch2_2-Closure-21-Kali-A",
-                    "failing": 0,
-                    "testrun": 14,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:56:17.934 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch556_343-Closure-21-kPAR.patch",
-                    "test": "test_from_NFL_patch15_4-Closure-21-AVATAR",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch556_343-Closure-21-kPAR.patch",
-                    "test": "test_from_NFL_patch61_20-Closure-21-GenProg-A",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch556_343-Closure-21-kPAR.patch",
-                    "test": "test_from_NFL_patch15_15-Closure-21-SimFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-21-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-RSRepair-plausible",
                     "failing": 0,
                     "testrun": 18,
                     "failings": [
                         "Error",
+                        "Error",
+                        "Error",
+                        "Error",
                         "Error"
                     ],
                     "status": "ok",
@@ -2065,14 +1625,17 @@
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [
-                        "19:56:24.750 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:56:24.797 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                        "00:42:28.924 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:42:28.986 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:42:29.024 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:42:29.107 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:42:29.159 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
                     ],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch556_343-Closure-21-kPAR.patch",
-                    "test": "test_from_PFL_patch556_343-Closure-21-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-21-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-Kali-plausible",
                     "failing": 0,
                     "testrun": 17,
                     "failings": [],
@@ -2084,227 +1647,71 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch556_343-Closure-21-kPAR.patch",
-                    "test": "test_from_PFL_patch13_3-Closure-21-ARJA",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-21-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jMutRepair-plausible",
                     "failing": 0,
-                    "testrun": 17,
+                    "testrun": 16,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
                         "com.google.javascript.jscomp.CheckSideEffects_ESTest"
                     ],
                     "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-21-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-jKali-plausible",
+                    "failing": 0,
+                    "testrun": 23,
+                    "failings": [
+                        "Error",
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:42:41.583 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
+                        "00:42:41.650 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-21-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 22,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-21-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-21-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 17,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "00:42:50.088 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
                     "failing_lines": []
                 }
             ],
-            "duration": 100.45
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch400_219-Closure-21-TBar.patch",
-            "project": "Closure",
-            "bugid": "21",
-            "dataset": "PFL",
-            "date": "2021-11-23T19:56:29.910814",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch400_219-Closure-21-TBar.patch",
-                    "test": "test_from_PFL_patch7_3-Closure-21-GenProg-A",
-                    "failing": 0,
-                    "testrun": 18,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:57:45.813 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch400_219-Closure-21-TBar.patch",
-                    "test": "test_from_NFL_patch260_40-Closure-21-TBar",
-                    "failing": 0,
-                    "testrun": 19,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch400_219-Closure-21-TBar.patch",
-                    "test": "test_from_PFL_patch400_219-Closure-21-TBar",
-                    "failing": 0,
-                    "testrun": 13,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:57:50.345 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:57:50.610 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:57:50.656 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:57:50.674 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:57:50.688 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch400_219-Closure-21-TBar.patch",
-                    "test": "test_from_NFL_patch1_1-Closure-21-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch400_219-Closure-21-TBar.patch",
-                    "test": "test_from_PFL_patch64-Closure-21-AVATAR",
-                    "failing": 0,
-                    "testrun": 19,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch400_219-Closure-21-TBar.patch",
-                    "test": "test_from_NFL_patch18_5-Closure-21-ARJA",
-                    "failing": 0,
-                    "testrun": 17,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:57:57.472 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$1",
-                        "19:57:57.776 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:57:57.785 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch400_219-Closure-21-TBar.patch",
-                    "test": "test_from_NFL_patch2_2-Closure-21-Kali-A",
-                    "failing": 0,
-                    "testrun": 14,
-                    "failings": [
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:58:00.579 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch400_219-Closure-21-TBar.patch",
-                    "test": "test_from_NFL_patch15_4-Closure-21-AVATAR",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch400_219-Closure-21-TBar.patch",
-                    "test": "test_from_NFL_patch61_20-Closure-21-GenProg-A",
-                    "failing": 0,
-                    "testrun": 15,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch400_219-Closure-21-TBar.patch",
-                    "test": "test_from_NFL_patch15_15-Closure-21-SimFix",
-                    "failing": 0,
-                    "testrun": 18,
-                    "failings": [
-                        "Error",
-                        "Error"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:58:07.790 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom",
-                        "19:58:07.834 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
-                    ],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch400_219-Closure-21-TBar.patch",
-                    "test": "test_from_PFL_patch556_343-Closure-21-kPAR",
-                    "failing": 0,
-                    "testrun": 17,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Closure/patch400_219-Closure-21-TBar.patch",
-                    "test": "test_from_PFL_patch13_3-Closure-21-ARJA",
-                    "failing": 0,
-                    "testrun": 17,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "com.google.javascript.jscomp.CheckSideEffects_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                }
-            ],
-            "duration": 103.04
+            "duration": 69.06
         }
     ],
-    "date": "2021-11-23T19:39:11.939569",
+    "date": "2022-12-16T00:31:20.646883",
     "duration": -0.0
 }

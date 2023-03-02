@@ -2,20 +2,41 @@
     "bugid": "Math-84",
     "results": [
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch520_355-Math-84-ARJA.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Math/patch1-Math-84-jMutRepair-plausible.patch",
             "project": "Math",
             "bugid": "84",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:40:59.496512",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-15T23:33:10.419188",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch520_355-Math-84-ARJA.patch",
-                    "test": "test_from_NFL_patch803_248-Math-84-jGenProg",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Math/patch1-Math-84-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-SimFix-plausible",
+                    "failing": 1,
+                    "testrun": 10,
+                    "failings": [
+                        "test1(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<2>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test1(MultiDirectional_ESTest.java:57)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Math/patch1-Math-84-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-jGenProg-plausible",
                     "failing": 0,
                     "testrun": 11,
                     "failings": [],
@@ -27,10 +48,337 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch520_355-Math-84-ARJA.patch",
-                    "test": "test_from_NFL_patch114_72-Math-84-TBar",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Math/patch1-Math-84-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 9,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Math/patch1-Math-84-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 8,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Math/patch1-Math-84-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 10,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Math/patch1-Math-84-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 11,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Math/patch1-Math-84-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-jMutRepair-plausible",
+                    "failing": 0,
+                    "testrun": 9,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jMutRepair/Math/patch1-Math-84-jMutRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 10,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.79
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Math/patch1-Math-84-SimFix-plausible.patch",
+            "project": "Math",
+            "bugid": "84",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-15T23:33:46.214671",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Math/patch1-Math-84-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 10,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Math/patch1-Math-84-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-jGenProg-plausible",
+                    "failing": 0,
+                    "testrun": 11,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Math/patch1-Math-84-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 9,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Math/patch1-Math-84-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-TBar-plausible",
+                    "failing": 1,
+                    "testrun": 8,
+                    "failings": [
+                        "test5(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<2> but was:<1>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test5(MultiDirectional_ESTest.java:152)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Math/patch1-Math-84-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 10,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Math/patch1-Math-84-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 11,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Math/patch1-Math-84-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-jMutRepair-plausible",
+                    "failing": 1,
+                    "testrun": 9,
+                    "failings": [
+                        "test6(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<2> but was:<1>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test6(MultiDirectional_ESTest.java:167)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Math/patch1-Math-84-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 10,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.59
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-84-Kali-plausible.patch",
+            "project": "Math",
+            "bugid": "84",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-15T23:34:21.806829",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-84-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-SimFix-plausible",
+                    "failing": 1,
+                    "testrun": 10,
+                    "failings": [
+                        "test7(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<2> but was:<1>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test7(MultiDirectional_ESTest.java:154)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-84-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-jGenProg-plausible",
+                    "failing": 0,
+                    "testrun": 11,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-84-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 9,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-84-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-TBar-plausible",
                     "failing": 2,
                     "testrun": 8,
+                    "failings": [
+                        "test5(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)",
+                        "test2(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<2> but was:<1>",
+                        "java.lang.AssertionError: expected:<2> but was:<1>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test5(MultiDirectional_ESTest.java:152)"
+                        ],
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test2(MultiDirectional_ESTest.java:89)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-84-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 10,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-84-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 11,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-84-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-jMutRepair-plausible",
+                    "failing": 2,
+                    "testrun": 9,
                     "failings": [
                         "test3(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)",
                         "test6(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
@@ -48,233 +396,13 @@
                             "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test3(MultiDirectional_ESTest.java:105)"
                         ],
                         [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test6(MultiDirectional_ESTest.java:157)"
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test6(MultiDirectional_ESTest.java:167)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch520_355-Math-84-ARJA.patch",
-                    "test": "test_from_NFL_patch867_312-Math-84-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 10,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch520_355-Math-84-ARJA.patch",
-                    "test": "test_from_PFL_patch44_34-Math-84-jGenProg",
-                    "failing": 0,
-                    "testrun": 11,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch520_355-Math-84-ARJA.patch",
-                    "test": "test_from_NFL_patch520_355-Math-84-ARJA",
-                    "failing": 0,
-                    "testrun": 10,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch520_355-Math-84-ARJA.patch",
-                    "test": "test_from_NFL_patch26_26-Math-84-SimFix",
-                    "failing": 1,
-                    "testrun": 9,
-                    "failings": [
-                        "test4(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<2> but was:<1>"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test4(MultiDirectional_ESTest.java:112)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch520_355-Math-84-ARJA.patch",
-                    "test": "test_from_NFL_patch3_3-Math-84-Kali-A",
-                    "failing": 0,
-                    "testrun": 11,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch520_355-Math-84-ARJA.patch",
-                    "test": "test_from_NFL_patch135_45-Math-84-AVATAR",
-                    "failing": 1,
-                    "testrun": 10,
-                    "failings": [
-                        "test4(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<2> but was:<1>"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test4(MultiDirectional_ESTest.java:119)"
-                        ]
-                    ]
-                }
-            ],
-            "duration": 37.3
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jMutRepair/Math/patch7_7-Math-84-jMutRepair.patch",
-            "project": "Math",
-            "bugid": "84",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:41:36.794080",
-            "project_checked": "ok",
-            "compiledProjectModified": "no",
-            "patchApplied": "no",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Math/patch26_26-Math-84-SimFix.patch",
-            "project": "Math",
-            "bugid": "84",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:41:42.500851",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Math/patch26_26-Math-84-SimFix.patch",
-                    "test": "test_from_NFL_patch803_248-Math-84-jGenProg",
-                    "failing": 0,
-                    "testrun": 11,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Math/patch26_26-Math-84-SimFix.patch",
-                    "test": "test_from_NFL_patch114_72-Math-84-TBar",
-                    "failing": 1,
-                    "testrun": 8,
-                    "failings": [
-                        "test6(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<2> but was:<1>"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test6(MultiDirectional_ESTest.java:157)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Math/patch26_26-Math-84-SimFix.patch",
-                    "test": "test_from_NFL_patch867_312-Math-84-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 10,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Math/patch26_26-Math-84-SimFix.patch",
-                    "test": "test_from_PFL_patch44_34-Math-84-jGenProg",
-                    "failing": 0,
-                    "testrun": 11,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Math/patch26_26-Math-84-SimFix.patch",
-                    "test": "test_from_NFL_patch520_355-Math-84-ARJA",
-                    "failing": 0,
-                    "testrun": 10,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Math/patch26_26-Math-84-SimFix.patch",
-                    "test": "test_from_NFL_patch26_26-Math-84-SimFix",
-                    "failing": 0,
-                    "testrun": 9,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Math/patch26_26-Math-84-SimFix.patch",
-                    "test": "test_from_NFL_patch3_3-Math-84-Kali-A",
-                    "failing": 0,
-                    "testrun": 11,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Math/patch26_26-Math-84-SimFix.patch",
-                    "test": "test_from_NFL_patch135_45-Math-84-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-84-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-Arja-plausible",
                     "failing": 0,
                     "testrun": 10,
                     "failings": [],
@@ -286,23 +414,44 @@
                     "failing_lines": []
                 }
             ],
-            "duration": 37.23
+            "duration": 35.65
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch803_248-Math-84-jGenProg.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Math/patch1-Math-84-Arja-plausible.patch",
             "project": "Math",
             "bugid": "84",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:42:19.731580",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-15T23:34:57.454769",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch803_248-Math-84-jGenProg.patch",
-                    "test": "test_from_NFL_patch803_248-Math-84-jGenProg",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Math/patch1-Math-84-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-SimFix-plausible",
+                    "failing": 1,
+                    "testrun": 10,
+                    "failings": [
+                        "test7(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<2> but was:<1>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test7(MultiDirectional_ESTest.java:154)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Math/patch1-Math-84-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-jGenProg-plausible",
                     "failing": 0,
                     "testrun": 11,
                     "failings": [],
@@ -314,10 +463,75 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch803_248-Math-84-jGenProg.patch",
-                    "test": "test_from_NFL_patch114_72-Math-84-TBar",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Math/patch1-Math-84-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 9,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Math/patch1-Math-84-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-TBar-plausible",
                     "failing": 2,
                     "testrun": 8,
+                    "failings": [
+                        "test5(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)",
+                        "test2(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<2> but was:<1>",
+                        "java.lang.AssertionError: expected:<2> but was:<1>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test5(MultiDirectional_ESTest.java:152)"
+                        ],
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test2(MultiDirectional_ESTest.java:89)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Math/patch1-Math-84-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 10,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Math/patch1-Math-84-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 11,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Math/patch1-Math-84-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-jMutRepair-plausible",
+                    "failing": 2,
+                    "testrun": 9,
                     "failings": [
                         "test3(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)",
                         "test6(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
@@ -335,221 +549,13 @@
                             "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test3(MultiDirectional_ESTest.java:105)"
                         ],
                         [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test6(MultiDirectional_ESTest.java:157)"
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test6(MultiDirectional_ESTest.java:167)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch803_248-Math-84-jGenProg.patch",
-                    "test": "test_from_NFL_patch867_312-Math-84-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 10,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch803_248-Math-84-jGenProg.patch",
-                    "test": "test_from_PFL_patch44_34-Math-84-jGenProg",
-                    "failing": 0,
-                    "testrun": 11,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch803_248-Math-84-jGenProg.patch",
-                    "test": "test_from_NFL_patch520_355-Math-84-ARJA",
-                    "failing": 0,
-                    "testrun": 10,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch803_248-Math-84-jGenProg.patch",
-                    "test": "test_from_NFL_patch26_26-Math-84-SimFix",
-                    "failing": 1,
-                    "testrun": 9,
-                    "failings": [
-                        "test4(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<2> but was:<1>"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test4(MultiDirectional_ESTest.java:112)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch803_248-Math-84-jGenProg.patch",
-                    "test": "test_from_NFL_patch3_3-Math-84-Kali-A",
-                    "failing": 0,
-                    "testrun": 11,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jGenProg/Math/patch803_248-Math-84-jGenProg.patch",
-                    "test": "test_from_NFL_patch135_45-Math-84-AVATAR",
-                    "failing": 1,
-                    "testrun": 10,
-                    "failings": [
-                        "test4(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<2> but was:<1>"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test4(MultiDirectional_ESTest.java:119)"
-                        ]
-                    ]
-                }
-            ],
-            "duration": 37.06
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch135_45-Math-84-AVATAR.patch",
-            "project": "Math",
-            "bugid": "84",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:42:56.791908",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch135_45-Math-84-AVATAR.patch",
-                    "test": "test_from_NFL_patch803_248-Math-84-jGenProg",
-                    "failing": 0,
-                    "testrun": 11,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch135_45-Math-84-AVATAR.patch",
-                    "test": "test_from_NFL_patch114_72-Math-84-TBar",
-                    "failing": 1,
-                    "testrun": 8,
-                    "failings": [
-                        "test6(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<2> but was:<1>"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test6(MultiDirectional_ESTest.java:157)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch135_45-Math-84-AVATAR.patch",
-                    "test": "test_from_NFL_patch867_312-Math-84-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 10,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch135_45-Math-84-AVATAR.patch",
-                    "test": "test_from_PFL_patch44_34-Math-84-jGenProg",
-                    "failing": 0,
-                    "testrun": 11,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch135_45-Math-84-AVATAR.patch",
-                    "test": "test_from_NFL_patch520_355-Math-84-ARJA",
-                    "failing": 0,
-                    "testrun": 10,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch135_45-Math-84-AVATAR.patch",
-                    "test": "test_from_NFL_patch26_26-Math-84-SimFix",
-                    "failing": 0,
-                    "testrun": 9,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch135_45-Math-84-AVATAR.patch",
-                    "test": "test_from_NFL_patch3_3-Math-84-Kali-A",
-                    "failing": 0,
-                    "testrun": 11,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Math/patch135_45-Math-84-AVATAR.patch",
-                    "test": "test_from_NFL_patch135_45-Math-84-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Math/patch1-Math-84-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-Arja-plausible",
                     "failing": 0,
                     "testrun": 10,
                     "failings": [],
@@ -561,23 +567,44 @@
                     "failing_lines": []
                 }
             ],
-            "duration": 37.06
+            "duration": 35.27
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch3_3-Math-84-Kali-A.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Math/patch1-Math-84-jGenProg-plausible.patch",
             "project": "Math",
             "bugid": "84",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:43:33.857960",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-15T23:35:32.724524",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch3_3-Math-84-Kali-A.patch",
-                    "test": "test_from_NFL_patch803_248-Math-84-jGenProg",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Math/patch1-Math-84-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-SimFix-plausible",
+                    "failing": 1,
+                    "testrun": 10,
+                    "failings": [
+                        "test7(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<2> but was:<1>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test7(MultiDirectional_ESTest.java:154)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Math/patch1-Math-84-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-jGenProg-plausible",
                     "failing": 0,
                     "testrun": 11,
                     "failings": [],
@@ -589,10 +616,75 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch3_3-Math-84-Kali-A.patch",
-                    "test": "test_from_NFL_patch114_72-Math-84-TBar",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Math/patch1-Math-84-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 9,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Math/patch1-Math-84-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-TBar-plausible",
                     "failing": 2,
                     "testrun": 8,
+                    "failings": [
+                        "test5(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)",
+                        "test2(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<2> but was:<1>",
+                        "java.lang.AssertionError: expected:<2> but was:<1>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test5(MultiDirectional_ESTest.java:152)"
+                        ],
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test2(MultiDirectional_ESTest.java:89)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Math/patch1-Math-84-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 10,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Math/patch1-Math-84-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 11,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Math/patch1-Math-84-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-jMutRepair-plausible",
+                    "failing": 2,
+                    "testrun": 9,
                     "failings": [
                         "test3(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)",
                         "test6(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
@@ -610,13 +702,13 @@
                             "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test3(MultiDirectional_ESTest.java:105)"
                         ],
                         [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test6(MultiDirectional_ESTest.java:157)"
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test6(MultiDirectional_ESTest.java:167)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch3_3-Math-84-Kali-A.patch",
-                    "test": "test_from_NFL_patch867_312-Math-84-RSRepair-A",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/jGenProg/Math/patch1-Math-84-jGenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-Arja-plausible",
                     "failing": 0,
                     "testrun": 10,
                     "failings": [],
@@ -626,133 +718,292 @@
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch3_3-Math-84-Kali-A.patch",
-                    "test": "test_from_PFL_patch44_34-Math-84-jGenProg",
-                    "failing": 0,
-                    "testrun": 11,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch3_3-Math-84-Kali-A.patch",
-                    "test": "test_from_NFL_patch520_355-Math-84-ARJA",
-                    "failing": 0,
-                    "testrun": 10,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch3_3-Math-84-Kali-A.patch",
-                    "test": "test_from_NFL_patch26_26-Math-84-SimFix",
-                    "failing": 1,
-                    "testrun": 9,
-                    "failings": [
-                        "test4(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<2> but was:<1>"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test4(MultiDirectional_ESTest.java:112)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch3_3-Math-84-Kali-A.patch",
-                    "test": "test_from_NFL_patch3_3-Math-84-Kali-A",
-                    "failing": 0,
-                    "testrun": 11,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch3_3-Math-84-Kali-A.patch",
-                    "test": "test_from_NFL_patch135_45-Math-84-AVATAR",
-                    "failing": 1,
-                    "testrun": 10,
-                    "failings": [
-                        "test4(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<2> but was:<1>"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test4(MultiDirectional_ESTest.java:119)"
-                        ]
-                    ]
                 }
             ],
-            "duration": 36.98
+            "duration": 36.11
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch867_312-Math-84-RSRepair-A.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Math/patch1-Math-84-AVATAR-plausible.patch",
             "project": "Math",
             "bugid": "84",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:44:10.835360",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-15T23:36:08.831695",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch867_312-Math-84-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch803_248-Math-84-jGenProg",
-                    "failing": 1,
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Math/patch1-Math-84-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 10,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Math/patch1-Math-84-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-jGenProg-plausible",
+                    "failing": 0,
                     "testrun": 11,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Math/patch1-Math-84-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 9,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Math/patch1-Math-84-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-TBar-plausible",
+                    "failing": 1,
+                    "testrun": 8,
                     "failings": [
-                        "test05(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
+                        "test5(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
                         "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
                     ],
                     "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.optimization.direct.DirectSearchOptimizer but in org.apache.commons.math.optimization.direct.MultiDirectional.iterateSimplex(MultiDirectional.java:66): java.lang.NullPointerException"
+                        "java.lang.AssertionError: expected:<2> but was:<1>"
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test05(MultiDirectional_ESTest.java:117)"
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test5(MultiDirectional_ESTest.java:152)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch867_312-Math-84-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch114_72-Math-84-TBar",
-                    "failing": 3,
-                    "testrun": 8,
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Math/patch1-Math-84-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 10,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Math/patch1-Math-84-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 11,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Math/patch1-Math-84-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-jMutRepair-plausible",
+                    "failing": 1,
+                    "testrun": 9,
                     "failings": [
-                        "test4(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)",
-                        "test3(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)",
                         "test6(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<2> but was:<1>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test6(MultiDirectional_ESTest.java:167)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Math/patch1-Math-84-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 10,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 36.13
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Math/patch1-Math-84-TBar-plausible.patch",
+            "project": "Math",
+            "bugid": "84",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-15T23:36:44.965738",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Math/patch1-Math-84-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-SimFix-plausible",
+                    "failing": 1,
+                    "testrun": 10,
+                    "failings": [
+                        "test1(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1> but was:<2>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test1(MultiDirectional_ESTest.java:57)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Math/patch1-Math-84-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-jGenProg-plausible",
+                    "failing": 0,
+                    "testrun": 11,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Math/patch1-Math-84-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 9,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Math/patch1-Math-84-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 8,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Math/patch1-Math-84-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 10,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Math/patch1-Math-84-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 11,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Math/patch1-Math-84-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-jMutRepair-plausible",
+                    "failing": 0,
+                    "testrun": 9,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Math/patch1-Math-84-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 10,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 35.82
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-84-RSRepair-plausible.patch",
+            "project": "Math",
+            "bugid": "84",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-15T23:37:20.788589",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-84-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-SimFix-plausible",
+                    "failing": 2,
+                    "testrun": 10,
+                    "failings": [
+                        "test5(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)",
+                        "test7(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
@@ -760,37 +1011,20 @@
                     ],
                     "failing_assertions": [
                         "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.optimization.direct.DirectSearchOptimizer but in org.apache.commons.math.optimization.direct.MultiDirectional.iterateSimplex(MultiDirectional.java:66): java.lang.NullPointerException",
-                        "java.lang.AssertionError: expected:<2> but was:<1>",
                         "java.lang.AssertionError: expected:<2> but was:<1>"
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test4(MultiDirectional_ESTest.java:120)"
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test5(MultiDirectional_ESTest.java:115)"
                         ],
                         [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test3(MultiDirectional_ESTest.java:105)"
-                        ],
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test6(MultiDirectional_ESTest.java:157)"
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test7(MultiDirectional_ESTest.java:154)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch867_312-Math-84-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch867_312-Math-84-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 10,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch867_312-Math-84-RSRepair-A.patch",
-                    "test": "test_from_PFL_patch44_34-Math-84-jGenProg",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-84-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-jGenProg-plausible",
                     "failing": 1,
                     "testrun": 11,
                     "failings": [
@@ -810,8 +1044,125 @@
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch867_312-Math-84-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch520_355-Math-84-ARJA",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-84-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-AVATAR-plausible",
+                    "failing": 1,
+                    "testrun": 9,
+                    "failings": [
+                        "test6(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.optimization.direct.DirectSearchOptimizer but in org.apache.commons.math.optimization.direct.MultiDirectional.iterateSimplex(MultiDirectional.java:66): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test6(MultiDirectional_ESTest.java:157)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-84-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-TBar-plausible",
+                    "failing": 3,
+                    "testrun": 8,
+                    "failings": [
+                        "test4(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)",
+                        "test5(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)",
+                        "test2(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.optimization.direct.DirectSearchOptimizer but in org.apache.commons.math.optimization.direct.MultiDirectional.iterateSimplex(MultiDirectional.java:66): java.lang.NullPointerException",
+                        "java.lang.AssertionError: expected:<2> but was:<1>",
+                        "java.lang.AssertionError: expected:<2> but was:<1>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test4(MultiDirectional_ESTest.java:127)"
+                        ],
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test5(MultiDirectional_ESTest.java:152)"
+                        ],
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test2(MultiDirectional_ESTest.java:89)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-84-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-Kali-plausible",
+                    "failing": 1,
+                    "testrun": 10,
+                    "failings": [
+                        "test6(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.optimization.direct.DirectSearchOptimizer but in org.apache.commons.math.optimization.direct.MultiDirectional.iterateSimplex(MultiDirectional.java:66): java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test6(MultiDirectional_ESTest.java:143)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-84-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 11,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-84-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-jMutRepair-plausible",
+                    "failing": 3,
+                    "testrun": 9,
+                    "failings": [
+                        "test5(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)",
+                        "test3(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)",
+                        "test6(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.optimization.direct.DirectSearchOptimizer but in org.apache.commons.math.optimization.direct.MultiDirectional.iterateSimplex(MultiDirectional.java:66): java.lang.NullPointerException",
+                        "java.lang.AssertionError: expected:<2> but was:<1>",
+                        "java.lang.AssertionError: expected:<2> but was:<1>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test5(MultiDirectional_ESTest.java:142)"
+                        ],
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test3(MultiDirectional_ESTest.java:105)"
+                        ],
+                        [
+                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test6(MultiDirectional_ESTest.java:167)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-84-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-84-Arja-plausible",
                     "failing": 1,
                     "testrun": 10,
                     "failings": [
@@ -829,391 +1180,11 @@
                             "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test6(MultiDirectional_ESTest.java:144)"
                         ]
                     ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch867_312-Math-84-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch26_26-Math-84-SimFix",
-                    "failing": 2,
-                    "testrun": 9,
-                    "failings": [
-                        "test4(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)",
-                        "test5(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<2> but was:<1>",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.optimization.direct.DirectSearchOptimizer but in org.apache.commons.math.optimization.direct.MultiDirectional.iterateSimplex(MultiDirectional.java:66): java.lang.NullPointerException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test4(MultiDirectional_ESTest.java:112)"
-                        ],
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test5(MultiDirectional_ESTest.java:127)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch867_312-Math-84-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch3_3-Math-84-Kali-A",
-                    "failing": 1,
-                    "testrun": 11,
-                    "failings": [
-                        "test06(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.optimization.direct.DirectSearchOptimizer but in org.apache.commons.math.optimization.direct.MultiDirectional.iterateSimplex(MultiDirectional.java:66): java.lang.NullPointerException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test06(MultiDirectional_ESTest.java:143)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch867_312-Math-84-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch135_45-Math-84-AVATAR",
-                    "failing": 2,
-                    "testrun": 10,
-                    "failings": [
-                        "test4(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)",
-                        "test6(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<2> but was:<1>",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.optimization.direct.DirectSearchOptimizer but in org.apache.commons.math.optimization.direct.MultiDirectional.iterateSimplex(MultiDirectional.java:66): java.lang.NullPointerException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test4(MultiDirectional_ESTest.java:119)"
-                        ],
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test6(MultiDirectional_ESTest.java:157)"
-                        ]
-                    ]
                 }
             ],
-            "duration": 36.96
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch114_72-Math-84-TBar.patch",
-            "project": "Math",
-            "bugid": "84",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:44:47.794429",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch114_72-Math-84-TBar.patch",
-                    "test": "test_from_NFL_patch803_248-Math-84-jGenProg",
-                    "failing": 0,
-                    "testrun": 11,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch114_72-Math-84-TBar.patch",
-                    "test": "test_from_NFL_patch114_72-Math-84-TBar",
-                    "failing": 0,
-                    "testrun": 8,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch114_72-Math-84-TBar.patch",
-                    "test": "test_from_NFL_patch867_312-Math-84-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 10,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch114_72-Math-84-TBar.patch",
-                    "test": "test_from_PFL_patch44_34-Math-84-jGenProg",
-                    "failing": 0,
-                    "testrun": 11,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch114_72-Math-84-TBar.patch",
-                    "test": "test_from_NFL_patch520_355-Math-84-ARJA",
-                    "failing": 0,
-                    "testrun": 10,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch114_72-Math-84-TBar.patch",
-                    "test": "test_from_NFL_patch26_26-Math-84-SimFix",
-                    "failing": 1,
-                    "testrun": 9,
-                    "failings": [
-                        "test8(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<1> but was:<2>"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test8(MultiDirectional_ESTest.java:177)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch114_72-Math-84-TBar.patch",
-                    "test": "test_from_NFL_patch3_3-Math-84-Kali-A",
-                    "failing": 0,
-                    "testrun": 11,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Math/patch114_72-Math-84-TBar.patch",
-                    "test": "test_from_NFL_patch135_45-Math-84-AVATAR",
-                    "failing": 1,
-                    "testrun": 10,
-                    "failings": [
-                        "test2(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<1> but was:<2>"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test2(MultiDirectional_ESTest.java:83)"
-                        ]
-                    ]
-                }
-            ],
-            "duration": 37.71
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/jMutRepair/Math/patch1_1-Math-84-jMutRepair.patch",
-            "project": "Math",
-            "bugid": "84",
-            "dataset": "PFL",
-            "date": "2021-11-22T19:45:25.505256",
-            "project_checked": "ok",
-            "compiledProjectModified": "no",
-            "patchApplied": "no",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/jGenProg/Math/patch44_34-Math-84-jGenProg.patch",
-            "project": "Math",
-            "bugid": "84",
-            "dataset": "PFL",
-            "date": "2021-11-22T19:45:31.540360",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/jGenProg/Math/patch44_34-Math-84-jGenProg.patch",
-                    "test": "test_from_NFL_patch803_248-Math-84-jGenProg",
-                    "failing": 0,
-                    "testrun": 11,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/jGenProg/Math/patch44_34-Math-84-jGenProg.patch",
-                    "test": "test_from_NFL_patch114_72-Math-84-TBar",
-                    "failing": 2,
-                    "testrun": 8,
-                    "failings": [
-                        "test3(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)",
-                        "test6(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<2> but was:<1>",
-                        "java.lang.AssertionError: expected:<2> but was:<1>"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test3(MultiDirectional_ESTest.java:105)"
-                        ],
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test6(MultiDirectional_ESTest.java:157)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/jGenProg/Math/patch44_34-Math-84-jGenProg.patch",
-                    "test": "test_from_NFL_patch867_312-Math-84-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 10,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/jGenProg/Math/patch44_34-Math-84-jGenProg.patch",
-                    "test": "test_from_PFL_patch44_34-Math-84-jGenProg",
-                    "failing": 0,
-                    "testrun": 11,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/jGenProg/Math/patch44_34-Math-84-jGenProg.patch",
-                    "test": "test_from_NFL_patch520_355-Math-84-ARJA",
-                    "failing": 0,
-                    "testrun": 10,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/jGenProg/Math/patch44_34-Math-84-jGenProg.patch",
-                    "test": "test_from_NFL_patch26_26-Math-84-SimFix",
-                    "failing": 1,
-                    "testrun": 9,
-                    "failings": [
-                        "test4(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<2> but was:<1>"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test4(MultiDirectional_ESTest.java:112)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/jGenProg/Math/patch44_34-Math-84-jGenProg.patch",
-                    "test": "test_from_NFL_patch3_3-Math-84-Kali-A",
-                    "failing": 0,
-                    "testrun": 11,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/jGenProg/Math/patch44_34-Math-84-jGenProg.patch",
-                    "test": "test_from_NFL_patch135_45-Math-84-AVATAR",
-                    "failing": 1,
-                    "testrun": 10,
-                    "failings": [
-                        "test4(org.apache.commons.math.optimization.direct.MultiDirectional_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<2> but was:<1>"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.optimization.direct.MultiDirectional_ESTest.test4(MultiDirectional_ESTest.java:119)"
-                        ]
-                    ]
-                }
-            ],
-            "duration": 37.16
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/jKali/Math/patch1_1-Math-84-jKali.patch",
-            "project": "Math",
-            "bugid": "84",
-            "dataset": "PFL",
-            "date": "2021-11-22T19:46:08.702618",
-            "project_checked": "ok",
-            "compiledProjectModified": "no",
-            "patchApplied": "no",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "duration": 35.89
         }
     ],
-    "date": "2021-11-22T19:40:59.495590",
+    "date": "2022-12-15T23:33:10.418833",
     "duration": -0.0
 }

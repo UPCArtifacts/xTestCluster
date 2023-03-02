@@ -2,30 +2,88 @@
     "bugid": "Closure-127",
     "results": [
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch17_13-Closure-127-Kali-A.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-127-Kali-plausible.patch",
             "project": "Closure",
             "bugid": "127",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:16:52.419882",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:51:34.868611",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-127-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-127-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 341,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.Node_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-127-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-127-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 1,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.UnreachableCodeElimination_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 36.72
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Closure/patch58_16-Closure-127-RSRepair-A.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-127-RSRepair-plausible.patch",
             "project": "Closure",
             "bugid": "127",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:18:14.745530",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:52:11.594444",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-127-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-127-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 341,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.Node_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-127-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-127-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 1,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.UnreachableCodeElimination_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 39.03
         }
     ],
-    "date": "2021-11-23T19:16:52.417655",
+    "date": "2022-12-16T04:51:34.868409",
     "duration": -0.0
 }

@@ -2,22 +2,22 @@
     "bugid": "Math-33",
     "results": [
         {
-            "patch": "/Patches/patchesDRR/Dcorrect/CapGen/Math/patch1-Math-33-CapGen.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-33-Nopol-plausible.patch",
             "project": "Math",
             "bugid": "33",
-            "dataset": "patchesDRR",
-            "date": "2021-11-22T19:24:52.147216",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:58:37.688035",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/CapGen/Math/patch1-Math-33-CapGen.patch",
-                    "test": "test_from_PFL_patch40-Math-33-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-33-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-33-Nopol-plausible",
                     "failing": 0,
-                    "testrun": 75,
+                    "testrun": 83,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -27,8 +27,34 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/CapGen/Math/patch1-Math-33-CapGen.patch",
-                    "test": "test_from_DRR_patch1-Math-33-SketchFix-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-33-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-33-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 62,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-33-Nopol-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-33-CapGen",
+                    "failing": 0,
+                    "testrun": 79,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-33-Nopol-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-33-SketchFix-plausible",
                     "failing": 0,
                     "testrun": 8,
                     "failings": [],
@@ -38,92 +64,48 @@
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/CapGen/Math/patch1-Math-33-CapGen.patch",
-                    "test": "test_from_NFL_patch1_1-Math-33-Nopol",
-                    "failing": 0,
-                    "testrun": 82,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/CapGen/Math/patch1-Math-33-CapGen.patch",
-                    "test": "test_from_DRR_patch1-Math-33-Elixir",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/CapGen/Math/patch1-Math-33-CapGen.patch",
-                    "test": "test_from_DRR_patch1-Math-33-CapGen",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/CapGen/Math/patch1-Math-33-CapGen.patch",
-                    "test": "test_from_PFL_patch1_1-Math-33-SimFix",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/CapGen/Math/patch1-Math-33-CapGen.patch",
-                    "test": "test_from_PFL_patch1_1-Math-33-Nopol",
-                    "failing": 0,
-                    "testrun": 71,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
                 }
             ],
-            "duration": 58.55
+            "duration": 27.38
         },
         {
-            "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Math/patch1-Math-33-Elixir.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-33-RSRepair-plausible.patch",
             "project": "Math",
             "bugid": "33",
-            "dataset": "patchesDRR",
-            "date": "2021-11-22T19:25:50.698025",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:59:05.073133",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Math/patch1-Math-33-Elixir.patch",
-                    "test": "test_from_PFL_patch40-Math-33-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-33-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-33-Nopol-plausible",
+                    "failing": 1,
+                    "testrun": 83,
+                    "failings": [
+                        "test34(org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest.test34(SimplexTableau_ESTest.java:458)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-33-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-33-RSRepair-plausible",
                     "failing": 0,
-                    "testrun": 75,
+                    "testrun": 62,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -133,8 +115,21 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Math/patch1-Math-33-Elixir.patch",
-                    "test": "test_from_DRR_patch1-Math-33-SketchFix-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-33-RSRepair-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-33-CapGen",
+                    "failing": 0,
+                    "testrun": 79,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-33-RSRepair-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-33-SketchFix-plausible",
                     "failing": 0,
                     "testrun": 8,
                     "failings": [],
@@ -144,92 +139,48 @@
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Math/patch1-Math-33-Elixir.patch",
-                    "test": "test_from_NFL_patch1_1-Math-33-Nopol",
-                    "failing": 0,
-                    "testrun": 82,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Math/patch1-Math-33-Elixir.patch",
-                    "test": "test_from_DRR_patch1-Math-33-Elixir",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Math/patch1-Math-33-Elixir.patch",
-                    "test": "test_from_DRR_patch1-Math-33-CapGen",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Math/patch1-Math-33-Elixir.patch",
-                    "test": "test_from_PFL_patch1_1-Math-33-SimFix",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Math/patch1-Math-33-Elixir.patch",
-                    "test": "test_from_PFL_patch1_1-Math-33-Nopol",
-                    "failing": 0,
-                    "testrun": 71,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
                 }
             ],
-            "duration": 59.71
+            "duration": 28.33
         },
         {
-            "patch": "/Patches/patchesDRR/Doverfitting/SketchFix/Math/patch1-Math-33-SketchFix-plausible.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-33-CapGen.patch",
             "project": "Math",
             "bugid": "33",
-            "dataset": "patchesDRR",
-            "date": "2021-11-22T19:26:50.407146",
+            "dataset": "Patches_others",
+            "date": "2022-12-16T05:59:33.403529",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesDRR/Doverfitting/SketchFix/Math/patch1-Math-33-SketchFix-plausible.patch",
-                    "test": "test_from_PFL_patch40-Math-33-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-33-CapGen.patch",
+                    "test": "test_from_WangICSE_patch1-Math-33-Nopol-plausible",
+                    "failing": 1,
+                    "testrun": 83,
+                    "failings": [
+                        "test34(org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest.test34(SimplexTableau_ESTest.java:458)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-33-CapGen.patch",
+                    "test": "test_from_WangICSE_patch1-Math-33-RSRepair-plausible",
                     "failing": 0,
-                    "testrun": 75,
+                    "testrun": 62,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -239,8 +190,21 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Doverfitting/SketchFix/Math/patch1-Math-33-SketchFix-plausible.patch",
-                    "test": "test_from_DRR_patch1-Math-33-SketchFix-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-33-CapGen.patch",
+                    "test": "test_from_WangDRR_patch1-Math-33-CapGen",
+                    "failing": 0,
+                    "testrun": 79,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-33-CapGen.patch",
+                    "test": "test_from_WangDRR_patch1-Math-33-SketchFix-plausible",
                     "failing": 0,
                     "testrun": 8,
                     "failings": [],
@@ -250,92 +214,27 @@
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/SketchFix/Math/patch1-Math-33-SketchFix-plausible.patch",
-                    "test": "test_from_NFL_patch1_1-Math-33-Nopol",
-                    "failing": 0,
-                    "testrun": 82,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/SketchFix/Math/patch1-Math-33-SketchFix-plausible.patch",
-                    "test": "test_from_DRR_patch1-Math-33-Elixir",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/SketchFix/Math/patch1-Math-33-SketchFix-plausible.patch",
-                    "test": "test_from_DRR_patch1-Math-33-CapGen",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/SketchFix/Math/patch1-Math-33-SketchFix-plausible.patch",
-                    "test": "test_from_PFL_patch1_1-Math-33-SimFix",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/SketchFix/Math/patch1-Math-33-SketchFix-plausible.patch",
-                    "test": "test_from_PFL_patch1_1-Math-33-Nopol",
-                    "failing": 0,
-                    "testrun": 71,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
                 }
             ],
-            "duration": 59.39
+            "duration": 27.48
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-33-Nopol.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch1-Math-33-SketchFix-plausible.patch",
             "project": "Math",
             "bugid": "33",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:27:49.795702",
+            "dataset": "Patches_others",
+            "date": "2022-12-16T06:00:00.888614",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-33-Nopol.patch",
-                    "test": "test_from_PFL_patch40-Math-33-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch1-Math-33-SketchFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-33-Nopol-plausible",
                     "failing": 0,
-                    "testrun": 75,
+                    "testrun": 83,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -345,8 +244,34 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-33-Nopol.patch",
-                    "test": "test_from_DRR_patch1-Math-33-SketchFix-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch1-Math-33-SketchFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-33-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 62,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch1-Math-33-SketchFix-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-33-CapGen",
+                    "failing": 0,
+                    "testrun": 79,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/SketchFix/Math/patch1-Math-33-SketchFix-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-33-SketchFix-plausible",
                     "failing": 0,
                     "testrun": 8,
                     "failings": [],
@@ -356,406 +281,11 @@
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-33-Nopol.patch",
-                    "test": "test_from_NFL_patch1_1-Math-33-Nopol",
-                    "failing": 0,
-                    "testrun": 82,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-33-Nopol.patch",
-                    "test": "test_from_DRR_patch1-Math-33-Elixir",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-33-Nopol.patch",
-                    "test": "test_from_DRR_patch1-Math-33-CapGen",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-33-Nopol.patch",
-                    "test": "test_from_PFL_patch1_1-Math-33-SimFix",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-33-Nopol.patch",
-                    "test": "test_from_PFL_patch1_1-Math-33-Nopol",
-                    "failing": 0,
-                    "testrun": 71,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
                 }
             ],
-            "duration": 60.3
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch8_3-Math-33-RSRepair-A.patch",
-            "project": "Math",
-            "bugid": "33",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:28:50.103253",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/SimFix/Math/patch1_1-Math-33-SimFix.patch",
-            "project": "Math",
-            "bugid": "33",
-            "dataset": "PFL",
-            "date": "2021-11-22T19:29:36.977299",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/SimFix/Math/patch1_1-Math-33-SimFix.patch",
-                    "test": "test_from_PFL_patch40-Math-33-AVATAR",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/SimFix/Math/patch1_1-Math-33-SimFix.patch",
-                    "test": "test_from_DRR_patch1-Math-33-SketchFix-plausible",
-                    "failing": 0,
-                    "testrun": 8,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexSolver_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/SimFix/Math/patch1_1-Math-33-SimFix.patch",
-                    "test": "test_from_NFL_patch1_1-Math-33-Nopol",
-                    "failing": 0,
-                    "testrun": 82,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/SimFix/Math/patch1_1-Math-33-SimFix.patch",
-                    "test": "test_from_DRR_patch1-Math-33-Elixir",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/SimFix/Math/patch1_1-Math-33-SimFix.patch",
-                    "test": "test_from_DRR_patch1-Math-33-CapGen",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/SimFix/Math/patch1_1-Math-33-SimFix.patch",
-                    "test": "test_from_PFL_patch1_1-Math-33-SimFix",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/SimFix/Math/patch1_1-Math-33-SimFix.patch",
-                    "test": "test_from_PFL_patch1_1-Math-33-Nopol",
-                    "failing": 0,
-                    "testrun": 71,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                }
-            ],
-            "duration": 59.61
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/AVATAR/Math/patch40-Math-33-AVATAR.patch",
-            "project": "Math",
-            "bugid": "33",
-            "dataset": "PFL",
-            "date": "2021-11-22T19:30:36.590151",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/AVATAR/Math/patch40-Math-33-AVATAR.patch",
-                    "test": "test_from_PFL_patch40-Math-33-AVATAR",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/AVATAR/Math/patch40-Math-33-AVATAR.patch",
-                    "test": "test_from_DRR_patch1-Math-33-SketchFix-plausible",
-                    "failing": 0,
-                    "testrun": 8,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexSolver_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/AVATAR/Math/patch40-Math-33-AVATAR.patch",
-                    "test": "test_from_NFL_patch1_1-Math-33-Nopol",
-                    "failing": 0,
-                    "testrun": 82,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/AVATAR/Math/patch40-Math-33-AVATAR.patch",
-                    "test": "test_from_DRR_patch1-Math-33-Elixir",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/AVATAR/Math/patch40-Math-33-AVATAR.patch",
-                    "test": "test_from_DRR_patch1-Math-33-CapGen",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/AVATAR/Math/patch40-Math-33-AVATAR.patch",
-                    "test": "test_from_PFL_patch1_1-Math-33-SimFix",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/AVATAR/Math/patch40-Math-33-AVATAR.patch",
-                    "test": "test_from_PFL_patch1_1-Math-33-Nopol",
-                    "failing": 0,
-                    "testrun": 71,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                }
-            ],
-            "duration": 59.33
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Math/patch1_1-Math-33-Nopol.patch",
-            "project": "Math",
-            "bugid": "33",
-            "dataset": "PFL",
-            "date": "2021-11-22T19:31:35.919460",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Math/patch1_1-Math-33-Nopol.patch",
-                    "test": "test_from_PFL_patch40-Math-33-AVATAR",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Math/patch1_1-Math-33-Nopol.patch",
-                    "test": "test_from_DRR_patch1-Math-33-SketchFix-plausible",
-                    "failing": 0,
-                    "testrun": 8,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexSolver_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Math/patch1_1-Math-33-Nopol.patch",
-                    "test": "test_from_NFL_patch1_1-Math-33-Nopol",
-                    "failing": 0,
-                    "testrun": 82,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Math/patch1_1-Math-33-Nopol.patch",
-                    "test": "test_from_DRR_patch1-Math-33-Elixir",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Math/patch1_1-Math-33-Nopol.patch",
-                    "test": "test_from_DRR_patch1-Math-33-CapGen",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Math/patch1_1-Math-33-Nopol.patch",
-                    "test": "test_from_PFL_patch1_1-Math-33-SimFix",
-                    "failing": 0,
-                    "testrun": 75,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Math/patch1_1-Math-33-Nopol.patch",
-                    "test": "test_from_PFL_patch1_1-Math-33-Nopol",
-                    "failing": 0,
-                    "testrun": 71,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.optimization.linear.SimplexTableau_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                }
-            ],
-            "duration": 60.06
+            "duration": 28.6
         }
     ],
-    "date": "2021-11-22T19:24:52.146399",
+    "date": "2022-12-16T05:58:37.687715",
     "duration": -0.0
 }

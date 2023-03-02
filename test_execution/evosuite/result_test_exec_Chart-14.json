@@ -2,678 +2,453 @@
     "bugid": "Chart-14",
     "results": [
         {
-            "patch": "/Patches/patchesAPI/Dcorrect/TBar/Chart/patch1-Chart-14-TBar.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-14-Arja-plusible.patch",
             "project": "Chart",
             "bugid": "14",
-            "dataset": "patchesAPI",
-            "date": "2021-11-22T22:53:29.537790",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesAPI/Doverfitting/SimFix/Chart/patch1-Chart-14-SimFix-plausible.patch",
-            "project": "Chart",
-            "bugid": "14",
-            "dataset": "patchesAPI",
-            "date": "2021-11-22T22:54:00.898125",
-            "project_checked": "ok",
-            "compiledProjectModified": "no",
-            "patchApplied": "no",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesDRR/Dcorrect/ACS/Chart/patch1-Chart-14-ACS.patch",
-            "project": "Chart",
-            "bugid": "14",
-            "dataset": "patchesDRR",
-            "date": "2021-11-22T22:54:14.469225",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:19:56.978641",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/ACS/Chart/patch1-Chart-14-ACS.patch",
-                    "test": "test_from_NFL_patch116_32-Chart-14-ACS",
-                    "failing": 0,
-                    "testrun": 378,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.XYPlot_ESTest",
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/ACS/Chart/patch1-Chart-14-ACS.patch",
-                    "test": "test_from_PFL_patch20_8-Chart-14-ACS",
-                    "failing": 0,
-                    "testrun": 359,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.XYPlot_ESTest",
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/ACS/Chart/patch1-Chart-14-ACS.patch",
-                    "test": "test_from_NFL_patch972_738-Chart-14-ARJA",
-                    "failing": 11,
-                    "testrun": 360,
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-14-Arja-plusible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-TBar-plausible",
+                    "failing": 6,
+                    "testrun": 295,
                     "failings": [
-                        "test028(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test077(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test078(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test270(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test043(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test044(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test071(org.jfree.chart.plot.XYPlot_ESTest)",
                         "test072(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test133(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test137(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test021(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test142(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test028(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test088(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test081(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                        "test094(org.jfree.chart.plot.XYPlot_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
-                        "org.jfree.chart.plot.XYPlot_ESTest",
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                        "org.jfree.chart.plot.XYPlot_ESTest"
                     ],
                     "failing_assertions": [
                         "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
                         "java.lang.AssertionError: Expecting exception: NullPointerException"
                     ],
                     "failing_lines": [
                         [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test028(XYPlot_ESTest.java:4929)"
+                            "org.jfree.chart.plot.XYPlot_ESTest.test270(XYPlot_ESTest.java:25243)"
                         ],
                         [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test077(XYPlot_ESTest.java:11961)"
+                            "org.jfree.chart.plot.XYPlot_ESTest.test043(XYPlot_ESTest.java:5830)"
                         ],
                         [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test078(XYPlot_ESTest.java:12096)"
+                            "org.jfree.chart.plot.XYPlot_ESTest.test044(XYPlot_ESTest.java:5933)"
                         ],
                         [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test072(XYPlot_ESTest.java:11192)"
+                            "org.jfree.chart.plot.XYPlot_ESTest.test071(XYPlot_ESTest.java:8808)"
                         ],
                         [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test133(XYPlot_ESTest.java:20401)"
+                            "org.jfree.chart.plot.XYPlot_ESTest.test072(XYPlot_ESTest.java:9109)"
                         ],
                         [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test137(CategoryPlot_ESTest.java:1358)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test021(CategoryPlot_ESTest.java:296)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test142(CategoryPlot_ESTest.java:1405)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test028(CategoryPlot_ESTest.java:377)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test088(CategoryPlot_ESTest.java:949)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test081(CategoryPlot_ESTest.java:859)"
+                            "org.jfree.chart.plot.XYPlot_ESTest.test094(XYPlot_ESTest.java:11616)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/ACS/Chart/patch1-Chart-14-ACS.patch",
-                    "test": "test_from_DRR_patch1-Chart-14-ACS",
-                    "failing": 0,
-                    "testrun": 381,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.XYPlot_ESTest",
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                }
-            ],
-            "duration": 56.36
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Chart/patch116_32-Chart-14-ACS.patch",
-            "project": "Chart",
-            "bugid": "14",
-            "dataset": "NFL",
-            "date": "2021-11-22T22:55:10.832571",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Chart/patch116_32-Chart-14-ACS.patch",
-                    "test": "test_from_NFL_patch116_32-Chart-14-ACS",
-                    "failing": 0,
-                    "testrun": 378,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.XYPlot_ESTest",
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Chart/patch116_32-Chart-14-ACS.patch",
-                    "test": "test_from_PFL_patch20_8-Chart-14-ACS",
-                    "failing": 0,
-                    "testrun": 359,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.XYPlot_ESTest",
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Chart/patch116_32-Chart-14-ACS.patch",
-                    "test": "test_from_NFL_patch972_738-Chart-14-ARJA",
-                    "failing": 11,
-                    "testrun": 360,
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-14-Arja-plusible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-FixMiner-plausible",
+                    "failing": 4,
+                    "testrun": 287,
                     "failings": [
-                        "test028(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test077(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test078(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test072(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test133(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test137(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test021(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test142(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test028(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test088(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test081(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                        "test262(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test047(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test074(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test095(org.jfree.chart.plot.XYPlot_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
-                        "org.jfree.chart.plot.XYPlot_ESTest",
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                        "org.jfree.chart.plot.XYPlot_ESTest"
                     ],
                     "failing_assertions": [
                         "java.lang.AssertionError: Expecting exception: NullPointerException",
                         "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException"
+                        "java.lang.NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
                     ],
                     "failing_lines": [
                         [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test028(XYPlot_ESTest.java:4929)"
+                            "org.jfree.chart.plot.XYPlot_ESTest.test262(XYPlot_ESTest.java:25253)"
                         ],
                         [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test077(XYPlot_ESTest.java:11961)"
+                            "org.jfree.chart.plot.XYPlot_ESTest.test047(XYPlot_ESTest.java:6216)"
                         ],
                         [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test078(XYPlot_ESTest.java:12096)"
+                            "org.jfree.chart.plot.XYPlot_ESTest.test074(XYPlot_ESTest.java:9295)"
                         ],
                         [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test072(XYPlot_ESTest.java:11192)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test133(XYPlot_ESTest.java:20401)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test137(CategoryPlot_ESTest.java:1358)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test021(CategoryPlot_ESTest.java:296)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test142(CategoryPlot_ESTest.java:1405)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test028(CategoryPlot_ESTest.java:377)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test088(CategoryPlot_ESTest.java:949)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test081(CategoryPlot_ESTest.java:859)"
+                            "org.jfree.chart.plot.XYPlot_ESTest.test095(XYPlot_ESTest.java:11994)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Chart/patch116_32-Chart-14-ACS.patch",
-                    "test": "test_from_DRR_patch1-Chart-14-ACS",
-                    "failing": 0,
-                    "testrun": 381,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.XYPlot_ESTest",
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                }
-            ],
-            "duration": 55.91
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch972_738-Chart-14-ARJA.patch",
-            "project": "Chart",
-            "bugid": "14",
-            "dataset": "NFL",
-            "date": "2021-11-22T22:56:06.745813",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch972_738-Chart-14-ARJA.patch",
-                    "test": "test_from_NFL_patch116_32-Chart-14-ACS",
-                    "failing": 7,
-                    "testrun": 378,
-                    "failings": [
-                        "test042(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test041(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test101(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test062(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test175(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test062(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test090(org.jfree.chart.plot.CategoryPlot_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.XYPlot_ESTest",
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.NullPointerException",
-                        "java.lang.NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
-                        "java.lang.NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
-                        "java.lang.NullPointerException",
-                        "java.lang.NullPointerException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test042(XYPlot_ESTest.java:5253)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test041(XYPlot_ESTest.java:5170)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test101(XYPlot_ESTest.java:13132)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test062(XYPlot_ESTest.java:8369)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test175(CategoryPlot_ESTest.java:22107)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test062(CategoryPlot_ESTest.java:7680)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test090(CategoryPlot_ESTest.java:10738)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch972_738-Chart-14-ARJA.patch",
-                    "test": "test_from_PFL_patch20_8-Chart-14-ACS",
-                    "failing": 10,
-                    "testrun": 359,
-                    "failings": [
-                        "test031(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test033(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test030(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test087(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test083(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test035(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test156(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test060(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test077(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test076(org.jfree.chart.plot.CategoryPlot_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.XYPlot_ESTest",
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.NullPointerException",
-                        "java.lang.NullPointerException",
-                        "java.lang.NullPointerException",
-                        "java.lang.NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
-                        "java.lang.NullPointerException",
-                        "java.lang.NullPointerException",
-                        "java.lang.NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
-                        "java.lang.NullPointerException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test031(XYPlot_ESTest.java:3909)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test033(XYPlot_ESTest.java:4278)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test030(XYPlot_ESTest.java:3826)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test087(XYPlot_ESTest.java:11806)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test083(XYPlot_ESTest.java:11054)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test035(CategoryPlot_ESTest.java:4820)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test156(CategoryPlot_ESTest.java:20217)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test060(CategoryPlot_ESTest.java:7753)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test077(CategoryPlot_ESTest.java:9696)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test076(CategoryPlot_ESTest.java:9624)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch972_738-Chart-14-ARJA.patch",
-                    "test": "test_from_NFL_patch972_738-Chart-14-ARJA",
-                    "failing": 0,
-                    "testrun": 360,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.XYPlot_ESTest",
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch972_738-Chart-14-ARJA.patch",
-                    "test": "test_from_DRR_patch1-Chart-14-ACS",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-14-Arja-plusible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-AVATAR-plausible",
                     "failing": 5,
-                    "testrun": 381,
+                    "testrun": 283,
                     "failings": [
-                        "test053(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test185(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test068(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test101(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test093(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                        "test258(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test035(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test061(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test062(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test084(org.jfree.chart.plot.XYPlot_ESTest)"
                     ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test258(XYPlot_ESTest.java:26971)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test035(XYPlot_ESTest.java:3850)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test061(XYPlot_ESTest.java:7643)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test062(XYPlot_ESTest.java:7981)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test084(XYPlot_ESTest.java:10503)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-14-Arja-plusible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-Arja-plusible",
+                    "failing": 0,
+                    "testrun": 540,
+                    "failings": [],
                     "status": "ok",
                     "test_executed": [
                         "org.jfree.chart.plot.XYPlot_ESTest",
                         "org.jfree.chart.plot.CategoryPlot_ESTest"
                     ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-14-Arja-plusible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-ACS",
+                    "failing": 43,
+                    "testrun": 278,
+                    "failings": [
+                        "test203(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test060(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test073(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test071(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test078(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test070(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test084(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test083(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test082(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test099(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test092(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test023(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test143(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test264(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test141(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test148(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test272(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test270(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test034(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test155(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test033(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test162(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test166(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test044(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test048(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test046(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test173(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test051(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test100(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test221(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test103(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test108(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test228(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test236(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test119(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test239(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test117(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test126(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test125(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test246(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test011(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test253(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test131(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
                     "failing_assertions": [
-                        "java.lang.NullPointerException",
                         "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
                         "java.lang.NullPointerException",
                         "java.lang.NullPointerException",
                         "java.lang.NullPointerException"
                     ],
                     "failing_lines": [
                         [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test053(XYPlot_ESTest.java:6366)"
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test203(CategoryPlot_ESTest.java)"
                         ],
                         [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test185(CategoryPlot_ESTest.java:1769)"
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test060(CategoryPlot_ESTest.java:2165)"
                         ],
                         [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test068(CategoryPlot_ESTest.java:802)"
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test073(CategoryPlot_ESTest.java:2502)"
                         ],
                         [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test101(CategoryPlot_ESTest.java:1071)"
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test071(CategoryPlot_ESTest.java:2441)"
                         ],
                         [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test093(CategoryPlot_ESTest.java:995)"
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test078(CategoryPlot_ESTest.java:2661)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test070(CategoryPlot_ESTest.java:2425)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test084(CategoryPlot_ESTest.java:4663)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test083(CategoryPlot_ESTest.java:3154)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test082(CategoryPlot_ESTest.java:2786)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test099(CategoryPlot_ESTest.java:13691)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test092(CategoryPlot_ESTest.java:9558)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test023(CategoryPlot_ESTest.java:1119)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test143(CategoryPlot_ESTest.java:39874)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test264(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test141(CategoryPlot_ESTest.java:38112)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test148(CategoryPlot_ESTest.java:42849)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test272(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test270(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test034(CategoryPlot_ESTest.java:1382)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test155(CategoryPlot_ESTest.java:46606)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test033(CategoryPlot_ESTest.java:1356)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test162(CategoryPlot_ESTest.java:50229)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test166(CategoryPlot_ESTest.java:51593)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test044(CategoryPlot_ESTest.java:1626)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test048(CategoryPlot_ESTest.java:1736)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test046(CategoryPlot_ESTest.java:1682)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test173(CategoryPlot_ESTest.java:55883)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test051(CategoryPlot_ESTest.java:1840)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test100(CategoryPlot_ESTest.java:14557)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test221(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test103(CategoryPlot_ESTest.java:16531)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test108(CategoryPlot_ESTest.java:19731)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test228(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test236(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test119(CategoryPlot_ESTest.java:24817)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test239(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test117(CategoryPlot_ESTest.java:23656)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test126(CategoryPlot_ESTest.java:28425)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test125(CategoryPlot_ESTest.java:28213)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test246(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test011(CategoryPlot_ESTest.java:831)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test253(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test131(CategoryPlot_ESTest.java:31773)"
                         ]
                     ]
                 }
             ],
-            "duration": 55.89
+            "duration": 66.84
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/FixMiner/Chart/patch1102_358-Chart-14-FixMiner.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-14-FixMiner-plausible.patch",
             "project": "Chart",
             "bugid": "14",
-            "dataset": "NFL",
-            "date": "2021-11-22T22:57:02.632941",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/FixMiner/Chart/patch1940_564-Chart-14-FixMiner.patch",
-            "project": "Chart",
-            "bugid": "14",
-            "dataset": "NFL",
-            "date": "2021-11-22T22:57:34.962510",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/FixMiner/Chart/patch1574_511-Chart-14-FixMiner.patch",
-            "project": "Chart",
-            "bugid": "14",
-            "dataset": "NFL",
-            "date": "2021-11-22T22:58:06.919307",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/FixMiner/Chart/patch538_171-Chart-14-FixMiner.patch",
-            "project": "Chart",
-            "bugid": "14",
-            "dataset": "NFL",
-            "date": "2021-11-22T22:58:39.270124",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1181_109-Chart-14-AVATAR.patch",
-            "project": "Chart",
-            "bugid": "14",
-            "dataset": "NFL",
-            "date": "2021-11-22T22:59:11.143577",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1534_138-Chart-14-AVATAR.patch",
-            "project": "Chart",
-            "bugid": "14",
-            "dataset": "NFL",
-            "date": "2021-11-22T22:59:43.386713",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch1573_139-Chart-14-AVATAR.patch",
-            "project": "Chart",
-            "bugid": "14",
-            "dataset": "NFL",
-            "date": "2021-11-22T23:00:15.480738",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Chart/patch560_34-Chart-14-AVATAR.patch",
-            "project": "Chart",
-            "bugid": "14",
-            "dataset": "NFL",
-            "date": "2021-11-22T23:00:48.050756",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch2034_473-Chart-14-TBar.patch",
-            "project": "Chart",
-            "bugid": "14",
-            "dataset": "NFL",
-            "date": "2021-11-22T23:01:20.153660",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch2669_616-Chart-14-TBar.patch",
-            "project": "Chart",
-            "bugid": "14",
-            "dataset": "NFL",
-            "date": "2021-11-22T23:01:52.204802",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Chart/patch974_207-Chart-14-TBar.patch",
-            "project": "Chart",
-            "bugid": "14",
-            "dataset": "NFL",
-            "date": "2021-11-22T23:02:24.398014",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/kPAR/Chart/patch6_4-Chart-14-kPAR.patch",
-            "project": "Chart",
-            "bugid": "14",
-            "dataset": "PFL",
-            "date": "2021-11-22T23:02:56.773930",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ACS/Chart/patch20_8-Chart-14-ACS.patch",
-            "project": "Chart",
-            "bugid": "14",
-            "dataset": "PFL",
-            "date": "2021-11-22T23:03:29.012927",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:21:03.824693",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ACS/Chart/patch20_8-Chart-14-ACS.patch",
-                    "test": "test_from_NFL_patch116_32-Chart-14-ACS",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-14-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-TBar-plausible",
                     "failing": 0,
-                    "testrun": 378,
+                    "testrun": 295,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
-                        "org.jfree.chart.plot.XYPlot_ESTest",
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                        "org.jfree.chart.plot.XYPlot_ESTest"
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ACS/Chart/patch20_8-Chart-14-ACS.patch",
-                    "test": "test_from_PFL_patch20_8-Chart-14-ACS",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-14-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-FixMiner-plausible",
                     "failing": 0,
-                    "testrun": 359,
+                    "testrun": 287,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
-                        "org.jfree.chart.plot.XYPlot_ESTest",
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                        "org.jfree.chart.plot.XYPlot_ESTest"
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ACS/Chart/patch20_8-Chart-14-ACS.patch",
-                    "test": "test_from_NFL_patch972_738-Chart-14-ARJA",
-                    "failing": 11,
-                    "testrun": 360,
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-14-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 283,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-14-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-Arja-plusible",
+                    "failing": 8,
+                    "testrun": 540,
                     "failings": [
-                        "test028(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test077(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test078(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test072(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test133(org.jfree.chart.plot.XYPlot_ESTest)",
-                        "test137(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test021(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test142(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test028(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test088(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test081(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                        "test140(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test235(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test071(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test074(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test014(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test264(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test277(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test124(org.jfree.chart.plot.CategoryPlot_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
@@ -682,11 +457,1344 @@
                     ],
                     "failing_assertions": [
                         "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'marker\\' argument.",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test140(XYPlot_ESTest.java:22075)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test235(XYPlot_ESTest.java:23742)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test071(XYPlot_ESTest.java:10801)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test074(CategoryPlot_ESTest.java:961)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test014(CategoryPlot_ESTest.java:236)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test264(CategoryPlot_ESTest.java:2709)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test277(CategoryPlot_ESTest.java:2834)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test124(CategoryPlot_ESTest.java:1407)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/FixMiner/Chart/patch1-Chart-14-FixMiner-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-ACS",
+                    "failing": 65,
+                    "testrun": 278,
+                    "failings": [
+                        "test060(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test066(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test074(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test195(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test073(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test071(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test078(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test076(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test075(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test070(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test084(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test083(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test082(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test089(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test087(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test086(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test095(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test099(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test098(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test097(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test092(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test136(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test139(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test023(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test143(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test264(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test141(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test148(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test272(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test271(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test270(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test034(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test155(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test033(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test036(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test162(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test166(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test044(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test164(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test048(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test046(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test173(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test051(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test100(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test221(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test103(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test101(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test108(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test228(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test230(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test236(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test113(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test234(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test112(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test119(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test239(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test117(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test237(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test126(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test125(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test246(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test012(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test011(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test253(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test131(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test060(CategoryPlot_ESTest.java:2165)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test066(CategoryPlot_ESTest.java:2312)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test074(CategoryPlot_ESTest.java:2542)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test195(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test073(CategoryPlot_ESTest.java:2502)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test071(CategoryPlot_ESTest.java:2441)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test078(CategoryPlot_ESTest.java:2661)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test076(CategoryPlot_ESTest.java:2580)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test075(CategoryPlot_ESTest.java:2553)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test070(CategoryPlot_ESTest.java:2425)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test084(CategoryPlot_ESTest.java:4663)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test083(CategoryPlot_ESTest.java:3154)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test082(CategoryPlot_ESTest.java:2786)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test089(CategoryPlot_ESTest.java:6973)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test087(CategoryPlot_ESTest.java:6493)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test086(CategoryPlot_ESTest.java:5958)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test095(CategoryPlot_ESTest.java:11475)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test099(CategoryPlot_ESTest.java:13691)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test098(CategoryPlot_ESTest.java:13225)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test097(CategoryPlot_ESTest.java:12666)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test092(CategoryPlot_ESTest.java:9558)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test136(CategoryPlot_ESTest.java:34973)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test139(CategoryPlot_ESTest.java:36016)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test023(CategoryPlot_ESTest.java:1119)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test143(CategoryPlot_ESTest.java:39874)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test264(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test141(CategoryPlot_ESTest.java:38112)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test148(CategoryPlot_ESTest.java:42849)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test272(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test271(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test270(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test034(CategoryPlot_ESTest.java:1382)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test155(CategoryPlot_ESTest.java:46606)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test033(CategoryPlot_ESTest.java:1356)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test036(CategoryPlot_ESTest.java:1418)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test162(CategoryPlot_ESTest.java:50052)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test166(CategoryPlot_ESTest.java:51593)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test044(CategoryPlot_ESTest.java:1626)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test164(CategoryPlot_ESTest.java:51209)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test048(CategoryPlot_ESTest.java:1736)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test046(CategoryPlot_ESTest.java:1682)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test173(CategoryPlot_ESTest.java:55883)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test051(CategoryPlot_ESTest.java:1840)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test100(CategoryPlot_ESTest.java:14518)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test221(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test103(CategoryPlot_ESTest.java:16531)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test101(CategoryPlot_ESTest.java:15105)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test108(CategoryPlot_ESTest.java:19731)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test228(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test230(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test236(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test113(CategoryPlot_ESTest.java:21540)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test234(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test112(CategoryPlot_ESTest.java:21128)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test119(CategoryPlot_ESTest.java:24778)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test239(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test117(CategoryPlot_ESTest.java:23616)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test237(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test126(CategoryPlot_ESTest.java:28425)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test125(CategoryPlot_ESTest.java:28174)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test246(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test012(CategoryPlot_ESTest.java:862)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test011(CategoryPlot_ESTest.java:831)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test253(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test131(CategoryPlot_ESTest.java:31734)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 67.48
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Chart/patch1-Chart-14-AVATAR-plausible.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:22:11.304865",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Chart/patch1-Chart-14-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 295,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Chart/patch1-Chart-14-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-FixMiner-plausible",
+                    "failing": 2,
+                    "testrun": 287,
+                    "failings": [
+                        "test165(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test166(org.jfree.chart.plot.XYPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test165(XYPlot_ESTest.java:22362)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test166(XYPlot_ESTest.java:22494)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Chart/patch1-Chart-14-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 283,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Chart/patch1-Chart-14-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-Arja-plusible",
+                    "failing": 8,
+                    "testrun": 540,
+                    "failings": [
+                        "test140(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test235(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test071(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test074(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test014(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test264(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test277(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test124(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [
                         "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'marker\\' argument.",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test140(XYPlot_ESTest.java:22075)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test235(XYPlot_ESTest.java:23742)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test071(XYPlot_ESTest.java:10801)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test074(CategoryPlot_ESTest.java:961)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test014(CategoryPlot_ESTest.java:236)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test264(CategoryPlot_ESTest.java:2709)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test277(CategoryPlot_ESTest.java:2834)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test124(CategoryPlot_ESTest.java:1407)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Chart/patch1-Chart-14-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-ACS",
+                    "failing": 65,
+                    "testrun": 278,
+                    "failings": [
+                        "test060(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test066(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test074(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test195(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test073(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test071(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test078(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test076(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test075(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test070(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test084(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test083(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test082(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test089(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test087(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test086(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test095(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test099(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test098(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test097(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test092(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test136(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test139(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test023(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test143(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test264(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test141(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test148(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test272(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test271(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test270(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test034(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test155(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test033(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test036(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test162(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test166(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test044(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test164(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test048(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test046(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test173(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test051(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test100(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test221(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test103(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test101(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test108(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test228(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test230(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test236(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test113(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test234(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test112(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test119(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test239(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test117(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test237(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test126(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test125(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test246(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test012(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test011(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test253(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test131(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test060(CategoryPlot_ESTest.java:2165)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test066(CategoryPlot_ESTest.java:2312)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test074(CategoryPlot_ESTest.java:2542)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test195(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test073(CategoryPlot_ESTest.java:2502)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test071(CategoryPlot_ESTest.java:2441)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test078(CategoryPlot_ESTest.java:2661)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test076(CategoryPlot_ESTest.java:2580)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test075(CategoryPlot_ESTest.java:2553)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test070(CategoryPlot_ESTest.java:2425)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test084(CategoryPlot_ESTest.java:4663)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test083(CategoryPlot_ESTest.java:3154)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test082(CategoryPlot_ESTest.java:2786)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test089(CategoryPlot_ESTest.java:6973)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test087(CategoryPlot_ESTest.java:6493)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test086(CategoryPlot_ESTest.java:5958)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test095(CategoryPlot_ESTest.java:11475)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test099(CategoryPlot_ESTest.java:13691)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test098(CategoryPlot_ESTest.java:13225)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test097(CategoryPlot_ESTest.java:12666)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test092(CategoryPlot_ESTest.java:9558)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test136(CategoryPlot_ESTest.java:34973)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test139(CategoryPlot_ESTest.java:36016)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test023(CategoryPlot_ESTest.java:1119)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test143(CategoryPlot_ESTest.java:39874)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test264(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test141(CategoryPlot_ESTest.java:38112)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test148(CategoryPlot_ESTest.java:42849)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test272(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test271(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test270(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test034(CategoryPlot_ESTest.java:1382)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test155(CategoryPlot_ESTest.java:46606)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test033(CategoryPlot_ESTest.java:1356)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test036(CategoryPlot_ESTest.java:1418)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test162(CategoryPlot_ESTest.java:50052)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test166(CategoryPlot_ESTest.java:51593)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test044(CategoryPlot_ESTest.java:1626)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test164(CategoryPlot_ESTest.java:51209)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test048(CategoryPlot_ESTest.java:1736)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test046(CategoryPlot_ESTest.java:1682)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test173(CategoryPlot_ESTest.java:55883)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test051(CategoryPlot_ESTest.java:1840)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test100(CategoryPlot_ESTest.java:14518)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test221(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test103(CategoryPlot_ESTest.java:16531)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test101(CategoryPlot_ESTest.java:15105)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test108(CategoryPlot_ESTest.java:19731)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test228(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test230(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test236(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test113(CategoryPlot_ESTest.java:21540)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test234(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test112(CategoryPlot_ESTest.java:21128)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test119(CategoryPlot_ESTest.java:24778)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test239(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test117(CategoryPlot_ESTest.java:23616)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test237(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test126(CategoryPlot_ESTest.java:28425)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test125(CategoryPlot_ESTest.java:28174)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test246(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test012(CategoryPlot_ESTest.java:862)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test011(CategoryPlot_ESTest.java:831)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test253(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test131(CategoryPlot_ESTest.java:31734)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 68.29
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-14-TBar-plausible.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:23:19.594570",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-14-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 295,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-14-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-FixMiner-plausible",
+                    "failing": 2,
+                    "testrun": 287,
+                    "failings": [
+                        "test165(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test166(org.jfree.chart.plot.XYPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test165(XYPlot_ESTest.java:22362)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test166(XYPlot_ESTest.java:22494)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-14-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 283,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-14-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-Arja-plusible",
+                    "failing": 8,
+                    "testrun": 540,
+                    "failings": [
+                        "test140(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test235(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test071(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test074(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test014(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test264(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test277(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test124(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [
                         "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'marker\\' argument.",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test140(XYPlot_ESTest.java:22075)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test235(XYPlot_ESTest.java:23742)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test071(XYPlot_ESTest.java:10801)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test074(CategoryPlot_ESTest.java:961)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test014(CategoryPlot_ESTest.java:236)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test264(CategoryPlot_ESTest.java:2709)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test277(CategoryPlot_ESTest.java:2834)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test124(CategoryPlot_ESTest.java:1407)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Chart/patch1-Chart-14-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-ACS",
+                    "failing": 65,
+                    "testrun": 278,
+                    "failings": [
+                        "test060(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test066(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test074(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test195(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test073(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test071(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test078(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test076(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test075(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test070(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test084(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test083(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test082(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test089(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test087(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test086(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test095(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test099(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test098(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test097(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test092(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test136(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test139(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test023(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test143(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test264(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test141(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test148(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test272(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test271(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test270(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test034(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test155(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test033(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test036(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test162(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test166(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test044(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test164(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test048(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test046(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test173(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test051(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test100(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test221(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test103(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test101(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test108(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test228(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test230(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test236(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test113(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test234(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test112(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test119(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test239(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test117(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test237(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test126(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test125(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test246(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test012(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test011(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test253(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test131(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test060(CategoryPlot_ESTest.java:2165)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test066(CategoryPlot_ESTest.java:2312)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test074(CategoryPlot_ESTest.java:2542)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test195(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test073(CategoryPlot_ESTest.java:2502)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test071(CategoryPlot_ESTest.java:2441)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test078(CategoryPlot_ESTest.java:2661)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test076(CategoryPlot_ESTest.java:2580)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test075(CategoryPlot_ESTest.java:2553)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test070(CategoryPlot_ESTest.java:2425)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test084(CategoryPlot_ESTest.java:4663)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test083(CategoryPlot_ESTest.java:3154)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test082(CategoryPlot_ESTest.java:2786)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test089(CategoryPlot_ESTest.java:6973)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test087(CategoryPlot_ESTest.java:6493)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test086(CategoryPlot_ESTest.java:5958)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test095(CategoryPlot_ESTest.java:11475)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test099(CategoryPlot_ESTest.java:13691)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test098(CategoryPlot_ESTest.java:13225)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test097(CategoryPlot_ESTest.java:12666)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test092(CategoryPlot_ESTest.java:9558)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test136(CategoryPlot_ESTest.java:34973)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test139(CategoryPlot_ESTest.java:36016)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test023(CategoryPlot_ESTest.java:1119)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test143(CategoryPlot_ESTest.java:39874)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test264(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test141(CategoryPlot_ESTest.java:38112)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test148(CategoryPlot_ESTest.java:42849)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test272(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test271(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test270(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test034(CategoryPlot_ESTest.java:1382)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test155(CategoryPlot_ESTest.java:46606)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test033(CategoryPlot_ESTest.java:1356)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test036(CategoryPlot_ESTest.java:1418)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test162(CategoryPlot_ESTest.java:50052)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test166(CategoryPlot_ESTest.java:51593)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test044(CategoryPlot_ESTest.java:1626)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test164(CategoryPlot_ESTest.java:51209)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test048(CategoryPlot_ESTest.java:1736)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test046(CategoryPlot_ESTest.java:1682)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test173(CategoryPlot_ESTest.java:55883)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test051(CategoryPlot_ESTest.java:1840)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test100(CategoryPlot_ESTest.java:14518)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test221(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test103(CategoryPlot_ESTest.java:16531)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test101(CategoryPlot_ESTest.java:15105)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test108(CategoryPlot_ESTest.java:19731)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test228(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test230(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test236(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test113(CategoryPlot_ESTest.java:21540)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test234(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test112(CategoryPlot_ESTest.java:21128)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test119(CategoryPlot_ESTest.java:24778)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test239(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test117(CategoryPlot_ESTest.java:23616)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test237(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test126(CategoryPlot_ESTest.java:28425)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test125(CategoryPlot_ESTest.java:28174)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test246(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test012(CategoryPlot_ESTest.java:862)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test011(CategoryPlot_ESTest.java:831)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test253(CategoryPlot_ESTest.java)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test131(CategoryPlot_ESTest.java:31734)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 68.38
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/ACS/Chart/patch1-Chart-14-ACS.patch",
+            "project": "Chart",
+            "bugid": "14",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:24:27.978951",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/ACS/Chart/patch1-Chart-14-ACS.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-TBar-plausible",
+                    "failing": 5,
+                    "testrun": 295,
+                    "failings": [
+                        "test270(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test162(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test067(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test068(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test094(org.jfree.chart.plot.XYPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest"
+                    ],
+                    "failing_assertions": [
                         "java.lang.AssertionError: Expecting exception: NullPointerException",
                         "java.lang.AssertionError: Expecting exception: NullPointerException",
                         "java.lang.AssertionError: Expecting exception: NullPointerException",
@@ -695,82 +1803,198 @@
                     ],
                     "failing_lines": [
                         [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test028(XYPlot_ESTest.java:4929)"
+                            "org.jfree.chart.plot.XYPlot_ESTest.test270(XYPlot_ESTest.java:25243)"
                         ],
                         [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test077(XYPlot_ESTest.java:11961)"
+                            "org.jfree.chart.plot.XYPlot_ESTest.test162(XYPlot_ESTest.java:20870)"
                         ],
                         [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test078(XYPlot_ESTest.java:12096)"
+                            "org.jfree.chart.plot.XYPlot_ESTest.test067(XYPlot_ESTest.java:8325)"
                         ],
                         [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test072(XYPlot_ESTest.java:11192)"
+                            "org.jfree.chart.plot.XYPlot_ESTest.test068(XYPlot_ESTest.java:8383)"
                         ],
                         [
-                            "org.jfree.chart.plot.XYPlot_ESTest.test133(XYPlot_ESTest.java:20401)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test137(CategoryPlot_ESTest.java:1358)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test021(CategoryPlot_ESTest.java:296)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test142(CategoryPlot_ESTest.java:1405)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test028(CategoryPlot_ESTest.java:377)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test088(CategoryPlot_ESTest.java:949)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test081(CategoryPlot_ESTest.java:859)"
+                            "org.jfree.chart.plot.XYPlot_ESTest.test094(XYPlot_ESTest.java:11616)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ACS/Chart/patch20_8-Chart-14-ACS.patch",
-                    "test": "test_from_DRR_patch1-Chart-14-ACS",
-                    "failing": 0,
-                    "testrun": 381,
-                    "failings": [],
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/ACS/Chart/patch1-Chart-14-ACS.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-FixMiner-plausible",
+                    "failing": 5,
+                    "testrun": 287,
+                    "failings": [
+                        "test262(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test160(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test047(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test048(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test070(org.jfree.chart.plot.XYPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test262(XYPlot_ESTest.java:25253)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test160(XYPlot_ESTest.java:21764)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test047(XYPlot_ESTest.java:6216)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test048(XYPlot_ESTest.java:6268)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test070(XYPlot_ESTest.java:8787)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/ACS/Chart/patch1-Chart-14-ACS.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-AVATAR-plausible",
+                    "failing": 5,
+                    "testrun": 283,
+                    "failings": [
+                        "test258(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test156(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test036(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test057(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test084(org.jfree.chart.plot.XYPlot_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.jfree.chart.plot.XYPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test258(XYPlot_ESTest.java:26971)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test156(XYPlot_ESTest.java:23270)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test036(XYPlot_ESTest.java:4176)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test057(XYPlot_ESTest.java:7204)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test084(XYPlot_ESTest.java:10503)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/ACS/Chart/patch1-Chart-14-ACS.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-Arja-plusible",
+                    "failing": 12,
+                    "testrun": 540,
+                    "failings": [
+                        "test140(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test047(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test048(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test133(org.jfree.chart.plot.XYPlot_ESTest)",
+                        "test065(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test064(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test277(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test041(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test166(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test043(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test236(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test123(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                    ],
                     "status": "ok",
                     "test_executed": [
                         "org.jfree.chart.plot.XYPlot_ESTest",
+                        "org.jfree.chart.plot.CategoryPlot_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'marker\\' argument.",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test140(XYPlot_ESTest.java:22075)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test047(XYPlot_ESTest.java:7986)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test048(XYPlot_ESTest.java:8043)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.XYPlot_ESTest.test133(XYPlot_ESTest.java:21270)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test065(CategoryPlot_ESTest.java:872)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test064(CategoryPlot_ESTest.java:852)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test277(CategoryPlot_ESTest.java:2834)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test041(CategoryPlot_ESTest.java:539)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test166(CategoryPlot_ESTest.java:1839)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test043(CategoryPlot_ESTest.java:574)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test236(CategoryPlot_ESTest.java:2509)"
+                        ],
+                        [
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test123(CategoryPlot_ESTest.java:1392)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/ACS/Chart/patch1-Chart-14-ACS.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-14-ACS",
+                    "failing": 0,
+                    "testrun": 278,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
                         "org.jfree.chart.plot.CategoryPlot_ESTest"
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
                 }
             ],
-            "duration": 55.64
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/AVATAR/Chart/patch78_2-Chart-14-AVATAR.patch",
-            "project": "Chart",
-            "bugid": "14",
-            "dataset": "PFL",
-            "date": "2021-11-22T23:04:24.653777",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/TBar/Chart/patch76_2-Chart-14-TBar.patch",
-            "project": "Chart",
-            "bugid": "14",
-            "dataset": "PFL",
-            "date": "2021-11-22T23:04:55.978709",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "duration": 67.56
         }
     ],
-    "date": "2021-11-22T22:53:29.536659",
+    "date": "2022-12-16T05:19:56.978321",
     "duration": -0.0
 }

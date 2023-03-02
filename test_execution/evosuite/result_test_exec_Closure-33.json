@@ -2,22 +2,22 @@
     "bugid": "Closure-33",
     "results": [
         {
-            "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Closure/patch1-Closure-33-Jaid.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-33-Kali-plausible.patch",
             "project": "Closure",
             "bugid": "33",
-            "dataset": "patchesDRR",
-            "date": "2021-11-23T19:35:02.184502",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:11:32.698805",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Closure/patch1-Closure-33-Jaid.patch",
-                    "test": "test_from_DRR_patch1-Closure-33-Jaid-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-33-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-33-RSRepair-plausible",
                     "failing": 0,
-                    "testrun": 75,
+                    "testrun": 100,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -27,10 +27,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Closure/patch1-Closure-33-Jaid.patch",
-                    "test": "test_from_DRR_patch2-Closure-33-Jaid-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-33-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-33-Kali-plausible",
                     "failing": 0,
-                    "testrun": 69,
+                    "testrun": 91,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -40,38 +40,194 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Closure/patch1-Closure-33-Jaid.patch",
-                    "test": "test_from_DRR_patch1-Closure-33-Jaid",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-33-Kali-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-33-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 96,
+                    "failings": [
+                        "test60(com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest.test60(PrototypeObjectType_ESTest.java:779)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-33-Kali-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-33-Jaid",
                     "failing": 0,
-                    "testrun": 59,
+                    "testrun": 110,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
                         "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-33-Kali-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Closure-33-Jaid-plausible",
+                    "failing": 1,
+                    "testrun": 100,
+                    "failings": [
+                        "test57(com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest.test57(PrototypeObjectType_ESTest.java:776)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-33-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-33-Arja-plausible",
+                    "failing": 1,
+                    "testrun": 40,
+                    "failings": [
+                        "test22(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test22(RecordType_ESTest.java:371)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 43.33
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-33-Arja-plausible.patch",
+            "project": "Closure",
+            "bugid": "33",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:12:16.035634",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-33-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-33-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-33-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-33-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 91,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-33-Arja-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-33-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 96,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-33-Arja-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-33-Jaid",
+                    "failing": 0,
+                    "testrun": 110,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-33-Arja-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Closure-33-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-33-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-33-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 40,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
                 }
             ],
-            "duration": 127.52
+            "duration": 44.03
         },
         {
-            "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Closure/patch2-Closure-33-Jaid-plausible.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-33-RSRepair-plausible.patch",
             "project": "Closure",
             "bugid": "33",
-            "dataset": "patchesDRR",
-            "date": "2021-11-23T19:37:09.706945",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:13:00.072300",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Closure/patch2-Closure-33-Jaid-plausible.patch",
-                    "test": "test_from_DRR_patch1-Closure-33-Jaid-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-33-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-33-RSRepair-plausible",
                     "failing": 0,
-                    "testrun": 75,
+                    "testrun": 100,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -81,10 +237,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Closure/patch2-Closure-33-Jaid-plausible.patch",
-                    "test": "test_from_DRR_patch2-Closure-33-Jaid-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-33-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-33-Kali-plausible",
                     "failing": 0,
-                    "testrun": 69,
+                    "testrun": 91,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -94,10 +250,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Closure/patch2-Closure-33-Jaid-plausible.patch",
-                    "test": "test_from_DRR_patch1-Closure-33-Jaid",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-33-RSRepair-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-33-Jaid-plausible",
                     "failing": 0,
-                    "testrun": 59,
+                    "testrun": 96,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -105,27 +261,74 @@
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-33-RSRepair-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-33-Jaid",
+                    "failing": 0,
+                    "testrun": 110,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-33-RSRepair-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Closure-33-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-33-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-33-Arja-plausible",
+                    "failing": 1,
+                    "testrun": 40,
+                    "failings": [
+                        "test22(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test22(RecordType_ESTest.java:371)"
+                        ]
+                    ]
                 }
             ],
-            "duration": 127.11
+            "duration": 44.39
         },
         {
-            "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Closure/patch1-Closure-33-Jaid-plausible.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Closure/patch1-Closure-33-Jaid.patch",
             "project": "Closure",
             "bugid": "33",
-            "dataset": "patchesDRR",
-            "date": "2021-11-23T19:39:16.817180",
+            "dataset": "Patches_others",
+            "date": "2022-12-16T05:13:44.467251",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Closure/patch1-Closure-33-Jaid-plausible.patch",
-                    "test": "test_from_DRR_patch1-Closure-33-Jaid-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Closure/patch1-Closure-33-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-33-RSRepair-plausible",
                     "failing": 0,
-                    "testrun": 75,
+                    "testrun": 100,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -135,10 +338,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Closure/patch1-Closure-33-Jaid-plausible.patch",
-                    "test": "test_from_DRR_patch2-Closure-33-Jaid-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Closure/patch1-Closure-33-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-33-Kali-plausible",
                     "failing": 0,
-                    "testrun": 69,
+                    "testrun": 91,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -148,10 +351,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Closure/patch1-Closure-33-Jaid-plausible.patch",
-                    "test": "test_from_DRR_patch1-Closure-33-Jaid",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Closure/patch1-Closure-33-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-33-Jaid-plausible",
                     "failing": 0,
-                    "testrun": 59,
+                    "testrun": 96,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -159,59 +362,260 @@
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Closure/patch1-Closure-33-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-33-Jaid",
+                    "failing": 0,
+                    "testrun": 110,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Closure/patch1-Closure-33-Jaid.patch",
+                    "test": "test_from_WangDRR_patch2-Closure-33-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Closure/patch1-Closure-33-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-33-Arja-plausible",
+                    "failing": 1,
+                    "testrun": 40,
+                    "failings": [
+                        "test22(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test22(RecordType_ESTest.java:371)"
+                        ]
+                    ]
                 }
             ],
-            "duration": 128.03
+            "duration": 44.6
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch1_1-Closure-33-ARJA.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Closure/patch2-Closure-33-Jaid-plausible.patch",
             "project": "Closure",
             "bugid": "33",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:41:24.845858",
+            "dataset": "Patches_others",
+            "date": "2022-12-16T05:14:29.067922",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Closure/patch2-Closure-33-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-33-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Closure/patch2-Closure-33-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-33-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 91,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Closure/patch2-Closure-33-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-33-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 96,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Closure/patch2-Closure-33-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-33-Jaid",
+                    "failing": 0,
+                    "testrun": 110,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Closure/patch2-Closure-33-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Closure-33-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Closure/patch2-Closure-33-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-33-Arja-plausible",
+                    "failing": 1,
+                    "testrun": 40,
+                    "failings": [
+                        "test22(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test22(RecordType_ESTest.java:371)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 43.72
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch2_2-Closure-33-Kali-A.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Closure/patch1-Closure-33-Jaid-plausible.patch",
             "project": "Closure",
             "bugid": "33",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:43:20.399886",
+            "dataset": "Patches_others",
+            "date": "2022-12-16T05:15:12.789321",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Closure/patch1_1-Closure-33-RSRepair-A.patch",
-            "project": "Closure",
-            "bugid": "33",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:45:13.641661",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Closure/patch1_1-Closure-33-ARJA.patch",
-            "project": "Closure",
-            "bugid": "33",
-            "dataset": "PFL",
-            "date": "2021-11-23T19:47:06.536852",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Closure/patch1-Closure-33-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-33-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Closure/patch1-Closure-33-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-33-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 91,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Closure/patch1-Closure-33-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-33-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 96,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Closure/patch1-Closure-33-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Closure-33-Jaid",
+                    "failing": 0,
+                    "testrun": 110,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Closure/patch1-Closure-33-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch2-Closure-33-Jaid-plausible",
+                    "failing": 0,
+                    "testrun": 100,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Closure/patch1-Closure-33-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-33-Arja-plausible",
+                    "failing": 1,
+                    "testrun": 40,
+                    "failings": [
+                        "test22(com.google.javascript.rhino.jstype.RecordType_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.jstype.RecordType_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.jstype.RecordType_ESTest.test22(RecordType_ESTest.java:371)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 44.64
         }
     ],
-    "date": "2021-11-23T19:35:02.182866",
+    "date": "2022-12-16T05:11:32.698506",
     "duration": -0.0
 }

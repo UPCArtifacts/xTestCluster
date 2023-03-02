@@ -2,122 +2,25 @@
     "bugid": "Chart-19",
     "results": [
         {
-            "patch": "/Patches/patchesDRR/Dcorrect/ACS/Chart/patch1-Chart-19-ACS.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-19-Arja-plusible.patch",
             "project": "Chart",
             "bugid": "19",
-            "dataset": "patchesDRR",
-            "date": "2021-11-22T22:40:49.384332",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:18:15.882035",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/ACS/Chart/patch1-Chart-19-ACS.patch",
-                    "test": "test_from_NFL_patch6_4-Chart-19-ACS",
-                    "failing": 0,
-                    "testrun": 210,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/ACS/Chart/patch1-Chart-19-ACS.patch",
-                    "test": "test_from_DRR_patch1-Chart-19-Arja-plausible",
-                    "failing": 1,
-                    "testrun": 23,
-                    "failings": [
-                        "test13(org.jfree.chart.util.AbstractObjectList_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.util.AbstractObjectList_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.jfree.chart.util.AbstractObjectList_ESTest.test13(AbstractObjectList_ESTest.java:169)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/ACS/Chart/patch1-Chart-19-ACS.patch",
-                    "test": "test_from_DRR_patch1-Chart-19-ACS",
-                    "failing": 0,
-                    "testrun": 200,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/ACS/Chart/patch1-Chart-19-ACS.patch",
-                    "test": "test_from_NFL_patch169_155-Chart-19-ARJA",
-                    "failing": 1,
-                    "testrun": 118,
-                    "failings": [
-                        "test13(org.jfree.chart.util.AbstractObjectList_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.util.AbstractObjectList_ESTest",
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.jfree.chart.util.AbstractObjectList_ESTest.test13(AbstractObjectList_ESTest.java:169)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/ACS/Chart/patch1-Chart-19-ACS.patch",
-                    "test": "test_from_PFL_patch6_4-Chart-19-ACS",
-                    "failing": 0,
-                    "testrun": 225,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                }
-            ],
-            "duration": 37.08
-        },
-        {
-            "patch": "/Patches/patchesDRR/Doverfitting/Arja/Chart/patch1-Chart-19-Arja-plausible.patch",
-            "project": "Chart",
-            "bugid": "19",
-            "dataset": "patchesDRR",
-            "date": "2021-11-22T22:41:26.463926",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Chart/patch1-Chart-19-Arja-plausible.patch",
-                    "test": "test_from_NFL_patch6_4-Chart-19-ACS",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-19-Arja-plusible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-19-AVATAR",
                     "failing": 2,
-                    "testrun": 210,
+                    "testrun": 250,
                     "failings": [
-                        "test147(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test155(org.jfree.chart.plot.CategoryPlot_ESTest)"
+                        "test187(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test180(org.jfree.chart.plot.CategoryPlot_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
@@ -125,61 +28,22 @@
                     ],
                     "failing_assertions": [
                         "java.lang.AssertionError: Exception was not thrown in org.jfree.chart.plot.CategoryPlot but in org.jfree.chart.util.AbstractObjectList.indexOf(AbstractObjectList.java:165): org.evosuite.runtime.mock.java.lang.MockThrowable: Null \\'object\\' argument.",
-                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
+                        "java.lang.AssertionError: Exception was not thrown in org.jfree.chart.plot.CategoryPlot but in org.jfree.chart.util.AbstractObjectList.indexOf(AbstractObjectList.java:165): org.evosuite.runtime.mock.java.lang.MockThrowable: Null \\'object\\' argument."
                     ],
                     "failing_lines": [
                         [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test147(CategoryPlot_ESTest.java:1468)"
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test187(CategoryPlot_ESTest.java:28794)"
                         ],
                         [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test155(CategoryPlot_ESTest.java:1529)"
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test180(CategoryPlot_ESTest.java:28044)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Chart/patch1-Chart-19-Arja-plausible.patch",
-                    "test": "test_from_DRR_patch1-Chart-19-Arja-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Chart/patch1-Chart-19-Arja-plusible.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-19-Arja-plusible",
                     "failing": 0,
-                    "testrun": 23,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.util.AbstractObjectList_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Chart/patch1-Chart-19-Arja-plausible.patch",
-                    "test": "test_from_DRR_patch1-Chart-19-ACS",
-                    "failing": 2,
-                    "testrun": 200,
-                    "failings": [
-                        "test138(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test145(org.jfree.chart.plot.CategoryPlot_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.jfree.chart.plot.CategoryPlot but in org.jfree.chart.util.AbstractObjectList.indexOf(AbstractObjectList.java:165): org.evosuite.runtime.mock.java.lang.MockThrowable: Null \\'object\\' argument.",
-                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test138(CategoryPlot_ESTest.java:1371)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test145(CategoryPlot_ESTest.java:1423)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Chart/patch1-Chart-19-Arja-plausible.patch",
-                    "test": "test_from_NFL_patch169_155-Chart-19-ARJA",
-                    "failing": 0,
-                    "testrun": 118,
+                    "testrun": 246,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -188,101 +52,27 @@
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Arja/Chart/patch1-Chart-19-Arja-plausible.patch",
-                    "test": "test_from_PFL_patch6_4-Chart-19-ACS",
-                    "failing": 2,
-                    "testrun": 225,
-                    "failings": [
-                        "test154(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test162(org.jfree.chart.plot.CategoryPlot_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.jfree.chart.plot.CategoryPlot but in org.jfree.chart.util.AbstractObjectList.indexOf(AbstractObjectList.java:165): org.evosuite.runtime.mock.java.lang.MockThrowable: Null \\'object\\' argument.",
-                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test154(CategoryPlot_ESTest.java:1545)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test162(CategoryPlot_ESTest.java:1602)"
-                        ]
-                    ]
                 }
             ],
-            "duration": 37.41
+            "duration": 41.04
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/AVATAR/Chart/patch164_98-Chart-19-AVATAR.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Chart/patch1-Chart-19-AVATAR.patch",
             "project": "Chart",
             "bugid": "19",
-            "dataset": "NFL",
-            "date": "2021-11-22T22:42:03.877239",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/AVATAR/Chart/patch81_49-Chart-19-AVATAR.patch",
-            "project": "Chart",
-            "bugid": "19",
-            "dataset": "NFL",
-            "date": "2021-11-22T22:42:31.175469",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/TBar/Chart/patch68_59-Chart-19-TBar.patch",
-            "project": "Chart",
-            "bugid": "19",
-            "dataset": "NFL",
-            "date": "2021-11-22T22:42:59.089623",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/TBar/Chart/patch143_118-Chart-19-TBar.patch",
-            "project": "Chart",
-            "bugid": "19",
-            "dataset": "NFL",
-            "date": "2021-11-22T22:43:25.962299",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Chart/patch6_4-Chart-19-ACS.patch",
-            "project": "Chart",
-            "bugid": "19",
-            "dataset": "NFL",
-            "date": "2021-11-22T22:43:52.694902",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:18:56.927449",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Chart/patch6_4-Chart-19-ACS.patch",
-                    "test": "test_from_NFL_patch6_4-Chart-19-ACS",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Chart/patch1-Chart-19-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-19-AVATAR",
                     "failing": 0,
-                    "testrun": 210,
+                    "testrun": 250,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -292,46 +82,14 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Chart/patch6_4-Chart-19-ACS.patch",
-                    "test": "test_from_DRR_patch1-Chart-19-Arja-plausible",
-                    "failing": 1,
-                    "testrun": 23,
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/AVATAR/Chart/patch1-Chart-19-AVATAR.patch",
+                    "test": "test_from_WangICSE_patch1-Chart-19-Arja-plusible",
+                    "failing": 3,
+                    "testrun": 246,
                     "failings": [
-                        "test13(org.jfree.chart.util.AbstractObjectList_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.util.AbstractObjectList_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.jfree.chart.util.AbstractObjectList_ESTest.test13(AbstractObjectList_ESTest.java:169)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Chart/patch6_4-Chart-19-ACS.patch",
-                    "test": "test_from_DRR_patch1-Chart-19-ACS",
-                    "failing": 0,
-                    "testrun": 200,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Chart/patch6_4-Chart-19-ACS.patch",
-                    "test": "test_from_NFL_patch169_155-Chart-19-ARJA",
-                    "failing": 1,
-                    "testrun": 118,
-                    "failings": [
-                        "test13(org.jfree.chart.util.AbstractObjectList_ESTest)"
+                        "test13(org.jfree.chart.util.AbstractObjectList_ESTest)",
+                        "test046(org.jfree.chart.plot.CategoryPlot_ESTest)",
+                        "test167(org.jfree.chart.plot.CategoryPlot_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
@@ -339,272 +97,38 @@
                         "org.jfree.chart.plot.CategoryPlot_ESTest"
                     ],
                     "failing_assertions": [
-                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
+                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException",
+                        "java.lang.AssertionError: Exception was not thrown in org.jfree.chart.util.AbstractObjectList but in org.jfree.chart.plot.CategoryPlot.getRangeAxisIndex(CategoryPlot.java:977): org.evosuite.runtime.mock.java.lang.MockThrowable: Null \\'axis\\' argument.",
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Null \\'axis\\' argument."
                     ],
                     "failing_lines": [
                         [
                             "org.jfree.chart.util.AbstractObjectList_ESTest.test13(AbstractObjectList_ESTest.java:169)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/ACS/Chart/patch6_4-Chart-19-ACS.patch",
-                    "test": "test_from_PFL_patch6_4-Chart-19-ACS",
-                    "failing": 0,
-                    "testrun": 225,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                }
-            ],
-            "duration": 38.17
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch169_155-Chart-19-ARJA.patch",
-            "project": "Chart",
-            "bugid": "19",
-            "dataset": "NFL",
-            "date": "2021-11-22T22:44:30.865089",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch169_155-Chart-19-ARJA.patch",
-                    "test": "test_from_NFL_patch6_4-Chart-19-ACS",
-                    "failing": 2,
-                    "testrun": 210,
-                    "failings": [
-                        "test147(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test155(org.jfree.chart.plot.CategoryPlot_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.jfree.chart.plot.CategoryPlot but in org.jfree.chart.util.AbstractObjectList.indexOf(AbstractObjectList.java:165): org.evosuite.runtime.mock.java.lang.MockThrowable: Null \\'object\\' argument.",
-                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test147(CategoryPlot_ESTest.java:1468)"
                         ],
                         [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test155(CategoryPlot_ESTest.java:1529)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch169_155-Chart-19-ARJA.patch",
-                    "test": "test_from_DRR_patch1-Chart-19-Arja-plausible",
-                    "failing": 0,
-                    "testrun": 23,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.util.AbstractObjectList_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch169_155-Chart-19-ARJA.patch",
-                    "test": "test_from_DRR_patch1-Chart-19-ACS",
-                    "failing": 2,
-                    "testrun": 200,
-                    "failings": [
-                        "test138(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test145(org.jfree.chart.plot.CategoryPlot_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.jfree.chart.plot.CategoryPlot but in org.jfree.chart.util.AbstractObjectList.indexOf(AbstractObjectList.java:165): org.evosuite.runtime.mock.java.lang.MockThrowable: Null \\'object\\' argument.",
-                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test138(CategoryPlot_ESTest.java:1371)"
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test046(CategoryPlot_ESTest.java:9905)"
                         ],
                         [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test145(CategoryPlot_ESTest.java:1423)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch169_155-Chart-19-ARJA.patch",
-                    "test": "test_from_NFL_patch169_155-Chart-19-ARJA",
-                    "failing": 0,
-                    "testrun": 118,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.util.AbstractObjectList_ESTest",
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Chart/patch169_155-Chart-19-ARJA.patch",
-                    "test": "test_from_PFL_patch6_4-Chart-19-ACS",
-                    "failing": 2,
-                    "testrun": 225,
-                    "failings": [
-                        "test154(org.jfree.chart.plot.CategoryPlot_ESTest)",
-                        "test162(org.jfree.chart.plot.CategoryPlot_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.jfree.chart.plot.CategoryPlot but in org.jfree.chart.util.AbstractObjectList.indexOf(AbstractObjectList.java:165): org.evosuite.runtime.mock.java.lang.MockThrowable: Null \\'object\\' argument.",
-                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test154(CategoryPlot_ESTest.java:1545)"
-                        ],
-                        [
-                            "org.jfree.chart.plot.CategoryPlot_ESTest.test162(CategoryPlot_ESTest.java:1602)"
+                            "org.jfree.chart.plot.CategoryPlot_ESTest.test167(CategoryPlot_ESTest.java:28497)"
                         ]
                     ]
                 }
             ],
-            "duration": 37.95
+            "duration": 42.04
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/FixMiner/Chart/patch144_48-Chart-19-FixMiner.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/ACS/Chart/patch1-Chart-19-ACS.patch",
             "project": "Chart",
             "bugid": "19",
-            "dataset": "PFL",
-            "date": "2021-11-22T22:45:08.816143",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:19:38.970892",
             "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
+            "compiledProjectModified": "no",
+            "patchApplied": "no",
             "arrive_end": "no",
             "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/FixMiner/Chart/patch292_96-Chart-19-FixMiner.patch",
-            "project": "Chart",
-            "bugid": "19",
-            "dataset": "PFL",
-            "date": "2021-11-22T22:45:34.843061",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ACS/Chart/patch6_4-Chart-19-ACS.patch",
-            "project": "Chart",
-            "bugid": "19",
-            "dataset": "PFL",
-            "date": "2021-11-22T22:46:02.148478",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ACS/Chart/patch6_4-Chart-19-ACS.patch",
-                    "test": "test_from_NFL_patch6_4-Chart-19-ACS",
-                    "failing": 0,
-                    "testrun": 210,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ACS/Chart/patch6_4-Chart-19-ACS.patch",
-                    "test": "test_from_DRR_patch1-Chart-19-Arja-plausible",
-                    "failing": 1,
-                    "testrun": 23,
-                    "failings": [
-                        "test13(org.jfree.chart.util.AbstractObjectList_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.util.AbstractObjectList_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.jfree.chart.util.AbstractObjectList_ESTest.test13(AbstractObjectList_ESTest.java:169)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ACS/Chart/patch6_4-Chart-19-ACS.patch",
-                    "test": "test_from_DRR_patch1-Chart-19-ACS",
-                    "failing": 0,
-                    "testrun": 200,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ACS/Chart/patch6_4-Chart-19-ACS.patch",
-                    "test": "test_from_NFL_patch169_155-Chart-19-ARJA",
-                    "failing": 1,
-                    "testrun": 118,
-                    "failings": [
-                        "test13(org.jfree.chart.util.AbstractObjectList_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.util.AbstractObjectList_ESTest",
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Expecting exception: IllegalArgumentException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.jfree.chart.util.AbstractObjectList_ESTest.test13(AbstractObjectList_ESTest.java:169)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Dcorrect/ACS/Chart/patch6_4-Chart-19-ACS.patch",
-                    "test": "test_from_PFL_patch6_4-Chart-19-ACS",
-                    "failing": 0,
-                    "testrun": 225,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.jfree.chart.plot.CategoryPlot_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                }
-            ],
-            "duration": 37.99
         }
     ],
-    "date": "2021-11-22T22:40:49.383766",
+    "date": "2022-12-16T05:18:15.881746",
     "duration": -0.0
 }

@@ -2,20 +2,20 @@
     "bugid": "Math-58",
     "results": [
         {
-            "patch": "/Patches/patchesDRR/Dcorrect/SOFix/Math/patch1-Math-58-SOFix.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-58-DynaMoth-plausible.patch",
             "project": "Math",
             "bugid": "58",
-            "dataset": "patchesDRR",
-            "date": "2021-11-22T19:42:26.759625",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-22T00:19:33.053163",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SOFix/Math/patch1-Math-58-SOFix.patch",
-                    "test": "test_from_NFL_patch1_1-Math-58-DynaMoth",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-58-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-DynaMoth-plausible",
                     "failing": 0,
                     "testrun": 4,
                     "failings": [],
@@ -27,10 +27,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SOFix/Math/patch1-Math-58-SOFix.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Elixir",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-58-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-Arja",
                     "failing": 0,
-                    "testrun": 28,
+                    "testrun": 19,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -40,8 +40,34 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SOFix/Math/patch1-Math-58-SOFix.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Nopol2015-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-58-DynaMoth-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-CapGen",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-58-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-Nopol-plausible",
+                    "failing": 0,
+                    "testrun": 5,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-58-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-RSRepair-plausible",
                     "failing": 0,
                     "testrun": 4,
                     "failings": [],
@@ -53,10 +79,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SOFix/Math/patch1-Math-58-SOFix.patch",
-                    "test": "test_from_DRR_patch1-Math-58-SOFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-58-DynaMoth-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-SequenceR",
                     "failing": 0,
-                    "testrun": 28,
+                    "testrun": 15,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -66,49 +92,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SOFix/Math/patch1-Math-58-SOFix.patch",
-                    "test": "test_from_DRR_patch1-Math-58-CapGen",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-58-DynaMoth-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-SOFix",
                     "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SOFix/Math/patch1-Math-58-SOFix.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Arja",
-                    "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SOFix/Math/patch1-Math-58-SOFix.patch",
-                    "test": "test_from_NFL_patch1_1-Math-58-Nopol",
-                    "failing": 0,
-                    "testrun": 4,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SOFix/Math/patch1-Math-58-SOFix.patch",
-                    "test": "test_from_DRR_patch1-Math-58-SequenceR",
-                    "failing": 0,
-                    "testrun": 28,
+                    "testrun": 15,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -118,23 +105,23 @@
                     "failing_lines": []
                 }
             ],
-            "duration": 45.06
+            "duration": 34.77
         },
         {
-            "patch": "/Patches/patchesDRR/Dcorrect/Arja/Math/patch1-Math-58-Arja.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-58-Nopol-plausible.patch",
             "project": "Math",
             "bugid": "58",
-            "dataset": "patchesDRR",
-            "date": "2021-11-22T19:43:11.824372",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-22T00:20:07.829133",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Math/patch1-Math-58-Arja.patch",
-                    "test": "test_from_NFL_patch1_1-Math-58-DynaMoth",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-58-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-DynaMoth-plausible",
                     "failing": 0,
                     "testrun": 4,
                     "failings": [],
@@ -146,10 +133,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Math/patch1-Math-58-Arja.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Elixir",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-58-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-Arja",
                     "failing": 0,
-                    "testrun": 28,
+                    "testrun": 19,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -159,8 +146,34 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Math/patch1-Math-58-Arja.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Nopol2015-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-58-Nopol-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-CapGen",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-58-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-Nopol-plausible",
+                    "failing": 0,
+                    "testrun": 5,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-58-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-RSRepair-plausible",
                     "failing": 0,
                     "testrun": 4,
                     "failings": [],
@@ -172,10 +185,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Math/patch1-Math-58-Arja.patch",
-                    "test": "test_from_DRR_patch1-Math-58-SOFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-58-Nopol-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-SequenceR",
                     "failing": 0,
-                    "testrun": 28,
+                    "testrun": 15,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -185,49 +198,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Math/patch1-Math-58-Arja.patch",
-                    "test": "test_from_DRR_patch1-Math-58-CapGen",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Math/patch1-Math-58-Nopol-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-SOFix",
                     "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Math/patch1-Math-58-Arja.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Arja",
-                    "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Math/patch1-Math-58-Arja.patch",
-                    "test": "test_from_NFL_patch1_1-Math-58-Nopol",
-                    "failing": 0,
-                    "testrun": 4,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Arja/Math/patch1-Math-58-Arja.patch",
-                    "test": "test_from_DRR_patch1-Math-58-SequenceR",
-                    "failing": 0,
-                    "testrun": 28,
+                    "testrun": 15,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -237,23 +211,23 @@
                     "failing_lines": []
                 }
             ],
-            "duration": 44.81
+            "duration": 34.07
         },
         {
-            "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Math/patch1-Math-58-Elixir.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-58-RSRepair-plausible.patch",
             "project": "Math",
             "bugid": "58",
-            "dataset": "patchesDRR",
-            "date": "2021-11-22T19:43:56.637065",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-22T00:20:41.904211",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Math/patch1-Math-58-Elixir.patch",
-                    "test": "test_from_NFL_patch1_1-Math-58-DynaMoth",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-58-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-DynaMoth-plausible",
                     "failing": 0,
                     "testrun": 4,
                     "failings": [],
@@ -265,10 +239,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Math/patch1-Math-58-Elixir.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Elixir",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-58-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-Arja",
                     "failing": 0,
-                    "testrun": 28,
+                    "testrun": 19,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -278,8 +252,34 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Math/patch1-Math-58-Elixir.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Nopol2015-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-58-RSRepair-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-CapGen",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-58-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-Nopol-plausible",
+                    "failing": 0,
+                    "testrun": 5,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-58-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-RSRepair-plausible",
                     "failing": 0,
                     "testrun": 4,
                     "failings": [],
@@ -291,10 +291,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Math/patch1-Math-58-Elixir.patch",
-                    "test": "test_from_DRR_patch1-Math-58-SOFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-58-RSRepair-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-SequenceR",
                     "failing": 0,
-                    "testrun": 28,
+                    "testrun": 15,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -304,49 +304,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Math/patch1-Math-58-Elixir.patch",
-                    "test": "test_from_DRR_patch1-Math-58-CapGen",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-58-RSRepair-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-SOFix",
                     "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Math/patch1-Math-58-Elixir.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Arja",
-                    "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Math/patch1-Math-58-Elixir.patch",
-                    "test": "test_from_NFL_patch1_1-Math-58-Nopol",
-                    "failing": 0,
-                    "testrun": 4,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Elixir/Math/patch1-Math-58-Elixir.patch",
-                    "test": "test_from_DRR_patch1-Math-58-SequenceR",
-                    "failing": 0,
-                    "testrun": 28,
+                    "testrun": 15,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -356,23 +317,23 @@
                     "failing_lines": []
                 }
             ],
-            "duration": 44.87
+            "duration": 34.15
         },
         {
-            "patch": "/Patches/patchesDRR/Dcorrect/CapGen/Math/patch1-Math-58-CapGen.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Arja/Math/patch1-Math-58-Arja.patch",
             "project": "Math",
             "bugid": "58",
-            "dataset": "patchesDRR",
-            "date": "2021-11-22T19:44:41.512336",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-22T00:21:16.054433",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/CapGen/Math/patch1-Math-58-CapGen.patch",
-                    "test": "test_from_NFL_patch1_1-Math-58-DynaMoth",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Arja/Math/patch1-Math-58-Arja.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-DynaMoth-plausible",
                     "failing": 0,
                     "testrun": 4,
                     "failings": [],
@@ -384,10 +345,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/CapGen/Math/patch1-Math-58-CapGen.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Elixir",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Arja/Math/patch1-Math-58-Arja.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-Arja",
                     "failing": 0,
-                    "testrun": 28,
+                    "testrun": 19,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -397,8 +358,34 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/CapGen/Math/patch1-Math-58-CapGen.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Nopol2015-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Arja/Math/patch1-Math-58-Arja.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-CapGen",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Arja/Math/patch1-Math-58-Arja.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-Nopol-plausible",
+                    "failing": 0,
+                    "testrun": 5,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Arja/Math/patch1-Math-58-Arja.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-RSRepair-plausible",
                     "failing": 0,
                     "testrun": 4,
                     "failings": [],
@@ -410,10 +397,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/CapGen/Math/patch1-Math-58-CapGen.patch",
-                    "test": "test_from_DRR_patch1-Math-58-SOFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Arja/Math/patch1-Math-58-Arja.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-SequenceR",
                     "failing": 0,
-                    "testrun": 28,
+                    "testrun": 15,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -423,49 +410,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/CapGen/Math/patch1-Math-58-CapGen.patch",
-                    "test": "test_from_DRR_patch1-Math-58-CapGen",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/Arja/Math/patch1-Math-58-Arja.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-SOFix",
                     "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/CapGen/Math/patch1-Math-58-CapGen.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Arja",
-                    "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/CapGen/Math/patch1-Math-58-CapGen.patch",
-                    "test": "test_from_NFL_patch1_1-Math-58-Nopol",
-                    "failing": 0,
-                    "testrun": 4,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/CapGen/Math/patch1-Math-58-CapGen.patch",
-                    "test": "test_from_DRR_patch1-Math-58-SequenceR",
-                    "failing": 0,
-                    "testrun": 28,
+                    "testrun": 15,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -475,23 +423,23 @@
                     "failing_lines": []
                 }
             ],
-            "duration": 44.7
+            "duration": 33.45
         },
         {
-            "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Math/patch1-Math-58-SequenceR.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-58-SOFix.patch",
             "project": "Math",
             "bugid": "58",
-            "dataset": "patchesDRR",
-            "date": "2021-11-22T19:45:26.212102",
+            "dataset": "Patches_others",
+            "date": "2022-12-22T00:21:49.510506",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Math/patch1-Math-58-SequenceR.patch",
-                    "test": "test_from_NFL_patch1_1-Math-58-DynaMoth",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-58-SOFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-DynaMoth-plausible",
                     "failing": 0,
                     "testrun": 4,
                     "failings": [],
@@ -503,10 +451,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Math/patch1-Math-58-SequenceR.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Elixir",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-58-SOFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-Arja",
                     "failing": 0,
-                    "testrun": 28,
+                    "testrun": 19,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -516,8 +464,34 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Math/patch1-Math-58-SequenceR.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Nopol2015-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-58-SOFix.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-CapGen",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-58-SOFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-Nopol-plausible",
+                    "failing": 0,
+                    "testrun": 5,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-58-SOFix.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-RSRepair-plausible",
                     "failing": 0,
                     "testrun": 4,
                     "failings": [],
@@ -529,10 +503,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Math/patch1-Math-58-SequenceR.patch",
-                    "test": "test_from_DRR_patch1-Math-58-SOFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-58-SOFix.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-SequenceR",
                     "failing": 0,
-                    "testrun": 28,
+                    "testrun": 15,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -542,49 +516,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Math/patch1-Math-58-SequenceR.patch",
-                    "test": "test_from_DRR_patch1-Math-58-CapGen",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SOFix/Math/patch1-Math-58-SOFix.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-SOFix",
                     "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Math/patch1-Math-58-SequenceR.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Arja",
-                    "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Math/patch1-Math-58-SequenceR.patch",
-                    "test": "test_from_NFL_patch1_1-Math-58-Nopol",
-                    "failing": 0,
-                    "testrun": 4,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SequenceR/Math/patch1-Math-58-SequenceR.patch",
-                    "test": "test_from_DRR_patch1-Math-58-SequenceR",
-                    "failing": 0,
-                    "testrun": 28,
+                    "testrun": 15,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -594,23 +529,23 @@
                     "failing_lines": []
                 }
             ],
-            "duration": 44.61
+            "duration": 34.05
         },
         {
-            "patch": "/Patches/patchesDRR/Doverfitting/Nopol2015/Math/patch1-Math-58-Nopol2015-plausible.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-58-CapGen.patch",
             "project": "Math",
             "bugid": "58",
-            "dataset": "patchesDRR",
-            "date": "2021-11-22T19:46:10.823790",
+            "dataset": "Patches_others",
+            "date": "2022-12-22T00:22:23.565322",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Nopol2015/Math/patch1-Math-58-Nopol2015-plausible.patch",
-                    "test": "test_from_NFL_patch1_1-Math-58-DynaMoth",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-58-CapGen.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-DynaMoth-plausible",
                     "failing": 0,
                     "testrun": 4,
                     "failings": [],
@@ -622,10 +557,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Nopol2015/Math/patch1-Math-58-Nopol2015-plausible.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Elixir",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-58-CapGen.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-Arja",
                     "failing": 0,
-                    "testrun": 28,
+                    "testrun": 19,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -635,8 +570,34 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Nopol2015/Math/patch1-Math-58-Nopol2015-plausible.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Nopol2015-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-58-CapGen.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-CapGen",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-58-CapGen.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-Nopol-plausible",
+                    "failing": 0,
+                    "testrun": 5,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-58-CapGen.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-RSRepair-plausible",
                     "failing": 0,
                     "testrun": 4,
                     "failings": [],
@@ -648,10 +609,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Nopol2015/Math/patch1-Math-58-Nopol2015-plausible.patch",
-                    "test": "test_from_DRR_patch1-Math-58-SOFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-58-CapGen.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-SequenceR",
                     "failing": 0,
-                    "testrun": 28,
+                    "testrun": 15,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -661,49 +622,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Nopol2015/Math/patch1-Math-58-Nopol2015-plausible.patch",
-                    "test": "test_from_DRR_patch1-Math-58-CapGen",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/CapGen/Math/patch1-Math-58-CapGen.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-SOFix",
                     "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Nopol2015/Math/patch1-Math-58-Nopol2015-plausible.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Arja",
-                    "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Nopol2015/Math/patch1-Math-58-Nopol2015-plausible.patch",
-                    "test": "test_from_NFL_patch1_1-Math-58-Nopol",
-                    "failing": 0,
-                    "testrun": 4,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Nopol2015/Math/patch1-Math-58-Nopol2015-plausible.patch",
-                    "test": "test_from_DRR_patch1-Math-58-SequenceR",
-                    "failing": 0,
-                    "testrun": 28,
+                    "testrun": 15,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -713,23 +635,23 @@
                     "failing_lines": []
                 }
             ],
-            "duration": 44.67
+            "duration": 33.52
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-58-DynaMoth.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SequenceR/Math/patch1-Math-58-SequenceR.patch",
             "project": "Math",
             "bugid": "58",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:46:55.494337",
+            "dataset": "Patches_others",
+            "date": "2022-12-22T00:22:57.088516",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-58-DynaMoth.patch",
-                    "test": "test_from_NFL_patch1_1-Math-58-DynaMoth",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SequenceR/Math/patch1-Math-58-SequenceR.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-DynaMoth-plausible",
                     "failing": 0,
                     "testrun": 4,
                     "failings": [],
@@ -741,10 +663,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-58-DynaMoth.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Elixir",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SequenceR/Math/patch1-Math-58-SequenceR.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-Arja",
                     "failing": 0,
-                    "testrun": 28,
+                    "testrun": 19,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -754,8 +676,34 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-58-DynaMoth.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Nopol2015-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SequenceR/Math/patch1-Math-58-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-CapGen",
+                    "failing": 0,
+                    "testrun": 15,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SequenceR/Math/patch1-Math-58-SequenceR.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-Nopol-plausible",
+                    "failing": 0,
+                    "testrun": 5,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SequenceR/Math/patch1-Math-58-SequenceR.patch",
+                    "test": "test_from_WangICSE_patch1-Math-58-RSRepair-plausible",
                     "failing": 0,
                     "testrun": 4,
                     "failings": [],
@@ -767,10 +715,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-58-DynaMoth.patch",
-                    "test": "test_from_DRR_patch1-Math-58-SOFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SequenceR/Math/patch1-Math-58-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-SequenceR",
                     "failing": 0,
-                    "testrun": 28,
+                    "testrun": 15,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -780,49 +728,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-58-DynaMoth.patch",
-                    "test": "test_from_DRR_patch1-Math-58-CapGen",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/SequenceR/Math/patch1-Math-58-SequenceR.patch",
+                    "test": "test_from_WangDRR_patch1-Math-58-SOFix",
                     "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-58-DynaMoth.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Arja",
-                    "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-58-DynaMoth.patch",
-                    "test": "test_from_NFL_patch1_1-Math-58-Nopol",
-                    "failing": 0,
-                    "testrun": 4,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-58-DynaMoth.patch",
-                    "test": "test_from_DRR_patch1-Math-58-SequenceR",
-                    "failing": 0,
-                    "testrun": 28,
+                    "testrun": 15,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -832,140 +741,9 @@
                     "failing_lines": []
                 }
             ],
-            "duration": 44.79
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-58-Nopol.patch",
-            "project": "Math",
-            "bugid": "58",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:47:40.284314",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-58-Nopol.patch",
-                    "test": "test_from_NFL_patch1_1-Math-58-DynaMoth",
-                    "failing": 0,
-                    "testrun": 4,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-58-Nopol.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Elixir",
-                    "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-58-Nopol.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Nopol2015-plausible",
-                    "failing": 0,
-                    "testrun": 4,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-58-Nopol.patch",
-                    "test": "test_from_DRR_patch1-Math-58-SOFix",
-                    "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-58-Nopol.patch",
-                    "test": "test_from_DRR_patch1-Math-58-CapGen",
-                    "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-58-Nopol.patch",
-                    "test": "test_from_DRR_patch1-Math-58-Arja",
-                    "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-58-Nopol.patch",
-                    "test": "test_from_NFL_patch1_1-Math-58-Nopol",
-                    "failing": 0,
-                    "testrun": 4,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Math/patch1_1-Math-58-Nopol.patch",
-                    "test": "test_from_DRR_patch1-Math-58-SequenceR",
-                    "failing": 0,
-                    "testrun": 28,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.optimization.fitting.GaussianFitter_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                }
-            ],
-            "duration": 44.37
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch4_3-Math-58-RSRepair-A.patch",
-            "project": "Math",
-            "bugid": "58",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:48:24.651793",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "duration": 33.93
         }
     ],
-    "date": "2021-11-22T19:42:26.758566",
+    "date": "2022-12-22T00:19:33.052375",
     "duration": -0.0
 }

@@ -2,30 +2,96 @@
     "bugid": "Closure-8",
     "results": [
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch46_19-Closure-8-ARJA.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-8-Kali-plausible.patch",
             "project": "Closure",
             "bugid": "8",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:21:28.010850",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:05:23.061356",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-8-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-8-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 5,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CollapseVariableDeclarations_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "05:05:56.981 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-8-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-8-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 280,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.Node_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 43.2
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch39_35-Closure-8-Kali-A.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-8-Arja-plausible.patch",
             "project": "Closure",
             "bugid": "8",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:23:08.490868",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:06:06.260162",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-8-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-8-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 5,
+                    "failings": [
+                        "Error"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.CollapseVariableDeclarations_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "05:06:37.562 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.rhino.head.VMBridge_custom"
+                    ],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-8-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-8-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 280,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.rhino.Node_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 40.38
         }
     ],
-    "date": "2021-11-23T19:21:28.009746",
+    "date": "2022-12-16T05:05:23.061141",
     "duration": -0.0
 }

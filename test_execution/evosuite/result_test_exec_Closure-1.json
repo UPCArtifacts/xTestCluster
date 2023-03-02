@@ -2,30 +2,98 @@
     "bugid": "Closure-1",
     "results": [
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch94_51-Closure-1-ARJA.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-1-Kali-plausible.patch",
             "project": "Closure",
             "bugid": "1",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:17:08.155451",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:58:07.897023",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-1-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-1-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 7,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.RemoveUnusedVars_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-1-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-1-Arja-plausible",
+                    "failing": 1,
+                    "testrun": 325,
+                    "failings": [
+                        "test075(com.google.javascript.rhino.Node_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.RemoveUnusedVars_ESTest",
+                        "com.google.javascript.rhino.Node_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockIllegalStateException: 0"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.rhino.Node_ESTest.test075(Node_ESTest.java:25979)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 39.71
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch4_4-Closure-1-Kali-A.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-1-Arja-plausible.patch",
             "project": "Closure",
             "bugid": "1",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:18:53.805106",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:58:47.610041",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-1-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-1-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 7,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.RemoveUnusedVars_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-1-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-1-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 325,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.RemoveUnusedVars_ESTest",
+                        "com.google.javascript.rhino.Node_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 41.61
         }
     ],
-    "date": "2021-11-23T19:17:08.154357",
+    "date": "2022-12-16T04:58:07.896772",
     "duration": -0.0
 }

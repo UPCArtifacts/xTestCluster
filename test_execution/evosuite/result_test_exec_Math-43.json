@@ -2,54 +2,96 @@
     "bugid": "Math-43",
     "results": [
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/SimFix/Math/patch17_17-Math-43-SimFix.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Math/patch1-Math-43-SimFix-plausible.patch",
             "project": "Math",
             "bugid": "43",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:15:58.273140",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:28:57.670010",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Math/patch1-Math-43-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-43-SimFix-plausible",
+                    "failing": 0,
+                    "testrun": 102,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.SummaryStatistics_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/SimFix/Math/patch1-Math-43-SimFix-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-43-kPAR-plausible",
+                    "failing": 0,
+                    "testrun": 109,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.SummaryStatistics_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 23.31
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Math/patch125_116-Math-43-kPAR.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Math/patch1-Math-43-kPAR-plausible.patch",
             "project": "Math",
             "bugid": "43",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:16:32.107303",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:29:20.984905",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Math/patch120_111-Math-43-kPAR.patch",
-            "project": "Math",
-            "bugid": "43",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:17:06.031532",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Math/patch115_106-Math-43-kPAR.patch",
-            "project": "Math",
-            "bugid": "43",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:17:40.012078",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Math/patch1-Math-43-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-43-SimFix-plausible",
+                    "failing": 1,
+                    "testrun": 102,
+                    "failings": [
+                        "test076(org.apache.commons.math.stat.descriptive.SummaryStatistics_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.SummaryStatistics_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.stat.descriptive.SummaryStatistics_ESTest.test076(SummaryStatistics_ESTest.java:873)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Math/patch1-Math-43-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-43-kPAR-plausible",
+                    "failing": 0,
+                    "testrun": 109,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.stat.descriptive.SummaryStatistics_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 23.37
         }
     ],
-    "date": "2021-11-22T19:15:58.272267",
+    "date": "2022-12-16T04:28:57.669721",
     "duration": -0.0
 }

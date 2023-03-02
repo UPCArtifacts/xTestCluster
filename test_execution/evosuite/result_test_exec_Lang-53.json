@@ -2,22 +2,43 @@
     "bugid": "Lang-53",
     "results": [
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Lang/patch1_1-Lang-53-Nopol.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Lang/patch1-Lang-53-Nopol-plausible.patch",
             "project": "Lang",
             "bugid": "53",
-            "dataset": "NFL",
-            "date": "2021-11-22T22:46:44.983968",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T06:13:57.878820",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Lang/patch1_1-Lang-53-Nopol.patch",
-                    "test": "test_from_NFL_patch1_1-Lang-53-Nopol",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Lang/patch1-Lang-53-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-53-kPAR-plausible",
+                    "failing": 1,
+                    "testrun": 101,
+                    "failings": [
+                        "test055(org.apache.commons.lang.time.DateUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DateUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<Fri Feb 14 20:[00]:00 GMT 2014> but was:<Fri Feb 14 20:[21]:00 GMT 2014>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.DateUtils_ESTest.test055(DateUtils_ESTest.java:1230)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Lang/patch1-Lang-53-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-53-Nopol-plausible",
                     "failing": 0,
-                    "testrun": 112,
+                    "testrun": 111,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -25,69 +46,27 @@
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Lang/patch1_1-Lang-53-Nopol.patch",
-                    "test": "test_from_NFL_patch1593_845-Lang-53-kPAR",
-                    "failing": 1,
-                    "testrun": 102,
-                    "failings": [
-                        "test051(org.apache.commons.lang.time.DateUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.time.DateUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[1392409260000,areFieldsSet=tru]e,areAllFieldsSet=tr...> but was:<...gorianCalendar[time=[?,areFieldsSet=fals]e,areAllFieldsSet=tr...>"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.time.DateUtils_ESTest.test051(DateUtils_ESTest.java:921)"
-                        ]
-                    ]
                 }
             ],
-            "duration": 21.78
+            "duration": 17.5
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch1593_845-Lang-53-kPAR.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Lang/patch1-Lang-53-kPAR-plausible.patch",
             "project": "Lang",
             "bugid": "53",
-            "dataset": "NFL",
-            "date": "2021-11-22T22:47:06.766009",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T06:14:15.383780",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch1593_845-Lang-53-kPAR.patch",
-                    "test": "test_from_NFL_patch1_1-Lang-53-Nopol",
-                    "failing": 1,
-                    "testrun": 112,
-                    "failings": [
-                        "test061(org.apache.commons.lang.time.DateUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.time.DateUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "org.junit.ComparisonFailure: expected:<Sat Nov 10 21:02:[2]0 GMT 642> but was:<Sat Nov 10 21:02:[0]0 GMT 642>"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.time.DateUtils_ESTest.test061(DateUtils_ESTest.java:1363)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch1593_845-Lang-53-kPAR.patch",
-                    "test": "test_from_NFL_patch1593_845-Lang-53-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Lang/patch1-Lang-53-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-53-kPAR-plausible",
                     "failing": 0,
-                    "testrun": 102,
+                    "testrun": 101,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -95,11 +74,32 @@
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Lang/patch1-Lang-53-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-53-Nopol-plausible",
+                    "failing": 1,
+                    "testrun": 111,
+                    "failings": [
+                        "test069(org.apache.commons.lang.time.DateUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.time.DateUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.junit.ComparisonFailure: expected:<Fri Feb 14 20:21:[21] GMT 2014> but was:<Fri Feb 14 20:21:[00] GMT 2014>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.time.DateUtils_ESTest.test069(DateUtils_ESTest.java:829)"
+                        ]
+                    ]
                 }
             ],
-            "duration": 22.53
+            "duration": 18.75
         }
     ],
-    "date": "2021-11-22T22:46:44.983315",
+    "date": "2022-12-16T06:13:57.878446",
     "duration": -0.0
 }

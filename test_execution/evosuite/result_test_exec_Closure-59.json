@@ -2,90 +2,72 @@
     "bugid": "Closure-59",
     "results": [
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch81_59-Closure-59-ARJA.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-59-GenProg-plausible.patch",
             "project": "Closure",
             "bugid": "59",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:33:26.902874",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch96_27-Closure-59-GenProg-A.patch",
-            "project": "Closure",
-            "bugid": "59",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:34:49.330687",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch39_39-Closure-59-Kali-A.patch",
-            "project": "Closure",
-            "bugid": "59",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:36:11.569808",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Closure/patch64_27-Closure-59-RSRepair-A.patch",
-            "project": "Closure",
-            "bugid": "59",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:37:35.149392",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:51:52.518941",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Closure/patch64_27-Closure-59-RSRepair-A.patch",
-                    "test": "test_from_PFL_patch25_19-Closure-59-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-59-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-Kali-plausible",
                     "failing": 0,
-                    "testrun": 77,
+                    "testrun": 30,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
-                        "com.google.javascript.jscomp.Compiler_ESTest"
+                        "com.google.javascript.jscomp.DefaultPassConfig_ESTest"
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Closure/patch64_27-Closure-59-RSRepair-A.patch",
-                    "test": "test_from_PFL_patch53_8-Closure-59-FixMiner",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-59-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-GenProg-plausible",
                     "failing": 0,
-                    "testrun": 98,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
+                    "testrun": 5,
+                    "failings": [],
                     "status": "ok",
                     "test_executed": [
-                        "com.google.javascript.jscomp.Compiler_ESTest"
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
                     ],
-                    "failing_assertions": [
-                        "Nov 23, 2021 6:39:05 PM com.google.javascript.jscomp.Compiler normalize",
-                        "Nov 23, 2021 6:39:05 PM com.google.javascript.jscomp.Compiler removeTryCatchFinally",
-                        "19:39:06.083 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.mozilla.rhino.VMBridge_custom"
-                    ],
+                    "failing_assertions": [],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Closure/patch64_27-Closure-59-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch64_27-Closure-59-RSRepair-A",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-59-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-RSRepair-plausible",
+                    "failing": 2,
+                    "testrun": 6,
+                    "failings": [
+                        "test4(com.google.javascript.jscomp.WarningLevel_ESTest)",
+                        "test0(com.google.javascript.jscomp.WarningLevel_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.WarningLevel_ESTest.test4(WarningLevel_ESTest.java:56)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.WarningLevel_ESTest.test0(WarningLevel_ESTest.java:25)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-59-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-Arja-plausible",
                     "failing": 0,
                     "testrun": 6,
                     "failings": [],
@@ -97,69 +79,62 @@
                     "failing_lines": []
                 }
             ],
-            "duration": 93.81
+            "duration": 42.89
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Closure/patch1_1-Closure-59-ARJA.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-59-Kali-plausible.patch",
             "project": "Closure",
             "bugid": "59",
-            "dataset": "PFL",
-            "date": "2021-11-23T19:39:08.965551",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Closure/patch53_8-Closure-59-FixMiner.patch",
-            "project": "Closure",
-            "bugid": "59",
-            "dataset": "PFL",
-            "date": "2021-11-23T19:40:31.536246",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:52:35.415783",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Closure/patch53_8-Closure-59-FixMiner.patch",
-                    "test": "test_from_PFL_patch25_19-Closure-59-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-59-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-Kali-plausible",
                     "failing": 0,
-                    "testrun": 77,
+                    "testrun": 30,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
-                        "com.google.javascript.jscomp.Compiler_ESTest"
+                        "com.google.javascript.jscomp.DefaultPassConfig_ESTest"
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Closure/patch53_8-Closure-59-FixMiner.patch",
-                    "test": "test_from_PFL_patch53_8-Closure-59-FixMiner",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-59-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-GenProg-plausible",
                     "failing": 0,
-                    "testrun": 98,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
+                    "testrun": 5,
+                    "failings": [],
                     "status": "ok",
                     "test_executed": [
-                        "com.google.javascript.jscomp.Compiler_ESTest"
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
                     ],
-                    "failing_assertions": [
-                        "Nov 23, 2021 6:42:03 PM com.google.javascript.jscomp.Compiler normalize",
-                        "Nov 23, 2021 6:42:03 PM com.google.javascript.jscomp.Compiler removeTryCatchFinally",
-                        "19:42:03.810 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.mozilla.rhino.VMBridge_custom"
-                    ],
+                    "failing_assertions": [],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Closure/patch53_8-Closure-59-FixMiner.patch",
-                    "test": "test_from_NFL_patch64_27-Closure-59-RSRepair-A",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-59-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 6,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-59-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-Arja-plausible",
                     "failing": 0,
                     "testrun": 6,
                     "failings": [],
@@ -171,69 +146,75 @@
                     "failing_lines": []
                 }
             ],
-            "duration": 95.0
+            "duration": 42.64
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/RSRepair-A/Closure/patch2_1-Closure-59-RSRepair-A.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-59-Arja-plausible.patch",
             "project": "Closure",
             "bugid": "59",
-            "dataset": "PFL",
-            "date": "2021-11-23T19:42:06.532433",
-            "project_checked": "ok",
-            "compiledProjectModified": "no",
-            "patchApplied": "no",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch25_19-Closure-59-kPAR.patch",
-            "project": "Closure",
-            "bugid": "59",
-            "dataset": "PFL",
-            "date": "2021-11-23T19:42:12.447905",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:53:18.056746",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch25_19-Closure-59-kPAR.patch",
-                    "test": "test_from_PFL_patch25_19-Closure-59-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-59-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-Kali-plausible",
                     "failing": 0,
-                    "testrun": 77,
+                    "testrun": 30,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
-                        "com.google.javascript.jscomp.Compiler_ESTest"
+                        "com.google.javascript.jscomp.DefaultPassConfig_ESTest"
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch25_19-Closure-59-kPAR.patch",
-                    "test": "test_from_PFL_patch53_8-Closure-59-FixMiner",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-59-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-GenProg-plausible",
                     "failing": 0,
-                    "testrun": 98,
-                    "failings": [
-                        "Error",
-                        "Error",
-                        "Error"
-                    ],
+                    "testrun": 5,
+                    "failings": [],
                     "status": "ok",
                     "test_executed": [
-                        "com.google.javascript.jscomp.Compiler_ESTest"
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
                     ],
-                    "failing_assertions": [
-                        "Nov 23, 2021 6:43:42 PM com.google.javascript.jscomp.Compiler normalize",
-                        "Nov 23, 2021 6:43:43 PM com.google.javascript.jscomp.Compiler removeTryCatchFinally",
-                        "19:43:43.167 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: com.google.javascript.jscomp.mozilla.rhino.VMBridge_custom"
-                    ],
+                    "failing_assertions": [],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Closure/patch25_19-Closure-59-kPAR.patch",
-                    "test": "test_from_NFL_patch64_27-Closure-59-RSRepair-A",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-59-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-RSRepair-plausible",
+                    "failing": 2,
+                    "testrun": 6,
+                    "failings": [
+                        "test4(com.google.javascript.jscomp.WarningLevel_ESTest)",
+                        "test0(com.google.javascript.jscomp.WarningLevel_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.WarningLevel_ESTest.test4(WarningLevel_ESTest.java:56)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.WarningLevel_ESTest.test0(WarningLevel_ESTest.java:25)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-59-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-Arja-plausible",
                     "failing": 0,
                     "testrun": 6,
                     "failings": [],
@@ -245,9 +226,76 @@
                     "failing_lines": []
                 }
             ],
-            "duration": 93.6
+            "duration": 40.93
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-59-RSRepair-plausible.patch",
+            "project": "Closure",
+            "bugid": "59",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:53:58.986226",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-59-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 30,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.DefaultPassConfig_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-59-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 5,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-59-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 6,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-59-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-59-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 6,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.WarningLevel_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 41.8
         }
     ],
-    "date": "2021-11-23T19:33:26.901575",
+    "date": "2022-12-16T03:51:52.518505",
     "duration": -0.0
 }

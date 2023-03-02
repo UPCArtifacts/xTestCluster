@@ -2,66 +2,337 @@
     "bugid": "Closure-55",
     "results": [
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch18_8-Closure-55-ARJA.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-55-GenProg-plausible.patch",
             "project": "Closure",
             "bugid": "55",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:24:17.889663",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:58:02.785424",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-55-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-55-Arja-plausible",
+                    "failing": 2,
+                    "testrun": 4,
+                    "failings": [
+                        "test1(com.google.javascript.jscomp.FunctionRewriter_ESTest)",
+                        "test0(com.google.javascript.jscomp.FunctionRewriter_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.FunctionRewriter_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.FunctionRewriter_ESTest.test1(FunctionRewriter_ESTest.java:48)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.FunctionRewriter_ESTest.test0(FunctionRewriter_ESTest.java:30)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-55-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-55-Kali-plausible",
+                    "failing": 2,
+                    "testrun": 10,
+                    "failings": [
+                        "test2(com.google.javascript.jscomp.FunctionRewriter_ESTest)",
+                        "test1(com.google.javascript.jscomp.FunctionRewriter_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.FunctionRewriter_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.FunctionRewriter_ESTest.test2(FunctionRewriter_ESTest.java:59)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.FunctionRewriter_ESTest.test1(FunctionRewriter_ESTest.java:41)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-55-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-55-GenProg-plausible",
+                    "failing": 0,
+                    "testrun": 2,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.FunctionRewriter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Closure/patch1-Closure-55-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-55-RSRepair-plausible",
+                    "failing": 2,
+                    "testrun": 9,
+                    "failings": [
+                        "test1(com.google.javascript.jscomp.FunctionRewriter_ESTest)",
+                        "test0(com.google.javascript.jscomp.FunctionRewriter_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.FunctionRewriter_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: NullPointerException",
+                        "java.lang.AssertionError: Expecting exception: RuntimeException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.FunctionRewriter_ESTest.test1(FunctionRewriter_ESTest.java:48)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.FunctionRewriter_ESTest.test0(FunctionRewriter_ESTest.java:30)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 41.06
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Closure/patch1_1-Closure-55-GenProg-A.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-55-Kali-plausible.patch",
             "project": "Closure",
             "bugid": "55",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:25:41.497554",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:58:43.851782",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-55-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 4,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.FunctionRewriter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-55-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-55-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 10,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.FunctionRewriter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-55-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-55-GenProg-plausible",
+                    "failing": 1,
+                    "testrun": 2,
+                    "failings": [
+                        "test1(com.google.javascript.jscomp.FunctionRewriter_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.FunctionRewriter_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockRuntimeException: INTERNAL COMPILER ERROR."
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.FunctionRewriter_ESTest.test1(FunctionRewriter_ESTest.java:42)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-55-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-55-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 9,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.FunctionRewriter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 41.88
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch2_2-Closure-55-Kali-A.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-55-Arja-plausible.patch",
             "project": "Closure",
             "bugid": "55",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:27:05.182684",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:59:25.731107",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-55-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 4,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.FunctionRewriter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-55-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-55-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 10,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.FunctionRewriter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-55-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-55-GenProg-plausible",
+                    "failing": 1,
+                    "testrun": 2,
+                    "failings": [
+                        "test1(com.google.javascript.jscomp.FunctionRewriter_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.FunctionRewriter_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockRuntimeException: INTERNAL COMPILER ERROR."
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.FunctionRewriter_ESTest.test1(FunctionRewriter_ESTest.java:42)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-55-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-55-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 9,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.FunctionRewriter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 42.05
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Closure/patch32_6-Closure-55-RSRepair-A.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-55-RSRepair-plausible.patch",
             "project": "Closure",
             "bugid": "55",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:28:28.175790",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T04:00:07.787596",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/ARJA/Closure/patch1_1-Closure-55-ARJA.patch",
-            "project": "Closure",
-            "bugid": "55",
-            "dataset": "PFL",
-            "date": "2021-11-23T19:29:52.397717",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-55-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-55-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 4,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.FunctionRewriter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-55-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-55-Kali-plausible",
+                    "failing": 0,
+                    "testrun": 10,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.FunctionRewriter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-55-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-55-GenProg-plausible",
+                    "failing": 1,
+                    "testrun": 2,
+                    "failings": [
+                        "test1(com.google.javascript.jscomp.FunctionRewriter_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.FunctionRewriter_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "org.evosuite.runtime.mock.java.lang.MockRuntimeException: INTERNAL COMPILER ERROR."
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.FunctionRewriter_ESTest.test1(FunctionRewriter_ESTest.java:42)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Closure/patch1-Closure-55-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-55-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 9,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.FunctionRewriter_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 42.15
         }
     ],
-    "date": "2021-11-23T19:24:17.888606",
+    "date": "2022-12-16T03:58:02.785136",
     "duration": -0.0
 }

@@ -2,46 +2,89 @@
     "bugid": "Closure-133",
     "results": [
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch3_3-Closure-133-ARJA.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-133-Arja-plausible.patch",
             "project": "Closure",
             "bugid": "133",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:19:58.655853",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch17_17-Closure-133-Kali-A.patch",
-            "project": "Closure",
-            "bugid": "133",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:21:24.079589",
-            "project_checked": "ok",
-            "compiledProjectModified": "no",
-            "patchApplied": "no",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch433_171-Closure-133-TBar.patch",
-            "project": "Closure",
-            "bugid": "133",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:21:29.514779",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:25:35.546921",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Closure/patch433_171-Closure-133-TBar.patch",
-                    "test": "test_from_NFL_patch433_171-Closure-133-TBar",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-133-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-133-Arja-plausible",
                     "failing": 0,
-                    "testrun": 45,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-133-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-133-TBar-plausible",
+                    "failing": 2,
+                    "testrun": 58,
+                    "failings": [
+                        "test32(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test57(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test32(JsDocInfoParser_ESTest.java:498)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test57(JsDocInfoParser_ESTest.java:903)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 44.73
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Closure/patch1-Closure-133-TBar-plausible.patch",
+            "project": "Closure",
+            "bugid": "133",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:26:20.282109",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Closure/patch1-Closure-133-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-133-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 28,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Closure/patch1-Closure-133-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-133-TBar-plausible",
+                    "failing": 0,
+                    "testrun": 58,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -51,9 +94,9 @@
                     "failing_lines": []
                 }
             ],
-            "duration": 95.26
+            "duration": 45.31
         }
     ],
-    "date": "2021-11-23T19:19:58.655288",
+    "date": "2022-12-16T05:25:35.546483",
     "duration": -0.0
 }

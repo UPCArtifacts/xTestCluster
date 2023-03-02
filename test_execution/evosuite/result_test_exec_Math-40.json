@@ -2,22 +2,149 @@
     "bugid": "Math-40",
     "results": [
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch195_167-Math-40-ARJA.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Math/patch1-Math-40-GenProg-plausible.patch",
             "project": "Math",
             "bugid": "40",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:23:58.607824",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:21:38.389294",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch195_167-Math-40-ARJA.patch",
-                    "test": "test_from_NFL_patch195_167-Math-40-ARJA",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Math/patch1-Math-40-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-40-Arja-plausible",
+                    "failing": 6,
+                    "testrun": 31,
+                    "failings": [
+                        "test14(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
+                        "test13(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
+                        "test11(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
+                        "test19(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
+                        "test21(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
+                        "test29(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "03:21:58.991 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: META-INF/localization/LocalizedFormats",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.util.MathUtils but in org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.verifyInterval(UnivariateRealSolverUtils.java:337): org.evosuite.runtime.mock.java.lang.MockThrowable",
+                        "java.lang.AssertionError: Expecting exception: ArrayIndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected:<329.86722862692835> but was:<336.15041481556455>",
+                        "java.lang.AssertionError: expected:<-1082.2786687781804> but was:<416.2610267134881>",
+                        "java.lang.AssertionError: expected:<191.63715256012262> but was:<304.73448778383>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test14(BracketingNthOrderBrentSolver_ESTest.java:220)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test13(BracketingNthOrderBrentSolver_ESTest.java:209)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test11(BracketingNthOrderBrentSolver_ESTest.java:172)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test19(BracketingNthOrderBrentSolver_ESTest.java:284)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test21(BracketingNthOrderBrentSolver_ESTest.java:307)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test29(BracketingNthOrderBrentSolver_ESTest.java:418)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Math/patch1-Math-40-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-40-kPAR-plausible",
+                    "failing": 3,
+                    "testrun": 33,
+                    "failings": [
+                        "test16(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
+                        "test11(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
+                        "test23(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<147.654854718709> but was:<116.23892818282235>",
+                        "java.lang.AssertionError: Expecting exception: ArrayIndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected:<-75.39822368615498> but was:<-69.11503755327126>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test16(BracketingNthOrderBrentSolver_ESTest.java:259)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test11(BracketingNthOrderBrentSolver_ESTest.java:172)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test23(BracketingNthOrderBrentSolver_ESTest.java:336)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Math/patch1-Math-40-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-40-GenProg-plausible",
                     "failing": 0,
-                    "testrun": 30,
+                    "testrun": 69,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest",
+                        "org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/GenProg/Math/patch1-Math-40-GenProg-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-40-RSRepair-plausible",
+                    "failing": 1,
+                    "testrun": 31,
+                    "failings": [
+                        "test12(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.util.MathUtils but in org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.verifyInterval(UnivariateRealSolverUtils.java:337): org.evosuite.runtime.mock.java.lang.MockThrowable"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test12(BracketingNthOrderBrentSolver_ESTest.java:359)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 27.92
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Math/patch1-Math-40-Arja-plausible.patch",
+            "project": "Math",
+            "bugid": "40",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:22:06.313085",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Math/patch1-Math-40-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-40-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 31,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -27,33 +154,38 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch195_167-Math-40-ARJA.patch",
-                    "test": "test_from_NFL_patch146_63-Math-40-RSRepair-A",
-                    "failing": 1,
-                    "testrun": 32,
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Math/patch1-Math-40-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-40-kPAR-plausible",
+                    "failing": 2,
+                    "testrun": 33,
                     "failings": [
-                        "test16(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
+                        "test16(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
+                        "test11(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
                         "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest"
                     ],
                     "failing_assertions": [
-                        "java.lang.AssertionError: expected:<-32.98672291277723> but was:<-17.278759968248405>"
+                        "java.lang.AssertionError: expected:<147.654854718709> but was:<131.9468906663505>",
+                        "java.lang.AssertionError: Expecting exception: ArrayIndexOutOfBoundsException"
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test16(BracketingNthOrderBrentSolver_ESTest.java:444)"
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test16(BracketingNthOrderBrentSolver_ESTest.java:259)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test11(BracketingNthOrderBrentSolver_ESTest.java:172)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch195_167-Math-40-ARJA.patch",
-                    "test": "test_from_NFL_patch1241_726-Math-40-GenProg-A",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Math/patch1-Math-40-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-40-GenProg-plausible",
                     "failing": 1,
-                    "testrun": 61,
+                    "testrun": 69,
                     "failings": [
-                        "test20(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
+                        "test21(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
@@ -65,301 +197,221 @@
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test20(BracketingNthOrderBrentSolver_ESTest.java:278)"
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test21(BracketingNthOrderBrentSolver_ESTest.java:288)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Math/patch195_167-Math-40-ARJA.patch",
-                    "test": "test_from_NFL_patch452_264-Math-40-kPAR",
-                    "failing": 3,
-                    "testrun": 33,
-                    "failings": [
-                        "test31(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
-                        "test11(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
-                        "test07(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
-                    ],
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Math/patch1-Math-40-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-40-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 31,
+                    "failings": [],
                     "status": "ok",
                     "test_executed": [
                         "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest"
                     ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<-47.24373188482803> but was:<-53.96743567712015>",
-                        "19:24:38.825 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: META-INF/localization/LocalizedFormats",
-                        "org.apache.commons.math.exception.TooManyEvaluationsException: illegal state: maximal count (2,548) exceeded: evaluations"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test31(BracketingNthOrderBrentSolver_ESTest.java:393)"
-                        ],
-                        [
-                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test11(BracketingNthOrderBrentSolver_ESTest.java:149)"
-                        ],
-                        [
-                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test07(BracketingNthOrderBrentSolver_ESTest.java:85)"
-                        ]
-                    ]
+                    "failing_assertions": [],
+                    "failing_lines": []
                 }
             ],
-            "duration": 40.27
+            "duration": 28.28
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Math/patch1241_726-Math-40-GenProg-A.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Math/patch1-Math-40-kPAR-plausible.patch",
             "project": "Math",
             "bugid": "40",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:24:38.876569",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:22:34.594918",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Math/patch1241_726-Math-40-GenProg-A.patch",
-                    "test": "test_from_NFL_patch195_167-Math-40-ARJA",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Math/patch1-Math-40-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-40-Arja-plausible",
                     "failing": 3,
-                    "testrun": 30,
+                    "testrun": 31,
                     "failings": [
-                        "test10(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
-                        "test22(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
-                        "test09(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
+                        "test19(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
+                        "test21(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
+                        "test29(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
                         "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest"
                     ],
                     "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.util.MathUtils but in org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.verifyInterval(UnivariateRealSolverUtils.java:337): org.evosuite.runtime.mock.java.lang.MockThrowable",
-                        "java.lang.AssertionError: expected:<-1082.2786692864886> but was:<416.2610265788922>",
-                        "19:25:15.077 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: META-INF/localization/LocalizedFormats"
+                        "java.lang.AssertionError: expected:<329.86722862692835> but was:<336.15041481556455>",
+                        "java.lang.ArrayIndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected:<191.63715256012262> but was:<304.73448740065135>"
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test10(BracketingNthOrderBrentSolver_ESTest.java:151)"
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test19(BracketingNthOrderBrentSolver_ESTest.java:284)"
                         ],
                         [
-                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test22(BracketingNthOrderBrentSolver_ESTest.java:275)"
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test21(BracketingNthOrderBrentSolver_ESTest.java:305)"
                         ],
                         [
-                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test09(BracketingNthOrderBrentSolver_ESTest.java:127)"
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test29(BracketingNthOrderBrentSolver_ESTest.java:418)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Math/patch1241_726-Math-40-GenProg-A.patch",
-                    "test": "test_from_NFL_patch146_63-Math-40-RSRepair-A",
-                    "failing": 1,
-                    "testrun": 32,
-                    "failings": [
-                        "test16(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<-32.98672291277723> but was:<-17.278759729621097>"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test16(BracketingNthOrderBrentSolver_ESTest.java:444)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Math/patch1241_726-Math-40-GenProg-A.patch",
-                    "test": "test_from_NFL_patch1241_726-Math-40-GenProg-A",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Math/patch1-Math-40-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-40-kPAR-plausible",
                     "failing": 0,
-                    "testrun": 61,
+                    "testrun": 33,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
-                        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest",
-                        "org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver_ESTest"
+                        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest"
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/GenProg-A/Math/patch1241_726-Math-40-GenProg-A.patch",
-                    "test": "test_from_NFL_patch452_264-Math-40-kPAR",
-                    "failing": 2,
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Math/patch1-Math-40-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-40-GenProg-plausible",
+                    "failing": 1,
+                    "testrun": 69,
+                    "failings": [
+                        "test21(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest",
+                        "org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<-788.6008880582087> but was:<-921.9676392073756>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test21(BracketingNthOrderBrentSolver_ESTest.java:288)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Math/patch1-Math-40-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-40-RSRepair-plausible",
+                    "failing": 0,
+                    "testrun": 31,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                }
+            ],
+            "duration": 28.64
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-40-RSRepair-plausible.patch",
+            "project": "Math",
+            "bugid": "40",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T03:23:03.234992",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-40-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-40-Arja-plausible",
+                    "failing": 4,
+                    "testrun": 31,
+                    "failings": [
+                        "test11(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
+                        "test18(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
+                        "test19(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
+                        "test29(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: ArrayIndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected:<81.68140879106232> but was:<94.24777960753934>",
+                        "java.lang.AssertionError: expected:<329.86722862692835> but was:<336.15041393411553>",
+                        "java.lang.AssertionError: expected:<191.63715256012262> but was:<304.7344873984835>"
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test11(BracketingNthOrderBrentSolver_ESTest.java:172)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test18(BracketingNthOrderBrentSolver_ESTest.java:273)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test19(BracketingNthOrderBrentSolver_ESTest.java:284)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test29(BracketingNthOrderBrentSolver_ESTest.java:418)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-40-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-40-kPAR-plausible",
+                    "failing": 6,
                     "testrun": 33,
                     "failings": [
                         "test14(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
-                        "test11(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.math.util.MathUtils but in org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.verifyInterval(UnivariateRealSolverUtils.java:337): org.evosuite.runtime.mock.java.lang.MockThrowable",
-                        "19:25:19.273 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: META-INF/localization/LocalizedFormats"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test14(BracketingNthOrderBrentSolver_ESTest.java:206)"
-                        ],
-                        [
-                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test11(BracketingNthOrderBrentSolver_ESTest.java:149)"
-                        ]
-                    ]
-                }
-            ],
-            "duration": 40.46
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch146_63-Math-40-RSRepair-A.patch",
-            "project": "Math",
-            "bugid": "40",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:25:19.333232",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch146_63-Math-40-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch195_167-Math-40-ARJA",
-                    "failing": 0,
-                    "testrun": 30,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch146_63-Math-40-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch146_63-Math-40-RSRepair-A",
-                    "failing": 0,
-                    "testrun": 32,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch146_63-Math-40-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch1241_726-Math-40-GenProg-A",
-                    "failing": 1,
-                    "testrun": 61,
-                    "failings": [
-                        "test20(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest",
-                        "org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<-788.6008880582087> but was:<-921.9676392073756>"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test20(BracketingNthOrderBrentSolver_ESTest.java:278)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/RSRepair-A/Math/patch146_63-Math-40-RSRepair-A.patch",
-                    "test": "test_from_NFL_patch452_264-Math-40-kPAR",
-                    "failing": 1,
-                    "testrun": 33,
-                    "failings": [
-                        "test11(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "19:26:00.554 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: META-INF/localization/LocalizedFormats"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test11(BracketingNthOrderBrentSolver_ESTest.java:149)"
-                        ]
-                    ]
-                }
-            ],
-            "duration": 41.28
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Math/patch452_264-Math-40-kPAR.patch",
-            "project": "Math",
-            "bugid": "40",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:26:00.615401",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Math/patch452_264-Math-40-kPAR.patch",
-                    "test": "test_from_NFL_patch195_167-Math-40-ARJA",
-                    "failing": 2,
-                    "testrun": 30,
-                    "failings": [
+                        "test16(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
+                        "test31(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
+                        "test11(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
                         "test18(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)",
-                        "test22(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
+                        "test19(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
                         "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest"
                     ],
                     "failing_assertions": [
-                        "java.lang.ArrayIndexOutOfBoundsException",
-                        "java.lang.ArrayIndexOutOfBoundsException"
+                        "java.lang.AssertionError: Expecting exception: IllegalStateException",
+                        "java.lang.AssertionError: expected:<147.654854718709> but was:<150.79644732164166>",
+                        "java.lang.AssertionError: expected:<3615.973144281852> but was:<3590.840403053128>",
+                        "java.lang.AssertionError: Expecting exception: ArrayIndexOutOfBoundsException",
+                        "java.lang.AssertionError: expected:<3615.973144281852> but was:<3590.840403053128>",
+                        "java.lang.AssertionError: expected:<3615.973144281852> but was:<3590.840403053128>"
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test18(BracketingNthOrderBrentSolver_ESTest.java:229)"
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test14(BracketingNthOrderBrentSolver_ESTest.java:226)"
                         ],
                         [
-                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test22(BracketingNthOrderBrentSolver_ESTest.java:274)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Math/patch452_264-Math-40-kPAR.patch",
-                    "test": "test_from_NFL_patch146_63-Math-40-RSRepair-A",
-                    "failing": 1,
-                    "testrun": 32,
-                    "failings": [
-                        "test16(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: expected:<-32.98672291277723> but was:<-17.278760261136348>"
-                    ],
-                    "failing_lines": [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test16(BracketingNthOrderBrentSolver_ESTest.java:259)"
+                        ],
                         [
-                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test16(BracketingNthOrderBrentSolver_ESTest.java:444)"
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test31(BracketingNthOrderBrentSolver_ESTest.java:441)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test11(BracketingNthOrderBrentSolver_ESTest.java:172)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test18(BracketingNthOrderBrentSolver_ESTest.java:278)"
+                        ],
+                        [
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test19(BracketingNthOrderBrentSolver_ESTest.java:289)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Math/patch452_264-Math-40-kPAR.patch",
-                    "test": "test_from_NFL_patch1241_726-Math-40-GenProg-A",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-40-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-40-GenProg-plausible",
                     "failing": 1,
-                    "testrun": 61,
+                    "testrun": 69,
                     "failings": [
-                        "test20(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
+                        "test21(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
@@ -371,15 +423,15 @@
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test20(BracketingNthOrderBrentSolver_ESTest.java:278)"
+                            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest.test21(BracketingNthOrderBrentSolver_ESTest.java:288)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Math/patch452_264-Math-40-kPAR.patch",
-                    "test": "test_from_NFL_patch452_264-Math-40-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/RSRepair/Math/patch1-Math-40-RSRepair-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-40-RSRepair-plausible",
                     "failing": 0,
-                    "testrun": 33,
+                    "testrun": 31,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -389,21 +441,9 @@
                     "failing_lines": []
                 }
             ],
-            "duration": 40.75
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/jGenProg/Math/patch193_56-Math-40-jGenProg.patch",
-            "project": "Math",
-            "bugid": "40",
-            "dataset": "PFL",
-            "date": "2021-11-22T19:26:41.364926",
-            "project_checked": "ok",
-            "compiledProjectModified": "no",
-            "patchApplied": "no",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "duration": 28.17
         }
     ],
-    "date": "2021-11-22T19:23:58.606775",
+    "date": "2022-12-16T03:21:38.389022",
     "duration": -0.0
 }

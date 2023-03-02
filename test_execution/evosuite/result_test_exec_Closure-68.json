@@ -2,22 +2,364 @@
     "bugid": "Closure-68",
     "results": [
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Closure/patch80_80-Closure-68-SimFix.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-68-Kali-plausible.patch",
             "project": "Closure",
             "bugid": "68",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:23:41.572077",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:06:46.645306",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Closure/patch80_80-Closure-68-SimFix.patch",
-                    "test": "test_from_NFL_patch80_80-Closure-68-SimFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-68-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-68-SimFix",
+                    "failing": 11,
+                    "testrun": 41,
+                    "failings": [
+                        "test28(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test29(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test20(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test21(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test22(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test25(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test26(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test27(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test18(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test31(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test32(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError: Expecting exception: UnsupportedOperationException",
+                        "java.lang.AssertionError: Expecting exception: UnsupportedOperationException",
+                        "java.lang.AssertionError: Expecting exception: UnsupportedOperationException",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError: Expecting exception: UnsupportedOperationException",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test28(JsDocInfoParser_ESTest.java:372)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test29(JsDocInfoParser_ESTest.java:387)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test20(JsDocInfoParser_ESTest.java:239)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test21(JsDocInfoParser_ESTest.java:254)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test22(JsDocInfoParser_ESTest.java:276)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test25(JsDocInfoParser_ESTest.java:320)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test26(JsDocInfoParser_ESTest.java:342)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test27(JsDocInfoParser_ESTest.java:357)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test18(JsDocInfoParser_ESTest.java:214)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test31(JsDocInfoParser_ESTest.java:410)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test32(JsDocInfoParser_ESTest.java:431)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-68-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-68-Kali-plausible",
                     "failing": 0,
-                    "testrun": 35,
+                    "testrun": 42,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Closure/patch1-Closure-68-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-68-Arja-plausible",
+                    "failing": 18,
+                    "testrun": 46,
+                    "failings": [
+                        "test28(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test29(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test08(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test09(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test01(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test24(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test25(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test26(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test27(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test31(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test32(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test33(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test34(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test35(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test36(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test37(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test38(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test30(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test28(JsDocInfoParser_ESTest.java:351)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test29(JsDocInfoParser_ESTest.java:365)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test08(JsDocInfoParser_ESTest.java:169)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test09(JsDocInfoParser_ESTest.java:182)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test01(JsDocInfoParser_ESTest.java:58)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test24(JsDocInfoParser_ESTest.java:296)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test25(JsDocInfoParser_ESTest.java:310)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test26(JsDocInfoParser_ESTest.java:323)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test27(JsDocInfoParser_ESTest.java:336)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test31(JsDocInfoParser_ESTest.java:392)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test32(JsDocInfoParser_ESTest.java:403)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test33(JsDocInfoParser_ESTest.java:415)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test34(JsDocInfoParser_ESTest.java:428)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test35(JsDocInfoParser_ESTest.java:441)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test36(JsDocInfoParser_ESTest.java:454)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test37(JsDocInfoParser_ESTest.java:465)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test38(JsDocInfoParser_ESTest.java:478)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test30(JsDocInfoParser_ESTest.java:379)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 30.39
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-68-Arja-plausible.patch",
+            "project": "Closure",
+            "bugid": "68",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:07:17.035540",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-68-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-68-SimFix",
+                    "failing": 4,
+                    "testrun": 41,
+                    "failings": [
+                        "test21(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test22(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test25(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test31(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Expecting exception: UnsupportedOperationException",
+                        "java.lang.AssertionError: Expecting exception: UnsupportedOperationException",
+                        "java.lang.AssertionError: Expecting exception: UnsupportedOperationException",
+                        "java.lang.AssertionError: Expecting exception: UnsupportedOperationException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test21(JsDocInfoParser_ESTest.java:254)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test22(JsDocInfoParser_ESTest.java:276)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test25(JsDocInfoParser_ESTest.java:320)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test31(JsDocInfoParser_ESTest.java:410)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-68-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-68-Kali-plausible",
+                    "failing": 17,
+                    "testrun": 42,
+                    "failings": [
+                        "test28(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test29(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test08(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test00(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test22(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test23(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test02(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test24(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test25(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test26(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test27(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test31(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test32(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test33(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test34(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test35(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test30(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.NullPointerException",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test28(JsDocInfoParser_ESTest.java:357)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test29(JsDocInfoParser_ESTest.java:372)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test08(JsDocInfoParser_ESTest.java:175)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test00(JsDocInfoParser_ESTest.java:46)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test22(JsDocInfoParser_ESTest.java:276)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test23(JsDocInfoParser_ESTest.java:288)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test02(JsDocInfoParser_ESTest.java:68)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test24(JsDocInfoParser_ESTest.java:300)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test25(JsDocInfoParser_ESTest.java:313)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test26(JsDocInfoParser_ESTest.java:327)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test27(JsDocInfoParser_ESTest.java:342)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test31(JsDocInfoParser_ESTest.java:399)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test32(JsDocInfoParser_ESTest.java:414)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test33(JsDocInfoParser_ESTest.java:428)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test34(JsDocInfoParser_ESTest.java:441)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test35(JsDocInfoParser_ESTest.java:453)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test30(JsDocInfoParser_ESTest.java:384)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Arja/Closure/patch1-Closure-68-Arja-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-68-Arja-plausible",
+                    "failing": 0,
+                    "testrun": 46,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -27,33 +369,234 @@
                     "failing_lines": []
                 }
             ],
-            "duration": 79.36
+            "duration": 30.68
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/ARJA/Closure/patch1_1-Closure-68-ARJA.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/SimFix/Closure/patch1-Closure-68-SimFix.patch",
             "project": "Closure",
             "bugid": "68",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:25:00.935565",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T05:07:47.721157",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Closure/patch17_17-Closure-68-Kali-A.patch",
-            "project": "Closure",
-            "bugid": "68",
-            "dataset": "NFL",
-            "date": "2021-11-23T19:26:15.671157",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/SimFix/Closure/patch1-Closure-68-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-68-SimFix",
+                    "failing": 0,
+                    "testrun": 41,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/SimFix/Closure/patch1-Closure-68-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-68-Kali-plausible",
+                    "failing": 17,
+                    "testrun": 42,
+                    "failings": [
+                        "test28(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test29(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test08(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test00(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test22(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test23(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test02(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test24(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test25(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test26(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test27(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test31(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test32(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test33(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test34(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test35(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test30(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.NullPointerException",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.UnsupportedOperationException",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.UnsupportedOperationException",
+                        "java.lang.AssertionError",
+                        "java.lang.AssertionError",
+                        "java.lang.UnsupportedOperationException",
+                        "java.lang.AssertionError",
+                        "java.lang.UnsupportedOperationException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test28(JsDocInfoParser_ESTest.java:357)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test29(JsDocInfoParser_ESTest.java:372)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test08(JsDocInfoParser_ESTest.java:175)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test00(JsDocInfoParser_ESTest.java:46)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test22(JsDocInfoParser_ESTest.java:276)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test23(JsDocInfoParser_ESTest.java:288)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test02(JsDocInfoParser_ESTest.java:66)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test24(JsDocInfoParser_ESTest.java:300)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test25(JsDocInfoParser_ESTest.java:313)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test26(JsDocInfoParser_ESTest.java:327)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test27(JsDocInfoParser_ESTest.java:342)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test31(JsDocInfoParser_ESTest.java:398)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test32(JsDocInfoParser_ESTest.java:414)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test33(JsDocInfoParser_ESTest.java:428)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test34(JsDocInfoParser_ESTest.java:439)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test35(JsDocInfoParser_ESTest.java:453)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test30(JsDocInfoParser_ESTest.java:383)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Ddifferent/SimFix/Closure/patch1-Closure-68-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Closure-68-Arja-plausible",
+                    "failing": 16,
+                    "testrun": 46,
+                    "failings": [
+                        "test28(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test08(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test09(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test24(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test25(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test26(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test27(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test31(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test32(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test33(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test34(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test35(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test36(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test37(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test38(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)",
+                        "test30(com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.UnsupportedOperationException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.UnsupportedOperationException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException",
+                        "java.lang.NullPointerException"
+                    ],
+                    "failing_lines": [
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test28(JsDocInfoParser_ESTest.java:350)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test08(JsDocInfoParser_ESTest.java:168)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test09(JsDocInfoParser_ESTest.java:181)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test24(JsDocInfoParser_ESTest.java:295)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test25(JsDocInfoParser_ESTest.java:309)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test26(JsDocInfoParser_ESTest.java:322)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test27(JsDocInfoParser_ESTest.java:335)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test31(JsDocInfoParser_ESTest.java:391)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test32(JsDocInfoParser_ESTest.java:402)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test33(JsDocInfoParser_ESTest.java:414)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test34(JsDocInfoParser_ESTest.java:427)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test35(JsDocInfoParser_ESTest.java:440)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test36(JsDocInfoParser_ESTest.java:453)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test37(JsDocInfoParser_ESTest.java:464)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test38(JsDocInfoParser_ESTest.java:477)"
+                        ],
+                        [
+                            "com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest.test30(JsDocInfoParser_ESTest.java:378)"
+                        ]
+                    ]
+                }
+            ],
+            "duration": 30.36
         }
     ],
-    "date": "2021-11-23T19:23:41.570661",
+    "date": "2022-12-16T05:06:46.645041",
     "duration": -0.0
 }

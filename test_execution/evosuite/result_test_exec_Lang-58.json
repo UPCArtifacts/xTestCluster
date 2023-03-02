@@ -2,22 +2,22 @@
     "bugid": "Lang-58",
     "results": [
         {
-            "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-58-SimFix.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Lang/patch1-Lang-58-Nopol-plausible.patch",
             "project": "Lang",
             "bugid": "58",
-            "dataset": "patchesDRR",
-            "date": "2021-11-22T23:06:01.456459",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T06:10:48.778410",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-58-SimFix.patch",
-                    "test": "test_from_NFL_patch1138_1138-Lang-58-SimFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Lang/patch1-Lang-58-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-Nopol-plausible",
                     "failing": 0,
-                    "testrun": 251,
+                    "testrun": 261,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -27,203 +27,57 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-58-SimFix.patch",
-                    "test": "test_from_NFL_patch999_513-Lang-58-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Lang/patch1-Lang-58-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-kPAR-plausible",
                     "failing": 1,
-                    "testrun": 242,
+                    "testrun": 261,
                     "failings": [
-                        "test214(org.apache.commons.lang.math.NumberUtils_ESTest)"
+                        "test235(org.apache.commons.lang.math.NumberUtils_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
                         "org.apache.commons.lang.math.NumberUtils_ESTest"
                     ],
                     "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.math.BigInteger but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:461): java.lang.NumberFormatException: -x^-^bGfd]NV/Y]<OL is not a valid number."
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:465): java.lang.NumberFormatException: h&L is not a valid number."
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test214(NumberUtils_ESTest.java:1797)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test235(NumberUtils_ESTest.java:1950)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-58-SimFix.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-Nopol",
-                    "failing": 1,
-                    "testrun": 239,
-                    "failings": [
-                        "test216(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:461): java.lang.NumberFormatException: VNyjFzBVJumOczFijxL is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test216(NumberUtils_ESTest.java:1839)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-58-SimFix.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-SimFix",
-                    "failing": 0,
-                    "testrun": 246,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-58-SimFix.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-DynaMoth",
-                    "failing": 1,
-                    "testrun": 246,
-                    "failings": [
-                        "test217(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.StringIndexOutOfBoundsException: String index out of range: 0"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test217(NumberUtils_ESTest.java:1814)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-58-SimFix.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-Elixir-plausible",
-                    "failing": 1,
-                    "testrun": 246,
-                    "failings": [
-                        "test222(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.math.BigInteger but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:461): java.lang.NumberFormatException: @Bj?-3oC\\x7f/G7L is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test222(NumberUtils_ESTest.java:1865)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-58-SimFix.patch",
-                    "test": "test_from_NFL_patch1889_735-Lang-58-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Lang/patch1-Lang-58-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-AVATAR-plausible",
                     "failing": 2,
-                    "testrun": 246,
+                    "testrun": 260,
                     "failings": [
-                        "test218(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test221(org.apache.commons.lang.math.NumberUtils_ESTest)"
+                        "test229(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test230(org.apache.commons.lang.math.NumberUtils_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
                         "org.apache.commons.lang.math.NumberUtils_ESTest"
                     ],
                     "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:461): java.lang.NumberFormatException: The Array must not be null is not a valid number.",
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:461): java.lang.NumberFormatException: h&L is not a valid number."
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:465): java.lang.NumberFormatException: 8R\\'8%QO5/VL is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.math.BigInteger but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:465): java.lang.NumberFormatException: -x^-^bGfd]NV/Y]<OL is not a valid number."
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test218(NumberUtils_ESTest.java:1812)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test229(NumberUtils_ESTest.java:1892)"
                         ],
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test221(NumberUtils_ESTest.java:1854)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test230(NumberUtils_ESTest.java:1906)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-58-SimFix.patch",
-                    "test": "test_from_NFL_patch1789_1078-Lang-58-TBar",
-                    "failing": 1,
-                    "testrun": 245,
-                    "failings": [
-                        "test224(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:461): java.lang.NumberFormatException: The Array must not be null is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test224(NumberUtils_ESTest.java:1898)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-58-SimFix.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-kPAR",
-                    "failing": 1,
-                    "testrun": 249,
-                    "failings": [
-                        "test225(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.math.BigInteger but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:461): java.lang.NumberFormatException: @Bj?-3oC\\x7f/G7L is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test225(NumberUtils_ESTest.java:1896)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/SimFix/Lang/patch1-Lang-58-SimFix.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-FixMiner",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Lang/patch1-Lang-58-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-SimFix",
                     "failing": 0,
-                    "testrun": 238,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                }
-            ],
-            "duration": 31.35
-        },
-        {
-            "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-58-Nopol2015.patch",
-            "project": "Lang",
-            "bugid": "58",
-            "dataset": "patchesDRR",
-            "date": "2021-11-22T23:06:32.808139",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-58-Nopol2015.patch",
-                    "test": "test_from_NFL_patch1138_1138-Lang-58-SimFix",
-                    "failing": 0,
-                    "testrun": 251,
+                    "testrun": 258,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -233,767 +87,121 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-58-Nopol2015.patch",
-                    "test": "test_from_NFL_patch999_513-Lang-58-AVATAR",
-                    "failing": 1,
-                    "testrun": 242,
-                    "failings": [
-                        "test214(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.math.BigInteger but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:498): java.lang.NumberFormatException: -x^-^bGfd]NV/Y]<OL is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test214(NumberUtils_ESTest.java:1797)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-58-Nopol2015.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-Nopol",
-                    "failing": 1,
-                    "testrun": 239,
-                    "failings": [
-                        "test216(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:498): java.lang.NumberFormatException: VNyjFzBVJumOczFijxL is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test216(NumberUtils_ESTest.java:1839)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-58-Nopol2015.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-SimFix",
-                    "failing": 0,
-                    "testrun": 246,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-58-Nopol2015.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-DynaMoth",
-                    "failing": 1,
-                    "testrun": 246,
-                    "failings": [
-                        "test217(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.StringIndexOutOfBoundsException: String index out of range: -1"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test217(NumberUtils_ESTest.java:1814)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-58-Nopol2015.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-Elixir-plausible",
-                    "failing": 1,
-                    "testrun": 246,
-                    "failings": [
-                        "test222(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.math.BigInteger but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:498): java.lang.NumberFormatException: @Bj?-3oC\\x7f/G7L is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test222(NumberUtils_ESTest.java:1865)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-58-Nopol2015.patch",
-                    "test": "test_from_NFL_patch1889_735-Lang-58-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Nopol/Lang/patch1-Lang-58-Nopol-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-TBar-plausible",
                     "failing": 2,
-                    "testrun": 246,
+                    "testrun": 253,
                     "failings": [
-                        "test218(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test221(org.apache.commons.lang.math.NumberUtils_ESTest)"
+                        "test227(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test232(org.apache.commons.lang.math.NumberUtils_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
                         "org.apache.commons.lang.math.NumberUtils_ESTest"
                     ],
                     "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:465): java.lang.NumberFormatException: The Array must not be null is not a valid number.",
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:498): java.lang.NumberFormatException: h&L is not a valid number."
+                        "java.lang.AssertionError: expected:<9> but was:<9.0>",
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:465): java.lang.NumberFormatException: The Array must not be null is not a valid number."
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test218(NumberUtils_ESTest.java:1812)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test227(NumberUtils_ESTest.java:1894)"
                         ],
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test221(NumberUtils_ESTest.java:1854)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-58-Nopol2015.patch",
-                    "test": "test_from_NFL_patch1789_1078-Lang-58-TBar",
-                    "failing": 2,
-                    "testrun": 245,
-                    "failings": [
-                        "test224(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test220(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:465): java.lang.NumberFormatException: The Array must not be null is not a valid number.",
-                        "java.lang.AssertionError: expected:<9> but was:<9.0>"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test224(NumberUtils_ESTest.java:1898)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test220(NumberUtils_ESTest.java:1850)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-58-Nopol2015.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-kPAR",
-                    "failing": 1,
-                    "testrun": 249,
-                    "failings": [
-                        "test225(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.math.BigInteger but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:498): java.lang.NumberFormatException: @Bj?-3oC\\x7f/G7L is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test225(NumberUtils_ESTest.java:1896)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Nopol2015/Lang/patch1-Lang-58-Nopol2015.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-FixMiner",
-                    "failing": 0,
-                    "testrun": 238,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                }
-            ],
-            "duration": 31.85
-        },
-        {
-            "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-58-Elixir-plausible.patch",
-            "project": "Lang",
-            "bugid": "58",
-            "dataset": "patchesDRR",
-            "date": "2021-11-22T23:07:04.656139",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-58-Elixir-plausible.patch",
-                    "test": "test_from_NFL_patch1138_1138-Lang-58-SimFix",
-                    "failing": 2,
-                    "testrun": 251,
-                    "failings": [
-                        "test225(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test223(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.NumberFormatException: Zero length BigInteger",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"9y\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test225(NumberUtils_ESTest.java:1873)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test223(NumberUtils_ESTest.java:1851)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-58-Elixir-plausible.patch",
-                    "test": "test_from_NFL_patch999_513-Lang-58-AVATAR",
-                    "failing": 1,
-                    "testrun": 242,
-                    "failings": [
-                        "test228(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"X\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test228(NumberUtils_ESTest.java:1969)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-58-Elixir-plausible.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-Nopol",
-                    "failing": 0,
-                    "testrun": 239,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-58-Elixir-plausible.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-SimFix",
-                    "failing": 2,
-                    "testrun": 246,
-                    "failings": [
-                        "test217(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test215(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.NumberFormatException: Zero length BigInteger",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.math.BigInteger.<init>(BigInteger.java:419): java.lang.NumberFormatException: Illegal embedded sign character"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test217(NumberUtils_ESTest.java:1826)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test215(NumberUtils_ESTest.java:1804)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-58-Elixir-plausible.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-DynaMoth",
-                    "failing": 0,
-                    "testrun": 246,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-58-Elixir-plausible.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-Elixir-plausible",
-                    "failing": 0,
-                    "testrun": 246,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-58-Elixir-plausible.patch",
-                    "test": "test_from_NFL_patch1889_735-Lang-58-kPAR",
-                    "failing": 1,
-                    "testrun": 246,
-                    "failings": [
-                        "test218(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:464): java.lang.NumberFormatException: The Array must not be null is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test218(NumberUtils_ESTest.java:1812)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-58-Elixir-plausible.patch",
-                    "test": "test_from_NFL_patch1789_1078-Lang-58-TBar",
-                    "failing": 1,
-                    "testrun": 245,
-                    "failings": [
-                        "test224(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:464): java.lang.NumberFormatException: The Array must not be null is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test224(NumberUtils_ESTest.java:1898)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-58-Elixir-plausible.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-kPAR",
-                    "failing": 0,
-                    "testrun": 249,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Lang/patch1-Lang-58-Elixir-plausible.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-FixMiner",
-                    "failing": 1,
-                    "testrun": 238,
-                    "failings": [
-                        "test213(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"yO`{<\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test213(NumberUtils_ESTest.java:1804)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test232(NumberUtils_ESTest.java:1955)"
                         ]
                     ]
                 }
             ],
-            "duration": 32.06
+            "duration": 25.22
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1138_1138-Lang-58-SimFix.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Lang/patch1-Lang-58-AVATAR-plausible.patch",
             "project": "Lang",
             "bugid": "58",
-            "dataset": "NFL",
-            "date": "2021-11-22T23:07:36.714762",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T06:11:14.001619",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1138_1138-Lang-58-SimFix.patch",
-                    "test": "test_from_NFL_patch1138_1138-Lang-58-SimFix",
-                    "failing": 0,
-                    "testrun": 251,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1138_1138-Lang-58-SimFix.patch",
-                    "test": "test_from_NFL_patch999_513-Lang-58-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Lang/patch1-Lang-58-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-Nopol-plausible",
                     "failing": 1,
-                    "testrun": 242,
+                    "testrun": 261,
                     "failings": [
-                        "test214(org.apache.commons.lang.math.NumberUtils_ESTest)"
+                        "test231(org.apache.commons.lang.math.NumberUtils_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
                         "org.apache.commons.lang.math.NumberUtils_ESTest"
                     ],
                     "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.math.BigInteger but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:476): java.lang.NumberFormatException: -x^-^bGfd]NV/Y]<OL is not a valid number."
+                        "java.lang.AssertionError: expected:<1.0> but was:<1>"
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test214(NumberUtils_ESTest.java:1797)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test231(NumberUtils_ESTest.java:1900)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1138_1138-Lang-58-SimFix.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-Nopol",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Lang/patch1-Lang-58-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-kPAR-plausible",
                     "failing": 1,
-                    "testrun": 239,
+                    "testrun": 261,
                     "failings": [
-                        "test216(org.apache.commons.lang.math.NumberUtils_ESTest)"
+                        "test235(org.apache.commons.lang.math.NumberUtils_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
                         "org.apache.commons.lang.math.NumberUtils_ESTest"
                     ],
                     "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:476): java.lang.NumberFormatException: VNyjFzBVJumOczFijxL is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test216(NumberUtils_ESTest.java:1839)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1138_1138-Lang-58-SimFix.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-SimFix",
-                    "failing": 0,
-                    "testrun": 246,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1138_1138-Lang-58-SimFix.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-DynaMoth",
-                    "failing": 1,
-                    "testrun": 246,
-                    "failings": [
-                        "test217(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.StringIndexOutOfBoundsException: String index out of range: 0"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test217(NumberUtils_ESTest.java:1814)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1138_1138-Lang-58-SimFix.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-Elixir-plausible",
-                    "failing": 1,
-                    "testrun": 246,
-                    "failings": [
-                        "test222(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.math.BigInteger but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:476): java.lang.NumberFormatException: @Bj?-3oC\\x7f/G7L is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test222(NumberUtils_ESTest.java:1865)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1138_1138-Lang-58-SimFix.patch",
-                    "test": "test_from_NFL_patch1889_735-Lang-58-kPAR",
-                    "failing": 2,
-                    "testrun": 246,
-                    "failings": [
-                        "test218(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test221(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:476): java.lang.NumberFormatException: The Array must not be null is not a valid number.",
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:476): java.lang.NumberFormatException: h&L is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test218(NumberUtils_ESTest.java:1812)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test221(NumberUtils_ESTest.java:1854)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1138_1138-Lang-58-SimFix.patch",
-                    "test": "test_from_NFL_patch1789_1078-Lang-58-TBar",
-                    "failing": 1,
-                    "testrun": 245,
-                    "failings": [
-                        "test224(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:476): java.lang.NumberFormatException: The Array must not be null is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test224(NumberUtils_ESTest.java:1898)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1138_1138-Lang-58-SimFix.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-kPAR",
-                    "failing": 1,
-                    "testrun": 249,
-                    "failings": [
-                        "test225(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.math.BigInteger but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:476): java.lang.NumberFormatException: @Bj?-3oC\\x7f/G7L is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test225(NumberUtils_ESTest.java:1896)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Dcorrect/SimFix/Lang/patch1138_1138-Lang-58-SimFix.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-FixMiner",
-                    "failing": 0,
-                    "testrun": 238,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                }
-            ],
-            "duration": 31.95
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Nopol/Lang/patch1_1-Lang-58-Nopol.patch",
-            "project": "Lang",
-            "bugid": "58",
-            "dataset": "NFL",
-            "date": "2021-11-22T23:08:08.666374",
-            "project_checked": "ok",
-            "compiledProjectModified": "no",
-            "patchApplied": "no",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch999_513-Lang-58-AVATAR.patch",
-            "project": "Lang",
-            "bugid": "58",
-            "dataset": "NFL",
-            "date": "2021-11-22T23:08:14.927554",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch999_513-Lang-58-AVATAR.patch",
-                    "test": "test_from_NFL_patch1138_1138-Lang-58-SimFix",
-                    "failing": 1,
-                    "testrun": 251,
-                    "failings": [
-                        "test223(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"9y\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test223(NumberUtils_ESTest.java:1851)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch999_513-Lang-58-AVATAR.patch",
-                    "test": "test_from_NFL_patch999_513-Lang-58-AVATAR",
-                    "failing": 0,
-                    "testrun": 242,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch999_513-Lang-58-AVATAR.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-Nopol",
-                    "failing": 1,
-                    "testrun": 239,
-                    "failings": [
-                        "test216(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:463): java.lang.NumberFormatException: VNyjFzBVJumOczFijxL is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test216(NumberUtils_ESTest.java:1839)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch999_513-Lang-58-AVATAR.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-SimFix",
-                    "failing": 0,
-                    "testrun": 246,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch999_513-Lang-58-AVATAR.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-DynaMoth",
-                    "failing": 1,
-                    "testrun": 246,
-                    "failings": [
-                        "test217(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.StringIndexOutOfBoundsException: String index out of range: 0"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test217(NumberUtils_ESTest.java:1814)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch999_513-Lang-58-AVATAR.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-Elixir-plausible",
-                    "failing": 1,
-                    "testrun": 246,
-                    "failings": [
-                        "test222(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.math.BigInteger but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:463): java.lang.NumberFormatException: @Bj?-3oC\\x7f/G7L is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test222(NumberUtils_ESTest.java:1865)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch999_513-Lang-58-AVATAR.patch",
-                    "test": "test_from_NFL_patch1889_735-Lang-58-kPAR",
-                    "failing": 2,
-                    "testrun": 246,
-                    "failings": [
-                        "test218(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test221(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:463): java.lang.NumberFormatException: The Array must not be null is not a valid number.",
                         "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:463): java.lang.NumberFormatException: h&L is not a valid number."
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test218(NumberUtils_ESTest.java:1812)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test221(NumberUtils_ESTest.java:1854)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test235(NumberUtils_ESTest.java:1950)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch999_513-Lang-58-AVATAR.patch",
-                    "test": "test_from_NFL_patch1789_1078-Lang-58-TBar",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Lang/patch1-Lang-58-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-AVATAR-plausible",
+                    "failing": 0,
+                    "testrun": 260,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Lang/patch1-Lang-58-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-SimFix",
+                    "failing": 0,
+                    "testrun": 258,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/AVATAR/Lang/patch1-Lang-58-AVATAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-TBar-plausible",
                     "failing": 1,
-                    "testrun": 245,
+                    "testrun": 253,
                     "failings": [
-                        "test224(org.apache.commons.lang.math.NumberUtils_ESTest)"
+                        "test232(org.apache.commons.lang.math.NumberUtils_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
@@ -1004,36 +212,66 @@
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test224(NumberUtils_ESTest.java:1898)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test232(NumberUtils_ESTest.java:1955)"
                         ]
                     ]
-                },
+                }
+            ],
+            "duration": 25.8
+        },
+        {
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Lang/patch1-Lang-58-kPAR-plausible.patch",
+            "project": "Lang",
+            "bugid": "58",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T06:11:39.807886",
+            "project_checked": "ok",
+            "compiledProjectModified": "ok",
+            "patchApplied": "ok",
+            "arrive_end": "ok",
+            "patched_project_pass_all_test": "no",
+            "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch999_513-Lang-58-AVATAR.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-kPAR",
-                    "failing": 1,
-                    "testrun": 249,
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Lang/patch1-Lang-58-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-Nopol-plausible",
+                    "failing": 4,
+                    "testrun": 261,
                     "failings": [
-                        "test225(org.apache.commons.lang.math.NumberUtils_ESTest)"
+                        "test231(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test234(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test238(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test241(org.apache.commons.lang.math.NumberUtils_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
                         "org.apache.commons.lang.math.NumberUtils_ESTest"
                     ],
                     "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.math.BigInteger but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:463): java.lang.NumberFormatException: @Bj?-3oC\\x7f/G7L is not a valid number."
+                        "java.lang.AssertionError: expected:<1.0> but was:<1>",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"&@|)`U7^\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"e3T7<\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"t7\""
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test225(NumberUtils_ESTest.java:1896)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test231(NumberUtils_ESTest.java:1900)"
+                        ],
+                        [
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test234(NumberUtils_ESTest.java:1942)"
+                        ],
+                        [
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test238(NumberUtils_ESTest.java:1990)"
+                        ],
+                        [
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test241(NumberUtils_ESTest.java:2032)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/AVATAR/Lang/patch999_513-Lang-58-AVATAR.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-FixMiner",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Lang/patch1-Lang-58-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-kPAR-plausible",
                     "failing": 0,
-                    "testrun": 238,
+                    "testrun": 261,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -1041,31 +279,16 @@
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
-                }
-            ],
-            "duration": 32.43
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch1889_735-Lang-58-kPAR.patch",
-            "project": "Lang",
-            "bugid": "58",
-            "dataset": "NFL",
-            "date": "2021-11-22T23:08:47.356838",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
+                },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch1889_735-Lang-58-kPAR.patch",
-                    "test": "test_from_NFL_patch1138_1138-Lang-58-SimFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Lang/patch1-Lang-58-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-AVATAR-plausible",
                     "failing": 3,
-                    "testrun": 251,
+                    "testrun": 260,
                     "failings": [
-                        "test225(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test223(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test221(org.apache.commons.lang.math.NumberUtils_ESTest)"
+                        "test084(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test246(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test237(org.apache.commons.lang.math.NumberUtils_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
@@ -1073,146 +296,57 @@
                     ],
                     "failing_assertions": [
                         "java.lang.NumberFormatException: Zero length BigInteger",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"9y\"",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"Strin\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test225(NumberUtils_ESTest.java:1873)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test223(NumberUtils_ESTest.java:1851)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test221(NumberUtils_ESTest.java:1823)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch1889_735-Lang-58-kPAR.patch",
-                    "test": "test_from_NFL_patch999_513-Lang-58-AVATAR",
-                    "failing": 2,
-                    "testrun": 242,
-                    "failings": [
-                        "test228(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test219(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
                         "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"X\"",
                         "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"Strin\""
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test228(NumberUtils_ESTest.java:1969)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test084(NumberUtils_ESTest.java:621)"
                         ],
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test219(NumberUtils_ESTest.java:1859)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch1889_735-Lang-58-kPAR.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-Nopol",
-                    "failing": 1,
-                    "testrun": 239,
-                    "failings": [
-                        "test218(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"The Arr\""
-                    ],
-                    "failing_lines": [
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test246(NumberUtils_ESTest.java:2106)"
+                        ],
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test218(NumberUtils_ESTest.java:1867)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test237(NumberUtils_ESTest.java:2004)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch1889_735-Lang-58-kPAR.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-SimFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Lang/patch1-Lang-58-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-SimFix",
                     "failing": 3,
-                    "testrun": 246,
+                    "testrun": 258,
                     "failings": [
-                        "test217(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test216(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test215(org.apache.commons.lang.math.NumberUtils_ESTest)"
+                        "test229(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test231(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test230(org.apache.commons.lang.math.NumberUtils_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
                         "org.apache.commons.lang.math.NumberUtils_ESTest"
                     ],
                     "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.math.BigInteger.<init>(BigInteger.java:428): java.lang.NumberFormatException: Illegal embedded sign character",
                         "java.lang.NumberFormatException: Zero length BigInteger",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"Strin\"",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.math.BigInteger.<init>(BigInteger.java:419): java.lang.NumberFormatException: Illegal embedded sign character"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test217(NumberUtils_ESTest.java:1826)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test216(NumberUtils_ESTest.java:1818)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test215(NumberUtils_ESTest.java:1804)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch1889_735-Lang-58-kPAR.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-DynaMoth",
-                    "failing": 1,
-                    "testrun": 246,
-                    "failings": [
-                        "test218(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"The Arr\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test218(NumberUtils_ESTest.java:1835)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch1889_735-Lang-58-kPAR.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-Elixir-plausible",
-                    "failing": 1,
-                    "testrun": 246,
-                    "failings": [
-                        "test220(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
                         "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"Strin\""
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test220(NumberUtils_ESTest.java:1837)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test229(NumberUtils_ESTest.java:1896)"
+                        ],
+                        [
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test231(NumberUtils_ESTest.java:1918)"
+                        ],
+                        [
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test230(NumberUtils_ESTest.java:1910)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch1889_735-Lang-58-kPAR.patch",
-                    "test": "test_from_NFL_patch1889_735-Lang-58-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/kPAR/Lang/patch1-Lang-58-kPAR-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-TBar-plausible",
                     "failing": 0,
-                    "testrun": 246,
+                    "testrun": 253,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -1220,92 +354,89 @@
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch1889_735-Lang-58-kPAR.patch",
-                    "test": "test_from_NFL_patch1789_1078-Lang-58-TBar",
-                    "failing": 0,
-                    "testrun": 245,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch1889_735-Lang-58-kPAR.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-kPAR",
-                    "failing": 1,
-                    "testrun": 249,
-                    "failings": [
-                        "test222(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"Strin\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test222(NumberUtils_ESTest.java:1854)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/kPAR/Lang/patch1889_735-Lang-58-kPAR.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-FixMiner",
-                    "failing": 2,
-                    "testrun": 238,
-                    "failings": [
-                        "test213(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test216(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"yO`{<\"",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"Strin\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test213(NumberUtils_ESTest.java:1804)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test216(NumberUtils_ESTest.java:1846)"
-                        ]
-                    ]
                 }
             ],
-            "duration": 31.98
+            "duration": 26.2
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1789_1078-Lang-58-TBar.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-58-TBar-plausible.patch",
             "project": "Lang",
             "bugid": "58",
-            "dataset": "NFL",
-            "date": "2021-11-22T23:09:19.343124",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T06:12:06.013733",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1789_1078-Lang-58-TBar.patch",
-                    "test": "test_from_NFL_patch1138_1138-Lang-58-SimFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-58-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-Nopol-plausible",
                     "failing": 4,
-                    "testrun": 251,
+                    "testrun": 261,
                     "failings": [
-                        "test225(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test223(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test222(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test221(org.apache.commons.lang.math.NumberUtils_ESTest)"
+                        "test231(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test234(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test238(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test241(org.apache.commons.lang.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: expected:<1.0> but was:<1>",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"&@|)`U7^\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"e3T7<\"",
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"t7\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test231(NumberUtils_ESTest.java:1900)"
+                        ],
+                        [
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test234(NumberUtils_ESTest.java:1942)"
+                        ],
+                        [
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test238(NumberUtils_ESTest.java:1990)"
+                        ],
+                        [
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test241(NumberUtils_ESTest.java:2032)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-58-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-kPAR-plausible",
+                    "failing": 1,
+                    "testrun": 261,
+                    "failings": [
+                        "test232(org.apache.commons.lang.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"4B4,|@C:8\""
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test232(NumberUtils_ESTest.java:1916)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-58-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-AVATAR-plausible",
+                    "failing": 4,
+                    "testrun": 260,
+                    "failings": [
+                        "test084(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test231(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test246(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test237(org.apache.commons.lang.math.NumberUtils_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
@@ -1313,175 +444,66 @@
                     ],
                     "failing_assertions": [
                         "java.lang.NumberFormatException: Zero length BigInteger",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"9y\"",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"cmt%v\"",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"Strin\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test225(NumberUtils_ESTest.java:1873)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test223(NumberUtils_ESTest.java:1851)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test222(NumberUtils_ESTest.java:1837)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test221(NumberUtils_ESTest.java:1823)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1789_1078-Lang-58-TBar.patch",
-                    "test": "test_from_NFL_patch999_513-Lang-58-AVATAR",
-                    "failing": 3,
-                    "testrun": 242,
-                    "failings": [
-                        "test228(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test219(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test221(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.math.BigInteger.<init>(BigInteger.java:428): java.lang.NumberFormatException: Illegal embedded sign character",
                         "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"X\"",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"Strin\"",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"x^`^bf\""
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"Strin\""
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test228(NumberUtils_ESTest.java:1969)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test084(NumberUtils_ESTest.java:621)"
                         ],
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test219(NumberUtils_ESTest.java:1859)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test231(NumberUtils_ESTest.java:1920)"
                         ],
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test221(NumberUtils_ESTest.java:1887)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test246(NumberUtils_ESTest.java:2106)"
+                        ],
+                        [
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test237(NumberUtils_ESTest.java:2004)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1789_1078-Lang-58-TBar.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-Nopol",
-                    "failing": 2,
-                    "testrun": 239,
-                    "failings": [
-                        "test213(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test218(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"bb|B\"",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"The Arr\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test213(NumberUtils_ESTest.java:1797)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test218(NumberUtils_ESTest.java:1867)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1789_1078-Lang-58-TBar.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-SimFix",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-58-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-SimFix",
                     "failing": 4,
-                    "testrun": 246,
+                    "testrun": 258,
                     "failings": [
-                        "test217(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test216(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test215(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test219(org.apache.commons.lang.math.NumberUtils_ESTest)"
+                        "test229(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test231(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test230(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test233(org.apache.commons.lang.math.NumberUtils_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
                         "org.apache.commons.lang.math.NumberUtils_ESTest"
                     ],
                     "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.math.BigInteger.<init>(BigInteger.java:428): java.lang.NumberFormatException: Illegal embedded sign character",
                         "java.lang.NumberFormatException: Zero length BigInteger",
                         "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"Strin\"",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.math.BigInteger.<init>(BigInteger.java:419): java.lang.NumberFormatException: Illegal embedded sign character",
                         "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"4H.=\"}Z\""
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test217(NumberUtils_ESTest.java:1826)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test229(NumberUtils_ESTest.java:1896)"
                         ],
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test216(NumberUtils_ESTest.java:1818)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test231(NumberUtils_ESTest.java:1918)"
                         ],
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test215(NumberUtils_ESTest.java:1804)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test230(NumberUtils_ESTest.java:1910)"
                         ],
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test219(NumberUtils_ESTest.java:1849)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test233(NumberUtils_ESTest.java:1949)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1789_1078-Lang-58-TBar.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-DynaMoth",
-                    "failing": 2,
-                    "testrun": 246,
-                    "failings": [
-                        "test218(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test221(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"The Arr\"",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"60.(`\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test218(NumberUtils_ESTest.java:1835)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test221(NumberUtils_ESTest.java:1877)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1789_1078-Lang-58-TBar.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-Elixir-plausible",
-                    "failing": 2,
-                    "testrun": 246,
-                    "failings": [
-                        "test221(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test220(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"WiS.*H\"",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"Strin\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test221(NumberUtils_ESTest.java:1851)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test220(NumberUtils_ESTest.java:1837)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1789_1078-Lang-58-TBar.patch",
-                    "test": "test_from_NFL_patch1889_735-Lang-58-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/TBar/Lang/patch1-Lang-58-TBar-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-TBar-plausible",
                     "failing": 0,
-                    "testrun": 246,
+                    "testrun": 253,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -1489,459 +511,110 @@
                     ],
                     "failing_assertions": [],
                     "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1789_1078-Lang-58-TBar.patch",
-                    "test": "test_from_NFL_patch1789_1078-Lang-58-TBar",
-                    "failing": 0,
-                    "testrun": 245,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1789_1078-Lang-58-TBar.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-kPAR",
-                    "failing": 2,
-                    "testrun": 249,
-                    "failings": [
-                        "test223(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test222(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"WiS.*H\"",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"Strin\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test223(NumberUtils_ESTest.java:1868)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test222(NumberUtils_ESTest.java:1854)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/TBar/Lang/patch1789_1078-Lang-58-TBar.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-FixMiner",
-                    "failing": 3,
-                    "testrun": 238,
-                    "failings": [
-                        "test210(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test213(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test216(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"WiS.*H\"",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"yO`{<\"",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"Strin\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test210(NumberUtils_ESTest.java:1762)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test213(NumberUtils_ESTest.java:1804)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test216(NumberUtils_ESTest.java:1846)"
-                        ]
-                    ]
                 }
             ],
-            "duration": 32.19
+            "duration": 25.93
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/DynaMoth/Lang/patch1_1-Lang-58-DynaMoth.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Lang/patch1-Lang-58-SimFix.patch",
             "project": "Lang",
             "bugid": "58",
-            "dataset": "PFL",
-            "date": "2021-11-22T23:09:51.536063",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T06:12:31.943218",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/DynaMoth/Lang/patch1_1-Lang-58-DynaMoth.patch",
-                    "test": "test_from_NFL_patch1138_1138-Lang-58-SimFix",
-                    "failing": 2,
-                    "testrun": 251,
-                    "failings": [
-                        "test225(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test223(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.NumberFormatException: Zero length BigInteger",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"9y\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test225(NumberUtils_ESTest.java:1873)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test223(NumberUtils_ESTest.java:1851)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/DynaMoth/Lang/patch1_1-Lang-58-DynaMoth.patch",
-                    "test": "test_from_NFL_patch999_513-Lang-58-AVATAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Lang/patch1-Lang-58-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-Nopol-plausible",
                     "failing": 1,
-                    "testrun": 242,
+                    "testrun": 261,
                     "failings": [
-                        "test228(org.apache.commons.lang.math.NumberUtils_ESTest)"
+                        "test231(org.apache.commons.lang.math.NumberUtils_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
                         "org.apache.commons.lang.math.NumberUtils_ESTest"
                     ],
                     "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"X\""
+                        "java.lang.AssertionError: expected:<1.0> but was:<1>"
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test228(NumberUtils_ESTest.java:1969)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test231(NumberUtils_ESTest.java:1900)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/DynaMoth/Lang/patch1_1-Lang-58-DynaMoth.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-Nopol",
-                    "failing": 0,
-                    "testrun": 239,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/DynaMoth/Lang/patch1_1-Lang-58-DynaMoth.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-SimFix",
-                    "failing": 2,
-                    "testrun": 246,
-                    "failings": [
-                        "test217(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test215(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.NumberFormatException: Zero length BigInteger",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.math.BigInteger.<init>(BigInteger.java:419): java.lang.NumberFormatException: Illegal embedded sign character"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test217(NumberUtils_ESTest.java:1826)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test215(NumberUtils_ESTest.java:1804)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/DynaMoth/Lang/patch1_1-Lang-58-DynaMoth.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-DynaMoth",
-                    "failing": 0,
-                    "testrun": 246,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/DynaMoth/Lang/patch1_1-Lang-58-DynaMoth.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-Elixir-plausible",
-                    "failing": 0,
-                    "testrun": 246,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/DynaMoth/Lang/patch1_1-Lang-58-DynaMoth.patch",
-                    "test": "test_from_NFL_patch1889_735-Lang-58-kPAR",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Lang/patch1-Lang-58-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-kPAR-plausible",
                     "failing": 1,
-                    "testrun": 246,
+                    "testrun": 261,
                     "failings": [
-                        "test218(org.apache.commons.lang.math.NumberUtils_ESTest)"
+                        "test235(org.apache.commons.lang.math.NumberUtils_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
                         "org.apache.commons.lang.math.NumberUtils_ESTest"
                     ],
                     "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:461): java.lang.NumberFormatException: The Array must not be null is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test218(NumberUtils_ESTest.java:1812)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/DynaMoth/Lang/patch1_1-Lang-58-DynaMoth.patch",
-                    "test": "test_from_NFL_patch1789_1078-Lang-58-TBar",
-                    "failing": 1,
-                    "testrun": 245,
-                    "failings": [
-                        "test224(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:461): java.lang.NumberFormatException: The Array must not be null is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test224(NumberUtils_ESTest.java:1898)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/DynaMoth/Lang/patch1_1-Lang-58-DynaMoth.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-kPAR",
-                    "failing": 0,
-                    "testrun": 249,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/DynaMoth/Lang/patch1_1-Lang-58-DynaMoth.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-FixMiner",
-                    "failing": 1,
-                    "testrun": 238,
-                    "failings": [
-                        "test213(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"yO`{<\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test213(NumberUtils_ESTest.java:1804)"
-                        ]
-                    ]
-                }
-            ],
-            "duration": 31.91
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Lang/patch1_1-Lang-58-FixMiner.patch",
-            "project": "Lang",
-            "bugid": "58",
-            "dataset": "PFL",
-            "date": "2021-11-22T23:10:23.451226",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Lang/patch1_1-Lang-58-FixMiner.patch",
-                    "test": "test_from_NFL_patch1138_1138-Lang-58-SimFix",
-                    "failing": 1,
-                    "testrun": 251,
-                    "failings": [
-                        "test223(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"9y\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test223(NumberUtils_ESTest.java:1851)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Lang/patch1_1-Lang-58-FixMiner.patch",
-                    "test": "test_from_NFL_patch999_513-Lang-58-AVATAR",
-                    "failing": 1,
-                    "testrun": 242,
-                    "failings": [
-                        "test221(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"x^`^bf\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test221(NumberUtils_ESTest.java:1887)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Lang/patch1_1-Lang-58-FixMiner.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-Nopol",
-                    "failing": 1,
-                    "testrun": 239,
-                    "failings": [
-                        "test216(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:463): java.lang.NumberFormatException: VNyjFzBVJumOczFijxL is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test216(NumberUtils_ESTest.java:1839)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Lang/patch1_1-Lang-58-FixMiner.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-SimFix",
-                    "failing": 1,
-                    "testrun": 246,
-                    "failings": [
-                        "test219(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"4H.=\"}Z\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test219(NumberUtils_ESTest.java:1849)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Lang/patch1_1-Lang-58-FixMiner.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-DynaMoth",
-                    "failing": 2,
-                    "testrun": 246,
-                    "failings": [
-                        "test217(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test221(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.StringIndexOutOfBoundsException: String index out of range: -1",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"60.(`\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test217(NumberUtils_ESTest.java:1814)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test221(NumberUtils_ESTest.java:1877)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Lang/patch1_1-Lang-58-FixMiner.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-Elixir-plausible",
-                    "failing": 1,
-                    "testrun": 246,
-                    "failings": [
-                        "test222(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.math.BigInteger but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:463): java.lang.NumberFormatException: @Bj?-3oC\\x7f/G7L is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test222(NumberUtils_ESTest.java:1865)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Lang/patch1_1-Lang-58-FixMiner.patch",
-                    "test": "test_from_NFL_patch1889_735-Lang-58-kPAR",
-                    "failing": 2,
-                    "testrun": 246,
-                    "failings": [
-                        "test218(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test221(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:463): java.lang.NumberFormatException: The Array must not be null is not a valid number.",
                         "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:463): java.lang.NumberFormatException: h&L is not a valid number."
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test218(NumberUtils_ESTest.java:1812)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test221(NumberUtils_ESTest.java:1854)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test235(NumberUtils_ESTest.java:1950)"
                         ]
                     ]
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Lang/patch1_1-Lang-58-FixMiner.patch",
-                    "test": "test_from_NFL_patch1789_1078-Lang-58-TBar",
-                    "failing": 1,
-                    "testrun": 245,
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Lang/patch1-Lang-58-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-AVATAR-plausible",
+                    "failing": 2,
+                    "testrun": 260,
                     "failings": [
-                        "test224(org.apache.commons.lang.math.NumberUtils_ESTest)"
+                        "test229(org.apache.commons.lang.math.NumberUtils_ESTest)",
+                        "test230(org.apache.commons.lang.math.NumberUtils_ESTest)"
+                    ],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [
+                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:463): java.lang.NumberFormatException: 8R\\'8%QO5/VL is not a valid number.",
+                        "java.lang.AssertionError: Exception was not thrown in java.math.BigInteger but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:463): java.lang.NumberFormatException: -x^-^bGfd]NV/Y]<OL is not a valid number."
+                    ],
+                    "failing_lines": [
+                        [
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test229(NumberUtils_ESTest.java:1892)"
+                        ],
+                        [
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test230(NumberUtils_ESTest.java:1906)"
+                        ]
+                    ]
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Lang/patch1-Lang-58-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-SimFix",
+                    "failing": 0,
+                    "testrun": 258,
+                    "failings": [],
+                    "status": "ok",
+                    "test_executed": [
+                        "org.apache.commons.lang.math.NumberUtils_ESTest"
+                    ],
+                    "failing_assertions": [],
+                    "failing_lines": []
+                },
+                {
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Dsame/SimFix/Lang/patch1-Lang-58-SimFix.patch",
+                    "test": "test_from_WangICSE_patch1-Lang-58-TBar-plausible",
+                    "failing": 1,
+                    "testrun": 253,
+                    "failings": [
+                        "test232(org.apache.commons.lang.math.NumberUtils_ESTest)"
                     ],
                     "status": "ok",
                     "test_executed": [
@@ -1952,466 +625,14 @@
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test224(NumberUtils_ESTest.java:1898)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Lang/patch1_1-Lang-58-FixMiner.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-kPAR",
-                    "failing": 1,
-                    "testrun": 249,
-                    "failings": [
-                        "test225(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.math.BigInteger but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:463): java.lang.NumberFormatException: @Bj?-3oC\\x7f/G7L is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test225(NumberUtils_ESTest.java:1896)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/FixMiner/Lang/patch1_1-Lang-58-FixMiner.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-FixMiner",
-                    "failing": 0,
-                    "testrun": 238,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                }
-            ],
-            "duration": 32.18
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Kali-A/Lang/patch1_1-Lang-58-Kali-A.patch",
-            "project": "Lang",
-            "bugid": "58",
-            "dataset": "PFL",
-            "date": "2021-11-22T23:10:55.628100",
-            "project_checked": "ok",
-            "compiledProjectModified": "no",
-            "patchApplied": "no",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Lang/patch1_1-Lang-58-Nopol.patch",
-            "project": "Lang",
-            "bugid": "58",
-            "dataset": "PFL",
-            "date": "2021-11-22T23:11:01.454438",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Lang/patch1_1-Lang-58-Nopol.patch",
-                    "test": "test_from_NFL_patch1138_1138-Lang-58-SimFix",
-                    "failing": 2,
-                    "testrun": 251,
-                    "failings": [
-                        "test225(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test223(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.NumberFormatException: Zero length BigInteger",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"9y\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test225(NumberUtils_ESTest.java:1873)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test223(NumberUtils_ESTest.java:1851)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Lang/patch1_1-Lang-58-Nopol.patch",
-                    "test": "test_from_NFL_patch999_513-Lang-58-AVATAR",
-                    "failing": 1,
-                    "testrun": 242,
-                    "failings": [
-                        "test228(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"X\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test228(NumberUtils_ESTest.java:1969)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Lang/patch1_1-Lang-58-Nopol.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-Nopol",
-                    "failing": 0,
-                    "testrun": 239,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Lang/patch1_1-Lang-58-Nopol.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-SimFix",
-                    "failing": 2,
-                    "testrun": 246,
-                    "failings": [
-                        "test217(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test215(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.NumberFormatException: Zero length BigInteger",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.math.BigInteger.<init>(BigInteger.java:419): java.lang.NumberFormatException: Illegal embedded sign character"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test217(NumberUtils_ESTest.java:1826)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test215(NumberUtils_ESTest.java:1804)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Lang/patch1_1-Lang-58-Nopol.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-DynaMoth",
-                    "failing": 0,
-                    "testrun": 246,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Lang/patch1_1-Lang-58-Nopol.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-Elixir-plausible",
-                    "failing": 0,
-                    "testrun": 246,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Lang/patch1_1-Lang-58-Nopol.patch",
-                    "test": "test_from_NFL_patch1889_735-Lang-58-kPAR",
-                    "failing": 1,
-                    "testrun": 246,
-                    "failings": [
-                        "test218(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:461): java.lang.NumberFormatException: The Array must not be null is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test218(NumberUtils_ESTest.java:1812)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Lang/patch1_1-Lang-58-Nopol.patch",
-                    "test": "test_from_NFL_patch1789_1078-Lang-58-TBar",
-                    "failing": 1,
-                    "testrun": 245,
-                    "failings": [
-                        "test224(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:461): java.lang.NumberFormatException: The Array must not be null is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test224(NumberUtils_ESTest.java:1898)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Lang/patch1_1-Lang-58-Nopol.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-kPAR",
-                    "failing": 0,
-                    "testrun": 249,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/Nopol/Lang/patch1_1-Lang-58-Nopol.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-FixMiner",
-                    "failing": 1,
-                    "testrun": 238,
-                    "failings": [
-                        "test213(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"yO`{<\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test213(NumberUtils_ESTest.java:1804)"
+                            "org.apache.commons.lang.math.NumberUtils_ESTest.test232(NumberUtils_ESTest.java:1955)"
                         ]
                     ]
                 }
             ],
-            "duration": 32.8
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Lang/patch1_1-Lang-58-kPAR.patch",
-            "project": "Lang",
-            "bugid": "58",
-            "dataset": "PFL",
-            "date": "2021-11-22T23:11:34.253522",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Lang/patch1_1-Lang-58-kPAR.patch",
-                    "test": "test_from_NFL_patch1138_1138-Lang-58-SimFix",
-                    "failing": 2,
-                    "testrun": 251,
-                    "failings": [
-                        "test225(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test223(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.NumberFormatException: Zero length BigInteger",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"9y\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test225(NumberUtils_ESTest.java:1873)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test223(NumberUtils_ESTest.java:1851)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Lang/patch1_1-Lang-58-kPAR.patch",
-                    "test": "test_from_NFL_patch999_513-Lang-58-AVATAR",
-                    "failing": 1,
-                    "testrun": 242,
-                    "failings": [
-                        "test228(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"X\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test228(NumberUtils_ESTest.java:1969)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Lang/patch1_1-Lang-58-kPAR.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-Nopol",
-                    "failing": 0,
-                    "testrun": 239,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Lang/patch1_1-Lang-58-kPAR.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-SimFix",
-                    "failing": 2,
-                    "testrun": 246,
-                    "failings": [
-                        "test217(org.apache.commons.lang.math.NumberUtils_ESTest)",
-                        "test215(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.NumberFormatException: Zero length BigInteger",
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.math.BigInteger.<init>(BigInteger.java:419): java.lang.NumberFormatException: Illegal embedded sign character"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test217(NumberUtils_ESTest.java:1826)"
-                        ],
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test215(NumberUtils_ESTest.java:1804)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Lang/patch1_1-Lang-58-kPAR.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-DynaMoth",
-                    "failing": 0,
-                    "testrun": 246,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Lang/patch1_1-Lang-58-kPAR.patch",
-                    "test": "test_from_DRR_patch1-Lang-58-Elixir-plausible",
-                    "failing": 0,
-                    "testrun": 246,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Lang/patch1_1-Lang-58-kPAR.patch",
-                    "test": "test_from_NFL_patch1889_735-Lang-58-kPAR",
-                    "failing": 1,
-                    "testrun": 246,
-                    "failings": [
-                        "test218(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:463): java.lang.NumberFormatException: The Array must not be null is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test218(NumberUtils_ESTest.java:1812)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Lang/patch1_1-Lang-58-kPAR.patch",
-                    "test": "test_from_NFL_patch1789_1078-Lang-58-TBar",
-                    "failing": 1,
-                    "testrun": 245,
-                    "failings": [
-                        "test224(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in java.lang.NumberFormatException but in org.apache.commons.lang.math.NumberUtils.createNumber(NumberUtils.java:463): java.lang.NumberFormatException: The Array must not be null is not a valid number."
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test224(NumberUtils_ESTest.java:1898)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Lang/patch1_1-Lang-58-kPAR.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-kPAR",
-                    "failing": 0,
-                    "testrun": 249,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/kPAR/Lang/patch1_1-Lang-58-kPAR.patch",
-                    "test": "test_from_PFL_patch1_1-Lang-58-FixMiner",
-                    "failing": 1,
-                    "testrun": 238,
-                    "failings": [
-                        "test213(org.apache.commons.lang.math.NumberUtils_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.lang.math.NumberUtils_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Exception was not thrown in org.apache.commons.lang.math.NumberUtils but in java.lang.NumberFormatException.forInputString(NumberFormatException.java:65): java.lang.NumberFormatException: For input string: \"yO`{<\""
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.lang.math.NumberUtils_ESTest.test213(NumberUtils_ESTest.java:1804)"
-                        ]
-                    ]
-                }
-            ],
-            "duration": 35.1
+            "duration": 25.92
         }
     ],
-    "date": "2021-11-22T23:06:01.455884",
+    "date": "2022-12-16T06:10:48.778003",
     "duration": -0.0
 }

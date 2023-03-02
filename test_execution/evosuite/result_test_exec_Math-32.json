@@ -2,20 +2,20 @@
     "bugid": "Math-32",
     "results": [
         {
-            "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Math/patch1-Math-32-Jaid.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-32-DynaMoth-plausible.patch",
             "project": "Math",
             "bugid": "32",
-            "dataset": "patchesDRR",
-            "date": "2021-11-22T19:25:37.988380",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T02:11:06.230234",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Math/patch1-Math-32-Jaid.patch",
-                    "test": "test_from_DRR_patch1-Math-32-Jaid",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-32-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-32-Kali-plausible",
                     "failing": 0,
                     "testrun": 20,
                     "failings": [],
@@ -27,8 +27,8 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Math/patch1-Math-32-Jaid.patch",
-                    "test": "test_from_DRR_patch1-Math-32-Jaid-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-32-DynaMoth-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-32-Jaid-plausible",
                     "failing": 0,
                     "testrun": 22,
                     "failings": [],
@@ -40,8 +40,8 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Math/patch1-Math-32-Jaid.patch",
-                    "test": "test_from_NFL_patch1_1-Math-32-DynaMoth",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-32-DynaMoth-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-32-DynaMoth-plausible",
                     "failing": 0,
                     "testrun": 20,
                     "failings": [],
@@ -53,269 +53,11 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Math/patch1-Math-32-Jaid.patch",
-                    "test": "test_from_DRR_patch1-Math-32-Elixir-plausible",
-                    "failing": 1,
-                    "testrun": 21,
-                    "failings": [
-                        "test19(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Expecting exception: NullPointerException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test19(PolygonsSet_ESTest.java:248)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Math/patch1-Math-32-Jaid.patch",
-                    "test": "test_from_PFL_patch1_1-Math-32-DynaMoth",
-                    "failing": 0,
-                    "testrun": 20,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Dcorrect/Jaid/Math/patch1-Math-32-Jaid.patch",
-                    "test": "test_from_NFL_patch2_2-Math-32-Kali-A",
-                    "failing": 0,
-                    "testrun": 18,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                }
-            ],
-            "duration": 55.83
-        },
-        {
-            "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Math/patch1-Math-32-Elixir-plausible.patch",
-            "project": "Math",
-            "bugid": "32",
-            "dataset": "patchesDRR",
-            "date": "2021-11-22T19:26:33.817038",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Math/patch1-Math-32-Elixir-plausible.patch",
-                    "test": "test_from_DRR_patch1-Math-32-Jaid",
-                    "failing": 3,
-                    "testrun": 20,
-                    "failings": [
-                        "test17(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)",
-                        "test05(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)",
-                        "test16(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.NullPointerException",
-                        "java.lang.NullPointerException",
-                        "java.lang.NullPointerException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test17(PolygonsSet_ESTest.java:230)"
-                        ],
-                        [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test05(PolygonsSet_ESTest.java:93)"
-                        ],
-                        [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test16(PolygonsSet_ESTest.java:223)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Math/patch1-Math-32-Elixir-plausible.patch",
-                    "test": "test_from_DRR_patch1-Math-32-Jaid-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/DynaMoth/Math/patch1-Math-32-DynaMoth-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-32-Jaid",
                     "failing": 1,
                     "testrun": 22,
                     "failings": [
-                        "test20(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.NullPointerException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test20(PolygonsSet_ESTest.java:280)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Math/patch1-Math-32-Elixir-plausible.patch",
-                    "test": "test_from_NFL_patch1_1-Math-32-DynaMoth",
-                    "failing": 1,
-                    "testrun": 20,
-                    "failings": [
-                        "test16(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.NullPointerException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test16(PolygonsSet_ESTest.java:240)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Math/patch1-Math-32-Elixir-plausible.patch",
-                    "test": "test_from_DRR_patch1-Math-32-Elixir-plausible",
-                    "failing": 0,
-                    "testrun": 21,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Math/patch1-Math-32-Elixir-plausible.patch",
-                    "test": "test_from_PFL_patch1_1-Math-32-DynaMoth",
-                    "failing": 1,
-                    "testrun": 20,
-                    "failings": [
-                        "test15(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.NullPointerException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test15(PolygonsSet_ESTest.java:242)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Elixir/Math/patch1-Math-32-Elixir-plausible.patch",
-                    "test": "test_from_NFL_patch2_2-Math-32-Kali-A",
-                    "failing": 1,
-                    "testrun": 18,
-                    "failings": [
-                        "test15(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.NullPointerException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test15(PolygonsSet_ESTest.java:230)"
-                        ]
-                    ]
-                }
-            ],
-            "duration": 56.0
-        },
-        {
-            "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Math/patch1-Math-32-Jaid-plausible.patch",
-            "project": "Math",
-            "bugid": "32",
-            "dataset": "patchesDRR",
-            "date": "2021-11-22T19:27:29.815325",
-            "project_checked": "ok",
-            "compiledProjectModified": "ok",
-            "patchApplied": "ok",
-            "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
-            "test_execution": [
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Math/patch1-Math-32-Jaid-plausible.patch",
-                    "test": "test_from_DRR_patch1-Math-32-Jaid",
-                    "failing": 2,
-                    "testrun": 20,
-                    "failings": [
-                        "test05(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)",
-                        "test04(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Expecting exception: ClassCastException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test05(PolygonsSet_ESTest.java:94)"
-                        ],
-                        [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test04(PolygonsSet_ESTest.java:76)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Math/patch1-Math-32-Jaid-plausible.patch",
-                    "test": "test_from_DRR_patch1-Math-32-Jaid-plausible",
-                    "failing": 0,
-                    "testrun": 22,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Math/patch1-Math-32-Jaid-plausible.patch",
-                    "test": "test_from_NFL_patch1_1-Math-32-DynaMoth",
-                    "failing": 0,
-                    "testrun": 20,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Math/patch1-Math-32-Jaid-plausible.patch",
-                    "test": "test_from_DRR_patch1-Math-32-Elixir-plausible",
-                    "failing": 2,
-                    "testrun": 21,
-                    "failings": [
-                        "test19(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)",
                         "test06(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)"
                     ],
                     "status": "ok",
@@ -323,88 +65,45 @@
                         "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
                     ],
                     "failing_assertions": [
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
                         "java.lang.AssertionError: Expecting exception: ClassCastException"
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test19(PolygonsSet_ESTest.java:248)"
-                        ],
-                        [
                             "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test06(PolygonsSet_ESTest.java:102)"
                         ]
                     ]
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Math/patch1-Math-32-Jaid-plausible.patch",
-                    "test": "test_from_PFL_patch1_1-Math-32-DynaMoth",
-                    "failing": 0,
-                    "testrun": 20,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesDRR/Doverfitting/Jaid/Math/patch1-Math-32-Jaid-plausible.patch",
-                    "test": "test_from_NFL_patch2_2-Math-32-Kali-A",
-                    "failing": 0,
-                    "testrun": 18,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
                 }
             ],
-            "duration": 55.51
+            "duration": 26.78
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-32-DynaMoth.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-32-Kali-plausible.patch",
             "project": "Math",
             "bugid": "32",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:28:25.329306",
+            "dataset": "Patches_ICSE",
+            "date": "2022-12-16T02:11:33.011584",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-32-DynaMoth.patch",
-                    "test": "test_from_DRR_patch1-Math-32-Jaid",
-                    "failing": 2,
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-32-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-32-Kali-plausible",
+                    "failing": 0,
                     "testrun": 20,
-                    "failings": [
-                        "test05(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)",
-                        "test04(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)"
-                    ],
+                    "failings": [],
                     "status": "ok",
                     "test_executed": [
                         "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
                     ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Expecting exception: ClassCastException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test05(PolygonsSet_ESTest.java:94)"
-                        ],
-                        [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test04(PolygonsSet_ESTest.java:76)"
-                        ]
-                    ]
+                    "failing_assertions": [],
+                    "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-32-DynaMoth.patch",
-                    "test": "test_from_DRR_patch1-Math-32-Jaid-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-32-Kali-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-32-Jaid-plausible",
                     "failing": 0,
                     "testrun": 22,
                     "failings": [],
@@ -416,8 +115,8 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-32-DynaMoth.patch",
-                    "test": "test_from_NFL_patch1_1-Math-32-DynaMoth",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-32-Kali-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-32-DynaMoth-plausible",
                     "failing": 0,
                     "testrun": 20,
                     "failings": [],
@@ -429,12 +128,11 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-32-DynaMoth.patch",
-                    "test": "test_from_DRR_patch1-Math-32-Elixir-plausible",
-                    "failing": 2,
-                    "testrun": 21,
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_ICSE/Doverfitting/Kali/Math/patch1-Math-32-Kali-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-32-Jaid",
+                    "failing": 1,
+                    "testrun": 22,
                     "failings": [
-                        "test19(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)",
                         "test06(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)"
                     ],
                     "status": "ok",
@@ -442,88 +140,45 @@
                         "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
                     ],
                     "failing_assertions": [
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
                         "java.lang.AssertionError: Expecting exception: ClassCastException"
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test19(PolygonsSet_ESTest.java:248)"
-                        ],
-                        [
                             "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test06(PolygonsSet_ESTest.java:102)"
                         ]
                     ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-32-DynaMoth.patch",
-                    "test": "test_from_PFL_patch1_1-Math-32-DynaMoth",
-                    "failing": 0,
-                    "testrun": 20,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/DynaMoth/Math/patch1_1-Math-32-DynaMoth.patch",
-                    "test": "test_from_NFL_patch2_2-Math-32-Kali-A",
-                    "failing": 0,
-                    "testrun": 18,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
                 }
             ],
-            "duration": 56.01
+            "duration": 27.1
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch2_2-Math-32-Kali-A.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Math/patch1-Math-32-Jaid.patch",
             "project": "Math",
             "bugid": "32",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:29:21.338711",
+            "dataset": "Patches_others",
+            "date": "2022-12-16T02:12:00.113611",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch2_2-Math-32-Kali-A.patch",
-                    "test": "test_from_DRR_patch1-Math-32-Jaid",
-                    "failing": 2,
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Math/patch1-Math-32-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Math-32-Kali-plausible",
+                    "failing": 0,
                     "testrun": 20,
-                    "failings": [
-                        "test05(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)",
-                        "test04(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)"
-                    ],
+                    "failings": [],
                     "status": "ok",
                     "test_executed": [
                         "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
                     ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Expecting exception: ClassCastException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test05(PolygonsSet_ESTest.java:94)"
-                        ],
-                        [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test04(PolygonsSet_ESTest.java:76)"
-                        ]
-                    ]
+                    "failing_assertions": [],
+                    "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch2_2-Math-32-Kali-A.patch",
-                    "test": "test_from_DRR_patch1-Math-32-Jaid-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Math/patch1-Math-32-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Math-32-Jaid-plausible",
                     "failing": 0,
                     "testrun": 22,
                     "failings": [],
@@ -535,8 +190,8 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch2_2-Math-32-Kali-A.patch",
-                    "test": "test_from_NFL_patch1_1-Math-32-DynaMoth",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Math/patch1-Math-32-Jaid.patch",
+                    "test": "test_from_WangICSE_patch1-Math-32-DynaMoth-plausible",
                     "failing": 0,
                     "testrun": 20,
                     "failings": [],
@@ -548,49 +203,10 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch2_2-Math-32-Kali-A.patch",
-                    "test": "test_from_DRR_patch1-Math-32-Elixir-plausible",
-                    "failing": 2,
-                    "testrun": 21,
-                    "failings": [
-                        "test19(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)",
-                        "test06(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)"
-                    ],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
-                        "java.lang.AssertionError: Expecting exception: ClassCastException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test19(PolygonsSet_ESTest.java:248)"
-                        ],
-                        [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test06(PolygonsSet_ESTest.java:102)"
-                        ]
-                    ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch2_2-Math-32-Kali-A.patch",
-                    "test": "test_from_PFL_patch1_1-Math-32-DynaMoth",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Dcorrect/Jaid/Math/patch1-Math-32-Jaid.patch",
+                    "test": "test_from_WangDRR_patch1-Math-32-Jaid",
                     "failing": 0,
-                    "testrun": 20,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/Kali-A/Math/patch2_2-Math-32-Kali-A.patch",
-                    "test": "test_from_NFL_patch2_2-Math-32-Kali-A",
-                    "failing": 0,
-                    "testrun": 18,
+                    "testrun": 22,
                     "failings": [],
                     "status": "ok",
                     "test_executed": [
@@ -600,61 +216,36 @@
                     "failing_lines": []
                 }
             ],
-            "duration": 55.5
+            "duration": 27.15
         },
         {
-            "patch": "/Patches/patchesEffectivenessICSE20/NFL/Doverfitting/jKali/Math/patch2_2-Math-32-jKali.patch",
+            "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Math/patch1-Math-32-Jaid-plausible.patch",
             "project": "Math",
             "bugid": "32",
-            "dataset": "NFL",
-            "date": "2021-11-22T19:30:16.842269",
-            "project_checked": "ok",
-            "compiledProjectModified": "no",
-            "patchApplied": "no",
-            "arrive_end": "no",
-            "patched_project_pass_all_test": "no"
-        },
-        {
-            "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/DynaMoth/Math/patch1_1-Math-32-DynaMoth.patch",
-            "project": "Math",
-            "bugid": "32",
-            "dataset": "PFL",
-            "date": "2021-11-22T19:30:22.574980",
+            "dataset": "Patches_others",
+            "date": "2022-12-16T02:12:27.261647",
             "project_checked": "ok",
             "compiledProjectModified": "ok",
             "patchApplied": "ok",
             "arrive_end": "ok",
-            "patched_project_pass_all_test": "ok",
+            "patched_project_pass_all_test": "no",
             "test_execution": [
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/DynaMoth/Math/patch1_1-Math-32-DynaMoth.patch",
-                    "test": "test_from_DRR_patch1-Math-32-Jaid",
-                    "failing": 2,
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Math/patch1-Math-32-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-32-Kali-plausible",
+                    "failing": 0,
                     "testrun": 20,
-                    "failings": [
-                        "test05(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)",
-                        "test04(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)"
-                    ],
+                    "failings": [],
                     "status": "ok",
                     "test_executed": [
                         "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
                     ],
-                    "failing_assertions": [
-                        "java.lang.AssertionError: Expecting exception: ClassCastException",
-                        "java.lang.AssertionError: Expecting exception: NullPointerException"
-                    ],
-                    "failing_lines": [
-                        [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test05(PolygonsSet_ESTest.java:94)"
-                        ],
-                        [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test04(PolygonsSet_ESTest.java:76)"
-                        ]
-                    ]
+                    "failing_assertions": [],
+                    "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/DynaMoth/Math/patch1_1-Math-32-DynaMoth.patch",
-                    "test": "test_from_DRR_patch1-Math-32-Jaid-plausible",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Math/patch1-Math-32-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-32-Jaid-plausible",
                     "failing": 0,
                     "testrun": 22,
                     "failings": [],
@@ -666,8 +257,8 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/DynaMoth/Math/patch1_1-Math-32-DynaMoth.patch",
-                    "test": "test_from_NFL_patch1_1-Math-32-DynaMoth",
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Math/patch1-Math-32-Jaid-plausible.patch",
+                    "test": "test_from_WangICSE_patch1-Math-32-DynaMoth-plausible",
                     "failing": 0,
                     "testrun": 20,
                     "failings": [],
@@ -679,12 +270,11 @@
                     "failing_lines": []
                 },
                 {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/DynaMoth/Math/patch1_1-Math-32-DynaMoth.patch",
-                    "test": "test_from_DRR_patch1-Math-32-Elixir-plausible",
-                    "failing": 2,
-                    "testrun": 21,
+                    "patch": "/home/mmartinez/xTestCluster/Patches/Patches_Wang902/Patches_others/Doverfitting/Jaid/Math/patch1-Math-32-Jaid-plausible.patch",
+                    "test": "test_from_WangDRR_patch1-Math-32-Jaid",
+                    "failing": 1,
+                    "testrun": 22,
                     "failings": [
-                        "test19(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)",
                         "test06(org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest)"
                     ],
                     "status": "ok",
@@ -692,48 +282,18 @@
                         "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
                     ],
                     "failing_assertions": [
-                        "java.lang.AssertionError: Expecting exception: NullPointerException",
                         "java.lang.AssertionError: Expecting exception: ClassCastException"
                     ],
                     "failing_lines": [
                         [
-                            "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test19(PolygonsSet_ESTest.java:248)"
-                        ],
-                        [
                             "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest.test06(PolygonsSet_ESTest.java:102)"
                         ]
                     ]
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/DynaMoth/Math/patch1_1-Math-32-DynaMoth.patch",
-                    "test": "test_from_PFL_patch1_1-Math-32-DynaMoth",
-                    "failing": 0,
-                    "testrun": 20,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
-                },
-                {
-                    "patch": "/Patches/patchesEffectivenessICSE20/PFL/Doverfitting/DynaMoth/Math/patch1_1-Math-32-DynaMoth.patch",
-                    "test": "test_from_NFL_patch2_2-Math-32-Kali-A",
-                    "failing": 0,
-                    "testrun": 18,
-                    "failings": [],
-                    "status": "ok",
-                    "test_executed": [
-                        "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet_ESTest"
-                    ],
-                    "failing_assertions": [],
-                    "failing_lines": []
                 }
             ],
-            "duration": 55.13
+            "duration": 27.13
         }
     ],
-    "date": "2021-11-22T19:25:37.987537",
+    "date": "2022-12-16T02:11:06.229938",
     "duration": -0.0
 }
